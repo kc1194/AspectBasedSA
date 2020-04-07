@@ -1,0 +1,29 @@
+# Actual Word Feature
+Ua:%x[-2,1]
+Ub:%x[-1,1]
+Uc:%x[0,1]
+Ud:%x[1,1]
+Ue:%x[2,1]
+
+# Dependency Relation feature
+Uf:%x[0,5]
+
+# Bigram of output labels
+B
+
+# Part of Speech Tag Feature
+Ug:%x[-2,3]
+Uh:%x[-1,3]
+Ui:%x[0,3]
+Uj:%x[1,3]
+Uk:%x[2,3]
+
+# Bigram of current word and Part of Speech Tag
+Ul:%x[0,1]/%x[0,3]
+
+
+
+
+
+
+
