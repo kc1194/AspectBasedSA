@@ -8,14 +8,16 @@ from sklearn.metrics import accuracy_score, classification_report
 from sklearn.neural_network import MLPClassifier
 from sklearn.ensemble import AdaBoostClassifier
 from sklearn.svm import LinearSVC
+from sklearn.naive_bayes import MultinomialNB
 
 # Data Paths 
 trainFile = '../output/aspectTrain.txt'
 testFile = '../output/aspectTest.txt'
 goldFile = '../data/aspectTerm.txt'
+devFile = '../output/aspectDev'
 
 # Hyperparameters
-windowSize = 10
+windowSize = 20
 
 # Function for reading a file
 def readFile(filPath):
@@ -55,13 +57,67 @@ def extractGoldLabels():
         labelDict[ele[0]] = labelList
     return labelDict
 
+def baseTrain(filPath):
+    vec1 = readFile(filPath)
+    vec1 = [ele.strip().split('#') for ele in vec1]
+    labelCountDict = {}
+    for ele in vec1:
+        if ele[-1] == '':
+            continue
+        aspectTermList = ele[-1].split('&')
+        labelList = ele[-2].split('&')
+
+        for idx,aspectTerm in enumerate(aspectTermList):
+            if aspectTerm in labelCountDict:
+                if labelList[idx] in labelCountDict[aspectTerm]:
+                    labelCountDict[aspectTerm][labelList[idx]] += 1
+                else:
+                    labelCountDict[aspectTerm][labelList[idx]] = 1
+            else:
+                labelCountDict[aspectTerm] = {}
+                labelCountDict[aspectTerm][labelList[idx]] = 1
+    return labelCountDict
+
+def basePred(filPath,labelCountDict):
+    vec1 = readFile(filPath)
+    vec1 = [ele.strip().split('#') for ele in vec1]
+    labelDict = extractGoldLabels()
+    goldLabels = []
+    predLabels = []
+    for ele in vec1:
+        if ele[-1] == '':
+            continue
+        aspectTermList = ele[-1].split('&')
+        for aspectIdx,aspectTerm in enumerate(aspectTermList):
+            if aspectTerm in labelCountDict:
+                curMax = 0
+                curKey = 'neu'
+                for key in labelCountDict[aspectTerm]:
+                    if labelCountDict[aspectTerm][key] > curMax:
+                        curKey = key
+                        curMax = labelCountDict[aspectTerm][key]
+                predLabels.append(curKey)
+            else:
+                predLabels.append('neu')
+
+                
+
+            
+            labelGold = labelDict[ele[0]][aspectIdx]
+            goldLabels.append(labelGold)
+    
+    return predLabels,goldLabels
+
 # Function to read training and testing data
-def extractData(train=True):
-    if train:
-        vec1 = readFile(trainFile)
-    else:
-        vec1 = readFile(testFile)
-    vec1 = vec1[1:]
+def extractData(filPath,train=True):
+    # if train:
+    #     vec1 = readFile(trainFile)
+    # else:
+    #     vec1 = readFile(testFile)
+
+    # labelCountDict = {}
+    vec1 = readFile(filPath)
+    # vec1 = vec1[1:]
     vec1 = [ele.strip().split('#') for ele in vec1]
 
     Data = []
@@ -74,6 +130,7 @@ def extractData(train=True):
         aspectTermList = ele[-1].split('&')
         if train:
             labelList = ele[-2].split('&')
+            # baseCounts(aspectTermList,labelList, labelCountDict)
         wordList = ele[1].split(' ')
         for aspectIdx,aspectTerm in enumerate(aspectTermList):
             window = extractWindow(aspectTerm,wordList)
@@ -83,37 +140,65 @@ def extractData(train=True):
             else:
                 label = labelDict[ele[0]][aspectIdx]
             Labels.append(label)
-
+    
     return Data,Labels
     
 # Function for running the classifier
 # Reads data, converts to features, trains and tests classifier
-def runClassifier(clfName):
-    trainData,trainLabels = extractData(True)
-    testData,goldLabels = extractData(False)
-    
-    featureTransform = TfidfVectorizer(min_df=0.002)
-    featureTransform = featureTransform.fit(trainData)
+def runClassifier(clfName,crossVal=False):
     
     if clfName == 'SVM':
-        clf = svm.SVC(kernel='linear')
+            clf = svm.SVC(kernel='linear')
     elif clfName == 'logreg':
         clf = LogisticRegression()
     elif clfName == 'nn':
         clf = MLPClassifier(solver='lbfgs', alpha=1e-5, hidden_layer_sizes=(5, 2), random_state=1)
+    elif clfName == 'NB':
+        clf = MultinomialNB()
     else:
         clf = AdaBoostClassifier(n_estimators=300, random_state=0)
 
-    trainFeatures = featureTransform.transform(trainData)
-    testFeatures = featureTransform.transform(testData)
- 
-    clf.fit(trainFeatures,trainLabels)
-    predLabels = clf.predict(testFeatures)
+    if crossVal:
+        itr = range(3)
+    else:
+        itr = range(1)
+    
+    acc = 0
+    devFiles = [devFile+str(ele)+'.txt' for ele in range(3)]
+    for ele in itr:
+        if not crossVal:
+            trainData,trainLabels = extractData(trainFile,True)
+            testData,goldLabels = extractData(testFile,False)
+        else:
+            trainData1,trainLabels1 = extractData(devFiles[ele],True)
+            trainData2,trainLabels2 = extractData(devFiles[(ele+1)%3],True)
+            trainData,trainLabels = trainData1+trainData2,trainLabels1+trainLabels2
+            testData,goldLabels = extractData(devFiles[(ele+2)%3],False)
+        
+        featureTransform = TfidfVectorizer()
+        featureTransform = featureTransform.fit(trainData)
 
-    print("Accuracy",accuracy_score(predLabels,goldLabels))
+        trainFeatures = featureTransform.transform(trainData)
+        testFeatures = featureTransform.transform(testData)
+
+        clf.fit(trainFeatures,trainLabels)
+        predLabels = clf.predict(testFeatures)
+
+        acc += accuracy_score(predLabels,goldLabels)
+        print("Accuracy",accuracy_score(predLabels,goldLabels))
+    if crossVal:
+        acc = acc/3
+
+    print("Accuracy",acc)
 
 
-runClassifier(sys.argv[1])
+runClassifier(sys.argv[1],bool(sys.argv[2]))
+# labelCountDict = baseTrain(trainFile)
+# predLabels,goldLabels = basePred(testFile,labelCountDict)
+# print("Accuracy",accuracy_score(predLabels,goldLabels))
+# print(predLabels)
+# print(labelCountDict)
+# runClassifier(sys.argv[1],False)
 
 
     

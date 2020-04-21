@@ -12,6 +12,9 @@ testPath = outPath+"parseProcessedTest.txt"
 testIdPath = outPath+"aspectTest.txt"
 goldPath = dataPath+"aspectTerm.txt"
 
+devIdPath = outPath+"aspectDev"
+devTrainPath = outPath+"parseProcessedTrain"
+devTestPath = outPath+"parseProcessedTest"
 
 # Function for reading a file
 def readFile(filPath):
@@ -214,19 +217,21 @@ def metrics(sentAspectsPred,sentAspectsGold):
 
     precision = TP/PD
     recall = TP/RD
+    F1_score = 2*precision*recall/(precision+recall)
 
-    return precision,recall
+    return precision,recall,F1_score
 
 # Prints metrics 
-def printMetrics(precision,recall):
+def printMetrics(precision,recall,F1_score):
     print("Precision",precision)
     print("Recall",recall)
-    print("F1",2*precision*recall/(precision+recall))
+    print("F1",F1_score)
 
 
 # HMM model 
 # Loads data, trains and tests model
-def HMM():
+def HMM(trainPath,testPath,testIdPath,crossVal=False):
+
     trainData = readData(trainPath,True)
     testData = readData(testPath,False)
     tagger = hmm.HiddenMarkovModelTagger.train(trainData)
@@ -234,70 +239,128 @@ def HMM():
     sentAspectsPred = predict(tagger,testData,testIdPath)
     sentAspectsGold = readLabel(goldPath)
 
-    precision, recall = metrics(sentAspectsPred,sentAspectsGold)
-    printMetrics(precision,recall)
+    precision, recall, F1_score = metrics(sentAspectsPred,sentAspectsGold)
+    if not crossVal:
+        printMetrics(precision,recall, F1_score)
+    return precision, recall, F1_score
     
 
 # CRF Model 
 # Model is trained using CRF++ tool
 # Loads model predictions, computes metrics
-def CRF():
-    resPath = outPath + sys.argv[2]
+def CRF(resPath,testIdPath,crossVal = False):
+    # resPath = outPath + sys.argv[2]
     sentAspectsPred = readResult(resPath,testIdPath,'CRF')
     sentAspectsGold = readLabel(goldPath)
 
-    precision, recall = metrics(sentAspectsPred,sentAspectsGold)
-    printMetrics(precision,recall)  
-
+    precision, recall, F1_score = metrics(sentAspectsPred,sentAspectsGold)
+    
+    if not crossVal:
+        printMetrics(precision,recall,F1_score)  
+    return precision,recall, F1_score
 # MEMM Model 
 # Model is trained using Wapiti tool
 # Loads model predictions, computes metrics
-def MEMM():
-    resPath = outPath + sys.argv[2]
+def MEMM(resPath,testIdPath,crossVal = False):
+    # resPath = outPath + sys.argv[2]
     sentAspectsPred = readResult(resPath,testIdPath,'MEMM')
     sentAspectsGold = readLabel(goldPath)
 
-    precision, recall = metrics(sentAspectsPred,sentAspectsGold)
-    printMetrics(precision,recall)  
+    precision, recall, F1_score = metrics(sentAspectsPred,sentAspectsGold)
+    
+    if not crossVal:
+        printMetrics(precision,recall,F1_score)  
+    return precision,recall, F1_score
 
 # MaxEnt Model 
 # Model is trained using Wapiti tool
 # Loads model predictions, computes metrics
-def MaxEnt():
-    resPath = outPath + sys.argv[2]
+def MaxEnt(resPath,testIdPath,crossVal = False):
+    # resPath = outPath + sys.argv[2]
     sentAspectsPred = readResult(resPath,testIdPath,'MaxEnt')
     sentAspectsGold = readLabel(goldPath)
 
-    precision, recall = metrics(sentAspectsPred,sentAspectsGold)
-    printMetrics(precision,recall) 
+    precision, recall, F1_score = metrics(sentAspectsPred,sentAspectsGold)
+    
+    if not crossVal:
+        printMetrics(precision,recall, F1_score) 
+
+    return precision,recall,F1_score
 
 
 # Baseline Model
 # Loads data, trains and tests model
-def Baseline():
+def Baseline(trainPath,testPath,testIdPath,crossVal = False):
     trainData = readData(trainPath,True)
     testData = readData(testPath,False)
     tagger = BaseTrain(trainData)
     sentAspectsPred = BasePred(tagger,testData,testIdPath)
     sentAspectsGold = readLabel(goldPath)
 
-    precision, recall = metrics(sentAspectsPred,sentAspectsGold)
-    printMetrics(precision,recall)
+    precision, recall, F1_score = metrics(sentAspectsPred,sentAspectsGold)
+    
+    if not crossVal:
+        printMetrics(precision,recall,F1_score)
+
+    return precision,recall,F1_score
 
 
 if __name__ == '__main__':
-    if sys.argv[1] == 'baseline':
-        Baseline()
+    crossVal = True
+    if crossVal:
+        precisionSum,recallSum,F1_scoreSum = 0, 0, 0
+        for ele in range(3):
+            
+            valtestIdPath = devIdPath + str((ele+2)%3) + '.txt'
+            valtrainPath = devTrainPath+str(ele)+str((ele+1)%3)+'.txt'
+            valtestPath = devTestPath+str((ele+2)%3)+'.txt'
+            
+            if sys.argv[1] == 'baseline':
+                precision, recall, F1_score = Baseline(valtrainPath,valtestPath,valtestIdPath,True)
 
-    elif sys.argv[1] == 'CRF':
-        CRF()
+            elif sys.argv[1] == 'CRF':
+                valresPath = outPath+sys.argv[2] +str((ele+2)%3)+'.txt'
+                precision, recall, F1_score =  CRF(valresPath,valtestIdPath,True)
 
-    elif sys.argv[1] == 'HMM':
-        HMM()
-    
-    elif sys.argv[1] == 'MEMM':
-        MEMM()
+            elif sys.argv[1] == 'HMM':
+                precision, recall, F1_score = HMM(valtrainPath,valtestPath,valtestIdPath,True)
+            
+            elif sys.argv[1] == 'MEMM':
+                valresPath = outPath+sys.argv[2] +str((ele+2)%3)+'.txt'
+                precision, recall, F1_score = MEMM(valresPath,valtestIdPath,True)
 
-    elif sys.argv[1] == 'MaxEnt':
-        MaxEnt()
+            elif sys.argv[1] == 'MaxEnt':
+                valresPath = outPath+sys.argv[2] +str((ele+2)%3)+'.txt'
+                precision, recall, F1_score = MaxEnt(valresPath,valtestIdPath,True)
+
+            precisionSum += precision
+            recallSum += recall
+            F1_scoreSum += F1_score
+            print("Precision",precision)
+            print("Recall",recall)
+            print("F1_score",F1_score)
+            print("")
+        print("Precision",precisionSum/3)
+        print("Recall",recallSum/3)
+        print("F1_score",F1_scoreSum/3)
+    else:
+        resPath = outPath+sys.argv[2] 
+        if sys.argv[1] == 'baseline':
+            precision, recall, F1_score = Baseline(trainPath,testPath,valtestIdPath,False)
+
+        elif sys.argv[1] == 'CRF':
+            precision, recall, F1_score =  CRF(resPath,testIdPath,False)
+
+        elif sys.argv[1] == 'HMM':
+            precision, recall, F1_score = HMM(trainPath,testPath,testIdPath,False)
+        
+        elif sys.argv[1] == 'MEMM':
+            precision, recall, F1_score = MEMM(resPath,testIdPath,False)
+
+        elif sys.argv[1] == 'MaxEnt':
+            precision, recall, F1_score = MaxEnt(resPath,testIdPath,False)
+            
+
+
+
 
