@@ -3,6 +3,7 @@ from nltk.tag import hmm
 import io
 import pdb
 import sys
+import numpy as np
 
 # Data paths
 outPath = "../output/"
@@ -184,33 +185,50 @@ def BasePred(tagger,testData,testIdPath):
 def readLabel(goldPath):
     vec = readFile(goldPath)
     sentAspectsGold = {}
+    sentAspectsNum = {}
     for goldData in vec:
         curData = goldData.strip().split("#")
         dataKey = curData[0]
         if curData[-1] == '':
             curTermList = []
+            curSentList = curData[1].split(" ")
         else:
             curTermList = curData[-1].split("&")
+            curSentList = curData[1].split(" ")
         sentAspectsGold[dataKey] = curTermList
-    return sentAspectsGold
+        sentAspectsNum[dataKey] = curSentList
+    return sentAspectsGold,sentAspectsNum
 
 
 # Generates precision and recall metrics from predicted and gold labels
-def metrics(sentAspectsPred,sentAspectsGold):
+# def metrics(sentAspectsPred,sentAspectsGold,sentAspectsNum):
+def metrics(sentAspectsPred,sentAspectsGold) :
     TP = 0
     PD = 0
     RD = 0
+    # AN = 0
+    # NA = 0
+    # NN = 0
 
     for dataKey in sentAspectsPred:
         if dataKey not in sentAspectsGold:
             print("What?")
         predList = sentAspectsPred[dataKey]
         goldList = sentAspectsGold[dataKey]
+        curSentList = sentAspectsNum[dataKey]
 
+        # curTP = 0
         for pred in predList:
             for gold in goldList:
                 if pred == gold:
                     TP+=1
+                    # curTP += 1
+        # AN += (len(goldList)-curTP)
+        # NA += (len(predList)-curTP)
+        # for ele in curSentList:
+        #     if ele not in goldList:
+        #         if ele not in predList:
+        #             NN+=1
         
         PD += len(predList)
         RD += len(goldList)
@@ -219,7 +237,8 @@ def metrics(sentAspectsPred,sentAspectsGold):
     recall = TP/RD
     F1_score = 2*precision*recall/(precision+recall)
 
-    return precision,recall,F1_score
+    # return precision,recall,F1_score,TP,AN,NA,NN 
+    return precision,recall, F1_score
 
 # Prints metrics 
 def printMetrics(precision,recall,F1_score):
@@ -251,13 +270,14 @@ def HMM(trainPath,testPath,testIdPath,crossVal=False):
 def CRF(resPath,testIdPath,crossVal = False):
     # resPath = outPath + sys.argv[2]
     sentAspectsPred = readResult(resPath,testIdPath,'CRF')
-    sentAspectsGold = readLabel(goldPath)
+    sentAspectsGold,sentAspectsNum = readLabel(goldPath)
 
-    precision, recall, F1_score = metrics(sentAspectsPred,sentAspectsGold)
-    
+    # precision, recall, F1_score, TP, AN, NA, NN = metrics(sentAspectsPred,sentAspectsGold,sentAspectsNum)
+    precision, recall, F1_score =  metrics(sentAspectsPred,sentAspectsGold)
     if not crossVal:
         printMetrics(precision,recall,F1_score)  
-    return precision,recall, F1_score
+    # return precision,recall, F1_score, TP, AN, NA, NN
+    return precision,recall,F1_score
 # MEMM Model 
 # Model is trained using Wapiti tool
 # Loads model predictions, computes metrics
@@ -309,8 +329,9 @@ if __name__ == '__main__':
     crossVal = True
     if crossVal:
         precisionSum,recallSum,F1_scoreSum = 0, 0, 0
+        conf_matrix_sum = np.zeros((2,2))
         for ele in range(3):
-            
+            conf_matrix = np.zeros((2,2))
             valtestIdPath = devIdPath + str((ele+2)%3) + '.txt'
             valtrainPath = devTrainPath+str(ele)+str((ele+1)%3)+'.txt'
             valtestPath = devTestPath+str((ele+2)%3)+'.txt'
@@ -320,7 +341,11 @@ if __name__ == '__main__':
 
             elif sys.argv[1] == 'CRF':
                 valresPath = outPath+sys.argv[2] +str((ele+2)%3)+'.txt'
-                precision, recall, F1_score =  CRF(valresPath,valtestIdPath,True)
+                precision, recall, F1_score, TP, AN, NA, NN =  CRF(valresPath,valtestIdPath,True)
+                conf_matrix[0][0] += TP
+                conf_matrix[0][1] += AN
+                conf_matrix[1][0] += NA
+                conf_matrix[1][1] += NN
 
             elif sys.argv[1] == 'HMM':
                 precision, recall, F1_score = HMM(valtrainPath,valtestPath,valtestIdPath,True)
@@ -336,13 +361,16 @@ if __name__ == '__main__':
             precisionSum += precision
             recallSum += recall
             F1_scoreSum += F1_score
+            conf_matrix_sum += conf_matrix
             print("Precision",precision)
             print("Recall",recall)
             print("F1_score",F1_score)
+            print("Confusion Matrix",conf_matrix)
             print("")
         print("Precision",precisionSum/3)
         print("Recall",recallSum/3)
         print("F1_score",F1_scoreSum/3)
+        print("Confusion Matrix",conf_matrix_sum)
     else:
         resPath = outPath+sys.argv[2] 
         if sys.argv[1] == 'baseline':

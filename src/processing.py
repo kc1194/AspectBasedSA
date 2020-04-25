@@ -24,6 +24,7 @@ devFileTest = outPath+'parseProcessedTest'
 
 trainFile = outPath+'parseProcessedTrain.txt'
 testFile = outPath+'parseProcessedTest.txt'
+testLabel = outPath+'parseProcessedTestLabel.txt'
 
 # Function for reading a file
 def readFile(filPath):
@@ -108,6 +109,14 @@ def writePoint(arr,startIdx,endIdx,filPath2):
         fil2.write(vecDataFull[idx])
     fil2.close()
 
+def genPart(vecData,parseDict,vecDataFull,vecParseElems):
+    np.random.seed(1)
+    arr = np.arange(len(vecData))
+    np.random.shuffle(arr)
+
+    trainIdx = int(0.8*len(vecData))
+    writeData(arr,trainIdx,len(vecData),testLabel)
+
 # Generates Training and Testing data files
 def genFiles(vecData,parseDict,vecDataFull,vecParseElems):
     np.random.seed(1)
@@ -143,9 +152,13 @@ def genFiles(vecData,parseDict,vecDataFull,vecParseElems):
     for ele in range(3):
         if ele<2:
             writeData(arr,indices[ele],indices[(ele+2)],devFileTrain+str(ele)+str((ele+1)%3)+".txt")
+            engFeatures(devFileTrain+str(ele)+str((ele+1)%3)+".txt",devFileTrain+str(ele)+str((ele+1)%3)+"Eng.txt",'../output/WordSynsetDict.txt',True)
+    # testWordSet = engFeatures(devFileTest+'.txt',devFileTest+'Eng.txt','../output/dependencyTreeBankDictionary.txt',False)
         else:
             writeData(arr,indices[ele],indices[1],devFileTrain+str(ele)+str((ele+1)%3)+".txt")
+            engFeatures(devFileTrain+str(ele)+str((ele+1)%3)+".txt",devFileTrain+str(ele)+str((ele+1)%3)+"Eng.txt",'../output/WordSynsetDict.txt',True)
         writeData(arr,indices[ele],indices[ele+1],devFileTest+str(ele)+'.txt',True)
+        engFeatures(devFileTest+str(ele)+'.txt',devFileTest+str(ele)+'Eng.txt','../output/WordSynsetDict.txt',False)
         writePoint(arr,indices[ele],indices[ele+1],devPoint+str(ele)+'.txt')
 
 
@@ -219,16 +232,16 @@ def engFeatures(featurePath,engFeaturePath,hindiWordsPath,train=True):
     for ele in vec4:
         fil3.write(" ".join(ele)+'\n')
     fil3.close()
-    if train:
-        return wordSet,aspectSet
-    else:
-        return wordSet
+    # if train:
+    #     return wordSet,aspectSet
+    # else:
+    #     return wordSet
 
 if __name__ == '__main__':
     vecDataFull,vecData,vecParse,vecParseElems = extractData()
     parseDict,vecParseElems = addLabels(vecData,vecParse,vecParseElems)
     vecParseElems = cleanParse(vecParse,vecParseElems)
-    genFiles(vecData,parseDict,vecDataFull,vecParseElems)
+    genPart(vecData,parseDict,vecDataFull,vecParseElems)
 
     # trainWordSet,aspectSet = engFeatures(devFileTrain+'.txt',devFileTrain+'Eng.txt','../output/dependencyTreeBankDictionary.txt',True)
     # testWordSet = engFeatures(devFileTest+'.txt',devFileTest+'Eng.txt','../output/dependencyTreeBankDictionary.txt',False)

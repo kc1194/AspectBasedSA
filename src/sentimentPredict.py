@@ -4,7 +4,7 @@ import sklearn
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn import svm
-from sklearn.metrics import accuracy_score, classification_report
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 from sklearn.neural_network import MLPClassifier
 from sklearn.ensemble import AdaBoostClassifier
 from sklearn.svm import LinearSVC
@@ -108,6 +108,37 @@ def basePred(filPath,labelCountDict):
     
     return predLabels,goldLabels
 
+def addToDict(myDict,outerKey,innerKey):
+    if outerKey in myDict:
+        if innerKey in myDict[outerKey]:
+            myDict[outerKey][innerKey] += 1
+        else:
+            myDict[outerKey][innerKey] = 1
+    else:
+        myDict[outerKey] = {}
+        myDict[outerKey][innerKey] = 1
+
+def mergeDictHelper(dictMerged,dictA,dictB):
+    for key in dictA:
+        if key in dictB:
+            dictMerged[key] = dictA[key]+dictB[key]
+        else:
+            dictMerged[key] = dictA[key]
+    for key in dictB:
+        if key not in dictA:
+            dictMerged[key] = dictB[key]
+
+def mergeDict(dictMerged,dictA,dictB):
+    for key in dictA:
+        if key in dictB:
+            dictMerged[key] = {}
+            mergeDictHelper(dictMerged[key],dictA[key],dictB[key])
+        else:
+            dictMerged[key] = dictA[key]
+    for key in dictB:
+        if key not in dictA:
+            dictMerged[key] = dictB[key]
+
 # Function to read training and testing data
 def extractData(filPath,train=True):
     # if train:
@@ -122,6 +153,9 @@ def extractData(filPath,train=True):
 
     Data = []
     Labels = []
+    if train:
+        SOCounter = {}
+        MCLCounter = {}
     if not train:
         labelDict = extractGoldLabels()
     for ele in vec1:
@@ -136,12 +170,18 @@ def extractData(filPath,train=True):
             window = extractWindow(aspectTerm,wordList)
             Data.append(window)
             if train:
-                label = labelList[aspectIdx]                
+                label = labelList[aspectIdx]
+                addToDict(MCLCounter,aspectTerm,label)
+                for contWord in window:
+                    addToDict(SOCounter,contWord,label)
             else:
                 label = labelDict[ele[0]][aspectIdx]
             Labels.append(label)
     
-    return Data,Labels
+    if train:
+        return Data,Labels,MCLCounter,SOCounter
+    else:
+        return Data,Labels
     
 # Function for running the classifier
 # Reads data, converts to features, trains and tests classifier
@@ -170,26 +210,44 @@ def runClassifier(clfName,crossVal=False):
             trainData,trainLabels = extractData(trainFile,True)
             testData,goldLabels = extractData(testFile,False)
         else:
-            trainData1,trainLabels1 = extractData(devFiles[ele],True)
-            trainData2,trainLabels2 = extractData(devFiles[(ele+1)%3],True)
+            trainData1,trainLabels1,trainMCLCounter1,trainSOCounter1 = extractData(devFiles[ele],True)
+            trainData2,trainLabels2,trainMCLCounter2,trainSOCounter2 = extractData(devFiles[(ele+1)%3],True)
             trainData,trainLabels = trainData1+trainData2,trainLabels1+trainLabels2
             testData,goldLabels = extractData(devFiles[(ele+2)%3],False)
         
+        trainMCLCounter = {}
+        trainSOCounter = {}
+        mergeDict(trainSOCounter,trainSOCounter1,trainSOCounter2)
+        mergeDict(trainMCLCounter,trainMCLCounter1,trainMCLCounter2)
+
+        print(len(trainData))
+        sys.exit(0)
         featureTransform = TfidfVectorizer()
         featureTransform = featureTransform.fit(trainData)
 
         trainFeatures = featureTransform.transform(trainData)
         testFeatures = featureTransform.transform(testData)
 
+        # Adding features
+
+
         clf.fit(trainFeatures,trainLabels)
         predLabels = clf.predict(testFeatures)
 
         acc += accuracy_score(predLabels,goldLabels)
         print("Accuracy",accuracy_score(predLabels,goldLabels))
+        print("Confusion",confusion_matrix(goldLabels, predLabels, labels=["pos", "neg", "neu","con"]))
+        if ele == 0:
+            conf = confusion_matrix(goldLabels, predLabels, labels=["pos", "neg", "neu","con"])
+        else:
+            conf += confusion_matrix(goldLabels, predLabels, labels=["pos", "neg", "neu","con"])
+
     if crossVal:
         acc = acc/3
 
+    print("")
     print("Accuracy",acc)
+    print("Confusion",conf)
 
 
 runClassifier(sys.argv[1],bool(sys.argv[2]))

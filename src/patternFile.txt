@@ -19,7 +19,7 @@ Uj:%x[1,3]
 Uk:%x[2,3]
 
 # Hindi Vocabulary
-# Um:%x[0,6]
+Um:%x[0,6]
 
 # Bigram of current word and Part of Speech Tag
 Ul:%x[0,1]/%x[0,3]
