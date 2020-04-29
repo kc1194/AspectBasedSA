@@ -19,8 +19,8 @@ def runWapiti(mode,crossVal):
             os.system('./../tools/wapiti-1.5.0/wapiti label -m ../output/memm_model ../output/parseProcessedTest.txt ../output/memm_pred.txt')
         else:
             for ele in range(3):
-                os.system('./../tools/wapiti-1.5.0/wapiti train -p ../src/patternFile.txt -T memm -w 20 ../output/parseProcessedTrain'+str(ele)+str((ele+1)%3)+'Eng.txt ../output/memm_model'+str(ele)+str((ele+1)%3))
-                os.system('./../tools/wapiti-1.5.0/wapiti label -m ../output/memm_model'+str(ele)+str((ele+1)%3)+' ../output/parseProcessedTest'+str((ele+2)%3)+'Eng.txt ../output/memm_pred'+str((ele+2)%3)+'.txt')
+                os.system('./../tools/wapiti-1.5.0/wapiti train -p ../src/patternFile.txt -T memm -w 20 ../output/parseProcessedTrain'+str(ele)+str((ele+1)%3)+'.txt ../output/memm_model'+str(ele)+str((ele+1)%3))
+                os.system('./../tools/wapiti-1.5.0/wapiti label -m ../output/memm_model'+str(ele)+str((ele+1)%3)+' ../output/parseProcessedTest'+str((ele+2)%3)+'.txt ../output/memm_pred'+str((ele+2)%3)+'.txt')
     else:
         if not crossVal:
             os.system('./../tools/wapiti-1.5.0/wapiti train -p ../src/patternFile.txt -T maxent --me -o 20 -w 20 ../output/parseProcessedTrain.txt ../output/maxent_model')

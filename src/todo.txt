@@ -1,0 +1,4 @@
+1. Process input data to remove commas, brackets for sentiment mining
+2. Process multi word aspects for dictionaries - Done
+2. Deep learning with pre-trained embeddings
+3. Deep learning analysis

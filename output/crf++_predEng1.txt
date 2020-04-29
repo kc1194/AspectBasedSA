@@ -113,7 +113,7 @@
 10	इससे	इससे	PRP	18	rh	TRUE	FALSE
 11	थोड़ी	थोड़ी	XC	13	mod	TRUE	FALSE
 12	छोटी	छोटी	XC	13	mod	FALSE	FALSE
-13	स्क्रीन	स्क्रीन	NNP	18	k1	FALSE	FALSE
+13	स्क्रीन	स्क्रीन	NNP	18	k1	FALSE	TRUE
 14	(	(	(	16	rsym	FALSE	FALSE
 15	43	43	QC	16	nmod__adj	FALSE	FALSE
 16	इंच	इंच	NN	13	nmod	FALSE	FALSE
@@ -130,8 +130,8 @@
 27	)	)	)	26	rsym	FALSE	FALSE
 28	है	है	VM	31	ccof	FALSE	FALSE
 29	,	,	,	28	rsym	FALSE	FALSE
-30	क्लैरिटी	क्लैरिटी	NN	31	ccof	TRUE	TRUE
-31	और	और	CC	19	ccof	FALSE	TRUE
+30	क्लैरिटी	क्लैरिटी	NN	31	ccof	TRUE	FALSE
+31	और	और	CC	19	ccof	FALSE	FALSE
 32	शार्पनेस	शार्पनेस	NN	34	r6	TRUE	TRUE
 33	के	का	PSP	32	lwg__psp	FALSE	FALSE
 34	मामले	मामला	NN	42	k7	FALSE	FALSE
@@ -148,7 +148,7 @@
 1	वो	वो	PRP	14	k1	TRUE	FALSE
 2	भी	भी	RP	1	lwg__rp	FALSE	FALSE
 3	फुल	फुल	JJ	5	mod	TRUE	FALSE
-4	HD	HD	XC	5	mod	TRUE	TRUE
+4	HD	HD	XC	5	mod	TRUE	FALSE
 5	स्क्रीन	स्क्रीन	NNP	14	k1	FALSE	TRUE
 6	(	(	(	8	rsym	FALSE	FALSE
 7	1080	1080	QC	8	nmod__adj	TRUE	FALSE
@@ -166,7 +166,7 @@
 3	का	का	PSP	2	lwg__psp	FALSE	FALSE
 4	कैमरा	कैमरा	NN	5	ccof	TRUE	TRUE
 5	और	और	CC	12	k1	FALSE	FALSE
-6	स्टाइलिश	स्टाइलिश	XC	7	mod	TRUE	TRUE
+6	स्टाइलिश	स्टाइलिश	XC	7	mod	TRUE	FALSE
 7	बॉडी	बॉडी	NN	5	ccof	FALSE	TRUE
 8	भी	भी	RP	7	lwg__rp	FALSE	FALSE
 9	इसकी	इसकी	PRP	10	r6	TRUE	FALSE
@@ -188,7 +188,7 @@
 10	और	और	CC	15	k7p	FALSE	FALSE
 11	35	35	QC	14	nmod__adj	FALSE	FALSE
 12	एमएम	एमएम	XC	14	mod	TRUE	FALSE
-13	डफोन्स	डफोन्स	NNP	14	mod	TRUE	TRUE
+13	डफोन्स	डफोन्स	NNP	14	mod	TRUE	FALSE
 14	जैक	जैक	NN	10	ccof	TRUE	TRUE
 15	हैं	है	VM	17	ccof	FALSE	FALSE
 16	,	,	,	15	rsym	FALSE	FALSE
@@ -220,7 +220,7 @@
 3	वॉट	वॉट	NN	6	r6	FALSE	FALSE
 4	की	का	PSP	3	lwg__psp	FALSE	FALSE
 5	पावरफुल	पावरफुल	JJ	6	nmod__adj	TRUE	FALSE
-6	मोटर	मोटर	NN	7	ccof	FALSE	FALSE
+6	मोटर	मोटर	NN	7	ccof	FALSE	TRUE
 7	तथा	तथा	CC	12	k4	FALSE	FALSE
 8	3	3	QC	9	nmod__adj	FALSE	FALSE
 9	स्पीड	स्पीड	NN	7	ccof	TRUE	FALSE
@@ -308,12 +308,12 @@
 16	बहुत	बहुत	INTF	17	jjmod__intf	FALSE	FALSE
 17	अच्छी	अच्छी	JJ	19	nmod__adj	FALSE	FALSE
 18	पिक्चर्स	पिक्चर्स	XC	19	mod	TRUE	TRUE
-19	कैप्चर	कैप्चर	NN	20	pof	TRUE	TRUE
+19	कैप्चर	कैप्चर	NN	20	pof	TRUE	FALSE
 20	करता	कर	VM	0	ROOT	FALSE	FALSE
 21	है	है	VAUX	20	lwg__vaux	FALSE	FALSE
 22	.	.	.	20	rsym	FALSE	FALSE
 
-1	स्क्रीन	स्क्रीन	NNP	3	r6	FALSE	FALSE
+1	स्क्रीन	स्क्रीन	NNP	3	r6	FALSE	TRUE
 2	का	का	PSP	1	lwg__psp	FALSE	FALSE
 3	आकार	आकार	NN	6	k1	FALSE	FALSE
 4	काफी	काफी	QF	5	jjmod__intf	FALSE	FALSE
@@ -361,13 +361,13 @@
 4	फ्रंट	फ्रंट	NN	5	ccof	FALSE	FALSE
 5	और	और	CC	16	k2	FALSE	FALSE
 6	सफेद	सफेद	JJ	7	nmod__adj	FALSE	FALSE
-7	बैक	बैक	NN	5	ccof	TRUE	FALSE
+7	बैक	बैक	NN	5	ccof	TRUE	TRUE
 8	के	का	PSP	7	lwg__psp	FALSE	FALSE
 9	जरिए	जरिये	PSP	7	lwg__psp	TRUE	FALSE
 10	स्मार्टफोन	स्मार्टफोन	NN	16	rt	TRUE	FALSE
 11	की	का	PSP	10	lwg__psp	FALSE	FALSE
 12	बार	बार	RP	10	lwg__psp	FALSE	FALSE
-13	डिज़ाईन	डिज़ाईन	NNP	16	k2	TRUE	TRUE
+13	डिज़ाईन	डिज़ाईन	NNP	16	k2	TRUE	FALSE
 14	को	को	PSP	13	lwg__psp	TRUE	FALSE
 15	आकर्षक	आकर्षक	JJ	16	pof	FALSE	FALSE
 16	बनाया	बना	VM	0	main	FALSE	FALSE
@@ -550,7 +550,7 @@
 7	जिसे	जो	PRP	15	k2	FALSE	FALSE
 8	माइक्रो	माइक्रो	XC	10	mod	FALSE	TRUE
 9	एसडी	एसडी	XC	10	mod	TRUE	TRUE
-10	कार्ड	कार्ड	NN	15	k3	FALSE	TRUE
+10	कार्ड	कार्ड	NN	15	k3	FALSE	FALSE
 11	से	से	PSP	10	lwg__psp	FALSE	FALSE
 12	32	32	QC	13	nmod__adj	FALSE	FALSE
 13	जीबी	जीबी	NN	15	k2	FALSE	FALSE
@@ -706,7 +706,7 @@
 11	इंच	इंच	NN	13	r6	FALSE	FALSE
 12	की	का	PSP	11	lwg__psp	FALSE	FALSE
 13	एचडी	एचडी	NN	14	pof	TRUE	FALSE
-14	डिस्प्ले	डिस्प्ले	VM	0	ROOT	FALSE	FALSE
+14	डिस्प्ले	डिस्प्ले	VM	0	ROOT	FALSE	TRUE
 15	है	है	VAUX	14	lwg__vaux	FALSE	FALSE
 16	.	.	.	14	rsym	FALSE	FALSE
 
@@ -736,7 +736,7 @@
 24	.	.	.	20	rsym	FALSE	FALSE
 
 1	लेकिन	लेकिन	CC	0	ROOT	TRUE	FALSE
-2	फ़ोन	फ़ोन	XC	3	mod	FALSE	TRUE
+2	फ़ोन	फ़ोन	XC	3	mod	FALSE	FALSE
 3	ऐप	ऐप	NN	5	r6	TRUE	TRUE
 4	के	का	PSP	3	lwg__psp	FALSE	FALSE
 5	मामले	मामला	NN	0	ROOT	FALSE	FALSE
@@ -759,7 +759,7 @@
 11	,	,	,	10	rsym	FALSE	FALSE
 12	हिरण	हिरण	NN	13	ccof	FALSE	FALSE
 13	और	और	CC	16	k2	FALSE	FALSE
-14	नीलगाय	नीलगाय	NN	13	ccof	FALSE	FALSE
+14	नीलगाय	नीलगाय	NN	13	ccof	FALSE	TRUE
 15	भी	भी	RP	14	lwg__rp	FALSE	FALSE
 16	देख	देख	VM	0	main	TRUE	FALSE
 17	सकते	सक	VAUX	16	lwg__vaux	FALSE	FALSE
@@ -786,11 +786,11 @@
 4	रोशनी	रोशनी	NN	19	k7p	FALSE	FALSE
 5	में	में	PSP	4	lwg__psp	FALSE	FALSE
 6	न्यूनतम	न्यूनतम	JJ	19	k1	FALSE	FALSE
-7	नॉइस	नॉइस	XC	8	ccof	TRUE	FALSE
+7	नॉइस	नॉइस	XC	8	ccof	TRUE	TRUE
 8	और	और	CC	19	k2	FALSE	FALSE
 9	अच्छे	अच्छे	JJ	11	nmod__adj	TRUE	FALSE
 10	कलर	कलर	NN	11	mod	FALSE	FALSE
-11	रिप्रॉडक्शन	रिप्रॉडक्शन	NN	8	ccof	TRUE	FALSE
+11	रिप्रॉडक्शन	रिप्रॉडक्शन	NN	8	ccof	TRUE	TRUE
 12	के	का	PSP	11	lwg__psp	FALSE	FALSE
 13	साथ	साथ	NST	11	lwg__psp	FALSE	FALSE
 14	अच्छी	अच्छी	JJ	15	nmod__adj	FALSE	FALSE
@@ -850,7 +850,7 @@
 9	इस्तेमाल	इस्तेमाल	NN	19	k7	FALSE	FALSE
 10	पर	पर	PSP	9	lwg__psp	FALSE	FALSE
 11	बैटरी	बैटरी	JJ	12	nmod__adj	FALSE	TRUE
-12	लाइफ	लाइफ	NN	19	k1	FALSE	TRUE
+12	लाइफ	लाइफ	NN	19	k1	FALSE	FALSE
 13	तीन	तीन	QC	19	k5	FALSE	FALSE
 14	से	से	PSP	13	lwg__psp	FALSE	FALSE
 15	चार	चार	QC	16	nmod__adj	FALSE	FALSE
@@ -863,7 +863,7 @@
 22	.	.	.	19	rsym	FALSE	FALSE
 
 1	सारा	सारा	QF	2	nmod__adj	FALSE	FALSE
-2	रास्ता	रास्ता	NN	11	k1	FALSE	FALSE
+2	रास्ता	रास्ता	NN	11	k1	FALSE	TRUE
 3	बैंगनी	बैंगनी	VM	4	mod	FALSE	FALSE
 4	रंग	रंग	NN	9	r6	FALSE	FALSE
 5	के	का	PSP	4	lwg__psp	FALSE	FALSE
@@ -890,7 +890,7 @@
 
 1	207	207	QC	3	nmod__adj	TRUE	FALSE
 2	मेगापिक्सल	मेगापिक्सल	NN	3	mod	TRUE	FALSE
-3	कैमरा	कैमरा	NN	7	ccof	TRUE	FALSE
+3	कैमरा	कैमरा	NN	7	ccof	TRUE	TRUE
 4	,	,	,	3	rsym	FALSE	FALSE
 5	वाटरप्रूफ	वाटरप्रूफ	XC	6	mod	TRUE	FALSE
 6	तकनीक	तकनीक	NN	7	ccof	FALSE	FALSE
@@ -1008,7 +1008,7 @@
 1	यह	यह	DEM	2	nmod__adj	FALSE	FALSE
 2	कंप्यूटर	कंप्यूटर	NN	23	k1	FALSE	FALSE
 3	फुल	फुल	JJ	6	mod	TRUE	FALSE
-4	वीडियो	वीडियो	XC	6	mod	FALSE	FALSE
+4	वीडियो	वीडियो	XC	6	mod	FALSE	TRUE
 5	कॉन्फ्रेंस	कॉन्फ्रेंस	NN	6	mod	TRUE	FALSE
 6	सॉल्युशन	सॉल्युशन	NN	23	k7t	TRUE	FALSE
 7	के	का	PSP	6	lwg__psp	FALSE	FALSE
@@ -1018,11 +1018,11 @@
 11	वीडियो	वीडियो	XC	12	mod	FALSE	TRUE
 12	कैमरा	कैमरा	NN	18	ccof	TRUE	TRUE
 13	,	,	,	12	rsym	FALSE	FALSE
-14	कंबाइंड	कंबाइंड	XC	15	mod	TRUE	TRUE
+14	कंबाइंड	कंबाइंड	XC	15	mod	TRUE	FALSE
 15	माइक्रोफोन	माइक्रोफोन	NN	18	ccof	TRUE	TRUE
 16	,	,	,	15	rsym	FALSE	FALSE
 17	स्पीकर्स	स्पीकर्स	NN	18	ccof	TRUE	TRUE
-18	तथा	तथा	CC	23	k1	FALSE	TRUE
+18	तथा	तथा	CC	23	k1	FALSE	FALSE
 19	रिमोट	रिमोट	XC	20	mod	FALSE	TRUE
 20	कंट्रोल	कंट्रोल	NNP	18	ccof	FALSE	TRUE
 21	के	का	PSP	20	lwg__psp	FALSE	FALSE
@@ -1065,7 +1065,7 @@
 32	2	2	QC	33	nmod__adj	FALSE	FALSE
 33	जीबी	जीबी	NN	35	r6	FALSE	FALSE
 34	का	का	PSP	33	lwg__psp	FALSE	FALSE
-35	मुफ्त	मुफ्त	NN	42	k1	FALSE	FALSE
+35	मुफ्त	मुफ्त	NN	42	k1	FALSE	TRUE
 36	डाटा	डाटा	VM	39	nmod__adj	FALSE	FALSE
 37	पहले	पहले	NST	39	nmod__adj	FALSE	FALSE
 38	दो	दो	QC	39	nmod__adj	FALSE	FALSE
@@ -1109,9 +1109,9 @@
 7	,	,	,	6	rsym	FALSE	FALSE
 8	वॉल्यूम	वॉल्यूम	NN	10	mod	TRUE	TRUE
 9	कंट्रोल	कंट्रोल	JJ	10	nmod__adj	FALSE	TRUE
-10	बटनों	बटन	NN	12	ccof	FALSE	TRUE
+10	बटनों	बटन	NN	12	ccof	FALSE	FALSE
 11	का	का	PSP	10	lwg__psp	FALSE	TRUE
-12	और	और	CC	0	ROOT	FALSE	TRUE
+12	और	और	CC	0	ROOT	FALSE	FALSE
 13	ब्लूटूथ	ब्लूटूथ	NN	15	pof	TRUE	TRUE
 14	न	न	NEG	15	lwg__neg	FALSE	FALSE
 15	होना	हो	VM	12	ccof	FALSE	FALSE
@@ -1137,7 +1137,7 @@
 9	तौर	तौर	NN	19	adv	FALSE	FALSE
 10	से	से	PSP	9	lwg__psp	FALSE	FALSE
 11	बेहतर	बेहतर	JJ	12	nmod__adj	FALSE	FALSE
-12	फोटोग्राफी	फोटोग्राफी	NN	13	ccof	FALSE	TRUE
+12	फोटोग्राफी	फोटोग्राफी	NN	13	ccof	FALSE	FALSE
 13	और	और	CC	19	k1	FALSE	FALSE
 14	शानदार	शानदार	JJ	16	nmod__adj	FALSE	FALSE
 15	म्यूजिक	म्यूजिक	JJ	16	nmod__adj	FALSE	TRUE
@@ -1253,7 +1253,7 @@
 8	कि	कि	CC	0	ROOT	FALSE	FALSE
 9	इसके	इसके	PRP	10	r6	FALSE	FALSE
 10	डिस्प्ले	डिस्प्ले	NN	12	r6	FALSE	TRUE
-11	का	का	PSP	10	lwg__psp	FALSE	TRUE
+11	का	का	PSP	10	lwg__psp	FALSE	FALSE
 12	रेजोल्यूशन	रेजोल्यूशन	NN	15	k1	TRUE	TRUE
 13	थोडा	थोडा	QF	15	k1s	TRUE	FALSE
 14	कम	कम	QF	13	nmod__adj	FALSE	FALSE
@@ -1423,7 +1423,7 @@
 5	का	का	PSP	4	lwg__psp	FALSE	FALSE
 6	डिजिटल	डिजिटल	XC	8	mod	FALSE	TRUE
 7	मीडिया	मीडिया	NNP	8	mod	FALSE	TRUE
-8	प्लेयर	प्लेयर	NN	9	k1	FALSE	TRUE
+8	प्लेयर	प्लेयर	NN	9	k1	FALSE	FALSE
 9	है	है	VM	0	main	FALSE	FALSE
 10	.	.	.	9	rsym	FALSE	FALSE
 
@@ -1521,12 +1521,12 @@
 12	गाडी	गाडी	NN	14	r6	TRUE	FALSE
 13	की	का	PSP	12	lwg__psp	FALSE	FALSE
 14	विंड	विंड	NN	0	ROOT	TRUE	FALSE
-15	स्क्रीन	स्क्रीन	NNP	17	k5	FALSE	FALSE
+15	स्क्रीन	स्क्रीन	NNP	17	k5	FALSE	TRUE
 16	से	से	PSP	15	lwg__psp	FALSE	FALSE
 17	टकराती	टकरा	VM	18	nmod__k1inv	TRUE	FALSE
 18	बारिश	बारिश	NN	22	r6	FALSE	FALSE
 19	की	का	PSP	18	lwg__psp	FALSE	FALSE
-20	मोटी	मोटी	JJ	22	nmod__adj	FALSE	FALSE
+20	मोटी	मोटी	JJ	22	nmod__adj	FALSE	TRUE
 21	मोटी	मोटी	JJ	22	nmod__adj	FALSE	FALSE
 22	बूंदे	बूंदे	NN	14	ccof	TRUE	FALSE
 23	,	,	,	22	rsym	FALSE	FALSE
@@ -1608,7 +1608,7 @@
 19	प्	प्	प्	23	k4	TRUE	FALSE
 20	‍	‍	XC	22	mod	TRUE	FALSE
 21	लेबैक	लेबैक	NNP	22	mod	TRUE	FALSE
-22	टाइम	टाइम	NN	23	k1	FALSE	FALSE
+22	टाइम	टाइम	NN	23	k1	FALSE	TRUE
 23	देती	दे	VM	0	ROOT	TRUE	FALSE
 24	है	है	VAUX	23	lwg__vaux	FALSE	FALSE
 25	.	.	.	23	rsym	FALSE	FALSE
@@ -1732,7 +1732,7 @@
 10	.	.	.	7	rsym	FALSE	FALSE
 
 1	यह	यह	DEM	2	nmod__adj	FALSE	FALSE
-2	बैट्री	बैट्री	NN	12	k1	TRUE	TRUE
+2	बैट्री	बैट्री	NN	12	k1	TRUE	FALSE
 3	आपकी	आप	PRP	12	k1	FALSE	FALSE
 4	घड़ी	घड़ी	NNP	12	k7t	FALSE	FALSE
 5	को	को	PSP	4	lwg__psp	TRUE	FALSE
@@ -1874,7 +1874,7 @@
 22	.	.	.	21	rsym	FALSE	FALSE
 
 1	यह	यह	DEM	2	nmod__adj	FALSE	FALSE
-2	कैमरा	कैमरा	NN	9	k1	TRUE	TRUE
+2	कैमरा	कैमरा	NN	9	k1	TRUE	FALSE
 3	6	6	QC	6	mod	FALSE	FALSE
 4	x	x	XC	6	mod	TRUE	FALSE
 5	डिजीटल	डिजीटल	XC	6	mod	TRUE	FALSE
@@ -1956,10 +1956,10 @@
 27	था	था	VAUX	17	ccof	TRUE	FALSE
 28	.	.	.	27	rsym	FALSE	FALSE
 
-1	वाटर	वाटर	XC	7	mod	FALSE	TRUE
+1	वाटर	वाटर	XC	7	mod	FALSE	FALSE
 2	रस्सिटेंस	रस्सिटेंस	XC	7	mod	TRUE	TRUE
 3	आईपी	आईपी	NN	7	mod	TRUE	TRUE
-4	67	67	QC	7	nmod__adj	FALSE	TRUE
+4	67	67	QC	7	nmod__adj	FALSE	FALSE
 5	(	(	(	7	rsym	FALSE	FALSE
 6	30	30	QC	7	nmod__adj	FALSE	FALSE
 7	मिनट	मिनट	NN	14	k7t	FALSE	FALSE
@@ -2034,7 +2034,7 @@
 56	घाटी	घाटी	NNP	59	r6	FALSE	FALSE
 57	का	का	PSP	56	lwg__psp	FALSE	FALSE
 58	अद्भुत	अद्भुत	JJ	59	nmod__adj	FALSE	FALSE
-59	नज़ारा	नज़ारा	NN	60	k2	FALSE	FALSE
+59	नज़ारा	नज़ारा	NN	60	k2	FALSE	TRUE
 60	देख	देख	VM	49	ccof	TRUE	FALSE
 61	सकते	सक	VAUX	60	lwg__vaux	FALSE	FALSE
 62	हैं	है	VAUX	60	lwg__vaux	FALSE	FALSE
@@ -2117,7 +2117,7 @@
 
 1	गेमिंग	गेमिंग	NN	2	ccof	FALSE	TRUE
 2	और	और	CC	6	k1	FALSE	FALSE
-3	मल्टीटास्किंग	मल्टीटास्किंग	XC	2	ccof	TRUE	FALSE
+3	मल्टीटास्किंग	मल्टीटास्किंग	XC	2	ccof	TRUE	TRUE
 4	दोनों	दोना	NN	6	k1	FALSE	FALSE
 5	तेज	तेज	JJ	6	k1s	FALSE	FALSE
 6	हैं	है	VM	0	main	FALSE	FALSE
@@ -2263,7 +2263,7 @@
 28	का	का	PSP	27	lwg__psp	FALSE	FALSE
 29	ट्रेडमार्क	ट्रेडमार्क	NN	33	k1	FALSE	FALSE
 30	प्रीमियम	प्रीमियम	XC	31	mod	FALSE	FALSE
-31	टच	टच	NN	33	k2	FALSE	FALSE
+31	टच	टच	NN	33	k2	FALSE	TRUE
 32	भी	भी	RP	31	lwg__rp	FALSE	FALSE
 33	देता	दे	VM	0	ROOT	TRUE	FALSE
 34	है	है	VAUX	33	lwg__vaux	FALSE	FALSE
@@ -2280,7 +2280,7 @@
 9	बैटरी	बैटरी	NN	17	k7t	FALSE	TRUE
 10	के	का	PSP	9	lwg__psp	FALSE	FALSE
 11	साथ	साथ	NST	9	lwg__psp	FALSE	FALSE
-12	इंस्टा-गो	इंस्टा-गो	XC	15	mod	TRUE	TRUE
+12	इंस्टा-गो	इंस्टा-गो	XC	15	mod	TRUE	FALSE
 13	पॉवर	पॉवर	XC	15	mod	TRUE	TRUE
 14	सेविंग	सेविंग	XC	15	mod	TRUE	TRUE
 15	फीचर	फीचर	NN	17	k2	FALSE	TRUE
@@ -2378,7 +2378,7 @@
 42	आउटपुट	आउटपुट	NN	49	k7t	TRUE	FALSE
 43	,	,	,	42	rsym	FALSE	FALSE
 44	30	30	QC	45	nmod__adj	FALSE	FALSE
-45	वीएफआर	वीएफआर	NN	49	k2	TRUE	TRUE
+45	वीएफआर	वीएफआर	NN	49	k2	TRUE	FALSE
 46	एलसीडी	एलसीडी	NNP	49	k4	FALSE	TRUE
 47	जैसे	जैसे	PSP	46	lwg__psp	FALSE	FALSE
 48	फीचर्स	फीचर्स	NN	49	pof	TRUE	FALSE
@@ -2401,7 +2401,7 @@
 12	है	है	VAUX	11	lwg__vaux	FALSE	FALSE
 13	.	.	.	11	rsym	FALSE	FALSE
 
-1	धार्मिक	धार्मिक	JJ	2	nmod__adj	FALSE	TRUE
+1	धार्मिक	धार्मिक	JJ	2	nmod__adj	FALSE	FALSE
 2	पर्यटन	पर्यटन	NN	4	r6	FALSE	TRUE
 3	का	का	PSP	2	lwg__psp	FALSE	FALSE
 4	देश	देश	NN	10	k7p	FALSE	FALSE
@@ -2756,7 +2756,7 @@
 6	आप	आप	PRP	10	k1	FALSE	FALSE
 7	मूवीज	मूवीज	NN	9	r6	TRUE	FALSE
 8	के	का	PSP	7	lwg__psp	FALSE	FALSE
-9	ट्रेलर्स	ट्रेलर्स	NN	10	k2	TRUE	FALSE
+9	ट्रेलर्स	ट्रेलर्स	NN	10	k2	TRUE	TRUE
 10	देख	देख	VM	0	main	TRUE	FALSE
 11	सकते	सक	VAUX	10	lwg__vaux	FALSE	FALSE
 12	हैं	है	VAUX	10	lwg__vaux	FALSE	FALSE
@@ -2791,7 +2791,7 @@
 4	जैसे	जैसे	PSP	3	lwg__psp	FALSE	FALSE
 5	भारी	भारी	JJ	6	nmod__adj	FALSE	FALSE
 6	ग्राफिक्स	ग्राफिक्स	NN	13	k1	FALSE	FALSE
-7	आधारित	आधारित	JJ	8	nmod__adj	FALSE	FALSE
+7	आधारित	आधारित	JJ	8	nmod__adj	FALSE	TRUE
 8	गेम्स	गेम्स	NN	13	k1	FALSE	TRUE
 9	भी	भी	RP	8	lwg__rp	FALSE	FALSE
 10	हम	हम	PRP	13	k1	FALSE	FALSE
@@ -2813,7 +2813,7 @@
 9	है	है	VM	0	main	FALSE	FALSE
 10	जिसे	जो	PRP	22	k7	FALSE	FALSE
 11	SDHC	SDHC	JJ	12	nmod__adj	TRUE	FALSE
-12	कार्ड	कार्ड	NN	14	r6	FALSE	FALSE
+12	कार्ड	कार्ड	NN	14	r6	FALSE	TRUE
 13	की	का	PSP	12	lwg__psp	FALSE	FALSE
 14	सहायता	सहायता	NN	17	k2	FALSE	FALSE
 15	से	से	PSP	14	lwg__psp	FALSE	FALSE
@@ -2880,7 +2880,7 @@
 6	नीचे	नीचा	NST	12	k7t	FALSE	FALSE
 7	की	का	PSP	6	lwg__psp	FALSE	FALSE
 8	तरफ	तरफ	NST	6	lwg__psp	FALSE	FALSE
-9	पावर	पावर	NN	11	r6-k2	FALSE	TRUE
+9	पावर	पावर	NN	11	r6-k2	FALSE	FALSE
 10	का	का	PSP	9	lwg__psp	FALSE	TRUE
 11	बटन	बटन	NN	12	pof	FALSE	TRUE
 12	दिया	दे	VM	0	main	FALSE	FALSE
@@ -2888,7 +2888,7 @@
 14	है	है	VAUX	12	lwg__vaux	FALSE	FALSE
 15	.	.	.	12	rsym	FALSE	FALSE
 
-1	वाइल्ड	वाइल्ड	XC	2	mod	TRUE	TRUE
+1	वाइल्ड	वाइल्ड	XC	2	mod	TRUE	FALSE
 2	लाइफ	लाइफ	NN	3	k2	FALSE	TRUE
 3	देखने	देख	VM	5	r6	FALSE	FALSE
 4	का	का	PSP	3	lwg__psp	FALSE	FALSE
@@ -2920,8 +2920,8 @@
 8	कि	कि	CC	7	k1s	FALSE	FALSE
 9	इसमें	इसमें	PRP	14	k7	TRUE	FALSE
 10	कोई	कोई	PRP	12	nmod__adj	FALSE	FALSE
-11	आप्टिकल	आप्टिकल	JJ	12	nmod__adj	TRUE	TRUE
-12	ड्राइव	ड्राइव	NN	14	k1	TRUE	TRUE
+11	आप्टिकल	आप्टिकल	JJ	12	nmod__adj	TRUE	FALSE
+12	ड्राइव	ड्राइव	NN	14	k1	TRUE	FALSE
 13	नहीं	नहीं	NEG	14	lwg__neg	FALSE	FALSE
 14	है	है	VM	8	ccof	FALSE	FALSE
 15	.	.	.	14	rsym	FALSE	FALSE
@@ -3005,7 +3005,7 @@
 12	.	.	.	11	rsym	FALSE	FALSE
 
 1	फ्लॉलेस	फ्लॉलेस	XC	2	mod	TRUE	FALSE
-2	फिनिश	फिनिश	NNP	13	k7t	FALSE	FALSE
+2	फिनिश	फिनिश	NNP	13	k7t	FALSE	TRUE
 3	के	का	PSP	2	lwg__psp	FALSE	FALSE
 4	साथ	साथ	NST	2	lwg__psp	FALSE	FALSE
 5	इसके	इसके	PRP	8	r6	FALSE	FALSE
@@ -3028,7 +3028,7 @@
 6	है	है	VM	1	ccof	FALSE	FALSE
 7	फिल्म	फिल्म	NN	9	r6	TRUE	FALSE
 8	का	का	PSP	7	lwg__psp	FALSE	FALSE
-9	निर्देशन	निर्देशन	NN	6	ccof	FALSE	TRUE
+9	निर्देशन	निर्देशन	NN	6	ccof	FALSE	FALSE
 10	.	.	.	9	rsym	FALSE	FALSE
 
 1	बैटरी	बैटरी	NN	5	nmod__adj	FALSE	TRUE
@@ -3104,8 +3104,8 @@
 6	है	है	VM	0	main	FALSE	FALSE
 7	,	,	,	6	rsym	FALSE	FALSE
 8	जिसमें	जो	PRP	13	k7	FALSE	FALSE
-9	वॉल्यूम	वॉल्यूम	NN	13	k1	TRUE	FALSE
-10	रॉकर	रॉकर	VM	13	mod	TRUE	FALSE
+9	वॉल्यूम	वॉल्यूम	NN	13	k1	TRUE	TRUE
+10	रॉकर	रॉकर	VM	13	mod	TRUE	TRUE
 11	बायीं	बायीं	NN	13	k7t	FALSE	FALSE
 12	तरफ	तरफ	NST	11	lwg__psp	FALSE	FALSE
 13	है	है	VM	21	ccof	FALSE	FALSE
@@ -3137,7 +3137,7 @@
 5	,	,	,	4	rsym	FALSE	FALSE
 6	कि	कि	CC	0	ROOT	FALSE	FALSE
 7	इसकी	इसकी	PRP	8	r6	TRUE	FALSE
-8	आवाज़	आवाज़	NNP	12	k1	FALSE	FALSE
+8	आवाज़	आवाज़	NNP	12	k1	FALSE	TRUE
 9	बहुत	बहुत	INTF	10	jjmod__intf	FALSE	FALSE
 10	बेहतर	बेहतर	JJ	12	k1s	FALSE	FALSE
 11	नहीं	नहीं	NEG	12	lwg__neg	FALSE	FALSE
@@ -3288,8 +3288,8 @@
 3	133	133	QC	7	mod	TRUE	FALSE
 4	गीगाहर्त्ज	गीगाहर्त्ज	XC	7	mod	TRUE	FALSE
 5	इंटेल	इंटेल	XC	7	mod	TRUE	TRUE
-6	एटम	एटम	XC	7	mod	FALSE	TRUE
-7	प्रोसेसर	प्रोसेसर	NN	12	ccof	FALSE	TRUE
+6	एटम	एटम	XC	7	mod	FALSE	FALSE
+7	प्रोसेसर	प्रोसेसर	NN	12	ccof	FALSE	FALSE
 8	,	,	,	7	rsym	FALSE	FALSE
 9	2	2	QC	11	nmod__adj	FALSE	FALSE
 10	जीबी	जीबी	NN	11	mod	FALSE	FALSE
@@ -3320,7 +3320,7 @@
 4	यह	यह	PRP	15	k2	FALSE	FALSE
 5	16	16	QC	9	nmod__adj	FALSE	FALSE
 6	GHz	GHz	XC	9	mod	TRUE	FALSE
-7	ड्यूल-कोर	ड्यूल-कोर	NNP	9	mod	TRUE	FALSE
+7	ड्यूल-कोर	ड्यूल-कोर	NNP	9	mod	TRUE	TRUE
 8	ARM	ARM	JJ	9	nmod__adj	TRUE	FALSE
 9	कोर्टेक्स	कोर्टेक्स	NN	15	k1	TRUE	FALSE
 10	A	A	PSP	15	adv	FALSE	FALSE
@@ -3516,7 +3516,7 @@
 20	.	.	.	19	rsym	FALSE	FALSE
 
 1	द	द	XC	3	mod	FALSE	FALSE
-2	ब्रोस	ब्रोस	NNP	3	mod	TRUE	FALSE
+2	ब्रोस	ब्रोस	NNP	3	mod	TRUE	TRUE
 3	टूल	टूल	NN	6	k2	TRUE	FALSE
 4	को	को	PSP	3	lwg__psp	TRUE	FALSE
 5	खत्म	खत्म	JJ	6	pof	FALSE	FALSE
@@ -3556,8 +3556,8 @@
 8	बात	बात	NN	13	k1	FALSE	FALSE
 9	इसका	इसका	PRP	10	r6	TRUE	FALSE
 10	टेगरा	टेगरा	NN	13	k1	TRUE	TRUE
-11	4	4	QC	12	nmod__adj	FALSE	TRUE
-12	चिपसेट	चिपसेट	NN	13	k1	TRUE	TRUE
+11	4	4	QC	12	nmod__adj	FALSE	FALSE
+12	चिपसेट	चिपसेट	NN	13	k1	TRUE	FALSE
 13	है	है	VM	0	main	FALSE	FALSE
 14	,	,	,	13	rsym	FALSE	FALSE
 15	जो	जो	PRP	21	k1	FALSE	FALSE
@@ -3577,7 +3577,7 @@
 5	देखें	देख	VM	0	ROOT	FALSE	FALSE
 6	तो	तो	CC	0	ROOT	FALSE	FALSE
 7	इस	इस	DEM	8	nmod__adj	FALSE	FALSE
-8	कीमत	कीमत	NN	24	k7	FALSE	TRUE
+8	कीमत	कीमत	NN	24	k7	FALSE	FALSE
 9	में	में	PSP	8	lwg__psp	FALSE	FALSE
 10	बाजार	बाजार	NN	24	k7p	FALSE	FALSE
 11	में	में	PSP	10	lwg__psp	FALSE	FALSE
@@ -3747,8 +3747,8 @@
 24	करके	कर	VM	32	vmod	FALSE	FALSE
 25	पॉवर	पॉवर	XC	26	mod	TRUE	TRUE
 26	कन्संप्शन	कन्संप्शन	NN	27	ccof	TRUE	TRUE
-27	और	और	CC	32	k2	FALSE	TRUE
-28	परफार्मेंस	परफार्मेंस	NN	27	ccof	TRUE	TRUE
+27	और	और	CC	32	k2	FALSE	FALSE
+28	परफार्मेंस	परफार्मेंस	NN	27	ccof	TRUE	FALSE
 29	के	का	PSP	28	lwg__psp	FALSE	FALSE
 30	लिए	ले	PSP	28	lwg__psp	FALSE	FALSE
 31	बैलेंस	बैलेंस	NN	32	pof	TRUE	FALSE
@@ -3995,9 +3995,9 @@
 26	से	से	PSP	25	lwg__psp	FALSE	FALSE
 27	वोकल	वोकल	JJ	29	nmod__adj	TRUE	FALSE
 28	चालित	चालित	JJ	29	nmod__adj	FALSE	FALSE
-29	म्यूजिक	म्यूजिक	NN	31	r6	FALSE	FALSE
-30	की	का	PSP	29	lwg__psp	FALSE	FALSE
-31	आवाज	आवाज	NN	35	k1	FALSE	FALSE
+29	म्यूजिक	म्यूजिक	NN	31	r6	FALSE	TRUE
+30	की	का	PSP	29	lwg__psp	FALSE	TRUE
+31	आवाज	आवाज	NN	35	k1	FALSE	TRUE
 32	उतनी	उतनी	QF	35	k1	TRUE	FALSE
 33	अच्छी	अच्छी	JJ	35	pof	FALSE	FALSE
 34	नहीं	नहीं	NEG	35	lwg__neg	FALSE	FALSE
@@ -4018,7 +4018,7 @@
 5	जी	जी	RP	3	ccof	FALSE	FALSE
 6	इतनी	इतनी	QF	11	adv	TRUE	FALSE
 7	ही	ही	RP	6	lwg__rp	FALSE	FALSE
-8	बैट्री	बैट्री	JJ	10	nmod__adj	TRUE	FALSE
+8	बैट्री	बैट्री	JJ	10	nmod__adj	TRUE	TRUE
 9	लाईफ	लाईफ	XC	10	mod	TRUE	FALSE
 10	प्रदान	प्रदान	NN	11	pof	FALSE	FALSE
 11	करता	कर	VM	14	ccof	FALSE	FALSE
@@ -4089,7 +4089,7 @@
 10	गेम	गेम	NN	13	r6	FALSE	FALSE
 11	के	का	PSP	10	lwg__psp	FALSE	FALSE
 12	अच्छे	अच्छे	JJ	13	nmod__adj	TRUE	FALSE
-13	ग्राफिक्स	ग्राफिक्स	NN	16	k1	FALSE	FALSE
+13	ग्राफिक्स	ग्राफिक्स	NN	16	k1	FALSE	TRUE
 14	डीटेल	डीटेल	NN	16	k2	TRUE	FALSE
 15	नहीं	नहीं	NEG	16	lwg__neg	FALSE	FALSE
 16	दिखाई	दिखा	VM	0	main	FALSE	FALSE
@@ -4153,7 +4153,7 @@
 26	स्ट्रेस	स्ट्रेस	NN	27	mod	FALSE	FALSE
 27	लेबल	लेबल	XC	0	ROOT	FALSE	FALSE
 28	,	,	,	27	rsym	FALSE	FALSE
-29	हर्ट	हर्ट	JJ	30	nmod__adj	TRUE	FALSE
+29	हर्ट	हर्ट	JJ	30	nmod__adj	TRUE	TRUE
 30	रेट	रेट	NN	0	ROOT	FALSE	FALSE
 31	,	,	,	30	rsym	FALSE	FALSE
 32	ब्लड	ब्लड	NN	0	ROOT	FALSE	FALSE
@@ -4166,7 +4166,7 @@
 1	1280	1280	QC	2	nmod__adj	TRUE	FALSE
 2	x	x	NN	11	k1	TRUE	FALSE
 3	800	800	QC	5	nmod__adj	TRUE	FALSE
-4	पिक्सेल	पिक्सेल	NN	5	mod	TRUE	TRUE
+4	पिक्सेल	पिक्सेल	NN	5	mod	TRUE	FALSE
 5	रेजोल्यूशन	रेजोल्यूशन	NN	10	r6	TRUE	TRUE
 6	का	का	PSP	5	lwg__psp	FALSE	FALSE
 7	7	7	QC	10	nmod__adj	FALSE	FALSE
@@ -4393,7 +4393,7 @@
 13	करता	कर	VM	15	ccof	FALSE	FALSE
 14	है	है	VAUX	13	lwg__vaux	FALSE	FALSE
 15	और	और	CC	0	main	FALSE	FALSE
-16	कीपैड	कीपैड	NN	17	k2	TRUE	TRUE
+16	कीपैड	कीपैड	NN	17	k2	TRUE	FALSE
 17	लगे	लग	VM	25	k7	FALSE	FALSE
 18	होने	हो	VM	17	lwg__vaux	FALSE	FALSE
 19	पर	पर	PSP	17	lwg__psp	FALSE	FALSE
@@ -4462,7 +4462,7 @@
 8	यदि	यदि	CC	0	ROOT	FALSE	FALSE
 9	आप	आप	PRP	12	k2	FALSE	FALSE
 10	कुछ	कुछ	QF	11	nmod__adj	FALSE	FALSE
-11	टाइपिंग	टाइपिंग	NN	12	pof	TRUE	TRUE
+11	टाइपिंग	टाइपिंग	NN	12	pof	TRUE	FALSE
 12	करना	कर	VM	13	k2	FALSE	FALSE
 13	चाहते	चाह	VAUX	8	ccof	FALSE	FALSE
 14	हो	हो	VAUX	13	lwg__vaux	FALSE	FALSE
@@ -4609,7 +4609,7 @@
 2	Yuphoria	Yuphoria	NNP	9	k7p	TRUE	FALSE
 3	में	में	PSP	2	lwg__psp	FALSE	FALSE
 4	पॉवर	पॉवर	XC	5	mod	TRUE	FALSE
-5	बटन	बटन	NNP	8	r6	FALSE	FALSE
+5	बटन	बटन	NNP	8	r6	FALSE	TRUE
 6	के	का	PSP	5	lwg__psp	FALSE	FALSE
 7	ऊपर-नीचे	ऊपर-नीचे	XC	8	mod	FALSE	TRUE
 8	वॉल्यूम	वॉल्यूम	NN	9	k2	TRUE	TRUE
@@ -4790,7 +4790,7 @@
 2	32	32	QC	3	nmod__adj	FALSE	FALSE
 3	जीबी	जीबी	NN	6	r6	FALSE	FALSE
 4	का	का	PSP	3	lwg__psp	FALSE	FALSE
-5	इंटर्नल	इंटर्नल	XC	6	mod	TRUE	TRUE
+5	इंटर्नल	इंटर्नल	XC	6	mod	TRUE	FALSE
 6	स्टोरेज	स्टोरेज	NN	7	k1s	FALSE	TRUE
 7	है	है	VM	8	ccof	FALSE	FALSE
 8	व	व	CC	0	main	FALSE	FALSE
@@ -4816,7 +4816,7 @@
 12	देर	देर	NN	0	ROOT	FALSE	FALSE
 13	के	का	PSP	12	lwg__psp	FALSE	FALSE
 14	लिए	ले	PSP	12	lwg__psp	FALSE	FALSE
-15	ब्राउजिंग	ब्राउजिंग	NN	16	ccof	FALSE	TRUE
+15	ब्राउजिंग	ब्राउजिंग	NN	16	ccof	FALSE	FALSE
 16	और	और	CC	0	ROOT	FALSE	FALSE
 17	गेम्स	गेम्स	NN	16	ccof	FALSE	TRUE
 18	के	का	PSP	17	lwg__psp	FALSE	FALSE
@@ -4833,7 +4833,7 @@
 1	कुल	कुल	QF	2	k2	FALSE	FALSE
 2	मिलाकर	मिला	VM	6	vmod	FALSE	FALSE
 3	,	,	,	2	rsym	FALSE	FALSE
-4	प्रदर्शन	प्रदर्शन	NN	6	k1	FALSE	FALSE
+4	प्रदर्शन	प्रदर्शन	NN	6	k1	FALSE	TRUE
 5	औसतन	औसतन	NN	6	pof	FALSE	FALSE
 6	रहा	रह	VM	8	ccof	FALSE	FALSE
 7	,	,	,	6	rsym	FALSE	FALSE
@@ -4904,7 +4904,7 @@
 9	के	का	PSP	8	lwg__psp	FALSE	FALSE
 10	साथ	साथ	NST	8	lwg__psp	FALSE	FALSE
 11	बड़े	बड़े	JJ	12	nmod__adj	TRUE	FALSE
-12	बटन	बटन	NN	13	pof	FALSE	TRUE
+12	बटन	बटन	NN	13	pof	FALSE	FALSE
 13	दिए	दे	VM	0	main	TRUE	FALSE
 14	गए	गए	VAUX	13	lwg__vaux	TRUE	FALSE
 15	हैं	है	VAUX	13	lwg__vaux	FALSE	FALSE
@@ -4928,8 +4928,8 @@
 
 1	इसके	इसके	PRP	2	r6	FALSE	FALSE
 2	डिस्प्ले	डिस्प्ले	NN	9	k7	FALSE	TRUE
-3	पर	पर	PSP	2	lwg__psp	FALSE	TRUE
-4	देखने	देख	VM	6	r6	FALSE	TRUE
+3	पर	पर	PSP	2	lwg__psp	FALSE	FALSE
+4	देखने	देख	VM	6	r6	FALSE	FALSE
 5	का	का	PSP	4	lwg__psp	FALSE	TRUE
 6	एंगल	एंगल	NN	9	k1	FALSE	TRUE
 7	काफी	काफी	QF	8	jjmod__intf	FALSE	FALSE
@@ -4952,7 +4952,7 @@
 1	इस	इस	DEM	2	nmod__adj	FALSE	FALSE
 2	फोन	फोन	NN	5	r6	TRUE	FALSE
 3	के	का	PSP	2	lwg__psp	FALSE	FALSE
-4	बैक	बैक	NN	5	mod	TRUE	TRUE
+4	बैक	बैक	NN	5	mod	TRUE	FALSE
 5	पैनल	पैनल	NN	9	k7	FALSE	TRUE
 6	पर	पर	PSP	5	lwg__psp	FALSE	FALSE
 7	लेदर	लेदर	XC	8	mod	TRUE	FALSE
@@ -4984,7 +4984,7 @@
 5	साथ	साथ	NST	4	lwg__psp	FALSE	FALSE
 6	फ्रंट	फ्रंट	NN	7	ccof	FALSE	FALSE
 7	और	और	CC	12	k7	FALSE	FALSE
-8	रियर	रियर	XC	9	mod	TRUE	TRUE
+8	रियर	रियर	XC	9	mod	TRUE	FALSE
 9	कैमरा	कैमरा	NN	7	ccof	TRUE	TRUE
 10	का	का	PSP	9	lwg__psp	FALSE	FALSE
 11	इस्तेमाल	इस्तेमाल	NN	12	pof	FALSE	FALSE
@@ -5105,7 +5105,7 @@
 3	व्यक्ति	व्यक्ति	NN	15	k1	FALSE	FALSE
 4	ने	ने	PSP	3	lwg__psp	TRUE	FALSE
 5	एक	एक	QC	6	nmod__adj	FALSE	FALSE
-6	ओएस	ओएस	NN	8	r6	TRUE	TRUE
+6	ओएस	ओएस	NN	8	r6	TRUE	FALSE
 7	के	का	PSP	6	lwg__psp	FALSE	FALSE
 8	रूप	रूप	NN	15	k7	FALSE	FALSE
 9	में	में	PSP	8	lwg__psp	FALSE	FALSE
@@ -5144,7 +5144,7 @@
 1	एक	एक	QC	0	ROOT	FALSE	FALSE
 2	साथ	साथ	NST	1	lwg__psp	FALSE	FALSE
 3	कई	कई	QF	4	nmod__adj	FALSE	FALSE
-4	एप्लीकेशन	एप्लीकेशन	NN	7	k7	TRUE	TRUE
+4	एप्लीकेशन	एप्लीकेशन	NN	7	k7	TRUE	FALSE
 5	पर	पर	PSP	4	lwg__psp	FALSE	FALSE
 6	काम	काम	NN	7	k2	FALSE	FALSE
 7	करने	कर	VM	0	ROOT	FALSE	FALSE
@@ -5297,7 +5297,7 @@
 21	है	है	VAUX	19	lwg__vaux	FALSE	FALSE
 22	और	और	CC	0	ROOT	FALSE	FALSE
 23	ब्रुश्ड	ब्रुश्ड	XC	24	mod	TRUE	FALSE
-24	फिनिश	फिनिश	NNP	38	rd	FALSE	FALSE
+24	फिनिश	फिनिश	NNP	38	rd	FALSE	TRUE
 25	के	का	PSP	24	lwg__psp	FALSE	FALSE
 26	साथ	साथ	NST	24	lwg__psp	FALSE	FALSE
 27	,	,	,	24	rsym	FALSE	FALSE
@@ -5455,7 +5455,7 @@
 3	से	से	PSP	2	lwg__psp	FALSE	FALSE
 4	इस	इस	DEM	7	k7	FALSE	FALSE
 5	पर	पर	PSP	4	lwg__psp	FALSE	FALSE
-6	वीडियो	वीडियो	XC	7	k2	FALSE	FALSE
+6	वीडियो	वीडियो	XC	7	k2	FALSE	TRUE
 7	देखना	देख	VM	0	ROOT	FALSE	FALSE
 8	उतना	उतना	QF	10	nmod__adj	FALSE	FALSE
 9	अच्छा	अच्छा	JJ	10	nmod__adj	FALSE	FALSE
@@ -5513,7 +5513,7 @@
 
 1	गेम	गेम	NN	3	r6	FALSE	FALSE
 2	का	का	PSP	1	lwg__psp	FALSE	FALSE
-3	साइज	साइज	NN	7	k1	TRUE	TRUE
+3	साइज	साइज	NN	7	k1	TRUE	FALSE
 4	करीब	करीब	RB	6	lwg__rp	FALSE	FALSE
 5	1	1	QC	6	nmod__adj	FALSE	FALSE
 6	जीबी	जीबी	NN	7	k1s	FALSE	FALSE
@@ -5555,7 +5555,7 @@
 3	230	230	QC	4	nmod__adj	TRUE	FALSE
 4	V	V	NN	9	k1	FALSE	FALSE
 5	पावर	पावर	XC	6	mod	FALSE	FALSE
-6	सप्लाई	सप्लाई	NN	8	r6	FALSE	FALSE
+6	सप्लाई	सप्लाई	NN	8	r6	FALSE	TRUE
 7	की	का	PSP	6	lwg__psp	FALSE	FALSE
 8	जरूरत	जरूरत	NN	9	pof	FALSE	FALSE
 9	होती	हो	VM	0	main	FALSE	FALSE
@@ -5573,8 +5573,8 @@
 9	पेरिस्कोप	पेरिस्कोप	NN	14	k7	FALSE	FALSE
 10	में	में	PSP	9	lwg__psp	FALSE	FALSE
 11	सभी	सभी	QF	13	nmod__adj	FALSE	FALSE
-12	कोर	कोर	JJ	13	nmod__adj	FALSE	TRUE
-13	फीचर्स	फीचर्स	NN	14	k1s	TRUE	TRUE
+12	कोर	कोर	JJ	13	nmod__adj	FALSE	FALSE
+13	फीचर्स	फीचर्स	NN	14	k1s	TRUE	FALSE
 14	हैं	है	VM	0	main	FALSE	FALSE
 15	जो	जो	PRP	19	k1	FALSE	FALSE
 16	यूजर्स	यूजर्स	NN	19	k1	TRUE	FALSE
@@ -5664,7 +5664,7 @@
 6	तो	तो	CC	0	main	FALSE	FALSE
 7	की-पैड	की-पैड	NN	11	k1	TRUE	FALSE
 8	अच्छी	अच्छी	JJ	9	nmod__adj	FALSE	FALSE
-9	क्वालिटी	क्वालिटी	NN	11	r6v	TRUE	FALSE
+9	क्वालिटी	क्वालिटी	NN	11	r6v	TRUE	TRUE
 10	का	का	PSP	9	lwg__psp	FALSE	FALSE
 11	है	है	VM	6	ccof	FALSE	FALSE
 12	जो	जो	PRP	21	k1	FALSE	FALSE
@@ -5756,7 +5756,7 @@
 12	जगह	जगह	NN	17	k2	FALSE	FALSE
 13	3	3	QC	16	nmod__adj	FALSE	FALSE
 14	G	G	XC	16	mod	TRUE	FALSE
-15	डाटा	डाटा	XC	16	mod	FALSE	FALSE
+15	डाटा	डाटा	XC	16	mod	FALSE	TRUE
 16	पैक	पैक	NN	17	k2	FALSE	FALSE
 17	डलवाना	डलवा	VM	0	ROOT	FALSE	FALSE
 18	होता	हो	VAUX	17	lwg__vaux	FALSE	FALSE
@@ -5779,8 +5779,8 @@
 14	.	.	.	12	rsym	FALSE	FALSE
 
 1	यह	यह	DEM	2	nmod__adj	FALSE	FALSE
-2	कैमरा	कैमरा	NN	8	k1	TRUE	TRUE
-3	विडियो	विडियो	XC	4	mod	FALSE	TRUE
+2	कैमरा	कैमरा	NN	8	k1	TRUE	FALSE
+3	विडियो	विडियो	XC	4	mod	FALSE	FALSE
 4	चैट	चैट	NN	8	rt	TRUE	TRUE
 5	के	का	PSP	4	lwg__psp	FALSE	FALSE
 6	लिए	ले	PSP	4	lwg__psp	FALSE	FALSE
@@ -5846,7 +5846,7 @@
 8	,	,	,	7	rsym	FALSE	FALSE
 9	इसकी	इसकी	PRP	10	r6	TRUE	FALSE
 10	बैटरी	बैटरी	NN	0	ROOT	FALSE	TRUE
-11	लाइफ	लाइफ	XC	10	ccof	FALSE	TRUE
+11	लाइफ	लाइफ	XC	10	ccof	FALSE	FALSE
 12	.	.	.	11	rsym	FALSE	FALSE
 
 1	दोनों	दोना	JJ	2	nmod__adj	FALSE	FALSE
@@ -5876,7 +5876,7 @@
 25	है	है	VAUX	24	lwg__vaux	FALSE	FALSE
 26	.	.	.	24	rsym	FALSE	FALSE
 
-1	पिक्चर	पिक्चर	XC	2	mod	FALSE	TRUE
+1	पिक्चर	पिक्चर	XC	2	mod	FALSE	FALSE
 2	क्वालिटी	क्वालिटी	NN	8	ccof	TRUE	TRUE
 3	,	,	,	2	rsym	FALSE	FALSE
 4	रॉ	रॉ	XC	6	nmod__adj	TRUE	FALSE
@@ -5988,7 +5988,7 @@
 22	ही	ही	RP	21	lwg__rp	FALSE	FALSE
 23	स्मूद	स्मूद	JJ	24	nmod__adj	TRUE	FALSE
 24	रबर	रबर	NN	26	k1	FALSE	FALSE
-25	फिनिश	फिनिश	JJ	26	k1s	FALSE	FALSE
+25	फिनिश	फिनिश	JJ	26	k1s	FALSE	TRUE
 26	है	है	VM	15	ccof	FALSE	FALSE
 27	.	.	.	26	rsym	FALSE	FALSE
 
@@ -6054,7 +6054,7 @@
 10	एसीबी	एसीबी	NN	11	mod	TRUE	TRUE
 11	कार्ड	कार्ड	NN	7	ccof	FALSE	TRUE
 12	लगाकर	लगा	VM	18	vmod	FALSE	FALSE
-13	इसकी	इसकी	PRP	18	k2	TRUE	FALSE
+13	इसकी	इसकी	PRP	18	k2	TRUE	TRUE
 14	स्टोरेज	स्टोरेज	NN	18	k2	FALSE	TRUE
 15	क्षमता	क्षमता	NN	18	k2	FALSE	FALSE
 16	को	को	PSP	15	lwg__psp	TRUE	FALSE
@@ -6121,7 +6121,7 @@
 1	रेलमार्ग-बहरामपुर	रेलमार्ग-बहरामपुर	NNP	9	k1	TRUE	FALSE
 2	निकटतम	निकटतम	JJ	6	nmod__adj	FALSE	FALSE
 3	पूर्वीय	पूर्वीय	JJ	6	nmod__adj	FALSE	FALSE
-4	तटीय	तटीय	JJ	6	nmod__adj	FALSE	FALSE
+4	तटीय	तटीय	JJ	6	nmod__adj	FALSE	TRUE
 5	रेलवे	रेलवे	XC	6	mod	FALSE	FALSE
 6	लाइन	लाइन	NNP	9	k7	FALSE	FALSE
 7	पर	पर	PSP	6	lwg__psp	FALSE	FALSE
@@ -6140,8 +6140,8 @@
 1	नेक्सस	नेक्सस	NN	7	k1	TRUE	FALSE
 2	6	6	QC	7	k7	FALSE	FALSE
 3	में	में	PSP	2	lwg__psp	FALSE	FALSE
-4	क्यूआई	क्यूआई	XC	6	mod	TRUE	TRUE
-5	वायरलेस	वायरलेस	XC	6	mod	FALSE	TRUE
+4	क्यूआई	क्यूआई	XC	6	mod	TRUE	FALSE
+5	वायरलेस	वायरलेस	XC	6	mod	FALSE	FALSE
 6	चार्जिंग	चार्जिंग	NN	7	k1s	TRUE	TRUE
 7	है	है	VM	0	main	FALSE	FALSE
 8	जो	जो	PRP	11	k1	FALSE	FALSE
@@ -6177,7 +6177,7 @@
 10	हो	हो	VM	12	ccof	FALSE	FALSE
 11	,	,	,	10	rsym	FALSE	FALSE
 12	लेकिन	लेकिन	CC	0	ROOT	TRUE	FALSE
-13	शक्ति	शक्ति	NN	15	r6	FALSE	TRUE
+13	शक्ति	शक्ति	NN	15	r6	FALSE	FALSE
 14	के	का	PSP	13	lwg__psp	FALSE	FALSE
 15	मामले	मामला	NN	0	ROOT	FALSE	FALSE
 16	में	में	PSP	15	lwg__psp	FALSE	FALSE
@@ -6285,7 +6285,7 @@
 4	एम्प्लिफायर	एम्प्लिफायर	NN	8	k5	TRUE	FALSE
 5	से	से	PSP	4	lwg__psp	FALSE	FALSE
 6	जबरदस्त	जबरदस्त	JJ	7	nmod__adj	FALSE	FALSE
-7	म्यूजिक	म्यूजिक	NN	8	k2	FALSE	FALSE
+7	म्यूजिक	म्यूजिक	NN	8	k2	FALSE	TRUE
 8	सुन	सुन	VM	0	main	FALSE	FALSE
 9	सकते	सक	VAUX	8	lwg__vaux	FALSE	FALSE
 10	हैं	है	VAUX	8	lwg__vaux	FALSE	FALSE
@@ -6301,8 +6301,8 @@
 8	है	है	VM	0	main	FALSE	FALSE
 9	.	.	.	8	rsym	FALSE	FALSE
 
-1	सिंथेटिक	सिंथेटिक	JJ	2	nmod__adj	TRUE	TRUE
-2	बेंचमार्क	बेंचमार्क	NN	8	k7	FALSE	TRUE
+1	सिंथेटिक	सिंथेटिक	JJ	2	nmod__adj	TRUE	FALSE
+2	बेंचमार्क	बेंचमार्क	NN	8	k7	FALSE	FALSE
 3	पर	पर	PSP	2	lwg__psp	FALSE	FALSE
 4	टैबलेट	टैबलेट	NN	8	k1	TRUE	FALSE
 5	ने	ने	PSP	4	lwg__psp	TRUE	FALSE
@@ -6400,8 +6400,8 @@
 4	इस	इस	DEM	5	nmod__adj	FALSE	FALSE
 5	फिल्म	फिल्म	NN	7	r6	TRUE	FALSE
 6	के	का	PSP	5	lwg__psp	FALSE	FALSE
-7	कलाकारों	कलाकार	NN	9	r6	FALSE	TRUE
-8	की	का	PSP	7	lwg__psp	FALSE	TRUE
+7	कलाकारों	कलाकार	NN	9	r6	FALSE	FALSE
+8	की	का	PSP	7	lwg__psp	FALSE	FALSE
 9	एक्टिंग	एक्टिंग	NN	11	k1	TRUE	TRUE
 10	ऐसी	ऐसी	PRP	11	k1s	TRUE	FALSE
 11	है	है	VM	0	main	FALSE	FALSE
@@ -6429,7 +6429,7 @@
 4	का	का	PSP	3	lwg__psp	FALSE	FALSE
 5	प्रसिद्ध	प्रसिद्ध	JJ	6	nmod__adj	FALSE	FALSE
 6	पर्यटन	पर्यटन	NN	8	k1	FALSE	TRUE
-7	स्थल	स्थल	NN	8	k1s	FALSE	TRUE
+7	स्थल	स्थल	NN	8	k1s	FALSE	FALSE
 8	है	है	VM	0	main	FALSE	FALSE
 9	.	.	.	8	rsym	FALSE	FALSE
 
@@ -6442,7 +6442,7 @@
 7	एलसीडी	एलसीडी	XC	8	mod	FALSE	TRUE
 8	डिस्प्ले	डिस्प्ले	NNP	10	r6	FALSE	TRUE
 9	का	का	PSP	8	lwg__psp	FALSE	FALSE
-10	रेजोल्यूशन	रेजोल्यूशन	NN	15	k1	TRUE	FALSE
+10	रेजोल्यूशन	रेजोल्यूशन	NN	15	k1	TRUE	TRUE
 11	1280	1280	QC	12	nmod__adj	TRUE	FALSE
 12	x	x	NN	15	k1	TRUE	FALSE
 13	800	800	QC	14	nmod__adj	TRUE	FALSE
@@ -6453,7 +6453,7 @@
 18	216	216	QC	19	nmod__adj	TRUE	FALSE
 19	पीपीआई	पीपीआई	NN	21	r6	TRUE	FALSE
 20	का	का	PSP	19	lwg__psp	FALSE	FALSE
-21	पिक्सेल	पिक्सेल	NN	23	k1	TRUE	FALSE
+21	पिक्सेल	पिक्सेल	NN	23	k1	TRUE	TRUE
 22	डेंसिटी	डेंसिटी	NN	23	pof	TRUE	FALSE
 23	देता	दे	VM	0	ROOT	TRUE	FALSE
 24	है	है	VAUX	23	lwg__vaux	FALSE	FALSE
@@ -6487,7 +6487,7 @@
 10	स्लीप	स्लीप	XC	13	mod	TRUE	FALSE
 11	/	/	/	13	mod	TRUE	FALSE
 12	वेक	वेक	XC	13	mod	TRUE	FALSE
-13	बटन	बटन	NNP	45	ccof	FALSE	FALSE
+13	बटन	बटन	NNP	45	ccof	FALSE	TRUE
 14	,	,	,	13	rsym	FALSE	FALSE
 15	वॉल्यूम	वॉल्यूम	NN	16	pof	TRUE	TRUE
 16	रॉकर	रॉकर	VM	45	ccof	TRUE	TRUE
@@ -6519,10 +6519,10 @@
 42	,	,	,	36	rsym	FALSE	FALSE
 43	डफोन्स	डफोन्स	XC	44	mod	TRUE	FALSE
 44	जैक	जैक	NNP	45	ccof	TRUE	TRUE
-45	और	और	CC	49	k1	FALSE	TRUE
+45	और	और	CC	49	k1	FALSE	FALSE
 46	सिम	सिम	JJ	47	nmod__adj	TRUE	TRUE
 47	कार्ड	कार्ड	NN	45	ccof	FALSE	TRUE
-48	स्लॉट	स्लॉट	JJ	49	k1s	TRUE	TRUE
+48	स्लॉट	स्लॉट	JJ	49	k1s	TRUE	FALSE
 49	हैं	है	VM	0	main	FALSE	FALSE
 50	.	.	.	49	rsym	FALSE	FALSE
 
@@ -6563,7 +6563,7 @@
 5	पूरी	पूरी	JJ	6	nmod__adj	FALSE	FALSE
 6	तरह	तरह	NN	10	adv	FALSE	FALSE
 7	स्क्रेच	स्क्रेच	JJ	8	nmod__adj	TRUE	FALSE
-8	रेसिस्टेंट	रेसिस्टेंट	NN	10	k1	TRUE	FALSE
+8	रेसिस्टेंट	रेसिस्टेंट	NN	10	k1	TRUE	TRUE
 9	परत	परत	JJ	10	k1s	FALSE	FALSE
 10	है	है	VM	0	main	FALSE	FALSE
 11	.	.	.	10	rsym	FALSE	FALSE
@@ -6571,7 +6571,7 @@
 1	इस	इस	DEM	2	nmod__adj	FALSE	FALSE
 2	डिवाइस	डिवाइस	NN	4	r6	TRUE	FALSE
 3	का	का	PSP	2	lwg__psp	FALSE	FALSE
-4	प्राइस	प्राइस	NN	7	k1	FALSE	FALSE
+4	प्राइस	प्राइस	NN	7	k1	FALSE	TRUE
 5	21550	21550	QC	6	nmod__adj	TRUE	FALSE
 6	रुपये	रुपया	NN	7	k1s	FALSE	FALSE
 7	है	है	VM	0	main	FALSE	FALSE
@@ -6655,7 +6655,7 @@
 
 1	इसका	इसका	PRP	3	r6	TRUE	FALSE
 2	स्क्रीन	स्क्रीन	JJ	3	nmod__adj	FALSE	TRUE
-3	रेजॉल्यूशन	रेजॉल्यूशन	NN	0	ROOT	TRUE	TRUE
+3	रेजॉल्यूशन	रेजॉल्यूशन	NN	0	ROOT	TRUE	FALSE
 4	हमें	हमें	PRP	0	ROOT	TRUE	FALSE
 5	पसंद	पसंद	NN	0	ROOT	FALSE	FALSE
 6	आया-	आया-	NN	8	mod	TRUE	FALSE
@@ -6715,7 +6715,7 @@
 18	,	,	,	15	rsym	FALSE	FALSE
 19	कंपनी	कंपनी	NNP	25	k1	FALSE	FALSE
 20	ने	ने	PSP	19	lwg__psp	TRUE	FALSE
-21	यूएसबी	यूएसबी	JJ	23	nmod__adj	FALSE	FALSE
+21	यूएसबी	यूएसबी	JJ	23	nmod__adj	FALSE	TRUE
 22	होस्टाइल	होस्टाइल	NN	23	mod	TRUE	FALSE
 23	फीचर	फीचर	NN	25	k1	FALSE	FALSE
 24	भी	भी	RP	23	lwg__rp	FALSE	FALSE
@@ -6746,7 +6746,7 @@
 
 1	टेलीविजन	टेलीविजन	NN	5	k7	FALSE	FALSE
 2	में	में	PSP	1	lwg__psp	FALSE	FALSE
-3	ऐप्स	ऐप्स	XC	5	pof	TRUE	FALSE
+3	ऐप्स	ऐप्स	XC	5	pof	TRUE	TRUE
 4	इन्सटॉल	इन्सटॉल	NNP	5	pof	TRUE	FALSE
 5	करने	कर	VM	12	rt	FALSE	FALSE
 6	के	का	PSP	5	lwg__psp	FALSE	FALSE
@@ -6906,7 +6906,7 @@
 4	दोनों	दोना	NN	12	k1	FALSE	FALSE
 5	ही	ही	RP	4	lwg__rp	FALSE	FALSE
 6	टीवी	टीवी	XC	9	mod	TRUE	FALSE
-7	एंड्रॉइड	एंड्रॉइड	XC	9	mod	TRUE	TRUE
+7	एंड्रॉइड	एंड्रॉइड	XC	9	mod	TRUE	FALSE
 8	ऑपरेटिंग	ऑपरेटिंग	XC	9	mod	TRUE	TRUE
 9	सिस्टम	सिस्टम	NNP	12	k7	FALSE	TRUE
 10	पर	पर	PSP	9	lwg__psp	FALSE	FALSE
@@ -6918,7 +6918,7 @@
 2	और	और	CC	0	main	FALSE	FALSE
 3	सफेद	सफेद	JJ	5	r6	FALSE	FALSE
 4	का	का	PSP	3	lwg__psp	FALSE	FALSE
-5	कलर	कलर	NN	14	k1	FALSE	FALSE
+5	कलर	कलर	NN	14	k1	FALSE	TRUE
 6	थीम	थीम	XC	8	mod	TRUE	FALSE
 7	कम्बिनेशन	कम्बिनेशन	XC	8	mod	TRUE	FALSE
 8	एयरटेल	एयरटेल	NNP	14	k1	TRUE	FALSE
@@ -6932,8 +6932,8 @@
 
 1	फनबुक	फनबुक	NN	0	ROOT	TRUE	FALSE
 2	ऑफिशियली	ऑफिशियली	JJ	3	nmod__adj	TRUE	FALSE
-3	गूगल	गूगल	NN	0	ROOT	FALSE	FALSE
-4	प्ले	प्ले	VM	0	ROOT	TRUE	FALSE
+3	गूगल	गूगल	NN	0	ROOT	FALSE	TRUE
+4	प्ले	प्ले	VM	0	ROOT	TRUE	TRUE
 5	रजिस्टर्ड	रजिस्टर्ड	XC	6	mod	FALSE	FALSE
 6	डिवाइस	डिवाइस	NNP	7	k1s	TRUE	FALSE
 7	है	है	VM	0	ROOT	FALSE	FALSE
@@ -6992,7 +6992,7 @@
 6	नहीं	नहीं	NEG	10	ccof	FALSE	FALSE
 7	,	,	,	6	rsym	FALSE	FALSE
 8	मैट	मैट	XC	9	mod	TRUE	FALSE
-9	फिनिश	फिनिश	NNP	10	ccof	FALSE	FALSE
+9	फिनिश	फिनिश	NNP	10	ccof	FALSE	TRUE
 10	और	और	CC	0	ROOT	FALSE	FALSE
 11	छूने	छू	VM	10	ccof	FALSE	FALSE
 12	के	का	PSP	11	lwg__psp	FALSE	FALSE
@@ -7075,13 +7075,13 @@
 1	इसके	इसके	PRP	0	ROOT	FALSE	FALSE
 2	अलावा	अलावा	PSP	1	lwg__psp	FALSE	FALSE
 3	इसमें	इसमें	PRP	0	ROOT	TRUE	FALSE
-4	वाय-फाय	वाय-फाय	NN	0	ROOT	TRUE	TRUE
+4	वाय-फाय	वाय-फाय	NN	0	ROOT	TRUE	FALSE
 5	,	,	,	4	rsym	FALSE	FALSE
-6	जीपीएस	जीपीएस	NN	0	ROOT	FALSE	FALSE
+6	जीपीएस	जीपीएस	NN	0	ROOT	FALSE	TRUE
 7	/	/	/	8	mod	TRUE	FALSE
 8	ए-जीपीएस	ए-जीपीएस	XC	11	ccof	TRUE	FALSE
 9	,	,	,	8	rsym	FALSE	FALSE
-10	माइक्रोयूएसबी	माइक्रोयूएसबी	NN	11	ccof	TRUE	FALSE
+10	माइक्रोयूएसबी	माइक्रोयूएसबी	NN	11	ccof	TRUE	TRUE
 11	तथा	तथा	CC	6	ccof	FALSE	FALSE
 12	ब्लूटुथ	ब्लूटुथ	XC	17	k1	TRUE	TRUE
 13	40	40	QC	17	k4	FALSE	FALSE
@@ -7094,8 +7094,8 @@
 20	.	.	.	17	rsym	FALSE	FALSE
 
 1	इसमें	इसमें	PRP	5	k7	TRUE	FALSE
-2	मेटेरियल	मेटेरियल	NN	5	k1	TRUE	TRUE
-3	इन्स्पायर्ड	इन्स्पायर्ड	JJ	4	nmod__adj	TRUE	TRUE
+2	मेटेरियल	मेटेरियल	NN	5	k1	TRUE	FALSE
+3	इन्स्पायर्ड	इन्स्पायर्ड	JJ	4	nmod__adj	TRUE	FALSE
 4	डिजाइन	डिजाइन	NN	5	k1s	FALSE	TRUE
 5	है	है	VM	0	main	FALSE	FALSE
 6	जो	जो	PRP	11	k1	FALSE	FALSE
@@ -7171,8 +7171,8 @@
 8	खासियत	खासियत	NN	13	k1	FALSE	FALSE
 9	इसकी	इसकी	PRP	11	r6	TRUE	FALSE
 10	दमदार	दमदार	JJ	11	nmod__adj	FALSE	FALSE
-11	बैटरी	बैटरी	NN	13	k1	FALSE	FALSE
-12	लाइफ	लाइफ	NN	13	k1s	FALSE	FALSE
+11	बैटरी	बैटरी	NN	13	k1	FALSE	TRUE
+12	लाइफ	लाइफ	NN	13	k1s	FALSE	TRUE
 13	है	है	VM	0	main	FALSE	FALSE
 14	.	.	.	13	rsym	FALSE	FALSE
 
@@ -7193,9 +7193,9 @@
 
 1	1080	1080	QC	6	k1	TRUE	FALSE
 2	पी	पी	XC	6	k1	FALSE	FALSE
-3	एचडी	एचडी	NNP	6	k1	TRUE	TRUE
+3	एचडी	एचडी	NNP	6	k1	TRUE	FALSE
 4	विडियो	विडियो	XC	5	mod	FALSE	TRUE
-5	प्लेबैक	प्लेबैक	NNP	6	k1	TRUE	TRUE
+5	प्लेबैक	प्लेबैक	NNP	6	k1	TRUE	FALSE
 6	है	है	VM	0	main	FALSE	FALSE
 7	.	.	.	6	rsym	FALSE	FALSE
 
@@ -7228,7 +7228,7 @@
 16	.	.	.	13	rsym	FALSE	FALSE
 
 1	लेकिन	लेकिन	CC	0	main	TRUE	FALSE
-2	नुबिया	नुबिया	XC	3	mod	TRUE	TRUE
+2	नुबिया	नुबिया	XC	3	mod	TRUE	FALSE
 3	यूआई	यूआई	NNP	7	k7p	TRUE	TRUE
 4	में	में	PSP	3	lwg__psp	FALSE	FALSE
 5	कुछ	कुछ	QF	6	nmod__adj	FALSE	FALSE
@@ -7243,7 +7243,7 @@
 
 1	सर्व	सर्व	XC	3	mod	FALSE	FALSE
 2	धर्म	धर्म	XC	3	mod	FALSE	FALSE
-3	मंदिर	मंदिर	NNP	13	vmod	FALSE	FALSE
+3	मंदिर	मंदिर	NNP	13	vmod	FALSE	TRUE
 4	के	का	PSP	3	lwg__psp	FALSE	FALSE
 5	अलावा	अलावा	PSP	3	lwg__psp	FALSE	FALSE
 6	यहां	यहाँ	PRP	13	k7	FALSE	FALSE
@@ -7269,7 +7269,7 @@
 
 1	यह	यह	DEM	3	nmod__adj	FALSE	FALSE
 2	कैमरा	कैमरा	NN	3	mod	TRUE	TRUE
-3	एनएफसी	एनएफसी	NN	4	ccof	TRUE	TRUE
+3	एनएफसी	एनएफसी	NN	4	ccof	TRUE	FALSE
 4	तथा	तथा	CC	11	k1	FALSE	FALSE
 5	वाय-फाय	वाय-फाय	NN	4	ccof	TRUE	TRUE
 6	जैसे	जैसे	PSP	5	lwg__psp	FALSE	FALSE
@@ -7303,8 +7303,8 @@
 5	में	में	PSP	4	lwg__psp	FALSE	FALSE
 6	वाॅलयूम	वाॅलयूम	NN	7	ccof	TRUE	FALSE
 7	और	और	CC	9	k2	FALSE	FALSE
-8	पावर	पावर	NN	7	ccof	FALSE	FALSE
-9	बटन	बटन	VM	0	main	FALSE	FALSE
+8	पावर	पावर	NN	7	ccof	FALSE	TRUE
+9	बटन	बटन	VM	0	main	FALSE	TRUE
 10	दिए	दे	VAUX	9	lwg__vaux	TRUE	FALSE
 11	गए	गए	VAUX	9	lwg__vaux	TRUE	FALSE
 12	हैं	है	VAUX	9	lwg__vaux	FALSE	FALSE
@@ -7326,7 +7326,7 @@
 14	और	और	CC	19	k4	FALSE	FALSE
 15	ट्विटर	ट्विटर	NN	14	ccof	TRUE	FALSE
 16	का	का	PSP	15	lwg__psp	FALSE	FALSE
-17	नोटिफिकेशन	नोटिफिकेशन	NN	19	pof	TRUE	FALSE
+17	नोटिफिकेशन	नोटिफिकेशन	NN	19	pof	TRUE	TRUE
 18	नहीं	नहीं	NEG	19	lwg__neg	FALSE	FALSE
 19	दिया	दे	VM	20	ccof	FALSE	FALSE
 20	जबकि	जबकि	CC	0	ROOT	TRUE	FALSE
@@ -7390,7 +7390,7 @@
 6	41,990	41,990	QC	7	nmod__adj	TRUE	FALSE
 7	रुपये	रुपया	NN	9	r6	FALSE	FALSE
 8	के	का	PSP	7	lwg__psp	FALSE	FALSE
-9	दाम	दाम	NN	11	k7	FALSE	TRUE
+9	दाम	दाम	NN	11	k7	FALSE	FALSE
 10	पर	पर	PSP	9	lwg__psp	FALSE	FALSE
 11	मिल	मिल	VM	0	main	FALSE	FALSE
 12	सकता	सक	VAUX	11	lwg__vaux	FALSE	FALSE
@@ -7400,7 +7400,7 @@
 1	मजबूत	मजबूत	JJ	2	nmod__adj	FALSE	FALSE
 2	बनावट	बनावट	NN	3	ccof	FALSE	TRUE
 3	और	और	CC	0	ROOT	FALSE	FALSE
-4	डिजाइन	डिजाइन	XC	0	ROOT	FALSE	FALSE
+4	डिजाइन	डिजाइन	XC	0	ROOT	FALSE	TRUE
 5	,	,	,	4	rsym	FALSE	FALSE
 6	100	100	QC	8	mod	FALSE	FALSE
 7	-	-	-	8	rsym	TRUE	FALSE
@@ -7413,7 +7413,7 @@
 14	रेंज	रेंज	NN	22	k1	FALSE	FALSE
 15	6	6	QC	19	nmod__adj	FALSE	FALSE
 16	और	और	CC	19	nmod__adj	FALSE	FALSE
-17	एफपीएस	एफपीएस	XC	19	mod	TRUE	TRUE
+17	एफपीएस	एफपीएस	XC	19	mod	TRUE	FALSE
 18	ड्राइव	ड्राइव	XC	19	mod	TRUE	TRUE
 19	मोटर	मोटर	NN	22	k1	FALSE	TRUE
 20	इसकी	इसकी	PRP	21	r6	TRUE	FALSE
@@ -7451,7 +7451,7 @@
 6	जेड	जेड	NN	9	mod	TRUE	FALSE
 7	500	500	QC	9	r6	FALSE	FALSE
 8	की	का	PSP	7	lwg__psp	FALSE	FALSE
-9	बैटरी	बैटरी	NN	17	k1	FALSE	TRUE
+9	बैटरी	बैटरी	NN	17	k1	FALSE	FALSE
 10	3	3	QC	11	nmod__adj	FALSE	FALSE
 11	घंटे	घंटा	NN	17	k7t	FALSE	FALSE
 12	से	से	PSP	11	lwg__psp	FALSE	FALSE
@@ -7558,7 +7558,7 @@
 2	13	13	QC	5	nmod__adj	FALSE	FALSE
 3	मेगा	मेगा	XC	5	mod	FALSE	FALSE
 4	पिक्सल	पिक्सल	NNP	5	mod	FALSE	FALSE
-5	कैमरा	कैमरा	NN	11	k1	TRUE	FALSE
+5	कैमरा	कैमरा	NN	11	k1	TRUE	TRUE
 6	जो	जो	PRP	11	k1	FALSE	FALSE
 7	इस	इस	DEM	8	nmod__adj	FALSE	FALSE
 8	डिवाईस	डिवाईस	NN	10	r6	TRUE	FALSE
@@ -7775,7 +7775,7 @@
 6	कोर	कोर	JJ	7	pof	FALSE	FALSE
 7	आई	आ	VM	23	nmod__k1inv	FALSE	FALSE
 8	3	3	QC	9	nmod__adj	FALSE	FALSE
-9	प्रोसेसर	प्रोसेसर	NN	10	k1	FALSE	FALSE
+9	प्रोसेसर	प्रोसेसर	NN	10	k1	FALSE	TRUE
 10	होने	हो	VM	12	r6	FALSE	FALSE
 11	की	का	PSP	10	lwg__psp	FALSE	FALSE
 12	वजह	वजह	NN	23	rh	FALSE	FALSE
@@ -7800,7 +7800,7 @@
 5	यूसेज	यूसेज	XC	9	rt	TRUE	FALSE
 6	के	का	PSP	5	lwg__psp	FALSE	FALSE
 7	लिए	ले	PSP	5	lwg__psp	FALSE	FALSE
-8	डिजाइन	डिजाइन	NN	9	pof	FALSE	TRUE
+8	डिजाइन	डिजाइन	NN	9	pof	FALSE	FALSE
 9	की	कर	VM	0	main	FALSE	FALSE
 10	गई	गई	VAUX	9	lwg__vaux	FALSE	FALSE
 11	है	है	VAUX	9	lwg__vaux	FALSE	FALSE
@@ -7811,7 +7811,7 @@
 3	का	का	PSP	2	lwg__psp	FALSE	FALSE
 4	ऑपरेटिंग	ऑपरेटिंग	XC	10	k1	TRUE	TRUE
 5	सिस्टम	सिस्टम	NNP	10	k1	FALSE	TRUE
-6	ऑप्टिमाइजेशन	ऑप्टिमाइजेशन	NN	10	k1	TRUE	TRUE
+6	ऑप्टिमाइजेशन	ऑप्टिमाइजेशन	NN	10	k1	TRUE	FALSE
 7	अपने	अपना	PRP	10	k1	FALSE	FALSE
 8	आप	आप	PRP	10	k1	FALSE	FALSE
 9	ऑन	ऑन	NN	10	pof	TRUE	FALSE
@@ -7854,7 +7854,7 @@
 3	,	,	,	1	rsym	FALSE	FALSE
 4	वीडियो	वीडियो	NN	5	ccof	FALSE	FALSE
 5	या	या	CC	17	rh	TRUE	FALSE
-6	साउंड	साउंड	XC	7	mod	TRUE	TRUE
+6	साउंड	साउंड	XC	7	mod	TRUE	FALSE
 7	कार्ड	कार्ड	NN	5	ccof	FALSE	TRUE
 8	के	का	PSP	7	lwg__psp	FALSE	FALSE
 9	लिए	ले	PSP	7	lwg__psp	FALSE	FALSE
@@ -8062,7 +8062,7 @@
 7	है	है	VM	0	main	FALSE	FALSE
 8	जो	जो	PRP	14	k1	FALSE	FALSE
 9	44	44	QC	11	nmod__adj	FALSE	FALSE
-10	किटकैट	किटकैट	NN	11	mod	TRUE	TRUE
+10	किटकैट	किटकैट	NN	11	mod	TRUE	FALSE
 11	ओएस	ओएस	NN	14	k7	TRUE	TRUE
 12	पर	पर	PSP	11	lwg__psp	FALSE	FALSE
 13	काम	काम	NN	14	k2	FALSE	FALSE
@@ -8096,7 +8096,7 @@
 7	कि	कि	CC	6	ccof	FALSE	FALSE
 8	हाई	हाई	DEM	9	nmod__adj	FALSE	FALSE
 9	डेफिनेशन	डेफिनेशन	NN	13	k1	TRUE	FALSE
-10	डिसप्ले	डिसप्ले	VM	13	vmod	TRUE	FALSE
+10	डिसप्ले	डिसप्ले	VM	13	vmod	TRUE	TRUE
 11	ज़रूर	ज़रूर	NNP	13	k1	FALSE	FALSE
 12	आकर्षक	आकर्षक	JJ	13	k1s	FALSE	FALSE
 13	है	है	VM	7	ccof	FALSE	FALSE
@@ -8135,7 +8135,7 @@
 2	से	से	PSP	1	lwg__psp	FALSE	FALSE
 3	आगे	आगा	NST	5	r6	FALSE	FALSE
 4	का	का	PSP	3	lwg__psp	FALSE	FALSE
-5	रास्ता	रास्ता	NN	9	k1	FALSE	TRUE
+5	रास्ता	रास्ता	NN	9	k1	FALSE	FALSE
 6	फिर	फिर	RB	9	adv	FALSE	FALSE
 7	थोडा	थोडा	QF	8	nmod__adj	TRUE	FALSE
 8	पथरीला	पथरीला	JJ	9	k1s	FALSE	FALSE
@@ -8153,8 +8153,8 @@
 9	टैबलेट	टैबलेट	NN	8	ccof	TRUE	FALSE
 10	पर	पर	PSP	9	lwg__psp	FALSE	FALSE
 11	अपने	अपना	PRP	13	r6	FALSE	FALSE
-12	डिजिटल	डिजिटल	XC	13	mod	FALSE	TRUE
-13	डॉक्यूमेंट्स	डॉक्यूमेंट्स	NN	17	k2	TRUE	TRUE
+12	डिजिटल	डिजिटल	XC	13	mod	FALSE	FALSE
+13	डॉक्यूमेंट्स	डॉक्यूमेंट्स	NN	17	k2	TRUE	FALSE
 14	को	को	PSP	13	lwg__psp	TRUE	FALSE
 15	डिजिटली	डिजिटली	NN	17	k2	TRUE	FALSE
 16	साइन	साइन	NN	17	pof	FALSE	FALSE
@@ -8218,7 +8218,7 @@
 1	कुल	कुल	QF	0	main	FALSE	FALSE
 2	मिलाकर	मिला	VM	14	vmod	FALSE	FALSE
 3	अपने	अपना	PRP	4	r6	FALSE	FALSE
-4	फीचर्स	फीचर्स	NN	5	ccof	TRUE	FALSE
+4	फीचर्स	फीचर्स	NN	5	ccof	TRUE	TRUE
 5	और	और	CC	14	rh	FALSE	FALSE
 6	बनावट	बनावट	NN	5	ccof	FALSE	TRUE
 7	के	का	PSP	6	lwg__psp	FALSE	FALSE
@@ -8265,7 +8265,7 @@
 20	.	.	.	18	rsym	FALSE	FALSE
 
 1	अगर	अगर	CC	0	ROOT	FALSE	FALSE
-2	डिजाइन	डिजाइन	NN	4	k7p	FALSE	TRUE
+2	डिजाइन	डिजाइन	NN	4	k7p	FALSE	FALSE
 3	में	में	PSP	2	lwg__psp	FALSE	FALSE
 4	हुई	हो	VM	6	nmod__k1inv	FALSE	FALSE
 5	इस	इस	DEM	6	nmod__adj	FALSE	FALSE
@@ -8289,7 +8289,7 @@
 2	का	का	PSP	1	lwg__psp	FALSE	FALSE
 3	वन	वन	NN	5	mod	FALSE	FALSE
 4	क्षेत्र	क्षेत्र	NN	5	mod	FALSE	FALSE
-5	फ्लोरा	फ्लोरा	NN	6	ccof	TRUE	FALSE
+5	फ्लोरा	फ्लोरा	NN	6	ccof	TRUE	TRUE
 6	और	और	CC	11	k1	FALSE	FALSE
 7	फना	फना	NN	6	ccof	FALSE	FALSE
 8	की	का	PSP	7	lwg__psp	FALSE	FALSE
@@ -8333,8 +8333,8 @@
 3	बहुत	बहुत	INTF	4	jjmod__intf	FALSE	FALSE
 4	उपयोगी	उपयोगी	JJ	5	nmod__adj	FALSE	FALSE
 5	फीचर	फीचर	NN	8	k1	FALSE	FALSE
-6	गूगल	गूगल	JJ	7	nmod__adj	FALSE	FALSE
-7	नाउ	नाउ	NNP	8	k1s	TRUE	FALSE
+6	गूगल	गूगल	JJ	7	nmod__adj	FALSE	TRUE
+7	नाउ	नाउ	NNP	8	k1s	TRUE	TRUE
 8	है	है	VM	0	main	FALSE	FALSE
 9	,	,	,	8	rsym	FALSE	FALSE
 10	जो	जो	PRP	16	k1	FALSE	FALSE
@@ -8376,7 +8376,7 @@
 5	भूमिका	भूमिका	NN	15	k7	FALSE	TRUE
 6	में	में	PSP	5	lwg__psp	FALSE	FALSE
 7	पाकिस्तानी	पाकिस्तानी	JJ	8	nmod__adj	FALSE	FALSE
-8	अभिनेता	अभिनेता	NN	10	nmod	FALSE	FALSE
+8	अभिनेता	अभिनेता	NN	10	nmod	FALSE	TRUE
 9	फवाद	फवाद	NN	10	mod	TRUE	FALSE
 10	खान	खान	NN	15	k1	FALSE	FALSE
 11	अपनी	अपनी	PRP	12	r6	TRUE	FALSE
@@ -8444,7 +8444,7 @@
 3	का	का	PSP	2	lwg__psp	FALSE	FALSE
 4	टचस्क्रीन	टचस्क्रीन	NN	8	k1	FALSE	TRUE
 5	रिस्पोंस	रिस्पोंस	NN	8	k1	TRUE	TRUE
-6	काफी	काफी	QF	7	jjmod__intf	FALSE	FALSE
+6	काफी	काफी	QF	7	jjmod__intf	FALSE	TRUE
 7	अच्छा	अच्छा	JJ	8	k1s	FALSE	FALSE
 8	है	है	VM	9	ccof	FALSE	FALSE
 9	और	और	CC	0	main	FALSE	FALSE
@@ -8518,10 +8518,10 @@
 
 1	इसमें	इसमें	PRP	0	ROOT	TRUE	FALSE
 2	करीब	करीब	RB	0	ROOT	FALSE	FALSE
-3	67	67	QC	0	ROOT	FALSE	FALSE
+3	67	67	QC	0	ROOT	FALSE	TRUE
 4	लाइसेंस	लाइसेंस	NN	0	ROOT	FALSE	FALSE
-5	कार	कार	NN	6	mod	FALSE	FALSE
-6	औश्र	औश्र	CC	0	ROOT	TRUE	FALSE
+5	कार	कार	NN	6	mod	FALSE	TRUE
+6	औश्र	औश्र	CC	0	ROOT	TRUE	TRUE
 7	13	13	QC	8	nmod__adj	FALSE	FALSE
 8	टैग	टैग	NN	23	k7t	TRUE	FALSE
 9	के	का	PSP	8	lwg__psp	FALSE	FALSE
@@ -8546,7 +8546,7 @@
 1	इसमें	इसमें	PRP	7	k7	TRUE	FALSE
 2	एक	एक	QC	5	nmod__adj	FALSE	FALSE
 3	फुल	फुल	JJ	5	nmod__adj	TRUE	FALSE
-4	यूएसवी	यूएसवी	XC	5	mod	TRUE	TRUE
+4	यूएसवी	यूएसवी	XC	5	mod	TRUE	FALSE
 5	पोर्ट	पोर्ट	NN	7	k1s	FALSE	TRUE
 6	भी	भी	RP	5	lwg__rp	FALSE	FALSE
 7	है	है	VM	0	main	FALSE	FALSE
@@ -8555,7 +8555,7 @@
 10	डोंगल	डोंगल	NNP	11	ccof	TRUE	FALSE
 11	तथा	तथा	CC	16	k1	FALSE	FALSE
 12	स्टोरेज	स्टोरेज	XC	13	mod	FALSE	TRUE
-13	डिवाइस	डिवाइस	NNP	11	ccof	TRUE	TRUE
+13	डिवाइस	डिवाइस	NNP	11	ccof	TRUE	FALSE
 14	को	को	PSP	13	lwg__psp	TRUE	FALSE
 15	सपोर्ट	सपोर्ट	NN	16	pof	TRUE	FALSE
 16	करता	कर	VM	0	ROOT	FALSE	FALSE
@@ -8637,7 +8637,7 @@
 6	गुणा	गुणा	QC	9	nmod__adj	FALSE	FALSE
 7	768	768	QC	9	nmod__adj	TRUE	FALSE
 8	पिक्सल	पिक्सल	NN	9	mod	FALSE	FALSE
-9	रेज्योलूशन	रेज्योलूशन	NN	18	k7t	TRUE	FALSE
+9	रेज्योलूशन	रेज्योलूशन	NN	18	k7t	TRUE	TRUE
 10	के	का	PSP	9	lwg__psp	FALSE	FALSE
 11	साथ	साथ	NST	9	lwg__psp	FALSE	FALSE
 12	156	156	QC	15	nmod__adj	TRUE	FALSE
@@ -8697,7 +8697,7 @@
 9	छोटे	छोटा	JJ	10	nmod__adj	FALSE	FALSE
 10	किरदारों	किरदारों	NN	8	ccof	TRUE	TRUE
 11	पर	पर	PSP	10	lwg__psp	FALSE	FALSE
-12	निर्देशक	निर्देशक	JJ	13	ccof	FALSE	FALSE
+12	निर्देशक	निर्देशक	JJ	13	ccof	FALSE	TRUE
 13	और	और	CC	18	k4	FALSE	FALSE
 14	उनकी	उनकी	PRP	15	r6	TRUE	FALSE
 15	टीम	टीम	NN	13	ccof	FALSE	FALSE
@@ -8707,7 +8707,7 @@
 19	है	है	VAUX	18	lwg__vaux	FALSE	FALSE
 20	.	.	.	18	rsym	FALSE	FALSE
 
-1	म्यूजिक	म्यूजिक	NN	3	r6	FALSE	FALSE
+1	म्यूजिक	म्यूजिक	NN	3	r6	FALSE	TRUE
 2	के	का	PSP	1	lwg__psp	FALSE	FALSE
 3	मामले	मामला	NN	9	k7	FALSE	FALSE
 4	में	में	PSP	3	lwg__psp	FALSE	FALSE
@@ -8729,7 +8729,7 @@
 9	के	का	PSP	8	lwg__psp	FALSE	FALSE
 10	बारे	बारे	PSP	8	lwg__psp	FALSE	FALSE
 11	में	में	PSP	8	lwg__psp	FALSE	FALSE
-12	निर्देश	निर्देश	NN	13	pof	FALSE	TRUE
+12	निर्देश	निर्देश	NN	13	pof	FALSE	FALSE
 13	दिए	दे	VM	0	ROOT	TRUE	FALSE
 14	जा	जा	VAUX	13	lwg__vaux	FALSE	FALSE
 15	सकते	सक	VAUX	13	lwg__vaux	FALSE	FALSE
@@ -8764,7 +8764,7 @@
 26	है	है	VM	15	ccof	FALSE	FALSE
 27	.	.	.	26	rsym	FALSE	FALSE
 
-1	स्क्रीन	स्क्रीन	NNP	3	r6	FALSE	FALSE
+1	स्क्रीन	स्क्रीन	NNP	3	r6	FALSE	TRUE
 2	का	का	PSP	1	lwg__psp	FALSE	FALSE
 3	कॉन्ट्रास्ट	कॉन्ट्रास्ट	NN	0	main	TRUE	FALSE
 4	बहुत	बहुत	INTF	5	jjmod__intf	FALSE	FALSE
@@ -8818,7 +8818,7 @@
 1	इसमें	इसमें	PRP	6	k7	TRUE	FALSE
 2	17	17	QC	3	nmod__adj	FALSE	FALSE
 3	मिलियन	मिलियन	NN	6	k1	FALSE	FALSE
-4	पिक्सल	पिक्सल	JJ	5	nmod__adj	FALSE	FALSE
+4	पिक्सल	पिक्सल	JJ	5	nmod__adj	FALSE	TRUE
 5	स्क्रीन	स्क्रीन	NN	6	k1s	FALSE	TRUE
 6	है	है	VM	0	main	FALSE	FALSE
 7	.	.	.	6	rsym	FALSE	FALSE
@@ -8862,7 +8862,7 @@
 2	व	व	CC	12	k1	FALSE	FALSE
 3	टेक्सट	टेक्सट	NN	2	ccof	TRUE	FALSE
 4	के	का	PSP	3	lwg__psp	FALSE	FALSE
-5	डिस्प्ले	डिस्प्ले	NN	12	rt	FALSE	FALSE
+5	डिस्प्ले	डिस्प्ले	NN	12	rt	FALSE	TRUE
 6	के	का	PSP	5	lwg__psp	FALSE	FALSE
 7	लिए	ले	PSP	5	lwg__psp	FALSE	FALSE
 8	इसका	इसका	PRP	9	r6	TRUE	FALSE
@@ -8888,7 +8888,7 @@
 3	पूरी	पूरी	JJ	4	nmod__adj	FALSE	FALSE
 4	बॉडी	बॉडी	NN	11	k1	FALSE	FALSE
 5	मेटल	मेटल	XC	6	mod	TRUE	FALSE
-6	फिनिश	फिनिश	NNP	11	k7t	FALSE	FALSE
+6	फिनिश	फिनिश	NNP	11	k7t	FALSE	TRUE
 7	के	का	PSP	6	lwg__psp	FALSE	FALSE
 8	साथ	साथ	NST	6	lwg__psp	FALSE	FALSE
 9	प्लास्टिक	प्लास्टिक	NN	11	r6v	FALSE	FALSE
@@ -8943,7 +8943,7 @@
 9	में	में	PSP	3	fragof	FALSE	FALSE
 10	बहुत	बहुत	INTF	11	jjmod__intf	FALSE	FALSE
 11	अच्छी	अच्छी	JJ	12	nmod__adj	FALSE	FALSE
-12	स्पेसिफिकेशन्स	स्पेसिफिकेशन्स	NN	13	k1s	TRUE	TRUE
+12	स्पेसिफिकेशन्स	स्पेसिफिकेशन्स	NN	13	k1s	TRUE	FALSE
 13	हैं	है	VM	0	ROOT	FALSE	FALSE
 14	जैसे	जैसे	CC	13	lwg__psp	FALSE	FALSE
 15	5	5	QC	16	nmod__adj	FALSE	FALSE
@@ -8955,14 +8955,14 @@
 21	x	x	NN	0	ROOT	TRUE	FALSE
 22	480	480	QC	24	nmod__adj	TRUE	FALSE
 23	पिक्सल	पिक्सल	NN	24	mod	FALSE	FALSE
-24	रिजॉल्यूशन	रिजॉल्यूशन	NN	0	ROOT	TRUE	FALSE
+24	रिजॉल्यूशन	रिजॉल्यूशन	NN	0	ROOT	TRUE	TRUE
 25	में	में	PSP	24	lwg__psp	FALSE	FALSE
 26	,	,	,	24	rsym	FALSE	FALSE
 27	5	5	QC	28	nmod__adj	FALSE	FALSE
 28	मेगापिक्सल	मेगापिक्सल	NN	30	r6	TRUE	FALSE
 29	का	का	PSP	28	lwg__psp	FALSE	FALSE
-30	रियर	रियर	NN	0	ROOT	TRUE	FALSE
-31	कैमरा	कैमरा	NN	33	mod	TRUE	FALSE
+30	रियर	रियर	NN	0	ROOT	TRUE	TRUE
+31	कैमरा	कैमरा	NN	33	mod	TRUE	TRUE
 32	फ्लैश	फ्लैश	NN	33	mod	FALSE	FALSE
 33	सहित	सहित	JJ	53	ccof	FALSE	FALSE
 34	,	,	,	33	rsym	FALSE	FALSE
@@ -8979,7 +8979,7 @@
 45	(	(	(	46	rsym	FALSE	FALSE
 46	Mediatek	Mediatek	NN	44	nmod	TRUE	FALSE
 47	)	)	)	46	rsym	FALSE	FALSE
-48	चिपसेट	चिपसेट	NN	53	ccof	TRUE	TRUE
+48	चिपसेट	चिपसेट	NN	53	ccof	TRUE	FALSE
 49	,	,	,	48	rsym	FALSE	FALSE
 50	512	512	QC	52	nmod__adj	TRUE	FALSE
 51	MB	MB	JJ	52	nmod__adj	TRUE	FALSE
@@ -9013,7 +9013,7 @@
 21	और	और	CC	25	k1	FALSE	FALSE
 22	माइक्रो	माइक्रो	XC	24	mod	FALSE	TRUE
 23	यूएसबी	यूएसबी	NNP	24	mod	FALSE	TRUE
-24	पोर्ट	पोर्ट	NN	21	ccof	FALSE	TRUE
+24	पोर्ट	पोर्ट	NN	21	ccof	FALSE	FALSE
 25	हैं	है	VM	15	ccof	FALSE	FALSE
 26	.	.	.	25	rsym	FALSE	FALSE
 
@@ -9054,7 +9054,7 @@
 7	प्रसंग	प्रसंग	NN	15	k7	FALSE	FALSE
 8	पर	पर	PSP	7	lwg__psp	FALSE	FALSE
 9	भी	भी	RP	7	lwg__rp	FALSE	FALSE
-10	लेखक-निर्देशक	लेखक-निर्देशक	NN	15	k1	TRUE	TRUE
+10	लेखक-निर्देशक	लेखक-निर्देशक	NN	15	k1	TRUE	FALSE
 11	ने	ने	PSP	10	lwg__psp	TRUE	FALSE
 12	अधिक	अधिक	QF	13	nmod__adj	FALSE	FALSE
 13	ध्यान	ध्यान	NN	15	pof	FALSE	FALSE
@@ -9073,7 +9073,7 @@
 8	है	है	VM	0	main	FALSE	FALSE
 9	कि	कि	CC	0	ROOT	FALSE	FALSE
 10	इनसे	इनसे	PRP	18	k1	FALSE	FALSE
-11	फोटो	फोटो	NN	12	pof	FALSE	FALSE
+11	फोटो	फोटो	NN	12	pof	FALSE	TRUE
 12	खींचते	खींच	VM	18	vmod	FALSE	FALSE
 13	ही	ही	RP	12	lwg__rp	FALSE	FALSE
 14	हाथों	हाथ	NN	15	nmod__adj	FALSE	FALSE
@@ -9152,7 +9152,7 @@
 4	चटाई	चटाई	NN	6	ccof	FALSE	FALSE
 5	नहीं	नहीं	NEG	6	ccof	FALSE	FALSE
 6	बल्कि	बल्कि	CC	0	main	TRUE	FALSE
-7	वाय-फाय	वाय-फाय	NN	9	mod	TRUE	FALSE
+7	वाय-फाय	वाय-फाय	NN	9	mod	TRUE	TRUE
 8	कनेक्टेट	कनेक्टेट	JJ	9	nmod__adj	TRUE	FALSE
 9	सेंसर	सेंसर	NN	12	nmod	TRUE	FALSE
 10	वाली	वाली	PSP	9	lwg__psp	FALSE	FALSE
@@ -9189,7 +9189,7 @@
 6	आकर्षण	आकर्षण	NN	7	k1s	FALSE	FALSE
 7	है	है	VM	15	k1	FALSE	FALSE
 8	इसकी	इसकी	PRP	9	r6	TRUE	FALSE
-9	कीमत	कीमत	NN	15	k1	FALSE	TRUE
+9	कीमत	कीमत	NN	15	k1	FALSE	FALSE
 10	जो	जो	PRP	15	k1	FALSE	FALSE
 11	कि	कि	RP	10	lwg__rp	FALSE	FALSE
 12	केवल	केवल	RB	14	lwg__rp	FALSE	FALSE
@@ -9208,7 +9208,7 @@
 8	डाटा	डाटा	XC	13	k1	FALSE	FALSE
 9	ट्रांसफर	ट्रांसफर	XC	13	k1	FALSE	FALSE
 10	मोड-	मोड-	XC	13	k1	TRUE	FALSE
-11	यूएसबी	यूएसबी	NNP	13	k1	FALSE	FALSE
+11	यूएसबी	यूएसबी	NNP	13	k1	FALSE	TRUE
 12	होस्ट	होस्ट	NN	13	pof	TRUE	FALSE
 13	होता	हो	VM	5	ccof	FALSE	FALSE
 14	,	,	,	13	rsym	FALSE	FALSE
@@ -9228,17 +9228,17 @@
 3	में	में	PSP	2	lwg__psp	FALSE	FALSE
 4	इसकी	इसकी	PRP	5	r6	TRUE	FALSE
 5	बैटरी	बैटरी	NN	0	ROOT	FALSE	TRUE
-6	वाई-फाई	वाई-फाई	NN	0	ROOT	FALSE	TRUE
+6	वाई-फाई	वाई-फाई	NN	0	ROOT	FALSE	FALSE
 7	के	का	PSP	6	lwg__psp	FALSE	FALSE
 8	साथ	साथ	NST	6	lwg__psp	FALSE	FALSE
 9	वेब	वेब	XC	10	mod	FALSE	TRUE
 10	ब्राउजिंग	ब्राउजिंग	NNP	17	ccof	FALSE	TRUE
 11	,	,	,	10	rsym	FALSE	FALSE
-12	वीडियो	वीडियो	XC	17	ccof	FALSE	TRUE
+12	वीडियो	वीडियो	XC	17	ccof	FALSE	FALSE
 13	,	,	,	12	rsym	FALSE	FALSE
 14	म्यूजिक	म्यूजिक	NN	17	ccof	FALSE	FALSE
 15	,	,	,	14	rsym	FALSE	FALSE
-16	गेम्स	गेम्स	NN	17	ccof	FALSE	FALSE
+16	गेम्स	गेम्स	NN	17	ccof	FALSE	TRUE
 17	और	और	CC	0	ROOT	FALSE	FALSE
 18	सोशल	सोशल	XC	19	mod	FALSE	FALSE
 19	नेटवर्किंग	नेटवर्किंग	NNP	17	ccof	FALSE	FALSE
@@ -9266,7 +9266,7 @@
 41	.	.	.	39	rsym	FALSE	FALSE
 
 1	इसके	इसके	PRP	9	k1	FALSE	FALSE
-2	स्पीकर	स्पीकर	NN	4	r6	TRUE	TRUE
+2	स्पीकर	स्पीकर	NN	4	r6	TRUE	FALSE
 3	की	का	PSP	2	lwg__psp	FALSE	FALSE
 4	आवाज	आवाज	NN	9	rh	FALSE	FALSE
 5	पहले	पहले	NST	4	lwg__psp	FALSE	FALSE
@@ -9396,7 +9396,7 @@
 13	.	.	.	11	rsym	FALSE	FALSE
 
 1	इसकी	इसकी	PRP	2	r6	TRUE	FALSE
-2	स्ट्रीमिंग	स्ट्रीमिंग	NN	4	r6	TRUE	TRUE
+2	स्ट्रीमिंग	स्ट्रीमिंग	NN	4	r6	TRUE	FALSE
 3	की	का	PSP	2	lwg__psp	FALSE	TRUE
 4	क्वालिटी	क्वालिटी	NN	13	k1	TRUE	TRUE
 5	बहुत	बहुत	QF	6	nmod__adj	FALSE	FALSE
@@ -9419,7 +9419,7 @@
 22	कारण	कारण	NN	20	lwg__psp	FALSE	FALSE
 23	,	,	,	20	rsym	FALSE	FALSE
 24	टीवी	टीवी	XC	25	mod	TRUE	FALSE
-25	चैनल	चैनल	NNP	30	k1	TRUE	FALSE
+25	चैनल	चैनल	NNP	30	k1	TRUE	TRUE
 26	बिल्कुल	बिल्कुल	RB	30	adv	FALSE	FALSE
 27	सही	सही	JJ	28	nmod__adj	FALSE	FALSE
 28	ढंग	ढंग	NN	30	adv	FALSE	FALSE
@@ -9432,7 +9432,7 @@
 
 1	पॉपुला	पॉपुला	XC	4	mod	TRUE	FALSE
 2	सिंगर	सिंगर	NNP	4	mod	FALSE	FALSE
-3	अंकित	अंकित	JJ	4	mod	FALSE	FALSE
+3	अंकित	अंकित	JJ	4	mod	FALSE	TRUE
 4	तिवारी	तिवारी	NNP	7	k1	FALSE	FALSE
 5	भी	भी	RP	4	lwg__rp	FALSE	FALSE
 6	निराश	निराश	NN	7	pof	FALSE	FALSE
@@ -9615,7 +9615,7 @@
 20	है	है	VAUX	19	lwg__vaux	FALSE	FALSE
 21	जबकि	जबकि	CC	0	main	TRUE	FALSE
 22	मैटे	मैटे	JJ	23	nmod__adj	TRUE	FALSE
-23	फिनिश	फिनिश	NN	28	k1	FALSE	FALSE
+23	फिनिश	फिनिश	NN	28	k1	FALSE	TRUE
 24	मजबूत	मजबूत	JJ	25	nmod__adj	FALSE	FALSE
 25	पकड़	पकड़	NN	28	k2	FALSE	FALSE
 26	को	को	PSP	25	lwg__psp	TRUE	FALSE
@@ -9639,8 +9639,8 @@
 13	है	है	VAUX	9	lwg__vaux	FALSE	FALSE
 14	.	.	.	9	rsym	FALSE	FALSE
 
-1	पिछला	पिछला	JJ	3	nmod__adj	FALSE	FALSE
-2	पैनल	पैनल	NN	3	mod	FALSE	FALSE
+1	पिछला	पिछला	JJ	3	nmod__adj	FALSE	TRUE
+2	पैनल	पैनल	NN	3	mod	FALSE	TRUE
 3	ऐल्युमिनियम	ऐल्युमिनियम	NN	5	r6v	FALSE	FALSE
 4	का	का	PSP	3	lwg__psp	FALSE	FALSE
 5	बना	बना	VM	7	ccof	FALSE	FALSE
@@ -9803,7 +9803,7 @@
 20	है	है	VAUX	19	lwg__vaux	FALSE	FALSE
 21	.	.	.	19	rsym	FALSE	FALSE
 
-1	ग्राफिक्स	ग्राफिक्स	NN	3	mod	FALSE	TRUE
+1	ग्राफिक्स	ग्राफिक्स	NN	3	mod	FALSE	FALSE
 2	बेंचमार्क	बेंचमार्क	JJ	3	nmod__adj	FALSE	TRUE
 3	टेस्ट	टेस्ट	NN	0	main	FALSE	TRUE
 4	में	में	PSP	3	lwg__psp	FALSE	FALSE
@@ -9957,7 +9957,7 @@
 12	ऑडियो	ऑडियो	XC	13	mod	TRUE	TRUE
 13	पोर्ट	पोर्ट	XC	21	ccof	FALSE	TRUE
 14	,	,	,	13	rsym	FALSE	FALSE
-15	USB	USB	RDP	16	mod	TRUE	FALSE
+15	USB	USB	RDP	16	mod	TRUE	TRUE
 16	पोर्ट	पोर्ट	XC	21	ccof	FALSE	FALSE
 17	,	,	,	16	rsym	FALSE	FALSE
 18	2	2	QC	20	nmod__adj	FALSE	FALSE
@@ -10018,7 +10018,7 @@
 10	साथ	साथ	NST	8	lwg__psp	FALSE	FALSE
 11	रची	रच	VM	18	vmod	TRUE	FALSE
 12	गई	गई	VAUX	11	lwg__vaux	FALSE	FALSE
-13	कहानी	कहानी	NN	18	k1	FALSE	FALSE
+13	कहानी	कहानी	NN	18	k1	FALSE	TRUE
 14	दर्शकों	दर्शक	NN	18	k5	FALSE	FALSE
 15	से	से	PSP	14	lwg__psp	FALSE	FALSE
 16	कनेक्ट	कनेक्ट	NN	18	pof	TRUE	FALSE
@@ -10080,7 +10080,7 @@
 8	बीबीएम	बीबीएम	NN	14	k1	TRUE	FALSE
 9	भी	भी	RP	8	lwg__rp	FALSE	FALSE
 10	ग्रुप	ग्रुप	JJ	14	adv	FALSE	FALSE
-11	चैट	चैट	NN	14	k1	TRUE	FALSE
+11	चैट	चैट	NN	14	k1	TRUE	TRUE
 12	ऑप्शन	ऑप्शन	NN	14	k2	FALSE	FALSE
 13	प्रदान	प्रदान	NN	14	pof	FALSE	FALSE
 14	करता	कर	VM	0	main	FALSE	FALSE
@@ -10117,10 +10117,10 @@
 6	हैं	है	VM	0	main	FALSE	FALSE
 7	.	.	.	6	rsym	FALSE	FALSE
 
-1	झीलें	झील	NN	2	ccof	FALSE	TRUE
-2	और	और	CC	11	k7p	FALSE	TRUE
+1	झीलें	झील	NN	2	ccof	FALSE	FALSE
+2	और	और	CC	11	k7p	FALSE	FALSE
 3	घने	घना	JJ	4	nmod__adj	FALSE	TRUE
-4	जंगल	जंगल	NN	2	ccof	FALSE	TRUE
+4	जंगल	जंगल	NN	2	ccof	FALSE	FALSE
 5	यहां	यहाँ	PRP	7	r6	FALSE	FALSE
 6	की	का	PSP	5	lwg__psp	FALSE	FALSE
 7	ख़ूबसूरती	ख़ूबसूरती	NN	11	k7	TRUE	FALSE
@@ -10133,11 +10133,11 @@
 14	.	.	.	11	rsym	FALSE	FALSE
 
 1	इनमें	इनमें	PRP	7	k7	TRUE	FALSE
-2	USB	USB	JJ	3	nmod__adj	TRUE	FALSE
-3	पोर्ट	पोर्ट	NN	4	ccof	FALSE	FALSE
+2	USB	USB	JJ	3	nmod__adj	TRUE	TRUE
+3	पोर्ट	पोर्ट	NN	4	ccof	FALSE	TRUE
 4	और	और	CC	7	k2	FALSE	FALSE
 5	LED	LED	JJ	6	nmod__adj	TRUE	TRUE
-6	इंडिकेटर	इंडिकेटर	NN	4	ccof	TRUE	TRUE
+6	इंडिकेटर	इंडिकेटर	NN	4	ccof	TRUE	FALSE
 7	दिया	दे	VM	0	main	FALSE	FALSE
 8	गया	गया	VAUX	7	lwg__vaux	FALSE	FALSE
 9	है	है	VAUX	7	lwg__vaux	FALSE	FALSE
@@ -10149,7 +10149,7 @@
 4	5	5	QC	13	k1	FALSE	FALSE
 5	वें	वें	PRP	13	k1	TRUE	FALSE
 6	जेनरेशन	जेनरेशन	XC	9	mod	TRUE	FALSE
-7	इंटेल	इंटेल	NNP	9	mod	TRUE	FALSE
+7	इंटेल	इंटेल	NNP	9	mod	TRUE	TRUE
 8	कोर	कोर	JJ	9	mod	FALSE	FALSE
 9	प्रोसेसर	प्रोसेसर	NN	13	k7	FALSE	TRUE
 10	में	में	PSP	9	lwg__psp	FALSE	FALSE
@@ -10186,7 +10186,7 @@
 16	दिन	दिन	NN	17	ccof	FALSE	FALSE
 17	और	और	CC	39	k4	FALSE	FALSE
 18	लगातार	लगातार	RB	20	adv	FALSE	FALSE
-19	वीडियो	वीडियो	NN	20	k2	FALSE	FALSE
+19	वीडियो	वीडियो	NN	20	k2	FALSE	TRUE
 20	देखने	देख	VM	17	ccof	FALSE	FALSE
 21	पर	पर	PSP	20	lwg__psp	FALSE	FALSE
 22	3	3	QC	25	nmod__adj	FALSE	FALSE
@@ -10197,14 +10197,14 @@
 27	WIFI	WIFI	NN	26	ccof	TRUE	FALSE
 28	पर	पर	PSP	27	lwg__psp	FALSE	FALSE
 29	वेब	वेब	XC	30	mod	FALSE	FALSE
-30	ब्राउजिंग	ब्राउजिंग	NNP	39	k7t	FALSE	FALSE
+30	ब्राउजिंग	ब्राउजिंग	NNP	39	k7t	FALSE	TRUE
 31	के	का	PSP	30	lwg__psp	FALSE	FALSE
 32	साथ	साथ	NST	30	lwg__psp	FALSE	FALSE
 33	4	4	QC	34	nmod__adj	FALSE	FALSE
 34	घंटे	घंटा	NN	37	r6	FALSE	FALSE
 35	तक	तक	RP	34	lwg__rp	FALSE	FALSE
 36	का	का	PSP	34	lwg__psp	FALSE	FALSE
-37	पॉवर	पॉवर	NN	39	k1	TRUE	TRUE
+37	पॉवर	पॉवर	NN	39	k1	TRUE	FALSE
 38	बैकअप	बैकअप	NN	39	pof	TRUE	TRUE
 39	देती	दे	VM	7	ccof	TRUE	FALSE
 40	है	है	VAUX	39	lwg__vaux	FALSE	FALSE
@@ -10241,7 +10241,7 @@
 2	ब्राइटनेश	ब्राइटनेश	NN	3	ccof	TRUE	FALSE
 3	और	और	CC	15	k1	FALSE	FALSE
 4	शानदार	शानदार	JJ	5	nmod__adj	FALSE	FALSE
-5	एप्स	एप्स	NN	3	ccof	TRUE	FALSE
+5	एप्स	एप्स	NN	3	ccof	TRUE	TRUE
 6	की	का	PSP	5	lwg__psp	FALSE	FALSE
 7	बदौलत	बदौलत	NN	15	k1	FALSE	FALSE
 8	यह	यह	DEM	9	nmod__adj	FALSE	FALSE
@@ -10289,7 +10289,7 @@
 2	का	का	PSP	1	lwg__psp	FALSE	FALSE
 3	पॉवर	पॉवर	NN	5	rs	TRUE	FALSE
 4	शॉट	शॉट	NN	5	lwg__psp	FALSE	FALSE
-5	ELPH	ELPH	PSP	0	main	TRUE	FALSE
+5	ELPH	ELPH	PSP	0	main	TRUE	TRUE
 6	130	130	QC	7	nmod__adj	TRUE	FALSE
 7	IS	IS	NN	11	k1	TRUE	FALSE
 8	एक	एक	QC	10	nmod__adj	FALSE	FALSE
@@ -10302,13 +10302,13 @@
 15	‍	‍	NN	27	k1	TRUE	FALSE
 16	स	स	PSP	18	mod	FALSE	FALSE
 17	जूम	जूम	JJ	18	nmod__adj	TRUE	TRUE
-18	लेंस	लेंस	NN	27	k7t	TRUE	TRUE
+18	लेंस	लेंस	NN	27	k7t	TRUE	FALSE
 19	के	का	PSP	18	lwg__psp	FALSE	FALSE
 20	साथ	साथ	NST	18	lwg__psp	FALSE	FALSE
 21	3	3	QC	22	nmod__adj	FALSE	FALSE
 22	इंच	इंच	NN	24	r6	FALSE	FALSE
 23	की	का	PSP	22	lwg__psp	FALSE	FALSE
-24	एलसीडी	एलसीडी	NN	27	k2	FALSE	TRUE
+24	एलसीडी	एलसीडी	NN	27	k2	FALSE	FALSE
 25	स्	स्	स्	27	adv	TRUE	FALSE
 26	‍	‍	NN	27	pof	TRUE	FALSE
 27	क्रीन	क्रीन	VM	0	ROOT	TRUE	FALSE
@@ -10323,23 +10323,23 @@
 36	‍	‍	XC	37	mod	TRUE	FALSE
 37	सल	सल	NN	39	r6	FALSE	FALSE
 38	का	का	PSP	37	lwg__psp	FALSE	FALSE
-39	सीएमओएस	सीएमओएस	NN	41	k1	TRUE	TRUE
-40	सेंसर	सेंसर	NN	41	pof	TRUE	TRUE
+39	सीएमओएस	सीएमओएस	NN	41	k1	TRUE	FALSE
+40	सेंसर	सेंसर	NN	41	pof	TRUE	FALSE
 41	लगा	लगा	VM	27	vmod	FALSE	FALSE
 42	हुआ	हो	VAUX	41	lwg__vaux	FALSE	FALSE
 43	है	है	VAUX	41	lwg__vaux	FALSE	FALSE
 44	.	.	.	41	rsym	FALSE	FALSE
 
-1	एलईडी	एलईडी	XC	2	mod	TRUE	TRUE
+1	एलईडी	एलईडी	XC	2	mod	TRUE	FALSE
 2	स्क्रीन	स्क्रीन	NNP	0	main	FALSE	TRUE
 3	,	,	,	2	rsym	FALSE	FALSE
 4	225	225	QC	7	mod	TRUE	FALSE
-5	मिली	मिल	XC	7	mod	FALSE	FALSE
+5	मिली	मिल	XC	7	mod	FALSE	TRUE
 6	एंपियर	एंपियर	XC	7	mod	FALSE	FALSE
 7	ऑवर	ऑवर	NNP	10	r6	TRUE	FALSE
 8	की	का	PSP	7	lwg__psp	FALSE	FALSE
 9	बैटरी	बैटरी	JJ	10	nmod__adj	FALSE	TRUE
-10	क्षमता	क्षमता	NN	2	ccof	FALSE	TRUE
+10	क्षमता	क्षमता	NN	2	ccof	FALSE	FALSE
 11	.	.	.	10	rsym	FALSE	FALSE
 
 1	लेखक-निर्देशक	लेखक-निर्देशक	NN	4	k1	TRUE	TRUE
@@ -10371,8 +10371,8 @@
 20	इस	इस	DEM	21	nmod__adj	FALSE	FALSE
 21	लैपटॉप	लैपटॉप	NN	28	k7	FALSE	FALSE
 22	में	में	PSP	21	lwg__psp	FALSE	FALSE
-23	डीवीडी	डीवीडी	NN	24	mod	FALSE	TRUE
-24	ड्राइव	ड्राइव	NN	25	ccof	TRUE	TRUE
+23	डीवीडी	डीवीडी	NN	24	mod	FALSE	FALSE
+24	ड्राइव	ड्राइव	NN	25	ccof	TRUE	FALSE
 25	व	व	CC	28	k2	FALSE	FALSE
 26	एएमडी	एएमडी	NN	25	ccof	TRUE	FALSE
 27	प्रोसेसर	प्रोसेसर	NN	28	pof	FALSE	FALSE
@@ -10581,7 +10581,7 @@
 19	Kanchanjungha	Kanchanjungha	NN	22	r6	TRUE	FALSE
 20	)	)	)	19	rsym	FALSE	FALSE
 21	की	का	PSP	19	lwg__psp	FALSE	FALSE
-22	चोटियां	चोटियां	NN	24	k2	TRUE	FALSE
+22	चोटियां	चोटियां	NN	24	k2	TRUE	TRUE
 23	बाहें	बाहें	NN	24	k2	TRUE	FALSE
 24	खोल	खोल	VM	27	vmod	FALSE	FALSE
 25	हमारा	हमारा	PRP	26	r6-k2	TRUE	FALSE
@@ -10597,7 +10597,7 @@
 4	में	में	PSP	3	lwg__psp	FALSE	FALSE
 5	16	16	QC	6	nmod__adj	FALSE	FALSE
 6	जीबी	जीबी	NN	10	k1	FALSE	FALSE
-7	इनबिल्ट	इनबिल्ट	XC	9	mod	TRUE	TRUE
+7	इनबिल्ट	इनबिल्ट	XC	9	mod	TRUE	FALSE
 8	इंटरनल	इंटरनल	XC	9	mod	TRUE	TRUE
 9	स्टोरेज	स्टोरेज	NN	10	k1	FALSE	TRUE
 10	है	है	VM	0	main	FALSE	FALSE
@@ -10642,7 +10642,7 @@
 13	और	और	CC	10	ccof	FALSE	FALSE
 14	स्क्रैच	स्क्रैच	NN	18	k1	TRUE	TRUE
 15	प्रूफ	प्रूफ	NN	18	k1	FALSE	TRUE
-16	पिछला	पिछला	JJ	17	nmod__adj	FALSE	TRUE
+16	पिछला	पिछला	JJ	17	nmod__adj	FALSE	FALSE
 17	हिस्सा	हिस्सा	NN	18	pof	FALSE	FALSE
 18	होने	हो	VM	13	ccof	FALSE	FALSE
 19	कि	कि	CC	13	ccof	FALSE	FALSE
@@ -10654,7 +10654,7 @@
 25	है	है	VAUX	23	lwg__vaux	FALSE	FALSE
 26	.	.	.	23	rsym	FALSE	FALSE
 
-1	इनबिल्ट	इनबिल्ट	XC	3	mod	TRUE	TRUE
+1	इनबिल्ट	इनबिल्ट	XC	3	mod	TRUE	FALSE
 2	माइक	माइक	XC	3	mod	FALSE	TRUE
 3	ऑडियो	ऑडियो	NNP	8	rt	TRUE	TRUE
 4	के	का	PSP	3	lwg__psp	FALSE	FALSE
@@ -10710,8 +10710,8 @@
 3	8	8	QC	4	nmod__adj	FALSE	FALSE
 4	जीबी	जीबी	NN	7	r6	FALSE	FALSE
 5	की	का	PSP	4	lwg__psp	FALSE	FALSE
-6	आंतरिक	आंतरिक	JJ	7	nmod__adj	FALSE	FALSE
-7	मेमोरी	मेमोरी	NN	8	k1	FALSE	FALSE
+6	आंतरिक	आंतरिक	JJ	7	nmod__adj	FALSE	TRUE
+7	मेमोरी	मेमोरी	NN	8	k1	FALSE	TRUE
 8	है	है	VM	0	ROOT	FALSE	FALSE
 9	,	,	,	8	rsym	FALSE	FALSE
 10	आगे	आगा	NST	0	ROOT	FALSE	FALSE
@@ -10780,7 +10780,7 @@
 11	हैं	है	VM	0	main	FALSE	FALSE
 12	.	.	.	11	rsym	FALSE	FALSE
 
-1	पिक्चर	पिक्चर	XC	2	mod	FALSE	TRUE
+1	पिक्चर	पिक्चर	XC	2	mod	FALSE	FALSE
 2	क्वालिटी	क्वालिटी	NN	7	k2	TRUE	TRUE
 3	को	को	PSP	2	lwg__psp	TRUE	FALSE
 4	क्लास	क्लास	NN	7	k1	FALSE	FALSE
@@ -10816,9 +10816,9 @@
 6	और	और	CC	16	k1	FALSE	FALSE
 7	एंग्री	एंग्री	XC	9	mod	TRUE	FALSE
 8	बर्ड्स	बर्ड्स	NNP	9	mod	TRUE	FALSE
-9	स्पेस	स्पेस	NN	6	ccof	TRUE	FALSE
+9	स्पेस	स्पेस	NN	6	ccof	TRUE	TRUE
 10	आदि	आदि	RP	9	lwg__rp	FALSE	FALSE
-11	गेम्स	गेम्स	NN	14	nmod__adj	FALSE	FALSE
+11	गेम्स	गेम्स	NN	14	nmod__adj	FALSE	TRUE
 12	बहुत	बहुत	INTF	13	jjmod__intf	FALSE	FALSE
 13	अच्छी	अच्छी	JJ	14	nmod__adj	FALSE	FALSE
 14	तरह	तरह	NN	16	adv	FALSE	FALSE
@@ -10858,7 +10858,7 @@
 2	षमिताभ	षमिताभ	NN	5	r6	TRUE	FALSE
 3	'	'	'	2	rsym	TRUE	FALSE
 4	की	का	PSP	2	lwg__psp	FALSE	FALSE
-5	कहानी	कहानी	NN	10	k1	FALSE	TRUE
+5	कहानी	कहानी	NN	10	k1	FALSE	FALSE
 6	एक	एक	QC	8	nmod__adj	FALSE	FALSE
 7	गूंगे	गूंगे	JJ	8	nmod__adj	TRUE	FALSE
 8	शख्स	शख्स	NN	10	r6v	FALSE	FALSE
@@ -10920,7 +10920,7 @@
 3	पर	पर	PSP	2	lwg__psp	FALSE	FALSE
 4	बहुत	बहुत	INTF	6	jjmod__intf	FALSE	FALSE
 5	सारी	सारी	QF	6	nmod__adj	FALSE	FALSE
-6	गुफाएं	गुफा	NN	7	ccof	FALSE	FALSE
+6	गुफाएं	गुफा	NN	7	ccof	FALSE	TRUE
 7	और	और	CC	9	k1	FALSE	FALSE
 8	झरनें	झरनें	NN	7	ccof	TRUE	FALSE
 9	हैं	है	VM	0	main	FALSE	FALSE
@@ -10956,7 +10956,7 @@
 28	.	.	.	27	rsym	FALSE	FALSE
 
 1	बैटरी	बैटरी	JJ	2	nmod__adj	FALSE	TRUE
-2	लाइफ़	लाइफ़	NN	0	ROOT	FALSE	TRUE
+2	लाइफ़	लाइफ़	NN	0	ROOT	FALSE	FALSE
 3	भी	भी	RP	2	lwg__rp	FALSE	FALSE
 4	बेहतर	बेहतर	JJ	0	ROOT	FALSE	FALSE
 5	नहीं	नहीं	NEG	0	ROOT	FALSE	FALSE
@@ -11026,8 +11026,8 @@
 5	है	है	VM	0	main	FALSE	FALSE
 6	.	.	.	5	rsym	FALSE	FALSE
 
-1	चेसीज़	चेसीज़	NNP	3	r6	TRUE	TRUE
-2	की	का	PSP	1	lwg__psp	FALSE	TRUE
+1	चेसीज़	चेसीज़	NNP	3	r6	TRUE	FALSE
+2	की	का	PSP	1	lwg__psp	FALSE	FALSE
 3	फिनिश	फिनिश	NN	5	k1	FALSE	TRUE
 4	अच्छी	अच्छी	JJ	5	k1s	FALSE	FALSE
 5	है	है	VM	0	main	FALSE	FALSE
@@ -11117,7 +11117,7 @@
 15	है	है	VM	0	main	FALSE	FALSE
 16	.	.	.	15	rsym	FALSE	FALSE
 
-1	ड्युल	ड्युल	XC	5	mod	TRUE	TRUE
+1	ड्युल	ड्युल	XC	5	mod	TRUE	FALSE
 2	सिम	सिम	XC	5	mod	TRUE	TRUE
 3	ऑप्	ऑप्	XC	5	mod	TRUE	FALSE
 4	‍	‍	XC	5	mod	TRUE	FALSE
@@ -11204,7 +11204,7 @@
 1	इनमें	इनमें	PRP	9	k7	TRUE	FALSE
 2	अंतर	अंतर	NN	4	mod	FALSE	FALSE
 3	एंड्रॉइड	एंड्रॉइड	XC	4	mod	TRUE	FALSE
-4	वर्जन	वर्जन	NN	5	ccof	TRUE	FALSE
+4	वर्जन	वर्जन	NN	5	ccof	TRUE	TRUE
 5	और	और	CC	9	k7	FALSE	FALSE
 6	स्क्रीन	स्क्रीन	JJ	7	nmod__adj	FALSE	TRUE
 7	साइज	साइज	NN	5	ccof	TRUE	TRUE
@@ -11251,7 +11251,7 @@
 8	अन्य	अन्य	JJ	9	nmod__adj	FALSE	FALSE
 9	टैबलेट	टैबलेट	NN	20	k1	TRUE	FALSE
 10	टैबटॉप	टैबटॉप	NN	20	k1	TRUE	FALSE
-11	74	74	QC	20	k7	FALSE	FALSE
+11	74	74	QC	20	k7	FALSE	TRUE
 12	सामने	सामना	NST	11	lwg__psp	FALSE	FALSE
 13	आयाजा	आयाजा	NN	11	mod	TRUE	FALSE
 14	जिसके	जो	PRP	20	k7	FALSE	FALSE
@@ -11292,7 +11292,7 @@
 18	पाएं	पा	VM	0	ROOT	FALSE	FALSE
 19	.	.	.	18	rsym	FALSE	FALSE
 
-1	निर्देशक	निर्देशक	JJ	3	nmod__adj	FALSE	FALSE
+1	निर्देशक	निर्देशक	JJ	3	nmod__adj	FALSE	TRUE
 2	शशांक	शशांक	XC	3	mod	FALSE	FALSE
 3	घोष	घोष	NN	4	ccof	FALSE	FALSE
 4	और	और	CC	16	k7p	FALSE	FALSE
@@ -11360,9 +11360,9 @@
 16	पड़ा	पड़ा	XC	15	ccof	FALSE	FALSE
 17	.	.	.	16	rsym	FALSE	FALSE
 
-1	पर्वतीय	पर्वतीय	JJ	3	nmod__adj	FALSE	TRUE
+1	पर्वतीय	पर्वतीय	JJ	3	nmod__adj	FALSE	FALSE
 2	स्थल	स्थल	NN	3	mod	FALSE	TRUE
-3	खंडाला	खंडाला	NN	5	r6	TRUE	TRUE
+3	खंडाला	खंडाला	NN	5	r6	TRUE	FALSE
 4	का	का	PSP	3	lwg__psp	FALSE	FALSE
 5	नाम	नाम	NN	13	k1	FALSE	FALSE
 6	किसी	किसी	PRP	8	nmod__adj	FALSE	FALSE
@@ -11455,7 +11455,7 @@
 16	है	है	VAUX	14	lwg__vaux	FALSE	FALSE
 17	.	.	.	14	rsym	FALSE	FALSE
 
-1	गेमिंग	गेमिंग	XC	2	mod	FALSE	FALSE
+1	गेमिंग	गेमिंग	XC	2	mod	FALSE	TRUE
 2	लैपटॉप	लैपटॉप	NN	5	k1	FALSE	FALSE
 3	जिनकी	जो	PRP	4	r6	FALSE	FALSE
 4	प्राथमिकता	प्राथमिकता	NN	5	k1	FALSE	FALSE
@@ -11478,7 +11478,7 @@
 6	एचडी	एचडी	NNP	14	k1	TRUE	FALSE
 7	7670	7670	QC	10	nmod__adj	TRUE	FALSE
 8	एम	एम	XC	10	mod	FALSE	FALSE
-9	ग्राफिक्स	ग्राफिक्स	XC	10	mod	FALSE	TRUE
+9	ग्राफिक्स	ग्राफिक्स	XC	10	mod	FALSE	FALSE
 10	चिप	चिप	NN	12	r6	TRUE	TRUE
 11	का	का	PSP	10	lwg__psp	FALSE	FALSE
 12	प्रदर्शन	प्रदर्शन	NN	14	k1	FALSE	FALSE
@@ -11505,7 +11505,7 @@
 6	गूगल	गूगल	XC	9	mod	FALSE	TRUE
 7	ड्राइव	ड्राइव	XC	9	mod	TRUE	TRUE
 8	ऑफलाइन	ऑफलाइन	XC	9	mod	TRUE	TRUE
-9	इस्तेमाल	इस्तेमाल	NN	5	ccof	FALSE	TRUE
+9	इस्तेमाल	इस्तेमाल	NN	5	ccof	FALSE	FALSE
 10	भी	भी	RP	9	lwg__rp	FALSE	FALSE
 11	किया	कर	VM	0	main	FALSE	FALSE
 12	जा	जा	VAUX	11	lwg__vaux	FALSE	FALSE
@@ -11757,7 +11757,7 @@
 8	,	,	,	7	rsym	FALSE	FALSE
 9	जोकि	जोकि	CC	7	rh	TRUE	FALSE
 10	इस	इस	DEM	11	nmod__adj	FALSE	FALSE
-11	कीमत	कीमत	NN	14	k7	FALSE	FALSE
+11	कीमत	कीमत	NN	14	k7	FALSE	TRUE
 12	में	में	PSP	11	lwg__psp	FALSE	FALSE
 13	सामान्यतया	सामान्यतया	RB	14	adv	FALSE	FALSE
 14	होता	हो	VM	9	ccof	FALSE	FALSE
@@ -11770,7 +11770,7 @@
 4	सस्ता	सस्ता	NN	8	k1	FALSE	FALSE
 5	3	3	QC	6	nmod__adj	FALSE	FALSE
 6	डी	डी	NN	8	k1	FALSE	FALSE
-7	कैमरा	कैमरा	NN	8	k1s	TRUE	TRUE
+7	कैमरा	कैमरा	NN	8	k1s	TRUE	FALSE
 8	है	है	VM	3	ccof	FALSE	FALSE
 9	.	.	.	3	rsym	FALSE	FALSE
 
@@ -11834,7 +11834,7 @@
 7	टेगरा	टेगरा	NN	16	k7t	TRUE	FALSE
 8	3	3	QC	9	nmod__adj	FALSE	FALSE
 9	क्वाड	क्वाड	NN	16	k1	TRUE	FALSE
-10	कोर	कोर	JJ	11	nmod__adj	FALSE	FALSE
+10	कोर	कोर	JJ	11	nmod__adj	FALSE	TRUE
 11	प्रोसेसर	प्रोसेसर	NN	16	k1	FALSE	TRUE
 12	इसका	इसका	PRP	16	k2	TRUE	FALSE
 13	बेहतरीन	बेहतरीन	JJ	16	pof	FALSE	FALSE
@@ -11862,7 +11862,7 @@
 15	है	है	VM	0	main	FALSE	FALSE
 16	.	.	.	15	rsym	FALSE	FALSE
 
-1	लेखक-निर्देशक	लेखक-निर्देशक	NN	10	k1	TRUE	TRUE
+1	लेखक-निर्देशक	लेखक-निर्देशक	NN	10	k1	TRUE	FALSE
 2	ने	ने	PSP	1	lwg__psp	TRUE	FALSE
 3	अपना	अपना	PRP	4	r6	FALSE	FALSE
 4	काम	काम	NN	10	k2	FALSE	FALSE
@@ -11881,7 +11881,7 @@
 17	तकनीकी	तकनीकी	JJ	18	nmod__adj	FALSE	FALSE
 18	टीम	टीम	NN	19	ccof	FALSE	FALSE
 19	और	और	CC	24	k1	FALSE	FALSE
-20	कलाकारों	कलाकार	NN	19	ccof	FALSE	TRUE
+20	कलाकारों	कलाकार	NN	19	ccof	FALSE	FALSE
 21	ने	ने	PSP	20	lwg__psp	TRUE	FALSE
 22	पर्दे	पर्दा	NN	24	k7p	FALSE	FALSE
 23	पर	पर	PSP	22	lwg__psp	FALSE	FALSE
@@ -12021,7 +12021,7 @@
 13	या	या	CC	20	ccof	TRUE	FALSE
 14	वास्तविक	वास्तविक	JJ	15	nmod__adj	FALSE	FALSE
 15	वॉल्यूम	वॉल्यूम	NN	19	k1	TRUE	FALSE
-16	रॉकर	रॉकर	NNP	19	k1	TRUE	FALSE
+16	रॉकर	रॉकर	NNP	19	k1	TRUE	TRUE
 17	जैसी	जैसी	PSP	16	lwg__psp	TRUE	FALSE
 18	खामियां	खामियां	NN	19	k1s	TRUE	FALSE
 19	है	है	VM	13	ccof	FALSE	FALSE
@@ -12072,10 +12072,10 @@
 8	एसडी	एसडी	XC	10	mod	TRUE	TRUE
 9	कार्ड	कार्ड	XC	10	mod	FALSE	TRUE
 10	स्लॉट	स्लॉट	NNP	11	ccof	TRUE	TRUE
-11	और	और	CC	15	k1	FALSE	TRUE
+11	और	और	CC	15	k1	FALSE	FALSE
 12	सिम	सिम	JJ	13	nmod__adj	TRUE	TRUE
 13	कार्ड	कार्ड	NN	11	ccof	FALSE	TRUE
-14	स्लॉट	स्लॉट	JJ	15	k1s	TRUE	TRUE
+14	स्लॉट	स्लॉट	JJ	15	k1s	TRUE	FALSE
 15	हैं	है	VM	0	main	FALSE	FALSE
 16	.	.	.	15	rsym	FALSE	FALSE
 
@@ -12156,13 +12156,13 @@
 1	164	164	QC	2	nmod__adj	TRUE	FALSE
 2	ग्राम	ग्राम	NN	4	r6	FALSE	FALSE
 3	के	का	PSP	2	lwg__psp	FALSE	FALSE
-4	वजन	वजन	NN	14	k1	FALSE	TRUE
+4	वजन	वजन	NN	14	k1	FALSE	FALSE
 5	वाला	वाला	PSP	4	lwg__psp	FALSE	FALSE
 6	यह	यह	DEM	7	nmod__adj	FALSE	FALSE
 7	फोन	फोन	NN	14	k1	TRUE	FALSE
 8	ब्लैकबेरी	ब्लैकबेरी	NN	11	mod	TRUE	FALSE
-9	10	10	QC	11	nmod__adj	FALSE	FALSE
-10	ओएस	ओएस	XC	11	mod	TRUE	FALSE
+9	10	10	QC	11	nmod__adj	FALSE	TRUE
+10	ओएस	ओएस	XC	11	mod	TRUE	TRUE
 11	वर्जन	वर्जन	NN	14	k1	TRUE	FALSE
 12	1021	1021	QC	14	k7	TRUE	FALSE
 13	पर	पर	PSP	12	lwg__psp	FALSE	FALSE
@@ -12224,7 +12224,7 @@
 8	है	है	VAUX	7	lwg__vaux	FALSE	FALSE
 9	.	.	.	7	rsym	FALSE	FALSE
 
-1	इंटेल	इंटेल	XC	5	k1	TRUE	TRUE
+1	इंटेल	इंटेल	XC	5	k1	TRUE	FALSE
 2	प्रोसेसर	प्रोसेसर	NN	5	k1	FALSE	TRUE
 3	अच्छी	अच्छी	JJ	4	nmod__adj	FALSE	FALSE
 4	कार्यक्षमता	कार्यक्षमता	NN	5	k1	FALSE	FALSE
@@ -12285,7 +12285,7 @@
 13	.	.	.	12	rsym	FALSE	FALSE
 
 1	फोन	फोन	NN	4	mod	TRUE	FALSE
-2	बेंचमार्क	बेंचमार्क	JJ	4	nmod__adj	FALSE	FALSE
+2	बेंचमार्क	बेंचमार्क	JJ	4	nmod__adj	FALSE	TRUE
 3	(	(	(	4	rsym	FALSE	FALSE
 4	मानदंडों	मानदंडों	NN	10	k1	TRUE	FALSE
 5	)	)	)	4	rsym	FALSE	FALSE
@@ -12306,11 +12306,11 @@
 20	आइस	आइस	XC	23	mod	FALSE	FALSE
 21	स्टॉर्म	स्टॉर्म	XC	23	mod	TRUE	FALSE
 22	एक्सट्रीम	एक्सट्रीम	XC	23	mod	TRUE	FALSE
-23	टेस्ट	टेस्ट	NN	19	ccof	FALSE	FALSE
+23	टेस्ट	टेस्ट	NN	19	ccof	FALSE	TRUE
 24	दोनों	दोना	NN	28	k7	FALSE	FALSE
 25	पर	पर	PSP	24	lwg__psp	FALSE	FALSE
 26	बेहतर	बेहतर	JJ	27	nmod__adj	FALSE	FALSE
-27	प्रदर्शन	प्रदर्शन	NN	28	pof	FALSE	TRUE
+27	प्रदर्शन	प्रदर्शन	NN	28	pof	FALSE	FALSE
 28	करता	कर	VM	19	ccof	FALSE	FALSE
 29	है	है	VAUX	28	lwg__vaux	FALSE	FALSE
 30	.	.	.	28	rsym	FALSE	FALSE
@@ -12322,7 +12322,7 @@
 5	से	से	PSP	4	lwg__psp	FALSE	FALSE
 6	बहुत	बहुत	INTF	8	jjmod__intf	FALSE	FALSE
 7	सारी	सारी	QF	8	nmod__adj	FALSE	FALSE
-8	तस्वीरें	तस्वीर	NN	9	k2	FALSE	FALSE
+8	तस्वीरें	तस्वीर	NN	9	k2	FALSE	TRUE
 9	खिंचते	खिंच	VM	1	ccof	FALSE	FALSE
 10	हैं	है	VAUX	9	lwg__vaux	FALSE	FALSE
 11	तो	तो	CC	0	ROOT	FALSE	FALSE
@@ -12418,7 +12418,7 @@
 
 1	कौसर	कौसर	NN	3	mod	TRUE	FALSE
 2	मुनीर	मुनीर	JJ	3	nmod__adj	TRUE	FALSE
-3	गीतों	गीत	NN	6	k7	FALSE	FALSE
+3	गीतों	गीत	NN	6	k7	FALSE	TRUE
 4	में	में	PSP	3	lwg__psp	FALSE	FALSE
 5	अर्थ	अर्थ	NN	6	pof	FALSE	FALSE
 6	लाने	ला	VM	12	rt	FALSE	FALSE
@@ -12446,16 +12446,16 @@
 12	इसे	इसे	PRP	15	k2	TRUE	FALSE
 13	यहां	यहाँ	PRP	15	k7p	FALSE	FALSE
 14	नोटिफिकेशन	नोटिफिकेशन	NN	15	k2	TRUE	TRUE
-15	देखने	देख	VM	18	rt	FALSE	TRUE
+15	देखने	देख	VM	18	rt	FALSE	FALSE
 16	के	का	PSP	15	lwg__psp	FALSE	FALSE
 17	लिए	ले	PSP	15	lwg__psp	FALSE	FALSE
 18	बनाया	बना	VM	11	ccof	FALSE	FALSE
 19	गया	गया	VAUX	18	lwg__vaux	FALSE	FALSE
 20	है	है	VAUX	18	lwg__vaux	FALSE	FALSE
 21	जिसमें	जो	PRP	34	k7	FALSE	FALSE
-22	कॉल	कॉल	NN	23	mod	FALSE	FALSE
+22	कॉल	कॉल	NN	23	mod	FALSE	TRUE
 23	रिसीव	रिसीव	NN	24	pof	TRUE	FALSE
-24	कराने	करा	VM	34	vmod	FALSE	FALSE
+24	कराने	करा	VM	34	vmod	FALSE	TRUE
 25	के	का	PSP	24	lwg__psp	FALSE	FALSE
 26	अलावा	अलावा	PSP	24	lwg__psp	FALSE	FALSE
 27	किसी	किसी	PRP	29	nmod__adj	FALSE	FALSE
@@ -12680,7 +12680,7 @@
 
 1	कम्प्लीट	कम्प्लीट	JJ	2	nmod__adj	TRUE	FALSE
 2	गूगल	गूगल	NN	9	k1	FALSE	FALSE
-3	प्ले	प्ले	JJ	4	nmod__adj	TRUE	FALSE
+3	प्ले	प्ले	JJ	4	nmod__adj	TRUE	TRUE
 4	स्टोर	स्टोर	NN	9	k1	FALSE	FALSE
 5	भी	भी	RP	4	lwg__rp	FALSE	FALSE
 6	इस	इस	DEM	9	k7	FALSE	FALSE
@@ -12746,8 +12746,8 @@
 4	भी	भी	RP	3	lwg__rp	FALSE	FALSE
 5	हो	हो	VM	6	nmod__adj	FALSE	FALSE
 6	लोग	लोग	NN	11	k1	FALSE	FALSE
-7	हिल	हिल	VM	9	lwg__xc	FALSE	FALSE
-8	स्टेशन	स्टेशन	NN	9	k2p	FALSE	FALSE
+7	हिल	हिल	VM	9	lwg__xc	FALSE	TRUE
+8	स्टेशन	स्टेशन	NN	9	k2p	FALSE	TRUE
 9	जाना	जान	VM	11	vmod	FALSE	FALSE
 10	नहीं	नहीं	NEG	11	lwg__neg	FALSE	FALSE
 11	भूलते	भूल	VM	0	main	FALSE	FALSE
@@ -12774,7 +12774,7 @@
 
 1	इसमें	इसमें	PRP	5	k7	TRUE	FALSE
 2	इंटरचेंजेबल	इंटरचेंजेबल	JJ	3	nmod__adj	TRUE	FALSE
-3	बैक	बैक	NN	5	k1	TRUE	FALSE
+3	बैक	बैक	NN	5	k1	TRUE	TRUE
 4	कवर	कवर	NN	5	k1s	FALSE	FALSE
 5	हैं	है	VM	0	main	FALSE	FALSE
 6	.	.	.	5	rsym	FALSE	FALSE
@@ -12984,7 +12984,7 @@
 19	अपने	अपना	PRP	20	r6	FALSE	FALSE
 20	अभिनय	अभिनय	NN	30	k5	FALSE	FALSE
 21	से	से	PSP	20	lwg__psp	FALSE	FALSE
-22	किरदारों	किरदारों	NN	26	k4	TRUE	TRUE
+22	किरदारों	किरदारों	NN	26	k4	TRUE	FALSE
 23	को	को	PSP	22	lwg__psp	TRUE	FALSE
 24	विशेष	विशेष	JJ	25	nmod__adj	FALSE	FALSE
 25	रंग	रंग	NN	26	k2	FALSE	FALSE
@@ -12996,8 +12996,8 @@
 31	हैं	है	VAUX	30	lwg__vaux	FALSE	FALSE
 32	.	.	.	30	rsym	FALSE	FALSE
 
-1	फुल	फुल	XC	2	mod	TRUE	TRUE
-2	एचडी	एचडी	NNP	3	k1	TRUE	TRUE
+1	फुल	फुल	XC	2	mod	TRUE	FALSE
+2	एचडी	एचडी	NNP	3	k1	TRUE	FALSE
 3	डिस्प्ले	डिस्प्ले	VM	0	main	FALSE	TRUE
 4	है	है	VAUX	3	lwg__vaux	FALSE	FALSE
 5	.	.	.	3	rsym	FALSE	FALSE
@@ -13078,7 +13078,7 @@
 10	में	में	PSP	9	lwg__psp	FALSE	FALSE
 11	यह	यह	DEM	13	nmod__adj	FALSE	FALSE
 12	कम	कम	QF	13	nmod__adj	FALSE	FALSE
-13	कीमत	कीमत	NN	15	nmod	FALSE	TRUE
+13	कीमत	कीमत	NN	15	nmod	FALSE	FALSE
 14	वाली	वाली	PSP	13	lwg__psp	FALSE	FALSE
 15	श्रेणी	श्रेणी	NN	18	k7	FALSE	FALSE
 16	में	में	PSP	15	lwg__psp	FALSE	FALSE
@@ -13102,7 +13102,7 @@
 14	थोडी	थोडी	QF	15	nmod__adj	TRUE	FALSE
 15	सी	सी	RP	16	ccof	FALSE	FALSE
 16	और	और	CC	26	k1u	FALSE	FALSE
-17	कीमत	कीमत	NN	16	ccof	FALSE	TRUE
+17	कीमत	कीमत	NN	16	ccof	FALSE	FALSE
 18	में	में	PSP	17	lwg__psp	FALSE	FALSE
 19	गैलेक्सी	गैलेक्सी	JJ	20	nmod__adj	TRUE	FALSE
 20	टैब	टैब	NN	26	k1	TRUE	FALSE
@@ -13148,7 +13148,7 @@
 3	फास्	फास्	NN	4	pof	TRUE	FALSE
 4	‍	‍	VM	13	vmod	TRUE	FALSE
 5	ट	ट	VAUX	4	lwg__vaux	FALSE	FALSE
-6	टाइपिंग	टाइपिंग	NN	13	rt	TRUE	TRUE
+6	टाइपिंग	टाइपिंग	NN	13	rt	TRUE	FALSE
 7	के	का	PSP	6	lwg__psp	FALSE	FALSE
 8	लिए	ले	PSP	6	lwg__psp	FALSE	FALSE
 9	एक्	एक्	QC	10	nmod__adj	TRUE	FALSE
@@ -13163,7 +13163,7 @@
 1	इसमें	इसमें	PRP	5	k7	TRUE	FALSE
 2	टेगरा	टेगरा	NN	4	mod	TRUE	FALSE
 3	3	3	QC	4	nmod__adj	FALSE	FALSE
-4	प्रोसेसर	प्रोसेसर	NN	5	k1	FALSE	FALSE
+4	प्रोसेसर	प्रोसेसर	NN	5	k1	FALSE	TRUE
 5	होने	हो	VM	11	rh	FALSE	FALSE
 6	के	का	PSP	5	lwg__psp	FALSE	FALSE
 7	कारण	कारण	NN	5	lwg__psp	FALSE	FALSE
@@ -13218,7 +13218,7 @@
 2	केवल	केवल	RB	3	lwg__rp	FALSE	FALSE
 3	3	3	QC	5	nmod__adj	FALSE	FALSE
 4	जी	जी	RP	5	mod	FALSE	FALSE
-5	सेवाओं	सेवा	NN	7	r6	FALSE	FALSE
+5	सेवाओं	सेवा	NN	7	r6	FALSE	TRUE
 6	का	का	PSP	5	lwg__psp	FALSE	FALSE
 7	मजा	मजा	NN	8	pof	FALSE	FALSE
 8	ले	ले	VM	0	main	FALSE	FALSE
@@ -13241,8 +13241,8 @@
 13	मिलेंगे	मिल	VM	8	ccof	FALSE	FALSE
 14	.	.	.	13	rsym	FALSE	FALSE
 
-1	वायुमार्ग-भुवनेश्वर	वायुमार्ग-भुवनेश्वर	XC	4	mod	TRUE	TRUE
-2	निकटतम	निकटतम	XC	4	mod	FALSE	TRUE
+1	वायुमार्ग-भुवनेश्वर	वायुमार्ग-भुवनेश्वर	XC	4	mod	TRUE	FALSE
+2	निकटतम	निकटतम	XC	4	mod	FALSE	FALSE
 3	हवाई	हवाई	XC	4	mod	FALSE	TRUE
 4	अड्डा	अड्डा	NN	5	k1s	FALSE	TRUE
 5	है	है	VM	0	main	FALSE	FALSE
@@ -13335,7 +13335,7 @@
 8	अच्	अच्	JJ	9	nmod__adj	TRUE	FALSE
 9	‍	‍	NN	12	k1	TRUE	FALSE
 10	छे	छे	PSP	12	k4	TRUE	FALSE
-11	ग्राफिक	ग्राफिक	JJ	12	pof	TRUE	TRUE
+11	ग्राफिक	ग्राफिक	JJ	12	pof	TRUE	FALSE
 12	दिए	दे	VM	7	ccof	TRUE	FALSE
 13	गए	गए	VAUX	12	lwg__vaux	TRUE	FALSE
 14	हैं	है	VAUX	12	lwg__vaux	FALSE	FALSE
@@ -13345,7 +13345,7 @@
 2	और	और	CC	9	k7p	FALSE	TRUE
 3	वॉल्यूम	वॉल्यूम	NN	4	mod	TRUE	TRUE
 4	रॉकर	रॉकर	NNP	2	ccof	TRUE	TRUE
-5	ऊपर	ऊपर	NST	4	lwg__psp	FALSE	FALSE
+5	ऊपर	ऊपर	NST	4	lwg__psp	FALSE	TRUE
 6	दाहिने	दाहिना	NN	7	mod	FALSE	FALSE
 7	कोने	कोना	NN	9	k7	FALSE	FALSE
 8	पर	पर	PSP	7	lwg__psp	FALSE	FALSE
@@ -13402,7 +13402,7 @@
 24	डिवाईस	डिवाईस	NN	33	k7	TRUE	FALSE
 25	में	में	PSP	24	lwg__psp	FALSE	FALSE
 26	बड़ी	बड़ी	JJ	27	nmod__adj	FALSE	FALSE
-27	बैट्री	बैट्री	NN	33	rt	TRUE	TRUE
+27	बैट्री	बैट्री	NN	33	rt	TRUE	FALSE
 28	के	का	PSP	27	lwg__psp	FALSE	FALSE
 29	लिए	ले	PSP	27	lwg__psp	FALSE	FALSE
 30	पर्याप्त	पर्याप्त	JJ	31	nmod__adj	FALSE	FALSE
@@ -13477,7 +13477,7 @@
 14	है	है	VAUX	13	lwg__vaux	FALSE	FALSE
 15	.	.	.	13	rsym	FALSE	FALSE
 
-1	लेखक-निर्देशक	लेखक-निर्देशक	JJ	2	nmod__adj	TRUE	FALSE
+1	लेखक-निर्देशक	लेखक-निर्देशक	JJ	2	nmod__adj	TRUE	TRUE
 2	तथ्यों	तथ्य	NN	3	ccof	FALSE	FALSE
 3	और	और	CC	0	main	FALSE	FALSE
 4	साक्ष्यों	साक्ष्यों	NN	3	ccof	TRUE	FALSE
@@ -13497,8 +13497,8 @@
 8	के	का	PSP	7	lwg__psp	FALSE	FALSE
 9	लिए	ले	PSP	7	lwg__psp	FALSE	FALSE
 10	खास	खास	JJ	12	nmod__adj	FALSE	FALSE
-11	हिल	हिल	VM	12	mod	FALSE	FALSE
-12	स्टेशन	स्टेशन	NN	13	k7p	FALSE	FALSE
+11	हिल	हिल	VM	12	mod	FALSE	TRUE
+12	स्टेशन	स्टेशन	NN	13	k7p	FALSE	TRUE
 13	है	है	VM	0	main	FALSE	FALSE
 14	.	.	.	13	rsym	FALSE	FALSE
 
@@ -13533,8 +13533,8 @@
 4	से	से	PSP	3	lwg__psp	FALSE	FALSE
 5	घिरा	घिरा	VM	15	vmod	FALSE	FALSE
 6	हुआ	हो	VAUX	5	lwg__vaux	FALSE	FALSE
-7	काठमांडू	काठमांडू	NN	9	mod	FALSE	FALSE
-8	नगर	नगर	NN	9	mod	FALSE	FALSE
+7	काठमांडू	काठमांडू	NN	9	mod	FALSE	TRUE
+8	नगर	नगर	NN	9	mod	FALSE	TRUE
 9	यूनेस्को	यूनेस्को	NNP	12	r6	FALSE	FALSE
 10	की	का	PSP	9	lwg__psp	FALSE	FALSE
 11	विश्व	विश्व	XC	12	mod	FALSE	FALSE
@@ -13571,7 +13571,7 @@
 4	उच्च	उच्च	JJ	5	nmod__adj	FALSE	FALSE
 5	स्तर	स्तर	NN	7	r6	FALSE	FALSE
 6	के	का	PSP	5	lwg__psp	FALSE	FALSE
-7	प्रदर्शन	प्रदर्शन	NN	9	k7	FALSE	FALSE
+7	प्रदर्शन	प्रदर्शन	NN	9	k7	FALSE	TRUE
 8	पर	पर	PSP	7	lwg__psp	FALSE	FALSE
 9	निकलता	निकल	VM	0	main	FALSE	FALSE
 10	है	है	VAUX	9	lwg__vaux	FALSE	FALSE
@@ -13593,7 +13593,7 @@
 5	साथ्ज्ञ	साथ्ज्ञ	NN	12	k1	TRUE	FALSE
 6	1235	1235	QC	11	mod	TRUE	FALSE
 7	एमएम	एमएम	XC	11	mod	TRUE	FALSE
-8	एफ	एफ	XC	11	mod	FALSE	FALSE
+8	एफ	एफ	XC	11	mod	FALSE	TRUE
 9	28	28	QC	11	nmod__adj	FALSE	FALSE
 10	एचडी	एचडी	XC	11	mod	TRUE	FALSE
 11	लैंस	लैंस	NN	12	k2	FALSE	TRUE
@@ -13602,7 +13602,7 @@
 14	रहे	रह	VAUX	12	lwg__vaux	FALSE	FALSE
 15	हैं	है	VAUX	12	lwg__vaux	FALSE	FALSE
 16	जिसकी	जो	PRP	0	ROOT	FALSE	FALSE
-17	कीमत	कीमत	NN	21	k1	FALSE	FALSE
+17	कीमत	कीमत	NN	21	k1	FALSE	TRUE
 18	1,72	1,72	QC	20	nmod__adj	TRUE	FALSE
 19	,990	,990	QC	20	nmod__adj	TRUE	FALSE
 20	रूपए	रूपया	NN	21	k1	TRUE	FALSE
@@ -13653,7 +13653,7 @@
 
 1	यह	यह	DEM	2	nmod__adj	FALSE	FALSE
 2	डिवाइस	डिवाइस	NN	5	k1	TRUE	FALSE
-3	फिटनेस	फिटनेस	XC	4	mod	FALSE	TRUE
+3	फिटनेस	फिटनेस	XC	4	mod	FALSE	FALSE
 4	फोकस	फोकस	NN	5	pof	FALSE	TRUE
 5	करती	कर	VM	7	ccof	FALSE	FALSE
 6	है	है	VAUX	5	lwg__vaux	FALSE	FALSE
@@ -13701,8 +13701,8 @@
 11	स्टॉक	स्टॉक	JJ	12	nmod__adj	FALSE	FALSE
 12	एंड्रायड	एंड्रायड	NN	8	ccof	TRUE	FALSE
 13	43	43	QC	15	mod	FALSE	FALSE
-14	ऑपरेटिंग	ऑपरेटिंग	XC	15	mod	TRUE	FALSE
-15	सिस्टम	सिस्टम	NNP	12	ccof	FALSE	FALSE
+14	ऑपरेटिंग	ऑपरेटिंग	XC	15	mod	TRUE	TRUE
+15	सिस्टम	सिस्टम	NNP	12	ccof	FALSE	TRUE
 16	,	,	,	15	rsym	FALSE	FALSE
 17	दूसरे	दूसरा	QO	18	nmod__adj	FALSE	FALSE
 18	टेबलेट्स	टेबलेट्स	NN	20	r6	TRUE	FALSE
@@ -13716,7 +13716,7 @@
 26	है	है	VM	15	ccof	FALSE	FALSE
 27	.	.	.	26	rsym	FALSE	FALSE
 
-1	मैसिव	मैसिव	XC	3	mod	TRUE	TRUE
+1	मैसिव	मैसिव	XC	3	mod	TRUE	FALSE
 2	वीडियो	वीडियो	XC	3	mod	FALSE	TRUE
 3	लाइब्रेरी	लाइब्रेरी	NN	4	k1s	FALSE	TRUE
 4	है	है	VM	0	main	FALSE	FALSE
@@ -13832,7 +13832,7 @@
 8	B	B	NN	16	k1	TRUE	FALSE
 9	5000	5000	QC	10	nmod__adj	TRUE	FALSE
 10	FHD	FHD	NN	16	k1	TRUE	FALSE
-11	LED	LED	JJ	12	nmod__adj	TRUE	FALSE
+11	LED	LED	JJ	12	nmod__adj	TRUE	TRUE
 12	स्पोर्ट्स	स्पोर्ट्स	NN	14	r6	TRUE	FALSE
 13	के	का	PSP	12	lwg__psp	FALSE	FALSE
 14	नाम	नाम	NN	16	k7	FALSE	FALSE
@@ -14014,7 +14014,7 @@
 13	इले	इला	DEM	14	nmod__adj	FALSE	FALSE
 14	​	​	NN	22	k1	TRUE	FALSE
 15	क्ट्रॉनिक	क्ट्रॉनिक	JJ	16	nmod__adj	TRUE	FALSE
-16	म्यूजिक	म्यूजिक	NN	22	k7t	FALSE	FALSE
+16	म्यूजिक	म्यूजिक	NN	22	k7t	FALSE	TRUE
 17	के	का	PSP	16	lwg__psp	FALSE	FALSE
 18	साथ	साथ	NST	16	lwg__psp	FALSE	FALSE
 19	अच्छे	अच्छे	JJ	22	adv	TRUE	FALSE
@@ -14030,8 +14030,8 @@
 4	हिस्से	हिस्सा	NN	17	k7	FALSE	FALSE
 5	में	में	PSP	4	lwg__psp	FALSE	FALSE
 6	दानेदार	दानेदार	JJ	7	nmod__adj	FALSE	FALSE
-7	रबर	रबर	NN	17	k1	FALSE	FALSE
-8	फिनिश	फिनिश	JJ	17	k4	FALSE	FALSE
+7	रबर	रबर	NN	17	k1	FALSE	TRUE
+8	फिनिश	फिनिश	JJ	17	k4	FALSE	TRUE
 9	ना	ना	NEG	10	lwg__neg	FALSE	FALSE
 10	सिर्फ	सिर्फ	RB	17	adv	FALSE	FALSE
 11	इसे	इसे	PRP	12	k2	TRUE	FALSE
@@ -14039,7 +14039,7 @@
 13	में	में	PSP	12	lwg__psp	FALSE	FALSE
 14	काफी	काफी	QF	16	nmod__adj	FALSE	FALSE
 15	अच्छा	अच्छा	JJ	16	nmod__adj	FALSE	FALSE
-16	ग्रिप	ग्रिप	NN	17	pof	TRUE	TRUE
+16	ग्रिप	ग्रिप	NN	17	pof	TRUE	FALSE
 17	देता	दे	VM	20	ccof	TRUE	FALSE
 18	है	है	VAUX	17	lwg__vaux	FALSE	FALSE
 19	,	,	,	17	rsym	FALSE	FALSE
@@ -14108,7 +14108,7 @@
 16	रोशनी	रोशनी	NN	21	k7	FALSE	FALSE
 17	में	में	PSP	16	lwg__psp	FALSE	FALSE
 18	अपनी	अपनी	PRP	19	r6	TRUE	FALSE
-19	क्वालिटी	क्वालिटी	NN	21	k2	TRUE	FALSE
+19	क्वालिटी	क्वालिटी	NN	21	k2	TRUE	TRUE
 20	छोड़	छोड़	NNP	21	pof	FALSE	FALSE
 21	देता	दे	VM	14	ccof	TRUE	FALSE
 22	है	है	VAUX	21	lwg__vaux	FALSE	FALSE
@@ -14205,8 +14205,8 @@
 23	आई	आ	VM	24	ccof	FALSE	FALSE
 24	और	और	CC	0	ROOT	FALSE	FALSE
 25	यह	यह	DEM	26	nmod__adj	FALSE	FALSE
-26	बार-बार	बार-बार	NN	29	k1	FALSE	FALSE
-27	ब्राउजर	ब्राउजर	JJ	28	nmod__adj	FALSE	FALSE
+26	बार-बार	बार-बार	NN	29	k1	FALSE	TRUE
+27	ब्राउजर	ब्राउजर	JJ	28	nmod__adj	FALSE	TRUE
 28	क्रैश	क्रैश	NN	29	pof	FALSE	FALSE
 29	होने	हो	VM	0	ROOT	FALSE	FALSE
 30	के	का	PSP	29	lwg__psp	FALSE	FALSE
@@ -14231,7 +14231,7 @@
 9	सबसे	सबसे	JJ	15	mod	FALSE	FALSE
 10	हाई	हाई	XC	15	mod	FALSE	FALSE
 11	एंड	एंड	XC	15	mod	FALSE	FALSE
-12	कैमरा	कैमरा	NNP	15	mod	TRUE	FALSE
+12	कैमरा	कैमरा	NNP	15	mod	TRUE	TRUE
 13	ए	ए	ए	15	mod	FALSE	FALSE
 14	7	7	QC	15	nmod__adj	FALSE	FALSE
 15	एस	एस	NN	16	k1	FALSE	FALSE
@@ -14240,7 +14240,7 @@
 18	4	4	QC	21	r6	FALSE	FALSE
 19	के	का	PSP	18	lwg__psp	FALSE	FALSE
 20	वीडियो	वीडियो	XC	21	mod	FALSE	TRUE
-21	क्वालिटी	क्वालिटी	NN	23	k1s	TRUE	TRUE
+21	क्वालिटी	क्वालिटी	NN	23	k1s	TRUE	FALSE
 22	वाला	वाला	PSP	21	lwg__psp	FALSE	FALSE
 23	है	है	VM	0	ROOT	FALSE	FALSE
 24	.	.	.	23	rsym	FALSE	FALSE
@@ -14299,7 +14299,7 @@
 
 1	इसमें	इसमें	PRP	10	k7	TRUE	FALSE
 2	एचडीएमआई	एचडीएमआई	NN	4	mod	TRUE	TRUE
-3	आउट	आउट	VM	4	mod	FALSE	TRUE
+3	आउट	आउट	VM	4	mod	FALSE	FALSE
 4	पुट	पुट	NN	10	k1	FALSE	TRUE
 5	(	(	(	8	rsym	FALSE	FALSE
 6	HDMI	HDMI	XC	8	mod	TRUE	FALSE
@@ -14374,7 +14374,7 @@
 
 1	इसमें	इसमें	PRP	0	ROOT	TRUE	FALSE
 2	फाइव	फाइव	XC	4	mod	FALSE	FALSE
-3	प्वाइंट	प्वाइंट	XC	4	mod	FALSE	FALSE
+3	प्वाइंट	प्वाइंट	XC	4	mod	FALSE	TRUE
 4	टच	टच	NN	5	ccof	FALSE	FALSE
 5	और	और	CC	0	ROOT	FALSE	FALSE
 6	4	4	QC	5	ccof	FALSE	FALSE
@@ -14401,7 +14401,7 @@
 14	बच्चों	बच्चा	NN	22	k1	FALSE	FALSE
 15	ने	ने	PSP	14	lwg__psp	TRUE	FALSE
 16	अपने	अपना	PRP	17	r6	FALSE	FALSE
-17	किरदारों	किरदारों	NN	22	k5	TRUE	TRUE
+17	किरदारों	किरदारों	NN	22	k5	TRUE	FALSE
 18	से	से	PSP	17	lwg__psp	FALSE	FALSE
 19	कहानी	कहानी	NN	22	k7	FALSE	FALSE
 20	में	में	PSP	19	lwg__psp	FALSE	FALSE
@@ -14495,7 +14495,7 @@
 18	.	.	.	17	rsym	FALSE	FALSE
 
 1	यह	यह	PRP	7	k1	FALSE	FALSE
-2	गेम्स	गेम्स	NN	4	mod	FALSE	FALSE
+2	गेम्स	गेम्स	NN	4	mod	FALSE	TRUE
 3	खेलते	खेल	VM	4	mod	FALSE	FALSE
 4	वक्त	वक्त	NN	7	k7t	FALSE	FALSE
 5	काफी	काफी	QF	6	nmod__adj	FALSE	FALSE
@@ -14517,8 +14517,8 @@
 11	नहीं	नहीं	NEG	12	lwg__neg	FALSE	FALSE
 12	है	है	VM	6	vmod	FALSE	FALSE
 13	अौर	अौर	CC	12	rh	TRUE	FALSE
-14	पॉवर	पॉवर	NN	15	mod	TRUE	FALSE
-15	बटन	बटन	NN	17	r6	FALSE	FALSE
+14	पॉवर	पॉवर	NN	15	mod	TRUE	TRUE
+15	बटन	बटन	NN	17	r6	FALSE	TRUE
 16	का	का	PSP	15	lwg__psp	FALSE	FALSE
 17	स्थान	स्थान	NN	19	k1	FALSE	FALSE
 18	त्रुटिपूर्ण	त्रुटिपूर्ण	JJ	19	k1s	TRUE	FALSE
@@ -14580,7 +14580,7 @@
 32	.	.	.	30	rsym	FALSE	FALSE
 
 1	स्क्रीन	स्क्रीन	NN	3	r6	FALSE	TRUE
-2	का	का	PSP	1	lwg__psp	FALSE	TRUE
+2	का	का	PSP	1	lwg__psp	FALSE	FALSE
 3	रिजोल्यूशन	रिजोल्यूशन	NN	8	k1	TRUE	TRUE
 4	960	960	QC	7	mod	TRUE	FALSE
 5	गुणा	गुणा	QC	7	nmod__adj	FALSE	FALSE
@@ -14689,7 +14689,7 @@
 26	से	से	PSP	25	lwg__psp	FALSE	FALSE
 27	कुछ	कुछ	QF	30	k2	FALSE	FALSE
 28	ही	ही	RP	27	lwg__rp	FALSE	FALSE
-29	भूमिका	भूमिका	NN	30	pof	FALSE	TRUE
+29	भूमिका	भूमिका	NN	30	pof	FALSE	FALSE
 30	निभाने	निभा	VM	32	r6	TRUE	FALSE
 31	की	का	PSP	30	lwg__psp	FALSE	FALSE
 32	उधेड़बुन	उधेड़बुन	NN	36	k2	FALSE	FALSE
@@ -14758,7 +14758,7 @@
 7	स्नैपड्रैगन	स्नैपड्रैगन	NN	9	mod	TRUE	FALSE
 8	615	615	QC	9	nmod__adj	TRUE	FALSE
 9	ऑक्टाकोर	ऑक्टाकोर	NN	0	ROOT	TRUE	FALSE
-10	64	64	QC	12	nmod__adj	FALSE	FALSE
+10	64	64	QC	12	nmod__adj	FALSE	TRUE
 11	बिट	बिट	NN	12	mod	TRUE	FALSE
 12	प्रोसेसर	प्रोसेसर	NN	13	ccof	FALSE	TRUE
 13	और	और	CC	18	ccof	FALSE	FALSE
@@ -14802,7 +14802,7 @@
 5	में	में	PSP	3	lwg__psp	FALSE	FALSE
 6	22	22	QC	9	nmod__adj	FALSE	FALSE
 7	गीगाहर्ट्ज़	गीगाहर्ट्ज़	XC	9	mod	TRUE	FALSE
-8	क्वालकॉम	क्वालकॉम	NN	9	mod	TRUE	FALSE
+8	क्वालकॉम	क्वालकॉम	NN	9	mod	TRUE	TRUE
 9	स्नैपड्रैगन	स्नैपड्रैगन	NN	20	k2	TRUE	FALSE
 10	800	800	QC	11	nmod__adj	TRUE	FALSE
 11	क्वाड	क्वाड	NN	20	k2	TRUE	TRUE
@@ -14820,13 +14820,13 @@
 
 1	इसमें	इसमें	PRP	15	k7	TRUE	FALSE
 2	अपग्रेडेड	अपग्रेडेड	XC	3	mod	TRUE	FALSE
-3	लैंस	लैंस	XC	8	ccof	FALSE	FALSE
+3	लैंस	लैंस	XC	8	ccof	FALSE	TRUE
 4	,	,	,	3	rsym	FALSE	FALSE
-5	फास्टर	फास्टर	NN	7	mod	TRUE	TRUE
+5	फास्टर	फास्टर	NN	7	mod	TRUE	FALSE
 6	इमेज	इमेज	XC	7	mod	FALSE	TRUE
 7	प्रोसेसर	प्रोसेसर	NN	8	ccof	FALSE	TRUE
 8	तथा	तथा	CC	15	k7p	FALSE	FALSE
-9	रेट्राकेबल	रेट्राकेबल	XC	11	mod	TRUE	TRUE
+9	रेट्राकेबल	रेट्राकेबल	XC	11	mod	TRUE	FALSE
 10	ओएलईडी	ओएलईडी	XC	11	mod	TRUE	TRUE
 11	ट्रू-फाइंडरटीएम	ट्रू-फाइंडरटीएम	NN	8	ccof	TRUE	FALSE
 12	के	का	PSP	11	lwg__psp	FALSE	FALSE
@@ -14932,7 +14932,7 @@
 6	ईयर	ईयर	NNP	9	r6	FALSE	FALSE
 7	'	'	'	6	rsym	TRUE	FALSE
 8	के	का	PSP	6	lwg__psp	FALSE	FALSE
-9	डांस	डांस	NN	13	k1	FALSE	TRUE
+9	डांस	डांस	NN	13	k1	FALSE	FALSE
 10	सीक्वेंस	सीक्वेंस	NN	13	k1	TRUE	TRUE
 11	प्रभावित	प्रभावित	JJ	13	pof	FALSE	FALSE
 12	नहीं	नहीं	NEG	13	lwg__neg	FALSE	FALSE
@@ -14976,7 +14976,7 @@
 8	फॅब्लेट	फॅब्लेट	NN	10	r6	TRUE	FALSE
 9	की	का	PSP	8	lwg__psp	FALSE	FALSE
 10	बैट्री	बैट्री	NN	13	k1	TRUE	TRUE
-11	लाईफ	लाईफ	NN	13	k1s	TRUE	TRUE
+11	लाईफ	लाईफ	NN	13	k1s	TRUE	FALSE
 12	ज्यादा	ज्यादा	QF	11	nmod__adj	FALSE	FALSE
 13	होनी	हो	VM	7	ccof	FALSE	FALSE
 14	चाहिए	चाह	VAUX	13	lwg__vaux	FALSE	FALSE
@@ -15160,7 +15160,7 @@
 8	रिजोल्यूशन	रिजोल्यूशन	NN	17	k7t	TRUE	TRUE
 9	के	का	PSP	8	lwg__psp	FALSE	FALSE
 10	साथ	साथ	NST	8	lwg__psp	FALSE	FALSE
-11	हाइ	हाइ	XC	14	mod	TRUE	TRUE
+11	हाइ	हाइ	XC	14	mod	TRUE	FALSE
 12	डेफिनेशन	डेफिनेशन	NN	14	mod	TRUE	TRUE
 13	एलईडी	एलईडी	XC	14	mod	TRUE	TRUE
 14	डिसप्ले	डिसप्ले	NN	17	k1	TRUE	TRUE
@@ -15259,7 +15259,7 @@
 9	कैमरामैन	कैमरामैन	NN	18	ccof	TRUE	FALSE
 10	,	,	,	9	rsym	FALSE	FALSE
 11	साउंड	साउंड	XC	12	mod	TRUE	TRUE
-12	रिकॉर्डिस्ट	रिकॉर्डिस्ट	NN	18	ccof	TRUE	TRUE
+12	रिकॉर्डिस्ट	रिकॉर्डिस्ट	NN	18	ccof	TRUE	FALSE
 13	,	,	,	12	rsym	FALSE	FALSE
 14	कोरियोग्राफर	कोरियोग्राफर	NN	18	ccof	TRUE	FALSE
 15	,	,	,	14	rsym	FALSE	FALSE
@@ -15272,7 +15272,7 @@
 22	है	है	VAUX	21	lwg__vaux	FALSE	FALSE
 23	.	.	.	21	rsym	FALSE	FALSE
 
-1	फ्रंट	फ्रंट	NN	2	mod	FALSE	TRUE
+1	फ्रंट	फ्रंट	NN	2	mod	FALSE	FALSE
 2	कैमरे	कैमरा	NN	4	r6	TRUE	TRUE
 3	के	का	PSP	2	lwg__psp	FALSE	FALSE
 4	मामले	मामला	NN	12	k1	FALSE	FALSE
@@ -15313,9 +15313,9 @@
 13	,	,	,	12	rsym	FALSE	FALSE
 14	एप्पस	एप्पस	NNP	19	ccof	TRUE	FALSE
 15	,	,	,	14	rsym	FALSE	FALSE
-16	संगीत	संगीत	NN	19	ccof	FALSE	TRUE
+16	संगीत	संगीत	NN	19	ccof	FALSE	FALSE
 17	,	,	,	16	rsym	FALSE	FALSE
-18	तस्वीरें	तस्वीर	NN	19	ccof	FALSE	TRUE
+18	तस्वीरें	तस्वीर	NN	19	ccof	FALSE	FALSE
 19	और	और	CC	22	k2	FALSE	FALSE
 20	डॉक्यूमेंट्स	डॉक्यूमेंट्स	NN	19	ccof	TRUE	FALSE
 21	स्टोर	स्टोर	NN	22	pof	FALSE	FALSE
@@ -15334,7 +15334,7 @@
 34	तो	तो	CC	0	ROOT	FALSE	FALSE
 35	इसको	इसको	PRP	44	k1	TRUE	FALSE
 36	एसडीएचसी	एसडीएचसी	JJ	37	nmod__adj	TRUE	FALSE
-37	कार्ड	कार्ड	NN	39	r6	FALSE	FALSE
+37	कार्ड	कार्ड	NN	39	r6	FALSE	TRUE
 38	की	का	PSP	37	lwg__psp	FALSE	FALSE
 39	सहायता	सहायता	NN	44	k3	FALSE	FALSE
 40	से	से	PSP	39	lwg__psp	FALSE	FALSE
@@ -15436,8 +15436,8 @@
 2	से	से	PSP	4	lwg__rp	FALSE	FALSE
 3	32	32	QC	4	nmod__adj	FALSE	FALSE
 4	जीबी	जीबी	NN	0	main	FALSE	FALSE
-5	एक्सपैंडेबल	एक्सपैंडेबल	JJ	6	nmod__adj	TRUE	FALSE
-6	मेमोरी	मेमोरी	NN	4	ccof	FALSE	FALSE
+5	एक्सपैंडेबल	एक्सपैंडेबल	JJ	6	nmod__adj	TRUE	TRUE
+6	मेमोरी	मेमोरी	NN	4	ccof	FALSE	TRUE
 7	के	का	PSP	6	lwg__psp	FALSE	FALSE
 8	साथ	साथ	NST	6	lwg__psp	FALSE	FALSE
 9	और	और	CC	6	rsym	FALSE	FALSE
@@ -15463,11 +15463,11 @@
 
 1	पेरिस्कोप	पेरिस्कोप	NN	3	mod	FALSE	FALSE
 2	एप	एप	XC	3	mod	FALSE	FALSE
-3	यूजर्स	यूजर्स	NNP	13	k1	TRUE	FALSE
+3	यूजर्स	यूजर्स	NNP	13	k1	TRUE	TRUE
 4	भी	भी	RP	3	lwg__rp	FALSE	FALSE
 5	अडिशनल	अडिशनल	JJ	8	nmod__adj	FALSE	FALSE
 6	पुश	पुश	NN	8	mod	TRUE	FALSE
-7	नोटिफिकेशन	नोटिफिकेशन	NN	8	mod	TRUE	FALSE
+7	नोटिफिकेशन	नोटिफिकेशन	NN	8	mod	TRUE	TRUE
 8	सेटिंग्स	सेटिंग्स	NN	13	k1	TRUE	FALSE
 9	अपने	अपना	PRP	10	r6	FALSE	FALSE
 10	हिसाब	हिसाब	NN	13	k5	FALSE	FALSE
@@ -15495,7 +15495,7 @@
 7	है	है	VM	0	main	FALSE	FALSE
 8	.	.	.	7	rsym	FALSE	FALSE
 
-1	स्पेसिफिकेशन	स्पेसिफिकेशन	NN	4	ccof	TRUE	TRUE
+1	स्पेसिफिकेशन	स्पेसिफिकेशन	NN	4	ccof	TRUE	FALSE
 2	,	,	,	1	rsym	FALSE	FALSE
 3	परफॉर्मेंस	परफॉर्मेंस	NN	4	ccof	TRUE	TRUE
 4	और	और	CC	11	k7	FALSE	FALSE
@@ -15527,7 +15527,7 @@
 
 1	पिक्चर	पिक्चर	NN	2	ccof	FALSE	FALSE
 2	और	और	CC	8	k1	FALSE	FALSE
-3	विडियो	विडियो	XC	4	mod	FALSE	FALSE
+3	विडियो	विडियो	XC	4	mod	FALSE	TRUE
 4	थोड़े	थोड़े	NNP	2	ccof	FALSE	FALSE
 5	सुस्त	सुस्त	JJ	6	ccof	FALSE	FALSE
 6	और	और	CC	8	adv	FALSE	FALSE
@@ -15538,10 +15538,10 @@
 
 1	8	8	QC	3	nmod__adj	FALSE	FALSE
 2	जीबी	जीबी	NN	3	mod	FALSE	FALSE
-3	स्टोरेज	स्टोरेज	NN	12	k2	FALSE	FALSE
+3	स्टोरेज	स्टोरेज	NN	12	k2	FALSE	TRUE
 4	जिसे	जो	PRP	12	k2	FALSE	FALSE
-5	माइक्रो	माइक्रो	XC	7	mod	FALSE	FALSE
-6	एसडी	एसडी	XC	7	mod	TRUE	FALSE
+5	माइक्रो	माइक्रो	XC	7	mod	FALSE	TRUE
+6	एसडी	एसडी	XC	7	mod	TRUE	TRUE
 7	कार्ड	कार्ड	NN	12	k3	FALSE	FALSE
 8	से	से	PSP	7	lwg__psp	FALSE	FALSE
 9	32	32	QC	10	nmod__adj	FALSE	FALSE
@@ -15601,7 +15601,7 @@
 15	ऊंचाई	ऊंचाई	NN	19	k5	FALSE	FALSE
 16	से	से	PSP	15	lwg__psp	FALSE	FALSE
 17	नयनाभिराम	नयनाभिराम	JJ	18	nmod__adj	FALSE	FALSE
-18	दृश्य	दृश्य	NN	19	k2	FALSE	FALSE
+18	दृश्य	दृश्य	NN	19	k2	FALSE	TRUE
 19	दिखेंगे	दिख	VM	0	ROOT	TRUE	FALSE
 20	सो	सो	CC	19	lwg__psp	FALSE	FALSE
 21	अलग	अलग	JJ	0	ROOT	FALSE	FALSE
@@ -15818,9 +15818,9 @@
 1	इस	इस	DEM	2	nmod__adj	FALSE	FALSE
 2	टेबलेट	टेबलेट	NN	4	r6	FALSE	FALSE
 3	के	का	PSP	2	lwg__psp	FALSE	FALSE
-4	स्पीकर	स्पीकर	NN	6	r6	TRUE	TRUE
-5	की	का	PSP	4	lwg__psp	FALSE	TRUE
-6	आवाज	आवाज	NN	8	k1	FALSE	TRUE
+4	स्पीकर	स्पीकर	NN	6	r6	TRUE	FALSE
+5	की	का	PSP	4	lwg__psp	FALSE	FALSE
+6	आवाज	आवाज	NN	8	k1	FALSE	FALSE
 7	साधारण	साधारण	JJ	8	k1s	FALSE	FALSE
 8	है	है	VM	0	main	FALSE	FALSE
 9	.	.	.	8	rsym	FALSE	FALSE
@@ -15828,8 +15828,8 @@
 1	इस	इस	DEM	2	nmod__adj	FALSE	FALSE
 2	फोन	फोन	NN	7	k7	TRUE	FALSE
 3	में	में	PSP	2	lwg__psp	FALSE	FALSE
-4	याहू	याहू	NN	5	mod	TRUE	TRUE
-5	मैसेंजर	मैसेंजर	NN	7	k1	TRUE	TRUE
+4	याहू	याहू	NN	5	mod	TRUE	FALSE
+5	मैसेंजर	मैसेंजर	NN	7	k1	TRUE	FALSE
 6	भी	भी	RP	5	lwg__rp	FALSE	FALSE
 7	है	है	VM	8	ccof	FALSE	FALSE
 8	और	और	CC	0	main	FALSE	FALSE
@@ -15901,7 +15901,7 @@
 2	वॉच	वॉच	NN	9	k7	TRUE	FALSE
 3	में	में	PSP	2	lwg__psp	FALSE	FALSE
 4	फोटो	फोटो	XC	6	mod	FALSE	TRUE
-5	गैलरी	गैलरी	NNP	6	mod	FALSE	TRUE
+5	गैलरी	गैलरी	NNP	6	mod	FALSE	FALSE
 6	एप	एप	NN	9	k1	FALSE	TRUE
 7	भी	भी	RP	6	lwg__rp	FALSE	FALSE
 8	उपलब्ध	उपलब्ध	JJ	9	pof	FALSE	FALSE
@@ -15931,7 +15931,7 @@
 6	के	का	PSP	5	lwg__psp	FALSE	FALSE
 7	दो	दो	QC	8	nmod__adj	FALSE	FALSE
 8	कलर	कलर	NN	15	k1	FALSE	FALSE
-9	ओब्सीडियन	ओब्सीडियन	JJ	10	nmod__adj	TRUE	FALSE
+9	ओब्सीडियन	ओब्सीडियन	JJ	10	nmod__adj	TRUE	TRUE
 10	स्टोन	स्टोन	NN	11	ccof	FALSE	FALSE
 11	और	और	CC	15	k2	FALSE	FALSE
 12	सिरेमिक	सिरेमिक	JJ	13	nmod__adj	TRUE	FALSE
@@ -16056,7 +16056,7 @@
 2	में	में	PSP	1	lwg__psp	FALSE	FALSE
 3	टैबलेट	टैबलेट	NN	5	r6	TRUE	FALSE
 4	का	का	PSP	3	lwg__psp	FALSE	FALSE
-5	लुक	लुक	NN	7	k1	FALSE	TRUE
+5	लुक	लुक	NN	7	k1	FALSE	FALSE
 6	अच्छा	अच्छा	JJ	7	k1s	FALSE	FALSE
 7	लगता	लग	VM	10	ccof	TRUE	FALSE
 8	है	है	VAUX	7	lwg__vaux	FALSE	FALSE
@@ -16189,7 +16189,7 @@
 37	है	है	VAUX	36	lwg__vaux	FALSE	FALSE
 38	और	और	CC	29	ccof	FALSE	FALSE
 39	क्वाड	क्वाड	NN	48	k1	TRUE	FALSE
-40	कोर	कोर	PSP	39	lwg__psp	FALSE	FALSE
+40	कोर	कोर	PSP	39	lwg__psp	FALSE	TRUE
 41	इन	इन	DEM	48	k1	FALSE	FALSE
 42	दोनों	दोना	JJ	48	k5	FALSE	FALSE
 43	से	से	PSP	42	lwg__psp	FALSE	FALSE
@@ -16202,7 +16202,7 @@
 
 1	इस	इस	DEM	4	k7	FALSE	FALSE
 2	पर	पर	PSP	1	lwg__psp	FALSE	FALSE
-3	ब्राउजिंग	ब्राउजिंग	NN	4	pof	FALSE	TRUE
+3	ब्राउजिंग	ब्राउजिंग	NN	4	pof	FALSE	FALSE
 4	करना	कर	VM	8	ccof	FALSE	FALSE
 5	,	,	,	4	rsym	FALSE	FALSE
 6	गेम्स	गेम्स	NN	7	k2	FALSE	FALSE
@@ -16223,7 +16223,7 @@
 5	टैबलेट	टैबलेट	NN	8	mod	TRUE	FALSE
 6	सभी	सभी	QF	8	nmod__adj	FALSE	FALSE
 7	महत्वपूर्ण	महत्वपूर्ण	JJ	8	nmod__adj	FALSE	FALSE
-8	ऑडियो	ऑडियो	NN	9	ccof	TRUE	FALSE
+8	ऑडियो	ऑडियो	NN	9	ccof	TRUE	TRUE
 9	तथा	तथा	CC	15	k1	FALSE	FALSE
 10	वीडियो	वीडियो	XC	12	mod	FALSE	FALSE
 11	मीडिया	मीडिया	NNP	12	mod	FALSE	FALSE
@@ -16252,7 +16252,7 @@
 16	का	का	PSP	15	lwg__psp	FALSE	FALSE
 17	एक	एक	QC	18	nmod__adj	FALSE	FALSE
 18	माइक्रोएसबी	माइक्रोएसबी	NN	20	k2	TRUE	FALSE
-19	कार्ड	कार्ड	NN	20	k2	FALSE	FALSE
+19	कार्ड	कार्ड	NN	20	k2	FALSE	TRUE
 20	खरीदना	खरीद	VM	0	main	FALSE	FALSE
 21	पड़ेगा	पड़ेगा	NN	20	lwg__psp	TRUE	FALSE
 22	जिसका	जो	PRP	23	r6	FALSE	FALSE
@@ -16294,7 +16294,7 @@
 
 1	खराब	खराब	JJ	2	nmod__adj	FALSE	FALSE
 2	कैमरा	कैमरा	NN	7	k1	TRUE	TRUE
-3	क्वालिटी	क्वालिटी	NN	7	ras-k4a	TRUE	TRUE
+3	क्वालिटी	क्वालिटी	NN	7	ras-k4a	TRUE	FALSE
 4	,	,	,	3	rsym	FALSE	FALSE
 5	फोन	फोन	NN	7	k1	TRUE	FALSE
 6	भारी	भारी	JJ	7	k1s	FALSE	FALSE
@@ -16318,12 +16318,12 @@
 6	‍	‍	XC	7	mod	TRUE	FALSE
 7	सल	सल	NN	9	r6	FALSE	FALSE
 8	का	का	PSP	7	lwg__psp	FALSE	FALSE
-9	कैमरा	कैमरा	NN	10	k1s	TRUE	TRUE
+9	कैमरा	कैमरा	NN	10	k1s	TRUE	FALSE
 10	है	है	VM	0	main	FALSE	FALSE
 11	जो	जो	PRP	21	k1	FALSE	FALSE
 12	720	720	QC	14	nmod__adj	TRUE	FALSE
 13	p	p	JJ	14	nmod__adj	TRUE	FALSE
-14	रेजुलेशन	रेजुलेशन	NN	21	k1	TRUE	TRUE
+14	रेजुलेशन	रेजुलेशन	NN	21	k1	TRUE	FALSE
 15	क्	क्	क्	17	mod	TRUE	FALSE
 16	‍	‍	XC	17	mod	TRUE	FALSE
 17	वालिटी	वालिटी	NNP	21	r6-k2	TRUE	FALSE
@@ -16483,7 +16483,7 @@
 1	क्	क्	क्	6	k1	TRUE	FALSE
 2	‍	‍	NN	6	k1	TRUE	FALSE
 3	लासी	लासी	JJ	5	nmod__adj	FALSE	FALSE
-4	बैकलिट	बैकलिट	NN	5	mod	TRUE	TRUE
+4	बैकलिट	बैकलिट	NN	5	mod	TRUE	FALSE
 5	कीबोर्ड	कीबोर्ड	NN	6	k1s	FALSE	TRUE
 6	है	है	VM	0	main	FALSE	FALSE
 7	.	.	.	6	rsym	FALSE	FALSE
@@ -16522,7 +16522,7 @@
 5	620	620	QC	9	mod	TRUE	FALSE
 6	एक	एक	QC	8	nmod__adj	FALSE	FALSE
 7	मल्टीमीडिया	मल्टीमीडिया	XC	8	mod	TRUE	TRUE
-8	पॉवरहाउस	पॉवरहाउस	NN	9	k1s	TRUE	TRUE
+8	पॉवरहाउस	पॉवरहाउस	NN	9	k1s	TRUE	FALSE
 9	है	है	VM	4	ccof	FALSE	FALSE
 10	जो	जो	PRP	18	k1	FALSE	FALSE
 11	अधिकतर	अधिकतर	JJ	12	nmod__adj	FALSE	FALSE
@@ -16596,7 +16596,7 @@
 40	.	.	.	37	rsym	FALSE	FALSE
 
 1	कुछ	कुछ	QF	2	nmod__adj	FALSE	FALSE
-2	गीत	गीत	NN	7	k1	FALSE	TRUE
+2	गीत	गीत	NN	7	k1	FALSE	FALSE
 3	तो	तो	RP	2	lwg__rp	FALSE	FALSE
 4	असंगत	असंगत	JJ	5	ccof	FALSE	FALSE
 5	और	और	CC	7	k1s	FALSE	FALSE
@@ -16703,7 +16703,7 @@
 14	.	.	.	13	rsym	FALSE	FALSE
 
 1	इसी	इसी	DEM	2	nmod__adj	FALSE	FALSE
-2	कीमत	कीमत	NN	7	k7	FALSE	FALSE
+2	कीमत	कीमत	NN	7	k7	FALSE	TRUE
 3	में	में	PSP	2	lwg__psp	FALSE	FALSE
 4	अन्य	अन्य	JJ	5	nmod__adj	FALSE	FALSE
 5	स्मार्टफोन	स्मार्टफोन	NN	7	k1s	TRUE	FALSE
@@ -16736,7 +16736,7 @@
 32	“	“	JJ	33	nmod__adj	TRUE	FALSE
 33	नो-नॉनसेंस	नो-नॉनसेंस	NN	38	k1	TRUE	FALSE
 34	”	”	NNP	37	mod	TRUE	FALSE
-35	बजट	बजट	JJ	37	nmod__adj	FALSE	FALSE
+35	बजट	बजट	JJ	37	nmod__adj	FALSE	TRUE
 36	ऍण्ड्रॉइड	ऍण्ड्रॉइड	XC	37	mod	TRUE	FALSE
 37	स्मार्टफोन	स्मार्टफोन	NN	38	k1s	TRUE	FALSE
 38	है	है	VM	27	ccof	FALSE	FALSE
@@ -16779,7 +16779,7 @@
 17	एंड्रायड	एंड्रायड	NN	20	r6	TRUE	FALSE
 18	का	का	PSP	17	lwg__psp	FALSE	FALSE
 19	23	23	QC	20	nmod__adj	FALSE	FALSE
-20	वर्जन	वर्जन	NN	24	k1	TRUE	FALSE
+20	वर्जन	वर्जन	NN	24	k1	TRUE	TRUE
 21	इंस्	इंस्	NN	23	mod	TRUE	FALSE
 22	‍	‍	JJ	23	nmod__adj	TRUE	FALSE
 23	टॉल	टॉल	NN	24	pof	TRUE	FALSE
@@ -16788,12 +16788,12 @@
 26	.	.	.	24	rsym	FALSE	FALSE
 
 1	इसमें	इसमें	PRP	3	k7	TRUE	FALSE
-2	रैटिना	रैटिना	NN	3	pof	TRUE	TRUE
+2	रैटिना	रैटिना	NN	3	pof	TRUE	FALSE
 3	डिस्प्ले	डिस्प्ले	VM	0	main	FALSE	TRUE
 4	,	,	,	3	rsym	FALSE	FALSE
 5	प्रेशर-सेंसिटिव	प्रेशर-सेंसिटिव	XC	8	mod	TRUE	FALSE
 6	फोर्स	फोर्स	XC	8	mod	FALSE	FALSE
-7	टच	टच	XC	8	mod	FALSE	FALSE
+7	टच	टच	XC	8	mod	FALSE	TRUE
 8	ट्रैकपैड	ट्रैकपैड	NN	15	k7t	TRUE	FALSE
 9	के	का	PSP	8	lwg__psp	FALSE	FALSE
 10	साथ	साथ	NST	8	lwg__psp	FALSE	FALSE
@@ -16870,8 +16870,8 @@
 16	में	में	PSP	15	lwg__psp	FALSE	FALSE
 17	16	16	QC	18	nmod__adj	FALSE	FALSE
 18	जीबी	जीबी	NN	21	k1	FALSE	FALSE
-19	इंटरनल	इंटरनल	XC	20	mod	TRUE	TRUE
-20	मैमोरी	मैमोरी	NN	21	k1	TRUE	TRUE
+19	इंटरनल	इंटरनल	XC	20	mod	TRUE	FALSE
+20	मैमोरी	मैमोरी	NN	21	k1	TRUE	FALSE
 21	है	है	VM	0	main	FALSE	FALSE
 22	.	.	.	21	rsym	FALSE	FALSE
 
@@ -17127,7 +17127,7 @@
 1	इसका	इसका	PRP	4	r6	TRUE	FALSE
 2	IPS	IPS	NN	4	mod	TRUE	TRUE
 3	डिस्प्ले	डिस्प्ले	JJ	4	nmod__adj	FALSE	TRUE
-4	एंटी-ग्लेयर	एंटी-ग्लेयर	NN	7	ras-k1	TRUE	TRUE
+4	एंटी-ग्लेयर	एंटी-ग्लेयर	NN	7	ras-k1	TRUE	FALSE
 5	के	का	PSP	4	lwg__psp	FALSE	FALSE
 6	साथ	साथ	NST	4	lwg__psp	FALSE	FALSE
 7	दिया	दे	VM	0	main	FALSE	FALSE
@@ -17156,7 +17156,7 @@
 
 1	फिल्म	फिल्म	NN	9	k7	TRUE	FALSE
 2	में	में	PSP	1	lwg__psp	FALSE	FALSE
-3	गीतों	गीत	NN	5	r6	FALSE	TRUE
+3	गीतों	गीत	NN	5	r6	FALSE	FALSE
 4	के	का	PSP	3	lwg__psp	FALSE	FALSE
 5	फिल्मांकन	फिल्मांकन	NN	9	k7	FALSE	FALSE
 6	पर	पर	PSP	5	lwg__psp	FALSE	FALSE
@@ -17183,7 +17183,7 @@
 1	देखने	देख	VM	6	k7	FALSE	FALSE
 2	में	में	PSP	1	lwg__psp	FALSE	FALSE
 3	इसकी	इसकी	PRP	4	r6	TRUE	FALSE
-4	डिज़ाइन	डिज़ाइन	NN	6	k1	FALSE	TRUE
+4	डिज़ाइन	डिज़ाइन	NN	6	k1	FALSE	FALSE
 5	ऐवरेज	ऐवरेज	JJ	6	k1s	TRUE	FALSE
 6	है	है	VM	0	main	FALSE	FALSE
 7	.	.	.	6	rsym	FALSE	FALSE
@@ -17214,7 +17214,7 @@
 24	इसके	इसके	PRP	36	k1	FALSE	FALSE
 25	पुराने	पुराना	JJ	27	nmod__adj	FALSE	FALSE
 26	यूजर	यूजर	XC	27	mod	FALSE	FALSE
-27	इंटरफेस	इंटरफेस	NNP	28	ccof	FALSE	FALSE
+27	इंटरफेस	इंटरफेस	NNP	28	ccof	FALSE	TRUE
 28	और	और	CC	36	k1	FALSE	FALSE
 29	सिंक	सिंक	JJ	30	nmod__adj	FALSE	FALSE
 30	परेशानियों	परेशानी	NN	28	ccof	FALSE	FALSE
@@ -17226,7 +17226,7 @@
 36	है	है	VM	0	ROOT	FALSE	FALSE
 37	.	.	.	36	rsym	FALSE	FALSE
 
-1	जैव	जैव	XC	2	mod	FALSE	TRUE
+1	जैव	जैव	XC	2	mod	FALSE	FALSE
 2	विविधता	विविधता	NN	4	r6	FALSE	TRUE
 3	के	का	PSP	2	lwg__psp	FALSE	FALSE
 4	लिहाज	लिहाज	NN	10	rh	FALSE	FALSE
@@ -17278,7 +17278,7 @@
 10	है	है	VAUX	8	lwg__vaux	FALSE	FALSE
 11	.	.	.	8	rsym	FALSE	FALSE
 
-1	औसतन	औसतन	NN	3	k1	FALSE	TRUE
+1	औसतन	औसतन	NN	3	k1	FALSE	FALSE
 2	कैमरा	कैमरा	NN	3	k1s	TRUE	TRUE
 3	है	है	VM	0	main	FALSE	FALSE
 4	.	.	.	3	rsym	FALSE	FALSE
@@ -17303,7 +17303,7 @@
 1	इसमें	इसमें	PRP	22	k7	TRUE	FALSE
 2	13	13	QC	6	nmod__adj	FALSE	FALSE
 3	गीगाहर्त्ज	गीगाहर्त्ज	XC	6	mod	TRUE	FALSE
-4	क्वॉडकोर	क्वॉडकोर	XC	6	mod	TRUE	FALSE
+4	क्वॉडकोर	क्वॉडकोर	XC	6	mod	TRUE	TRUE
 5	मीडियाटेक	मीडियाटेक	XC	6	mod	TRUE	FALSE
 6	प्रोसेसर	प्रोसेसर	NN	16	ccof	FALSE	TRUE
 7	,	,	,	6	rsym	FALSE	FALSE
@@ -17320,7 +17320,7 @@
 18	जीबी	जीबी	NN	16	ccof	FALSE	FALSE
 19	माइक्रोएसडी	माइक्रोएसडी	JJ	21	mod	TRUE	TRUE
 20	कार्ड	कार्ड	NN	21	mod	FALSE	TRUE
-21	सपोर्ट	सपोर्ट	NN	22	pof	TRUE	TRUE
+21	सपोर्ट	सपोर्ट	NN	22	pof	TRUE	FALSE
 22	दिए	दे	VM	0	main	TRUE	FALSE
 23	गए	गए	VAUX	22	lwg__vaux	TRUE	FALSE
 24	हैं	है	VAUX	22	lwg__vaux	FALSE	FALSE
@@ -17366,7 +17366,7 @@
 24	मोबाइल	मोबाइल	JJ	25	pof__cn	FALSE	FALSE
 25	फोन	फोन	NN	32	k3	TRUE	FALSE
 26	से	से	PSP	25	lwg__psp	FALSE	FALSE
-27	टेक्सट	टेक्सट	NN	28	mod	TRUE	TRUE
+27	टेक्सट	टेक्सट	NN	28	mod	TRUE	FALSE
 28	मैसेज	मैसेज	NN	32	k3	TRUE	TRUE
 29	के	का	PSP	28	lwg__psp	FALSE	FALSE
 30	जरिए	जरिये	PSP	28	lwg__psp	TRUE	FALSE
@@ -17543,8 +17543,8 @@
 9	है	है	VM	0	main	FALSE	FALSE
 10	फिल्म	फिल्म	NN	12	r6	TRUE	FALSE
 11	का	का	PSP	10	lwg__psp	FALSE	FALSE
-12	टाइटल	टाइटल	NN	9	ccof	TRUE	TRUE
-13	गीत	गीत	NN	12	ccof	FALSE	TRUE
+12	टाइटल	टाइटल	NN	9	ccof	TRUE	FALSE
+13	गीत	गीत	NN	12	ccof	FALSE	FALSE
 14	.	.	.	13	rsym	FALSE	FALSE
 
 1	दरअसल	दरअसल	NN	4	ccof	FALSE	FALSE
@@ -17646,8 +17646,8 @@
 12	को	को	PSP	11	lwg__psp	TRUE	FALSE
 13	छूती	छू	VM	24	vmod	FALSE	FALSE
 14	पहाड	पहाड	NN	16	r6	TRUE	FALSE
-15	की	का	PSP	14	lwg__psp	FALSE	FALSE
-16	चोटियां	चोटियां	NN	17	ccof	TRUE	FALSE
+15	की	का	PSP	14	lwg__psp	FALSE	TRUE
+16	चोटियां	चोटियां	NN	17	ccof	TRUE	TRUE
 17	व	व	CC	24	k1	FALSE	FALSE
 18	मनमोहक	मनमोहक	JJ	19	mod	FALSE	FALSE
 19	मठ	मठ	NN	17	ccof	FALSE	FALSE
@@ -17686,7 +17686,7 @@
 3	Glass	Glass	NN	14	k1	TRUE	FALSE
 4	4	4	QC	6	r6	FALSE	FALSE
 5	की	का	PSP	4	lwg__psp	FALSE	FALSE
-6	प्रोटेक्शन	प्रोटेक्शन	NN	14	k7	FALSE	TRUE
+6	प्रोटेक्शन	प्रोटेक्शन	NN	14	k7	FALSE	FALSE
 7	के	का	PSP	6	lwg__psp	FALSE	FALSE
 8	साथ	साथ	NST	6	lwg__psp	FALSE	FALSE
 9	,	,	,	6	rsym	FALSE	FALSE
@@ -17755,7 +17755,7 @@
 15	से	से	PSP	14	lwg__psp	FALSE	FALSE
 16	लदे	लद	VM	20	mod	TRUE	FALSE
 17	पर्यटन	पर्यटन	XC	20	mod	FALSE	FALSE
-18	स्थल	स्थल	NN	20	mod	FALSE	FALSE
+18	स्थल	स्थल	NN	20	mod	FALSE	TRUE
 19	सोलंग	सोलंग	XC	20	mod	TRUE	FALSE
 20	नाला	नाला	NNP	25	ccof	FALSE	FALSE
 21	,	,	,	20	rsym	FALSE	FALSE
@@ -17798,7 +17798,7 @@
 2	पर	पर	PSP	1	lwg__psp	FALSE	FALSE
 3	फुल	फुल	XC	5	mod	TRUE	FALSE
 4	एचडी	एचडी	NNP	5	mod	TRUE	FALSE
-5	विडियो	विडियो	NN	0	ROOT	FALSE	FALSE
+5	विडियो	विडियो	NN	0	ROOT	FALSE	TRUE
 6	बिना	बिन	NEG	7	mod	FALSE	FALSE
 7	प्रॉब्लम	प्रॉब्लम	NN	5	ccof	FALSE	FALSE
 8	के	का	PSP	7	lwg__psp	FALSE	FALSE
@@ -17810,7 +17810,7 @@
 1	इस	इस	DEM	2	nmod__adj	FALSE	FALSE
 2	लैपटॉप	लैपटॉप	NN	6	k7	FALSE	FALSE
 3	में	में	PSP	2	lwg__psp	FALSE	FALSE
-4	एक्यूटाइप	एक्यूटाइप	NN	6	k2	TRUE	TRUE
+4	एक्यूटाइप	एक्यूटाइप	NN	6	k2	TRUE	FALSE
 5	की-बोर्ड	की-बोर्ड	NN	6	pof	FALSE	TRUE
 6	लगाया	लगा	VM	9	ccof	FALSE	FALSE
 7	गया	गया	VAUX	6	lwg__vaux	FALSE	FALSE
@@ -17871,7 +17871,7 @@
 6	है	है	VM	0	main	FALSE	FALSE
 7	,	,	,	6	rsym	FALSE	FALSE
 8	जिससे	जो	PRP	16	rh	FALSE	FALSE
-9	सिस्टम	सिस्टम	NN	16	k2	FALSE	FALSE
+9	सिस्टम	सिस्टम	NN	16	k2	FALSE	TRUE
 10	इस	इस	DEM	11	nmod__adj	FALSE	FALSE
 11	एप्प	एप्प	NN	16	rh	TRUE	FALSE
 12	से	से	PSP	11	lwg__psp	FALSE	FALSE
@@ -17894,7 +17894,7 @@
 29	होगा	हो	VM	16	vmod	FALSE	FALSE
 30	.	.	.	29	rsym	FALSE	FALSE
 
-1	निर्देशक	निर्देशक	JJ	3	mod	FALSE	FALSE
+1	निर्देशक	निर्देशक	JJ	3	mod	FALSE	TRUE
 2	फुवाद	फुवाद	NN	3	mod	TRUE	FALSE
 3	खान	खान	NN	21	k1	FALSE	FALSE
 4	ने	ने	PSP	3	lwg__psp	TRUE	FALSE
@@ -17904,7 +17904,7 @@
 8	यहूदी	यहूदी	NN	9	ccof	FALSE	FALSE
 9	और	और	CC	21	rh	FALSE	FALSE
 10	मुसलमान	मुसलमान	NN	11	mod	FALSE	FALSE
-11	चरित्रों	चरित्रों	NN	9	ccof	TRUE	FALSE
+11	चरित्रों	चरित्रों	NN	9	ccof	TRUE	TRUE
 12	की	का	PSP	11	lwg__psp	FALSE	FALSE
 13	मूल	मूल	JJ	14	nmod__adj	FALSE	FALSE
 14	कहानी	कहानी	NN	21	k2	FALSE	FALSE
@@ -17975,7 +17975,7 @@
 10	और	और	CC	17	ccof	FALSE	FALSE
 11	3	3	QC	14	rsym	FALSE	FALSE
 12	जी	जी	RP	14	adv	FALSE	FALSE
-13	कॉलिंग	कॉलिंग	NN	14	pof	TRUE	TRUE
+13	कॉलिंग	कॉलिंग	NN	14	pof	TRUE	FALSE
 14	कर	कर	VM	10	ccof	FALSE	FALSE
 15	सकते	सक	VAUX	14	lwg__vaux	FALSE	FALSE
 16	हैं	है	VAUX	14	lwg__vaux	FALSE	FALSE
@@ -18003,14 +18003,14 @@
 6	,	,	,	4	rsym	FALSE	FALSE
 7	यदा	यदा	XC	11	k1	FALSE	FALSE
 8	कदा	कदा	NN	11	k1	TRUE	FALSE
-9	डिस्प्ले	डिस्प्ले	VM	11	vmod	FALSE	FALSE
+9	डिस्प्ले	डिस्प्ले	VM	11	vmod	FALSE	TRUE
 10	नहीं	नहीं	NEG	11	lwg__neg	FALSE	FALSE
 11	आता	आ	VM	0	ROOT	FALSE	FALSE
 12	था	था	VAUX	11	lwg__vaux	TRUE	FALSE
 13	,	,	,	11	rsym	FALSE	FALSE
 14	वायरलेस	वायरलेस	XC	16	mod	FALSE	FALSE
-15	नेटवर्क	नेटवर्क	NNP	16	mod	TRUE	FALSE
-16	कार्ड	कार्ड	NN	19	k7	FALSE	FALSE
+15	नेटवर्क	नेटवर्क	NNP	16	mod	TRUE	TRUE
+16	कार्ड	कार्ड	NN	19	k7	FALSE	TRUE
 17	में	में	PSP	16	lwg__psp	FALSE	FALSE
 18	गड़बड़ी	गड़बड़ी	NN	19	k1	FALSE	FALSE
 19	थी	था	VM	0	ROOT	TRUE	FALSE
@@ -18035,9 +18035,9 @@
 9	कंपनियां	कंपनियां	NN	19	k1	TRUE	FALSE
 10	फोन	फोन	NN	12	r6	TRUE	FALSE
 11	के	का	PSP	10	lwg__psp	FALSE	FALSE
-12	फ्रंट	फ्रंट	NN	19	k1	FALSE	FALSE
-13	फेसिंग	फेसिंग	XC	14	mod	TRUE	FALSE
-14	कैमरे	कैमरा	NN	19	k2	TRUE	FALSE
+12	फ्रंट	फ्रंट	NN	19	k1	FALSE	TRUE
+13	फेसिंग	फेसिंग	XC	14	mod	TRUE	TRUE
+14	कैमरे	कैमरा	NN	19	k2	TRUE	TRUE
 15	को	को	PSP	14	lwg__psp	TRUE	FALSE
 16	हल्के	हल्का	NN	19	k7p	FALSE	FALSE
 17	में	में	PSP	16	lwg__psp	FALSE	FALSE
@@ -18104,8 +18104,8 @@
 2	इस	इस	DEM	3	nmod__adj	FALSE	FALSE
 3	गार्डन	गार्डन	NN	15	k7	TRUE	FALSE
 4	में	में	PSP	3	lwg__psp	FALSE	FALSE
-5	ट्यूलिप	ट्यूलिप	XC	6	mod	FALSE	TRUE
-6	फूल	फूल	NN	8	r6	FALSE	TRUE
+5	ट्यूलिप	ट्यूलिप	XC	6	mod	FALSE	FALSE
+6	फूल	फूल	NN	8	r6	FALSE	FALSE
 7	के	का	PSP	6	lwg__psp	FALSE	FALSE
 8	रंग	रंग	NN	15	k1	FALSE	FALSE
 9	बिरंगे	बिरंगे	JJ	11	nmod__adj	TRUE	FALSE
@@ -18136,7 +18136,7 @@
 7	से	से	PSP	6	lwg__psp	FALSE	FALSE
 8	इस्तेमाल	इस्तेमाल	NN	9	ccof	FALSE	FALSE
 9	और	और	CC	12	k1	FALSE	FALSE
-10	एंगल्स	एंगल्स	NN	9	ccof	TRUE	TRUE
+10	एंगल्स	एंगल्स	NN	9	ccof	TRUE	FALSE
 11	सराहनीय	सराहनीय	JJ	12	k1s	FALSE	FALSE
 12	हैं	है	VM	13	ccof	FALSE	FALSE
 13	और	और	CC	2	ccof	FALSE	FALSE
@@ -18181,7 +18181,7 @@
 7	180	180	QC	10	mod	TRUE	FALSE
 8	डिग्री	डिग्री	XC	10	mod	FALSE	FALSE
 9	टिल्टिंग	टिल्टिंग	XC	10	mod	TRUE	FALSE
-10	एलसीडी	एलसीडी	NNP	6	ccof	FALSE	FALSE
+10	एलसीडी	एलसीडी	NNP	6	ccof	FALSE	TRUE
 11	दिए	दे	VM	0	main	TRUE	FALSE
 12	दी	दे	VAUX	11	lwg__vaux	FALSE	FALSE
 13	गई	गई	VAUX	11	lwg__vaux	FALSE	FALSE
@@ -18269,7 +18269,7 @@
 20	की	का	PSP	19	lwg__psp	FALSE	FALSE
 21	वास्तविक	वास्तविक	JJ	23	nmod__adj	FALSE	FALSE
 22	विश्वव्यापी	विश्वव्यापी	JJ	23	nmod__adj	FALSE	FALSE
-23	परफार्मेंस	परफार्मेंस	NN	29	k1	TRUE	FALSE
+23	परफार्मेंस	परफार्मेंस	NN	29	k1	TRUE	TRUE
 24	हमेशा	हमेशा	RB	29	adv	FALSE	FALSE
 25	सवालों	सवाल	NN	27	r6	FALSE	FALSE
 26	के	का	PSP	25	lwg__psp	FALSE	FALSE
@@ -18280,7 +18280,7 @@
 31	.	.	.	29	rsym	FALSE	FALSE
 
 1	वाइ-फाइ	वाइ-फाइ	NN	2	ccof	TRUE	TRUE
-2	और	और	CC	9	k7	FALSE	TRUE
+2	और	और	CC	9	k7	FALSE	FALSE
 3	ब्लूटूथ	ब्लूटूथ	NN	2	ccof	TRUE	TRUE
 4	की	का	PSP	3	lwg__psp	FALSE	FALSE
 5	सुविधा	सुविधा	NN	9	k1	FALSE	FALSE
@@ -18314,7 +18314,7 @@
 22	जीबी	जीबी	NN	26	k1u	FALSE	FALSE
 23	का	का	PSP	22	lwg__psp	FALSE	FALSE
 24	ही	ही	RP	22	lwg__rp	FALSE	FALSE
-25	स्टोरेज	स्टोरेज	NN	26	pof	FALSE	TRUE
+25	स्टोरेज	स्टोरेज	NN	26	pof	FALSE	FALSE
 26	है	है	VM	17	ccof	FALSE	FALSE
 27	.	.	.	26	rsym	FALSE	FALSE
 
@@ -18361,16 +18361,16 @@
 10	mail	mail	NNP	7	nmod	TRUE	FALSE
 11	)	)	)	10	rsym	FALSE	FALSE
 12	सेवा	सेवा	NN	16	mod	FALSE	FALSE
-13	दोहरे	दोहरे	JJ	16	mod	TRUE	FALSE
-14	मेमोरी	मेमोरी	NN	16	mod	FALSE	FALSE
-15	कार्ड	कार्ड	XC	16	mod	FALSE	FALSE
-16	स्लॉट	स्लॉट	NNP	17	ccof	TRUE	FALSE
+13	दोहरे	दोहरे	JJ	16	mod	TRUE	TRUE
+14	मेमोरी	मेमोरी	NN	16	mod	FALSE	TRUE
+15	कार्ड	कार्ड	XC	16	mod	FALSE	TRUE
+16	स्लॉट	स्लॉट	NNP	17	ccof	TRUE	TRUE
 17	तथा	तथा	CC	29	k1	FALSE	FALSE
-18	28	28	QC	22	mod	FALSE	FALSE
+18	28	28	QC	22	mod	FALSE	TRUE
 19	इंची	इंची	NN	22	mod	TRUE	FALSE
 20	कैपेसिटिव	कैपेसिटिव	XC	22	mod	TRUE	FALSE
 21	टच	टच	XC	22	mod	FALSE	FALSE
-22	स्क्रीन	स्क्रीन	NNP	17	ccof	FALSE	FALSE
+22	स्क्रीन	स्क्रीन	NNP	17	ccof	FALSE	TRUE
 23	के	का	PSP	22	lwg__psp	FALSE	FALSE
 24	साथ-साथ	साथ-साथ	NST	22	lwg__psp	FALSE	FALSE
 25	फीचर्स	फीचर्स	NN	28	r6	TRUE	FALSE
@@ -18538,7 +18538,7 @@
 4	में	में	PSP	3	lwg__psp	FALSE	FALSE
 5	इसका	इसका	PRP	7	r6	TRUE	FALSE
 6	शानदार	शानदार	JJ	7	nmod__adj	FALSE	FALSE
-7	प्रदर्शन	प्रदर्शन	NN	13	k1	FALSE	FALSE
+7	प्रदर्शन	प्रदर्शन	NN	13	k1	FALSE	TRUE
 8	इसे	इसे	PRP	13	k2	TRUE	FALSE
 9	सबसे	सबसे	INTF	13	k7t	FALSE	FALSE
 10	आगे	आगा	NST	9	lwg__psp	FALSE	FALSE
@@ -18650,7 +18650,7 @@
 35	इसका	इसका	PRP	41	k1	TRUE	FALSE
 36	590	590	QC	37	nmod__adj	TRUE	FALSE
 37	ग्राम	ग्राम	NN	41	k1	FALSE	FALSE
-38	वजन	वजन	NN	41	k1	FALSE	FALSE
+38	वजन	वजन	NN	41	k1	FALSE	TRUE
 39	काफी	काफी	INTF	41	k1s	FALSE	FALSE
 40	ज्यादा	ज्यादा	QF	39	nmod__adj	FALSE	FALSE
 41	है	है	VM	33	vmod	FALSE	FALSE
@@ -18811,8 +18811,8 @@
 14	)	)	)	13	rsym	FALSE	FALSE
 15	,	,	,	13	rsym	FALSE	FALSE
 16	डुअल	डुअल	XC	17	mod	TRUE	TRUE
-17	माली	माली	NN	0	ROOT	FALSE	TRUE
-18	400	400	QC	19	mod	FALSE	TRUE
+17	माली	माली	NN	0	ROOT	FALSE	FALSE
+18	400	400	QC	19	mod	FALSE	FALSE
 19	जीपीयू	जीपीयू	NN	26	ccof	TRUE	TRUE
 20	(	(	(	22	rsym	FALSE	FALSE
 21	Dual	Dual	JJ	22	nmod__adj	TRUE	FALSE
@@ -18826,8 +18826,8 @@
 29	आइस	आइस	XC	33	mod	FALSE	FALSE
 30	क्रीम	क्रीम	XC	33	mod	FALSE	FALSE
 31	सैंडविच	सैंडविच	XC	33	mod	FALSE	FALSE
-32	ऑपरेटिंग	ऑपरेटिंग	XC	33	mod	TRUE	FALSE
-33	सिस्टम	सिस्टम	NNP	43	k1	FALSE	FALSE
+32	ऑपरेटिंग	ऑपरेटिंग	XC	33	mod	TRUE	TRUE
+33	सिस्टम	सिस्टम	NNP	43	k1	FALSE	TRUE
 34	(	(	(	35	rsym	FALSE	FALSE
 35	Android	Android	NN	43	k1	TRUE	FALSE
 36	40	40	QC	41	mod	FALSE	FALSE
@@ -18947,7 +18947,7 @@
 
 1	इसमें	इसमें	PRP	0	main	TRUE	FALSE
 2	5	5	QC	4	mod	FALSE	FALSE
-3	प्वाइंट	प्वाइंट	XC	4	mod	FALSE	TRUE
+3	प्वाइंट	प्वाइंट	XC	4	mod	FALSE	FALSE
 4	टचस्क्रीन	टचस्क्रीन	NNP	13	ccof	FALSE	TRUE
 5	,	,	,	4	rsym	FALSE	FALSE
 6	12	12	QC	7	nmod__adj	FALSE	FALSE
@@ -18971,7 +18971,7 @@
 
 1	टैबलेट	टैबलेट	NN	3	r6	TRUE	FALSE
 2	का	का	PSP	1	lwg__psp	FALSE	FALSE
-3	स्पीकर	स्पीकर	NN	6	k1	TRUE	TRUE
+3	स्पीकर	स्पीकर	NN	6	k1	TRUE	FALSE
 4	काफी	काफी	INTF	5	jjmod__intf	FALSE	FALSE
 5	तेज	तेज	JJ	6	k1s	FALSE	FALSE
 6	है	है	VM	7	ccof	FALSE	FALSE
@@ -19046,7 +19046,7 @@
 23	के	का	PSP	22	lwg__psp	FALSE	FALSE
 24	लिए	ले	PSP	22	lwg__psp	FALSE	FALSE
 25	वीजीए	वीजीए	JJ	26	nmod__adj	TRUE	FALSE
-26	कैमरा	कैमरा	NN	27	pof	TRUE	FALSE
+26	कैमरा	कैमरा	NN	27	pof	TRUE	TRUE
 27	दिया	दे	VM	19	ccof	FALSE	FALSE
 28	गया	गया	VAUX	27	lwg__vaux	FALSE	FALSE
 29	है	है	VAUX	27	lwg__vaux	FALSE	FALSE
@@ -19079,7 +19079,7 @@
 2	साइज	साइज	NN	7	r6	TRUE	FALSE
 3	का	का	PSP	2	lwg__psp	FALSE	FALSE
 4	एक	एक	QC	7	nmod__adj	FALSE	FALSE
-5	यूएसबी	यूएसबी	JJ	7	nmod__adj	FALSE	FALSE
+5	यूएसबी	यूएसबी	JJ	7	nmod__adj	FALSE	TRUE
 6	30	30	QC	7	nmod__adj	FALSE	FALSE
 7	पोर्ट	पोर्ट	NN	8	ccof	FALSE	FALSE
 8	और	और	CC	0	ROOT	FALSE	FALSE
@@ -19123,7 +19123,7 @@
 9	के	का	PSP	8	lwg__psp	FALSE	FALSE
 10	खुद	खुद	PRP	12	r6	FALSE	FALSE
 11	के	का	PSP	10	lwg__psp	FALSE	FALSE
-12	नुबिया	नुबिया	XC	15	k1	TRUE	TRUE
+12	नुबिया	नुबिया	XC	15	k1	TRUE	FALSE
 13	यूआई	यूआई	NNP	15	k7	TRUE	TRUE
 14	पर	पर	PSP	13	lwg__psp	FALSE	FALSE
 15	चलता	चल	VM	6	ccof	FALSE	FALSE
@@ -19150,7 +19150,7 @@
 9	बहुत	बहुत	QF	13	adv	FALSE	FALSE
 10	ही	ही	RP	9	lwg__rp	FALSE	FALSE
 11	पावरफुल	पावरफुल	JJ	12	nmod__adj	TRUE	FALSE
-12	कैमरा	कैमरा	NN	13	k1	TRUE	FALSE
+12	कैमरा	कैमरा	NN	13	k1	TRUE	TRUE
 13	आ	आ	VM	8	ccof	FALSE	FALSE
 14	चुका	चुका	VAUX	13	lwg__vaux	FALSE	FALSE
 15	है	है	VAUX	13	lwg__vaux	FALSE	FALSE
@@ -19234,7 +19234,7 @@
 7	है	है	VM	0	main	FALSE	FALSE
 8	जो	जो	PRP	13	k1	FALSE	FALSE
 9	काफी	काफी	QF	10	nmod__adj	FALSE	FALSE
-10	स्टोरेज	स्टोरेज	NN	13	k1	FALSE	FALSE
+10	स्टोरेज	स्टोरेज	NN	13	k1	FALSE	TRUE
 11	क्षमता	क्षमता	NN	13	k1	FALSE	FALSE
 12	प्रदान	प्रदान	NN	13	pof	FALSE	FALSE
 13	करता	कर	VM	0	ROOT	FALSE	FALSE
@@ -19284,15 +19284,15 @@
 
 1	क्वालकॉम	क्वालकॉम	NN	13	k1	TRUE	FALSE
 2	स्नैमपड्रैगन	स्नैमपड्रैगन	NN	5	mod	TRUE	FALSE
-3	410	410	QC	5	mod	TRUE	FALSE
-4	चिपसेट	चिपसेट	NN	5	jjmod	TRUE	FALSE
+3	410	410	QC	5	mod	TRUE	TRUE
+4	चिपसेट	चिपसेट	NN	5	jjmod	TRUE	TRUE
 5	आधारित	आधारित	JJ	13	k1	FALSE	FALSE
 6	इस	इस	DEM	7	nmod__adj	FALSE	FALSE
 7	फोन	फोन	NN	13	k7	TRUE	FALSE
 8	में	में	PSP	7	lwg__psp	FALSE	FALSE
 9	12	12	QC	10	nmod__adj	FALSE	FALSE
 10	गीगाहर्ट्ज	गीगाहर्ट्ज	NN	13	k2	FALSE	FALSE
-11	क्वाडकोर	क्वाडकोर	JJ	12	nmod__adj	TRUE	FALSE
+11	क्वाडकोर	क्वाडकोर	JJ	12	nmod__adj	TRUE	TRUE
 12	प्रासेसर	प्रासेसर	NN	13	pof	TRUE	FALSE
 13	दिया	दे	VM	16	ccof	FALSE	FALSE
 14	गया	गया	VAUX	13	lwg__vaux	FALSE	FALSE
@@ -19397,7 +19397,7 @@
 1	सामान्य	सामान्य	JJ	2	nmod__adj	FALSE	FALSE
 2	गेमिंग	गेमिंग	XC	5	ccof	FALSE	TRUE
 3	,	,	,	2	rsym	FALSE	FALSE
-4	ऑडियो	ऑडियो	NN	5	ccof	TRUE	FALSE
+4	ऑडियो	ऑडियो	NN	5	ccof	TRUE	TRUE
 5	और	और	CC	8	ccof	FALSE	FALSE
 6	वीडियो	वीडियो	XC	7	mod	FALSE	FALSE
 7	इस्तेमाल	इस्तेमाल	NN	5	ccof	FALSE	FALSE
@@ -19409,7 +19409,7 @@
 13	दोनों	दोना	NN	27	k7	FALSE	FALSE
 14	पर	पर	PSP	13	lwg__psp	FALSE	FALSE
 15	वेब	वेब	XC	16	mod	FALSE	FALSE
-16	ब्राउजिंग	ब्राउजिंग	NNP	27	k7t	FALSE	FALSE
+16	ब्राउजिंग	ब्राउजिंग	NNP	27	k7t	FALSE	TRUE
 17	के	का	PSP	16	lwg__psp	FALSE	FALSE
 18	साथ	साथ	NST	16	lwg__psp	FALSE	FALSE
 19	यह	यह	DEM	20	nmod__adj	FALSE	FALSE
@@ -19536,18 +19536,18 @@
 5	कॉलिंग	कॉलिंग	NN	3	ccof	TRUE	TRUE
 6	में	में	PSP	5	lwg__psp	FALSE	FALSE
 7	अच्छी	अच्छी	JJ	8	nmod__adj	FALSE	FALSE
-8	क्वालिटी	क्वालिटी	NN	9	k2	TRUE	FALSE
+8	क्वालिटी	क्वालिटी	NN	9	k2	TRUE	TRUE
 9	देगा	दे	VM	25	vmod	TRUE	FALSE
 10	,	,	,	9	rsym	FALSE	FALSE
 11	कैमरा	कैमरा	NN	12	mod	TRUE	TRUE
-12	फीचर्स	फीचर्स	NN	25	k7t	TRUE	TRUE
+12	फीचर्स	फीचर्स	NN	25	k7t	TRUE	FALSE
 13	के	का	PSP	12	lwg__psp	FALSE	FALSE
 14	साथ	साथ	NST	12	lwg__psp	FALSE	FALSE
 15	माइक्रोसॉफ्ट	माइक्रोसॉफ्ट	NN	19	r6	TRUE	FALSE
 16	के	का	PSP	15	lwg__psp	FALSE	FALSE
 17	प्री	प्री	XC	19	mod	TRUE	FALSE
 18	लोडेड	लोडेड	XC	19	mod	TRUE	FALSE
-19	ऐप्स	ऐप्स	NNP	25	k1	TRUE	FALSE
+19	ऐप्स	ऐप्स	NNP	25	k1	TRUE	TRUE
 20	जैसे	जैसे	PSP	19	lwg__psp	FALSE	FALSE
 21	स्काइप	स्काइप	NN	22	ccof	TRUE	FALSE
 22	और	और	CC	25	k2	FALSE	FALSE
@@ -19571,10 +19571,10 @@
 2	में	में	PSP	1	lwg__psp	FALSE	FALSE
 3	अपना	अपना	PRP	5	r6	FALSE	FALSE
 4	ही	ही	RP	3	lwg__rp	FALSE	FALSE
-5	चार्जिंग	चार्जिंग	NN	6	ccof	TRUE	TRUE
-6	और	और	CC	9	rt	FALSE	TRUE
+5	चार्जिंग	चार्जिंग	NN	6	ccof	TRUE	FALSE
+6	और	और	CC	9	rt	FALSE	FALSE
 7	डाटा	डाटा	XC	8	mod	FALSE	TRUE
-8	पोर्ट	पोर्ट	NN	6	ccof	FALSE	TRUE
+8	पोर्ट	पोर्ट	NN	6	ccof	FALSE	FALSE
 9	होता	हो	VM	12	ccof	FALSE	FALSE
 10	है	है	VAUX	9	lwg__vaux	FALSE	FALSE
 11	,	,	,	9	rsym	FALSE	FALSE
@@ -19628,8 +19628,8 @@
 8	बटन	बटन	NNP	9	ccof	FALSE	TRUE
 9	और	और	CC	0	ROOT	FALSE	FALSE
 10	है	है	VM	9	ccof	FALSE	FALSE
-11	डफ़ोन्स	डफ़ोन्स	NN	13	k1	TRUE	TRUE
-12	जैक	जैक	JJ	13	k1s	TRUE	TRUE
+11	डफ़ोन्स	डफ़ोन्स	NN	13	k1	TRUE	FALSE
+12	जैक	जैक	JJ	13	k1s	TRUE	FALSE
 13	हैं	है	VM	15	ccof	FALSE	FALSE
 14	,	,	,	13	rsym	FALSE	FALSE
 15	जबकि	जबकि	CC	9	ccof	TRUE	FALSE
@@ -19712,7 +19712,7 @@
 25	जो	जो	PRP	33	k1	FALSE	FALSE
 26	600	600	QC	27	nmod__adj	TRUE	FALSE
 27	×	×	NN	33	k1	TRUE	FALSE
-28	1024	1024	QC	32	nmod__adj	TRUE	FALSE
+28	1024	1024	QC	32	nmod__adj	TRUE	TRUE
 29	रेज्	रेज्	XC	32	mod	TRUE	FALSE
 30	‍	‍	XC	32	mod	TRUE	FALSE
 31	यूलूशन	यूलूशन	XC	32	mod	TRUE	FALSE
@@ -19727,7 +19727,7 @@
 40	310	310	QC	41	nmod__adj	TRUE	FALSE
 41	ग्राम	ग्राम	NN	42	ccof	FALSE	FALSE
 42	और	और	CC	50	k1	FALSE	FALSE
-43	साइज़	साइज़	NNP	45	mod	FALSE	FALSE
+43	साइज़	साइज़	NNP	45	mod	FALSE	TRUE
 44	1164	1164	QC	45	nmod__adj	TRUE	FALSE
 45	x	x	NN	42	ccof	TRUE	FALSE
 46	1934	1934	QC	47	nmod__adj	TRUE	FALSE
@@ -19808,9 +19808,9 @@
 14	.	.	.	13	rsym	FALSE	FALSE
 
 1	स्पीकर	स्पीकर	NNP	5	r6	TRUE	TRUE
-2	के	का	PSP	1	lwg__psp	FALSE	TRUE
-3	आवाज़	आवाज़	JJ	5	r6	FALSE	TRUE
-4	की	का	PSP	3	lwg__psp	FALSE	TRUE
+2	के	का	PSP	1	lwg__psp	FALSE	FALSE
+3	आवाज़	आवाज़	JJ	5	r6	FALSE	FALSE
+4	की	का	PSP	3	lwg__psp	FALSE	FALSE
 5	क्वालिटी	क्वालिटी	NN	7	k1	TRUE	TRUE
 6	अच्छी	अच्छी	JJ	7	k1s	FALSE	FALSE
 7	है	है	VM	9	ccof	FALSE	FALSE
@@ -19882,7 +19882,7 @@
 2	क्षेत्र	क्षेत्र	NN	4	k7p	FALSE	FALSE
 3	में	में	PSP	2	lwg__psp	FALSE	FALSE
 4	फैले	फैल	VM	6	nmod__k1inv	TRUE	FALSE
-5	घने	घना	JJ	6	nmod__adj	FALSE	FALSE
+5	घने	घना	JJ	6	nmod__adj	FALSE	TRUE
 6	जंगल	जंगल	NN	12	k1	FALSE	FALSE
 7	ही	ही	RP	6	lwg__rp	FALSE	FALSE
 8	आदिवासी	आदिवासी	JJ	9	nmod__adj	FALSE	FALSE
@@ -19954,8 +19954,8 @@
 8	ड्यूक्स	ड्यूक्स	XC	9	mod	TRUE	FALSE
 9	नोज़	नोज़	NNP	13	ccof	TRUE	FALSE
 10	,	,	,	9	rsym	FALSE	FALSE
-11	रेवुड	रेवुड	XC	12	mod	TRUE	TRUE
-12	पार्क	पार्क	NNP	13	ccof	FALSE	TRUE
+11	रेवुड	रेवुड	XC	12	mod	TRUE	FALSE
+12	पार्क	पार्क	NNP	13	ccof	FALSE	FALSE
 13	और	और	CC	20	k5	FALSE	FALSE
 14	भुशी	भुशी	JJ	15	mod	TRUE	FALSE
 15	बांध	बांध	NN	13	ccof	FALSE	FALSE
@@ -20014,9 +20014,9 @@
 7	केरल	केरल	NNP	10	r6	FALSE	FALSE
 8	का	का	PSP	7	lwg__psp	FALSE	FALSE
 9	प्रसिद्ध	प्रसिद्ध	JJ	10	nmod__adj	FALSE	FALSE
-10	खेल	खेल	NN	15	k1	FALSE	FALSE
+10	खेल	खेल	NN	15	k1	FALSE	TRUE
 11	स्नेक	स्नेक	XC	13	mod	FALSE	FALSE
-12	बोट	बोट	NN	13	mod	FALSE	FALSE
+12	बोट	बोट	NN	13	mod	FALSE	TRUE
 13	रेस	रेस	NN	15	k1	FALSE	FALSE
 14	शुरू	शुरू	NN	15	pof	FALSE	FALSE
 15	होता	हो	VM	0	main	FALSE	FALSE
@@ -20036,7 +20036,7 @@
 2	स्पीकर	स्पीकर	NN	12	k2	TRUE	FALSE
 3	को	को	PSP	2	lwg__psp	TRUE	FALSE
 4	खूबसूरत	खूबसूरत	JJ	5	nmod__adj	FALSE	FALSE
-5	डिजाइन	डिजाइन	NN	12	k7t	FALSE	TRUE
+5	डिजाइन	डिजाइन	NN	12	k7t	FALSE	FALSE
 6	के	का	PSP	5	lwg__psp	FALSE	FALSE
 7	साथ	साथ	NST	5	lwg__psp	FALSE	FALSE
 8	1050	1050	QC	9	nmod__adj	TRUE	FALSE
@@ -20095,8 +20095,8 @@
 23	है	है	VM	16	ccof	FALSE	FALSE
 24	.	.	.	23	rsym	FALSE	FALSE
 
-1	शब्दों	शब्द	NN	3	r6	FALSE	TRUE
-2	की	का	PSP	1	lwg__psp	FALSE	TRUE
+1	शब्दों	शब्द	NN	3	r6	FALSE	FALSE
+2	की	का	PSP	1	lwg__psp	FALSE	FALSE
 3	स्पष्टता	स्पष्टता	NN	6	k1	FALSE	TRUE
 4	बहुत	बहुत	INTF	5	jjmod__intf	FALSE	FALSE
 5	अच्छी	अच्छी	JJ	6	k1s	FALSE	FALSE
@@ -20134,7 +20134,7 @@
 18	ना	ना	NEG	19	lwg__neg	FALSE	FALSE
 19	आए	आ	VM	31	rh	FALSE	FALSE
 20	ये	यह	DEM	21	nmod__adj	FALSE	FALSE
-21	कंट्रोल	कंट्रोल	NN	22	pof	FALSE	FALSE
+21	कंट्रोल	कंट्रोल	NN	22	pof	FALSE	TRUE
 22	करने	कर	VM	31	rt	FALSE	FALSE
 23	के	का	PSP	22	lwg__psp	FALSE	FALSE
 24	लिए	ले	PSP	22	lwg__psp	FALSE	FALSE
@@ -20181,7 +20181,7 @@
 1	इसमें	इसमें	PRP	9	k7	TRUE	FALSE
 2	ब्लैक	ब्लैक	NN	3	ccof	FALSE	FALSE
 3	और	और	CC	9	k1	FALSE	FALSE
-4	व्हाइट	व्हाइट	JJ	5	nmod__adj	FALSE	FALSE
+4	व्हाइट	व्हाइट	JJ	5	nmod__adj	FALSE	TRUE
 5	कलर	कलर	NN	3	ccof	FALSE	FALSE
 6	के	का	PSP	5	lwg__psp	FALSE	FALSE
 7	कॉम्बिनेशन	कॉम्बिनेशन	NN	9	k7	TRUE	FALSE
@@ -20191,7 +20191,7 @@
 11	हैं	है	VAUX	9	lwg__vaux	FALSE	FALSE
 12	.	.	.	9	rsym	FALSE	FALSE
 
-1	सिम	सिम	JJ	2	nmod__adj	TRUE	FALSE
+1	सिम	सिम	JJ	2	nmod__adj	TRUE	TRUE
 2	कॉलिंग	कॉलिंग	NN	7	k1	TRUE	FALSE
 3	बढ़िया	बढ़िया	VM	4	nmod__adj	FALSE	FALSE
 4	तरह	तरह	NN	7	adv	FALSE	FALSE
@@ -20327,7 +20327,7 @@
 3	इंच	इंच	NN	8	r6	FALSE	FALSE
 4	की	का	PSP	3	lwg__psp	FALSE	FALSE
 5	बड़ी	बड़ी	XC	8	mod	FALSE	FALSE
-6	आईपीएस	आईपीएस	XC	8	mod	FALSE	TRUE
+6	आईपीएस	आईपीएस	XC	8	mod	FALSE	FALSE
 7	एचडी	एचडी	XC	8	mod	TRUE	TRUE
 8	ओजीएस	ओजीएस	NN	11	k1	TRUE	TRUE
 9	डिस्पले	डिस्पले	JJ	10	nmod__adj	TRUE	TRUE
@@ -20349,7 +20349,7 @@
 2	5	5	QC	3	nmod__adj	FALSE	FALSE
 3	मेगापिक्सल	मेगापिक्सल	NN	5	r6	TRUE	FALSE
 4	का	का	PSP	3	lwg__psp	FALSE	FALSE
-5	रियर	रियर	NN	6	ccof	TRUE	FALSE
+5	रियर	रियर	NN	6	ccof	TRUE	TRUE
 6	व	व	CC	13	k1	FALSE	FALSE
 7	11	11	QC	8	nmod__adj	FALSE	FALSE
 8	मेगापिक्सल	मेगापिक्सल	NN	6	ccof	TRUE	FALSE
@@ -20362,7 +20362,7 @@
 
 1	होमी	होमी	XC	11	k1	TRUE	FALSE
 2	अदजानिया	अदजानिया	NNP	11	k1	TRUE	FALSE
-3	निर्देशित	निर्देशित	JJ	5	nmod__adj	FALSE	FALSE
+3	निर्देशित	निर्देशित	JJ	5	nmod__adj	FALSE	TRUE
 4	फाइंडिंग	फाइंडिंग	XC	5	mod	TRUE	FALSE
 5	फैनी	फैनी	NN	11	k1	TRUE	FALSE
 6	मूल	मूल	JJ	7	nmod__adj	FALSE	FALSE
@@ -20547,7 +20547,7 @@
 3	और	और	CC	11	k1	FALSE	FALSE
 4	उनके	उनके	PRP	6	r6	FALSE	FALSE
 5	सहयोगी	सहयोगी	JJ	6	nmod__adj	FALSE	FALSE
-6	चरित्र	चरित्र	NN	3	ccof	FALSE	FALSE
+6	चरित्र	चरित्र	NN	3	ccof	FALSE	TRUE
 7	थोड़े	थोड़े	NN	8	mod	FALSE	FALSE
 8	नाटकीय	नाटकीय	JJ	9	ccof	FALSE	FALSE
 9	और	और	CC	11	k1	FALSE	FALSE
@@ -20558,7 +20558,7 @@
 
 1	कुल	कुल	QF	11	k1	FALSE	FALSE
 2	मिलाकर	मिला	VM	11	vmod	FALSE	FALSE
-3	मार्टिन	मार्टिन	XC	7	mod	FALSE	FALSE
+3	मार्टिन	मार्टिन	XC	7	mod	FALSE	TRUE
 4	नोटिफायार	नोटिफायार	NN	7	mod	TRUE	FALSE
 5	क्लासिक	क्लासिक	JJ	7	nmod__adj	TRUE	FALSE
 6	परंपरागत	परंपरागत	JJ	7	nmod__adj	FALSE	FALSE
@@ -20849,7 +20849,7 @@
 10	के	का	PSP	9	lwg__psp	FALSE	FALSE
 11	सबसे	सबसे	INTF	12	jjmod__intf	FALSE	FALSE
 12	प्रमुख	प्रमुख	JJ	14	nmod__adj	FALSE	FALSE
-13	हिल	हिल	XC	14	mod	FALSE	FALSE
+13	हिल	हिल	XC	14	mod	FALSE	TRUE
 14	स्टेशनों	स्टेशन	NN	18	k5	FALSE	FALSE
 15	में	में	PSP	14	lwg__psp	FALSE	FALSE
 16	से	से	PSP	14	lwg__psp	FALSE	FALSE
@@ -20905,7 +20905,7 @@
 5	के	का	PSP	4	lwg__psp	FALSE	FALSE
 6	18	18	QC	7	nmod__adj	FALSE	FALSE
 7	मेगापिक्सल	मेगापिक्सल	NN	14	k1	TRUE	FALSE
-8	कैमरे	कैमरा	NN	10	r6	TRUE	FALSE
+8	कैमरे	कैमरा	NN	10	r6	TRUE	TRUE
 9	की	का	PSP	8	lwg__psp	FALSE	FALSE
 10	मदद	मदद	NN	14	k3	FALSE	FALSE
 11	से	से	PSP	10	lwg__psp	FALSE	FALSE
@@ -21073,7 +21073,7 @@
 4	प्रमुख	प्रमुख	JJ	5	nmod__adj	FALSE	FALSE
 5	स्पीकर	स्पीकर	NN	9	r6	TRUE	TRUE
 6	की	का	PSP	5	lwg__psp	FALSE	FALSE
-7	आवाज़	आवाज़	JJ	9	nmod__adj	FALSE	FALSE
+7	आवाज़	आवाज़	JJ	9	nmod__adj	FALSE	TRUE
 8	साऊंड	साऊंड	XC	9	mod	TRUE	FALSE
 9	क्लॅरीटी	क्लॅरीटी	NNP	11	k1	TRUE	FALSE
 10	अच्छी	अच्छी	JJ	11	k1s	FALSE	FALSE
@@ -21094,9 +21094,9 @@
 6	13	13	QC	11	mod	FALSE	FALSE
 7	गीगाहर्त्ज	गीगाहर्त्ज	XC	11	mod	TRUE	FALSE
 8	इंटेल	इंटेल	XC	11	mod	TRUE	FALSE
-9	एटॉम	एटॉम	XC	11	mod	TRUE	FALSE
+9	एटॉम	एटॉम	XC	11	mod	TRUE	TRUE
 10	क्वॉडकोर	क्वॉडकोर	NNP	11	mod	TRUE	FALSE
-11	प्रोसेसर	प्रोसेसर	NN	16	ccof	FALSE	FALSE
+11	प्रोसेसर	प्रोसेसर	NN	16	ccof	FALSE	TRUE
 12	,	,	,	11	rsym	FALSE	FALSE
 13	2	2	QC	15	nmod__adj	FALSE	FALSE
 14	जीबी	जीबी	NN	15	mod	FALSE	FALSE
@@ -21120,11 +21120,11 @@
 7	कर	कर	VM	30	vmod	FALSE	FALSE
 8	ज्यादा	ज्यादा	QF	9	nmod__adj	FALSE	FALSE
 9	बड़ी	बड़ी	XC	30	k1	FALSE	FALSE
-10	स्क्रीन	स्क्रीन	NNP	30	k7p	FALSE	FALSE
+10	स्क्रीन	स्क्रीन	NNP	30	k7p	FALSE	TRUE
 11	,	,	,	10	rsym	FALSE	FALSE
 12	ज्यादा	ज्यादा	QF	14	nmod__adj	FALSE	FALSE
 13	शक्तिशाली	शक्तिशाली	JJ	14	nmod__adj	FALSE	FALSE
-14	डयूल	डयूल	NN	30	k1	TRUE	FALSE
+14	डयूल	डयूल	NN	30	k1	TRUE	TRUE
 15	कोर	कोर	JJ	16	nmod__adj	FALSE	FALSE
 16	प्रोसेसर	प्रोसेसर	NN	17	ccof	FALSE	TRUE
 17	और	और	CC	30	k1	FALSE	FALSE
@@ -21167,7 +21167,7 @@
 9	GB	GB	NN	21	k7t	TRUE	FALSE
 10	के	का	PSP	9	lwg__psp	FALSE	FALSE
 11	साथ	साथ	NST	9	lwg__psp	FALSE	FALSE
-12	इंटेल	इंटेल	XC	16	mod	TRUE	TRUE
+12	इंटेल	इंटेल	XC	16	mod	TRUE	FALSE
 13	HD	HD	NNP	16	mod	TRUE	TRUE
 14	असतत	असतत	JJ	16	mod	TRUE	TRUE
 15	NVIDIA	NVIDIA	NN	16	mod	TRUE	TRUE
@@ -21291,7 +21291,7 @@
 29	रेज्	रेज्	XC	0	ROOT	TRUE	FALSE
 30	‍	‍	XC	0	ROOT	TRUE	FALSE
 31	यूलूशन	यूलूशन	XC	0	ROOT	TRUE	FALSE
-32	वीजिए	वीजिए	VM	0	ROOT	TRUE	FALSE
+32	वीजिए	वीजिए	VM	0	ROOT	TRUE	TRUE
 33	कैमरा	कैमरा	NN	34	mod	TRUE	FALSE
 34	सपोर्ट	सपोर्ट	NN	0	ROOT	TRUE	FALSE
 35	.	.	.	34	rsym	FALSE	FALSE
@@ -21505,7 +21505,7 @@
 3	32	32	QC	4	nmod__adj	FALSE	FALSE
 4	जीबी	जीबी	NN	7	r6	FALSE	FALSE
 5	के	का	PSP	4	lwg__psp	FALSE	FALSE
-6	ऑनबोर्ड	ऑनबोर्ड	JJ	7	nmod__adj	TRUE	TRUE
+6	ऑनबोर्ड	ऑनबोर्ड	JJ	7	nmod__adj	TRUE	FALSE
 7	स्टोरेज	स्टोरेज	NN	9	r6	FALSE	TRUE
 8	की	का	PSP	7	lwg__psp	FALSE	FALSE
 9	पेशकश	पेशकश	NN	10	pof	FALSE	FALSE
@@ -21528,14 +21528,14 @@
 26	कि	कि	CC	25	lwg__rp	FALSE	FALSE
 27	3	3	QC	29	nmod__adj	FALSE	FALSE
 28	जी	जी	RP	29	mod	FALSE	FALSE
-29	नेटवर्क	नेटवर्क	NN	39	k7	TRUE	TRUE
+29	नेटवर्क	नेटवर्क	NN	39	k7	TRUE	FALSE
 30	पर	पर	PSP	29	lwg__psp	FALSE	FALSE
 31	10	10	QC	32	nmod__adj	FALSE	FALSE
 32	घंटे	घंटा	NN	39	k7t	FALSE	FALSE
 33	के	का	PSP	32	lwg__psp	FALSE	FALSE
 34	लगातार	लगातार	RB	39	adv	FALSE	FALSE
 35	टॉक	टॉक	XC	36	mod	TRUE	FALSE
-36	टाइम	टाइम	NN	38	r6-k2	FALSE	FALSE
+36	टाइम	टाइम	NN	38	r6-k2	FALSE	TRUE
 37	का	का	PSP	36	lwg__psp	FALSE	FALSE
 38	वायदा	वायदा	NN	39	pof	FALSE	FALSE
 39	करती	कर	VM	20	ccof	FALSE	FALSE
@@ -21605,7 +21605,7 @@
 3	अपने	अपना	PRP	6	r6	FALSE	FALSE
 4	एंड्रायड	एंड्रायड	NN	6	nmod__adj	TRUE	FALSE
 5	आधारित	आधारित	JJ	6	nmod__adj	FALSE	FALSE
-6	ओएस	ओएस	NN	8	k7	TRUE	FALSE
+6	ओएस	ओएस	NN	8	k7	TRUE	TRUE
 7	पर	पर	PSP	6	lwg__psp	FALSE	FALSE
 8	चलेगी	चल	VM	0	main	FALSE	FALSE
 9	.	.	.	8	rsym	FALSE	FALSE
@@ -21703,9 +21703,9 @@
 7	अच्छी	अच्छी	JJ	8	k1s	FALSE	FALSE
 8	है	है	VM	9	ccof	FALSE	FALSE
 9	और	और	CC	0	main	FALSE	FALSE
-10	विडियो	विडियो	NN	12	r6	FALSE	TRUE
+10	विडियो	विडियो	NN	12	r6	FALSE	FALSE
 11	की	का	PSP	10	lwg__psp	FALSE	TRUE
-12	क्वालिटी	क्वालिटी	NN	15	k1	TRUE	TRUE
+12	क्वालिटी	क्वालिटी	NN	15	k1	TRUE	FALSE
 13	भी	भी	RP	12	lwg__rp	FALSE	FALSE
 14	खूब	खूब	JJ	15	k1s	FALSE	FALSE
 15	है	है	VM	9	ccof	FALSE	FALSE
@@ -21715,7 +21715,7 @@
 2	41	41	QC	1	ccof	FALSE	FALSE
 3	,	,	,	2	rsym	FALSE	FALSE
 4	जैली	जैली	NN	7	mod	TRUE	TRUE
-5	बीन	बीन	JJ	7	nmod__adj	FALSE	TRUE
+5	बीन	बीन	JJ	7	nmod__adj	FALSE	FALSE
 6	आपरेटिंग	आपरेटिंग	XC	7	mod	TRUE	TRUE
 7	सिस्टम	सिस्टम	NNP	18	k7t	FALSE	TRUE
 8	के	का	PSP	7	lwg__psp	FALSE	FALSE
@@ -21738,9 +21738,9 @@
 5	पोर्ट	पोर्ट	XC	11	ccof	FALSE	FALSE
 6	,	,	,	5	rsym	FALSE	FALSE
 7	मिनी	मिनी	XC	10	mod	TRUE	FALSE
-8	यूएसबी	यूएसबी	XC	10	mod	FALSE	FALSE
+8	यूएसबी	यूएसबी	XC	10	mod	FALSE	TRUE
 9	पीसी	पीस	XC	10	mod	FALSE	FALSE
-10	इंटरफेस	इंटरफेस	NNP	11	ccof	FALSE	FALSE
+10	इंटरफेस	इंटरफेस	NNP	11	ccof	FALSE	TRUE
 11	और	और	CC	18	k1	FALSE	FALSE
 12	माक्रोफोन	माक्रोफोन	NN	11	ccof	TRUE	FALSE
 13	के	का	PSP	12	lwg__psp	FALSE	FALSE
@@ -21885,7 +21885,7 @@
 6	एक	एक	QC	11	nmod__adj	FALSE	FALSE
 7	3200	3200	QC	11	nmod__adj	TRUE	FALSE
 8	mAh	mAh	NN	11	mod	TRUE	FALSE
-9	क्षमता	क्षमता	NN	11	r6	FALSE	FALSE
+9	क्षमता	क्षमता	NN	11	r6	FALSE	TRUE
 10	की	का	PSP	9	lwg__psp	FALSE	FALSE
 11	बैटरी	बैटरी	NN	13	k1	FALSE	TRUE
 12	भी	भी	RP	11	lwg__rp	FALSE	FALSE
@@ -22067,7 +22067,7 @@
 19	से	से	PSP	18	lwg__psp	FALSE	FALSE
 20	हाई	हाई	VM	22	mod	FALSE	FALSE
 21	एंड	एंड	XC	22	mod	FALSE	FALSE
-22	टेबलेट्स	टेबलेट्स	NN	23	k1	TRUE	FALSE
+22	टेबलेट्स	टेबलेट्स	NN	23	k1	TRUE	TRUE
 23	मिल	मिल	VM	11	ccof	FALSE	FALSE
 24	जायेंगे	जा	VAUX	23	lwg__vaux	FALSE	FALSE
 25	.	.	.	23	rsym	FALSE	FALSE
@@ -22076,7 +22076,7 @@
 2	यहां	यहाँ	PRP	7	k7p	FALSE	FALSE
 3	लगभग	लगभग	RB	6	lwg__rp	FALSE	FALSE
 4	सभी	सभी	QF	6	nmod__adj	FALSE	FALSE
-5	जरूरी	जरूरी	JJ	6	nmod__adj	FALSE	TRUE
+5	जरूरी	जरूरी	JJ	6	nmod__adj	FALSE	FALSE
 6	ऐप	ऐप	NN	7	k1	TRUE	TRUE
 7	मिल	मिल	VM	10	ccof	FALSE	FALSE
 8	जाएंगी	जा	VAUX	7	lwg__vaux	FALSE	FALSE
@@ -22151,7 +22151,7 @@
 11	पिक्सल	पिक्सल	NN	12	ccof	FALSE	FALSE
 12	/	/	/	20	k2	TRUE	FALSE
 13	50	50	QC	17	nmod__adj	FALSE	FALSE
-14	पिक्सल	पिक्सल	XC	17	mod	FALSE	TRUE
+14	पिक्सल	पिक्सल	XC	17	mod	FALSE	FALSE
 15	इमेजेज	इमेजेज	NNP	17	mod	TRUE	TRUE
 16	एसडी	एसडी	XC	17	mod	TRUE	TRUE
 17	कार्ड	कार्ड	NN	12	ccof	FALSE	TRUE
@@ -22211,7 +22211,7 @@
 
 1	जसपिन्दर	जसपिन्दर	JJ	0	main	TRUE	FALSE
 2	कौर	कौर	NN	1	ccof	FALSE	FALSE
-3	निर्देशित	निर्देशित	JJ	5	nmod__adj	FALSE	FALSE
+3	निर्देशित	निर्देशित	JJ	5	nmod__adj	FALSE	TRUE
 4	'	'	'	5	rsym	TRUE	FALSE
 5	दिल्लीवाली	दिल्लीवाली	NNP	2	ccof	TRUE	FALSE
 6	जालिम	जालिम	JJ	7	nmod__adj	FALSE	FALSE
@@ -22275,8 +22275,8 @@
 1	आप	आप	PRP	7	k1	FALSE	FALSE
 2	एक	एक	QC	5	nmod__adj	FALSE	FALSE
 3	विशिष्ट	विशिष्ट	JJ	5	nmod__adj	FALSE	FALSE
-4	नॉक	नॉक	XC	5	mod	TRUE	FALSE
-5	पैटर्न	पैटर्न	NN	7	k2	FALSE	FALSE
+4	नॉक	नॉक	XC	5	mod	TRUE	TRUE
+5	पैटर्न	पैटर्न	NN	7	k2	FALSE	TRUE
 6	निर्धारित	निर्धारित	JJ	7	pof	FALSE	FALSE
 7	कर	कर	VM	0	main	FALSE	FALSE
 8	सकते	सक	VAUX	7	lwg__vaux	FALSE	FALSE
@@ -22407,7 +22407,7 @@
 19	.	.	.	16	rsym	FALSE	FALSE
 
 1	फैबलेट	फैबलेट	NN	3	r6	TRUE	FALSE
-2	की	का	PSP	1	lwg__psp	FALSE	FALSE
+2	की	का	PSP	1	lwg__psp	FALSE	TRUE
 3	कॉल	कॉल	NN	9	k1	FALSE	TRUE
 4	क्वालिटी	क्वालिटी	NN	6	mod	TRUE	TRUE
 5	बेशक	बेशक	JJ	6	nmod__adj	FALSE	FALSE
@@ -22432,7 +22432,7 @@
 2	टेबलेट	टेबलेट	NN	8	k7	FALSE	FALSE
 3	में	में	PSP	2	lwg__psp	FALSE	FALSE
 4	कोई	कोई	PRP	8	nmod__adj	FALSE	FALSE
-5	सिमकार्ड	सिमकार्ड	NN	8	k1	TRUE	TRUE
+5	सिमकार्ड	सिमकार्ड	NN	8	k1	TRUE	FALSE
 6	स्लॉट	स्लॉट	NN	8	k1s	TRUE	TRUE
 7	नहीं	नहीं	NEG	8	lwg__neg	FALSE	FALSE
 8	है	है	VM	0	main	FALSE	FALSE
@@ -22479,7 +22479,7 @@
 27	.	.	.	22	rsym	FALSE	FALSE
 
 1	हालांकि	हालांकि	CC	0	main	TRUE	FALSE
-2	कहानी	कहानी	NN	7	k7p	FALSE	TRUE
+2	कहानी	कहानी	NN	7	k7p	FALSE	FALSE
 3	बीच	बीच	NST	2	lwg__psp	FALSE	FALSE
 4	में	में	PSP	2	lwg__psp	FALSE	FALSE
 5	कई	कई	QF	6	nmod__adj	FALSE	FALSE
@@ -22620,7 +22620,7 @@
 12	है	है	VAUX	9	lwg__vaux	FALSE	FALSE
 13	और	और	CC	0	ROOT	FALSE	FALSE
 14	यह	यह	PRP	21	k1	FALSE	FALSE
-15	जीपीएस	जीपीएस	NN	21	k1	FALSE	TRUE
+15	जीपीएस	जीपीएस	NN	21	k1	FALSE	FALSE
 16	के	का	PSP	15	lwg__psp	FALSE	FALSE
 17	द्वारा	द्वारा	PSP	15	lwg__psp	FALSE	FALSE
 18	ट्रेक	ट्रेक	XC	19	mod	TRUE	FALSE
@@ -22655,7 +22655,7 @@
 5	आईपैड	आईपैड	NN	7	r6	FALSE	FALSE
 6	के	का	PSP	5	lwg__psp	FALSE	FALSE
 7	रेटिना	रेटिना	NN	12	k1	FALSE	FALSE
-8	डिस्प्ले	डिस्प्ले	JJ	12	k1	FALSE	FALSE
+8	डिस्प्ले	डिस्प्ले	JJ	12	k1	FALSE	TRUE
 9	जितना	जितना	QF	12	k1s	FALSE	FALSE
 10	तो	तो	RP	9	lwg__rp	FALSE	FALSE
 11	नहीं	नहीं	NEG	12	lwg__neg	FALSE	FALSE
@@ -22704,7 +22704,7 @@
 1	धूप	धूप	NN	6	sent-adv	FALSE	FALSE
 2	में	में	PSP	1	lwg__psp	FALSE	FALSE
 3	भी	भी	RP	1	lwg__rp	FALSE	FALSE
-4	स्क्रीन	स्क्रीन	NN	6	k7	FALSE	TRUE
+4	स्क्रीन	स्क्रीन	NN	6	k7	FALSE	FALSE
 5	पर	पर	PSP	4	lwg__psp	FALSE	FALSE
 6	लिखा	लिखा	VM	0	main	FALSE	FALSE
 7	पढ़ा	पढ़ा	XC	6	rsym	FALSE	FALSE
@@ -22713,7 +22713,7 @@
 10	है	है	VAUX	6	lwg__vaux	FALSE	FALSE
 11	.	.	.	6	rsym	FALSE	FALSE
 
-1	स्टेनलेस	स्टेनलेस	XC	2	mod	FALSE	TRUE
+1	स्टेनलेस	स्टेनलेस	XC	2	mod	FALSE	FALSE
 2	स्टील	स्टील	NNP	4	r6	FALSE	TRUE
 3	के	का	PSP	2	lwg__psp	FALSE	FALSE
 4	शरीर	शरीर	NN	10	k7	FALSE	FALSE
@@ -22787,7 +22787,7 @@
 31	है	है	VM	23	ccof	FALSE	FALSE
 32	.	.	.	31	rsym	FALSE	FALSE
 
-1	सिम	सिम	JJ	4	nmod__adj	TRUE	TRUE
+1	सिम	सिम	JJ	4	nmod__adj	TRUE	FALSE
 2	कॉलिंग	कॉलिंग	NN	4	mod	TRUE	TRUE
 3	अच्छा	अच्छा	JJ	4	nmod__adj	FALSE	FALSE
 4	काम	काम	NN	5	k2	FALSE	FALSE
@@ -22957,7 +22957,7 @@
 17	डॉल्	डॉल्	XC	0	ROOT	TRUE	FALSE
 18	‍	‍	NNP	17	ccof	TRUE	FALSE
 19	बी	बी	RP	18	ccof	FALSE	FALSE
-20	ऑडियो	ऑडियो	XC	19	ccof	TRUE	TRUE
+20	ऑडियो	ऑडियो	XC	19	ccof	TRUE	FALSE
 21	ड्युल	ड्युल	XC	20	ccof	TRUE	TRUE
 22	स्	स्	स्	21	ccof	TRUE	FALSE
 23	‍	‍	NN	24	pof	TRUE	FALSE
@@ -23055,7 +23055,7 @@
 23	आप	आप	PRP	24	k1	FALSE	FALSE
 24	पायेंगे	पा	VM	18	ccof	FALSE	FALSE
 25	कि	कि	CC	24	k2	FALSE	FALSE
-26	डिस्प्ले	डिस्प्ले	NN	28	r6	FALSE	FALSE
+26	डिस्प्ले	डिस्प्ले	NN	28	r6	FALSE	TRUE
 27	का	का	PSP	26	lwg__psp	FALSE	FALSE
 28	साइज	साइज	NN	30	k1	TRUE	TRUE
 29	अधिक	अधिक	QF	30	k1s	FALSE	FALSE
@@ -23103,7 +23103,7 @@
 33	.	.	.	31	rsym	FALSE	FALSE
 
 1	अच्छी	अच्छी	JJ	2	nmod__adj	FALSE	FALSE
-2	क्वालिटी	क्वालिटी	NN	4	r6	TRUE	FALSE
+2	क्वालिटी	क्वालिटी	NN	4	r6	TRUE	TRUE
 3	का	का	PSP	2	lwg__psp	FALSE	FALSE
 4	कैमरा	कैमरा	NN	5	k1	TRUE	TRUE
 5	है	है	VM	0	main	FALSE	FALSE
@@ -23124,7 +23124,7 @@
 13	सामान्य	सामान्य	JJ	14	nmod__adj	FALSE	FALSE
 14	इस्तेमाल	इस्तेमाल	NN	0	ROOT	FALSE	FALSE
 15	में	में	PSP	14	lwg__psp	FALSE	FALSE
-16	वेब	वेब	XC	17	mod	FALSE	TRUE
+16	वेब	वेब	XC	17	mod	FALSE	FALSE
 17	ब्राउजिंग	ब्राउजिंग	NNP	24	ccof	FALSE	TRUE
 18	,	,	,	17	rsym	FALSE	FALSE
 19	म्यूजिक	म्यूजिक	NN	24	ccof	FALSE	FALSE
@@ -23208,8 +23208,8 @@
 21	पिक्	पिक्	XC	26	mod	TRUE	FALSE
 22	‍	‍	XC	26	mod	TRUE	FALSE
 23	सल	सल	NN	26	mod	FALSE	FALSE
-24	फुल	फुल	XC	26	mod	TRUE	TRUE
-25	एचडी	एचडी	NNP	26	mod	TRUE	TRUE
+24	फुल	फुल	XC	26	mod	TRUE	FALSE
+25	एचडी	एचडी	NNP	26	mod	TRUE	FALSE
 26	रिकार्डिंग	रिकार्डिंग	NN	28	r6	FALSE	TRUE
 27	की	का	PSP	26	lwg__psp	FALSE	FALSE
 28	सुविधा	सुविधा	NN	29	pof	FALSE	FALSE
@@ -23310,7 +23310,7 @@
 4	बदलने	बदल	VM	10	rh	FALSE	FALSE
 5	से	से	PSP	4	lwg__psp	FALSE	FALSE
 6	कुछ	कुछ	QF	7	nmod__adj	FALSE	FALSE
-7	ऍप्स	ऍप्स	NN	9	r6	TRUE	TRUE
+7	ऍप्स	ऍप्स	NN	9	r6	TRUE	FALSE
 8	का	का	PSP	7	lwg__psp	FALSE	FALSE
 9	काम	काम	NN	10	k2	FALSE	FALSE
 10	बिगड़	बिगड़	VM	0	ROOT	TRUE	FALSE
@@ -23357,7 +23357,7 @@
 8	कैमरा	कैमरा	NN	9	mod	TRUE	TRUE
 9	जोकि	जोकि	CC	15	k1	TRUE	FALSE
 10	आपको	आप	PRP	15	k1	FALSE	FALSE
-11	ऑटो	ऑटो	XC	12	mod	FALSE	TRUE
+11	ऑटो	ऑटो	XC	12	mod	FALSE	FALSE
 12	फोकस	फोकस	NN	15	ras-k1	FALSE	TRUE
 13	के	का	PSP	12	lwg__psp	FALSE	FALSE
 14	साथ	साथ	NST	12	lwg__psp	FALSE	FALSE
@@ -23370,13 +23370,13 @@
 2	,	,	,	1	rsym	FALSE	FALSE
 3	बैलेंस्ड	बैलेंस्ड	NN	5	mod	TRUE	FALSE
 4	आर्मेचर	आर्मेचर	NN	5	mod	TRUE	FALSE
-5	ड्राइवर	ड्राइवर	NN	6	ccof	TRUE	FALSE
+5	ड्राइवर	ड्राइवर	NN	6	ccof	TRUE	TRUE
 6	और	और	CC	0	main	FALSE	FALSE
 7	दूसरा	दूसरा	QO	6	ccof	FALSE	FALSE
 8	,	,	,	7	rsym	FALSE	FALSE
 9	रेगुलर	रेगुलर	NN	11	pof__cn	FALSE	FALSE
 10	डायनेमिक	डायनेमिक	JJ	11	nmod__adj	TRUE	FALSE
-11	ड्राइवर	ड्राइवर	NN	7	ccof	TRUE	TRUE
+11	ड्राइवर	ड्राइवर	NN	7	ccof	TRUE	FALSE
 12	.	.	.	11	rsym	FALSE	FALSE
 
 1	तेज	तेज	JJ	2	nmod__adj	FALSE	FALSE
@@ -23386,7 +23386,7 @@
 5	में	में	PSP	4	lwg__psp	FALSE	FALSE
 6	,	,	,	4	rsym	FALSE	FALSE
 7	इसके	इसके	PRP	8	r6	FALSE	FALSE
-8	पिक्चर्स	पिक्चर्स	NN	12	k1	TRUE	TRUE
+8	पिक्चर्स	पिक्चर्स	NN	12	k1	TRUE	FALSE
 9	बहुत	बहुत	QF	12	adv	FALSE	FALSE
 10	ही	ही	RP	9	lwg__rp	FALSE	FALSE
 11	तेज	तेज	JJ	12	pof	FALSE	FALSE
@@ -23422,13 +23422,13 @@
 10	1024	1024	QC	11	nmod__adj	TRUE	FALSE
 11	x	x	NN	26	k1	TRUE	FALSE
 12	600	600	QC	15	mod	TRUE	FALSE
-13	पिक्सेल	पिक्सेल	XC	15	mod	TRUE	FALSE
+13	पिक्सेल	पिक्सेल	XC	15	mod	TRUE	TRUE
 14	आईपीएस	आईपीएस	XC	15	mod	FALSE	TRUE
 15	डिस्प्ले	डिस्प्ले	NNP	16	ccof	FALSE	TRUE
-16	और	और	CC	26	k1	FALSE	FALSE
+16	और	और	CC	26	k1	FALSE	TRUE
 17	अच्छे	अच्छे	JJ	18	nmod__adj	TRUE	FALSE
 18	दृश्य	दृश्य	NN	16	ccof	FALSE	TRUE
-19	कोणों	कोणों	NN	26	k7t	TRUE	TRUE
+19	कोणों	कोणों	NN	26	k7t	TRUE	FALSE
 20	के	का	PSP	19	lwg__psp	FALSE	FALSE
 21	साथ	साथ	NST	19	lwg__psp	FALSE	FALSE
 22	उचित	उचित	JJ	23	nmod__adj	FALSE	FALSE
@@ -23439,11 +23439,11 @@
 27	.	.	.	26	rsym	FALSE	FALSE
 
 1	300	300	QC	0	main	FALSE	FALSE
-2	मिली	मिल	XC	4	mod	FALSE	FALSE
-3	एंपियर	एंपियर	XC	4	mod	FALSE	FALSE
+2	मिली	मिल	XC	4	mod	FALSE	TRUE
+3	एंपियर	एंपियर	XC	4	mod	FALSE	TRUE
 4	ऑवर	ऑवर	NNP	1	ccof	TRUE	FALSE
 5	बैटरी	बैटरी	JJ	6	nmod__adj	FALSE	TRUE
-6	क्षमता	क्षमता	NN	4	ccof	FALSE	TRUE
+6	क्षमता	क्षमता	NN	4	ccof	FALSE	FALSE
 7	.	.	.	6	rsym	FALSE	FALSE
 
 1	गियर	गियर	NN	3	k1	FALSE	FALSE
@@ -23457,7 +23457,7 @@
 9	का	का	PSP	8	lwg__psp	FALSE	FALSE
 10	सुपर	सुपर	JJ	11	nmod__adj	TRUE	FALSE
 11	एमोलेड	एमोलेड	NN	12	k1	TRUE	FALSE
-12	डिस्प्ले	डिस्प्ले	VM	0	main	FALSE	FALSE
+12	डिस्प्ले	डिस्प्ले	VM	0	main	FALSE	TRUE
 13	लगा	लगा	VAUX	12	lwg__vaux	FALSE	FALSE
 14	है	है	VAUX	12	lwg__vaux	FALSE	FALSE
 15	जो	जो	PRP	26	k1	FALSE	FALSE
@@ -23593,7 +23593,7 @@
 9	के	का	PSP	8	lwg__psp	FALSE	FALSE
 10	सुपर	सुपर	NST	8	lwg__psp	TRUE	FALSE
 11	एमोलेड	एमोलेड	XC	12	mod	TRUE	FALSE
-12	डिस्प्ले	डिस्प्ले	NNP	17	k1	FALSE	FALSE
+12	डिस्प्ले	डिस्प्ले	NNP	17	k1	FALSE	TRUE
 13	की	का	PSP	12	lwg__psp	FALSE	FALSE
 14	तरह	तरह	PSP	12	lwg__psp	FALSE	FALSE
 15	तीक्ष्ण	तीक्ष्ण	JJ	17	k1s	FALSE	FALSE
@@ -23610,7 +23610,7 @@
 26	.	.	.	25	rsym	FALSE	FALSE
 
 1	डिस्प्ले	डिस्प्ले	XC	3	mod	FALSE	TRUE
-2	ग्लास	ग्लास	XC	3	mod	FALSE	TRUE
+2	ग्लास	ग्लास	XC	3	mod	FALSE	FALSE
 3	स्मार्टफोन	स्मार्टफोन	NNP	6	r6	TRUE	FALSE
 4	की	का	PSP	3	lwg__psp	FALSE	FALSE
 5	अगली	अगली	JJ	6	nmod__adj	TRUE	FALSE
@@ -23679,13 +23679,13 @@
 14	शिफ्ट	शिफ्ट	NN	20	ccof	FALSE	FALSE
 15	,	,	,	14	rsym	FALSE	FALSE
 16	स्टोरी	स्टोरी	NN	19	mod	FALSE	FALSE
-17	मेकर	मेकर	VM	19	mod	TRUE	FALSE
+17	मेकर	मेकर	VM	19	mod	TRUE	TRUE
 18	कैमरा	कैमरा	NN	19	mod	TRUE	TRUE
 19	फीचर्स	फीचर्स	NN	20	ccof	TRUE	TRUE
-20	और	और	CC	6	ccof	FALSE	TRUE
-21	बीबी	बीबी	NN	23	mod	FALSE	TRUE
+20	और	और	CC	6	ccof	FALSE	FALSE
+21	बीबी	बीबी	NN	23	mod	FALSE	FALSE
 22	10	10	QC	23	nmod__adj	FALSE	TRUE
-23	ब्राउजर	ब्राउजर	NN	20	ccof	FALSE	TRUE
+23	ब्राउजर	ब्राउजर	NN	20	ccof	FALSE	FALSE
 24	.	.	.	23	rsym	FALSE	FALSE
 
 1	सावन	सावन	NN	3	r6	FALSE	FALSE
@@ -23704,9 +23704,9 @@
 
 1	यहां	यहाँ	PRP	4	r6	FALSE	FALSE
 2	के	का	PSP	1	lwg__psp	FALSE	FALSE
-3	गर्म	गर्म	JJ	4	nmod__adj	FALSE	TRUE
+3	गर्म	गर्म	JJ	4	nmod__adj	FALSE	FALSE
 4	पानी	पानी	NN	6	r6	FALSE	TRUE
-5	के	का	PSP	4	lwg__psp	FALSE	TRUE
+5	के	का	PSP	4	lwg__psp	FALSE	FALSE
 6	झरने	झरना	NN	9	k7	FALSE	TRUE
 7	में	में	PSP	6	lwg__psp	FALSE	FALSE
 8	स्नान	स्नान	NN	9	pof	FALSE	FALSE
@@ -23822,7 +23822,7 @@
 6	और	और	CC	0	main	FALSE	FALSE
 7	इसकी	इसकी	PRP	9	r6	TRUE	FALSE
 8	सर्वाधिक	सर्वाधिक	JJ	9	nmod__adj	FALSE	FALSE
-9	मोटाई	मोटाई	NN	12	k1	FALSE	FALSE
+9	मोटाई	मोटाई	NN	12	k1	FALSE	TRUE
 10	66	66	QC	11	nmod__adj	FALSE	FALSE
 11	mm	mm	NN	12	k1	TRUE	FALSE
 12	है	है	VM	6	ccof	FALSE	FALSE
@@ -23844,7 +23844,7 @@
 6	टैबलेट	टैबलेट	NN	0	ROOT	TRUE	FALSE
 7	पर	पर	PSP	6	lwg__psp	FALSE	FALSE
 8	हर	हर	QF	9	nmod__adj	FALSE	FALSE
-9	एप्पलीकेशन	एप्पलीकेशन	NN	0	ROOT	TRUE	TRUE
+9	एप्पलीकेशन	एप्पलीकेशन	NN	0	ROOT	TRUE	FALSE
 10	न	न	NEG	0	ROOT	FALSE	FALSE
 11	तो	तो	RP	10	lwg__rp	FALSE	FALSE
 12	डाउनलोड	डाउनलोड	NN	13	ccof	FALSE	FALSE
@@ -23883,7 +23883,7 @@
 
 1	अगर	अगर	CC	0	ROOT	FALSE	FALSE
 2	रॉयल	रॉयल	XC	4	mod	TRUE	TRUE
-3	बंगाल	बंगाल	NNP	4	mod	FALSE	TRUE
+3	बंगाल	बंगाल	NNP	4	mod	FALSE	FALSE
 4	टाइगर	टाइगर	NN	8	k2	FALSE	TRUE
 5	को	को	PSP	4	lwg__psp	TRUE	FALSE
 6	करीब	करीब	RB	8	adv	FALSE	FALSE
@@ -23949,7 +23949,7 @@
 3	लगभग	लगभग	RB	6	lwg__rp	FALSE	FALSE
 4	15,000	15,000	QC	6	nmod__adj	TRUE	FALSE
 5	रूपये	रूपया	NN	6	mod	TRUE	FALSE
-6	कीमत	कीमत	NN	8	r6	FALSE	FALSE
+6	कीमत	कीमत	NN	8	r6	FALSE	TRUE
 7	का	का	PSP	6	lwg__psp	FALSE	FALSE
 8	टेबलेट	टेबलेट	NN	9	k2	FALSE	FALSE
 9	चाहते	चाह	VM	1	ccof	FALSE	FALSE
@@ -24044,7 +24044,7 @@
 9	यहां	यहाँ	PRP	12	r6	FALSE	FALSE
 10	का	का	PSP	9	lwg__psp	FALSE	FALSE
 11	पर्यटन	पर्यटन	NN	12	mod	FALSE	TRUE
-12	विभाग	विभाग	NN	13	k1	FALSE	TRUE
+12	विभाग	विभाग	NN	13	k1	FALSE	FALSE
 13	है	है	VM	0	main	FALSE	FALSE
 14	.	.	.	13	rsym	FALSE	FALSE
 
@@ -24131,7 +24131,7 @@
 16	खरीदते	खरीद	VM	0	ROOT	FALSE	FALSE
 17	ही	ही	RP	16	lwg__rp	FALSE	FALSE
 18	एक	एक	QC	19	nmod__adj	FALSE	FALSE
-19	मेमोरी	मेमोरी	NN	0	ROOT	FALSE	TRUE
+19	मेमोरी	मेमोरी	NN	0	ROOT	FALSE	FALSE
 20	कार्ड	कार्ड	NN	0	ROOT	FALSE	TRUE
 21	तो	तो	RP	20	lwg__rp	FALSE	FALSE
 22	आपको	आप	PRP	0	ROOT	FALSE	FALSE
@@ -24236,7 +24236,7 @@
 5	के	का	PSP	4	lwg__psp	FALSE	FALSE
 6	बाहर	बाहर	NST	4	lwg__psp	FALSE	FALSE
 7	कोई	कोई	PRP	9	nmod__adj	FALSE	FALSE
-8	स्क्रीन	स्क्रीन	JJ	9	nmod__adj	FALSE	FALSE
+8	स्क्रीन	स्क्रीन	JJ	9	nmod__adj	FALSE	TRUE
 9	गार्ड	गार्ड	NN	10	k1	FALSE	FALSE
 10	लगा	लगा	VM	13	vmod	FALSE	FALSE
 11	हुआ	हो	VAUX	10	lwg__vaux	FALSE	FALSE
@@ -24296,9 +24296,9 @@
 3	प्रति	प्रति	PSP	2	lwg__psp	FALSE	FALSE
 4	माह	माह	NN	23	k7	FALSE	FALSE
 5	में	में	PSP	4	lwg__psp	FALSE	FALSE
-6	लाइव	लाइव	XC	8	mod	FALSE	TRUE
-7	टीवी	टीवी	XC	8	mod	TRUE	TRUE
-8	स्ट्रीमिंग	स्ट्रीमिंग	NN	9	ccof	TRUE	TRUE
+6	लाइव	लाइव	XC	8	mod	FALSE	FALSE
+7	टीवी	टीवी	XC	8	mod	TRUE	FALSE
+8	स्ट्रीमिंग	स्ट्रीमिंग	NN	9	ccof	TRUE	FALSE
 9	और	और	CC	23	rh	FALSE	FALSE
 10	ऑन-डिमांड	ऑन-डिमांड	NN	11	mod	TRUE	FALSE
 11	सेक्शन	सेक्शन	NN	9	ccof	TRUE	FALSE
@@ -24306,8 +24306,8 @@
 13	उपलब्ध	उपलब्ध	JJ	17	nmod	FALSE	FALSE
 14	एक	एक	QC	17	nmod__adj	FALSE	FALSE
 15	मैसिव	मैसिव	XC	17	mod	TRUE	FALSE
-16	मूवी	मूवी	XC	17	mod	TRUE	FALSE
-17	लाइब्रेरी	लाइब्रेरी	NNP	23	k1	FALSE	FALSE
+16	मूवी	मूवी	XC	17	mod	TRUE	TRUE
+17	लाइब्रेरी	लाइब्रेरी	NNP	23	k1	FALSE	TRUE
 18	,	,	,	17	rsym	FALSE	FALSE
 19	यह	यह	PRP	23	k1	FALSE	FALSE
 20	बुरा	बुरा	JJ	21	nmod__adj	FALSE	FALSE
@@ -24347,7 +24347,7 @@
 14	.	.	.	12	rsym	FALSE	FALSE
 
 1	जीएलबेंचमार्क	जीएलबेंचमार्क	XC	3	mod	TRUE	FALSE
-2	ग्राफ़िक्स	ग्राफ़िक्स	NNP	3	mod	TRUE	FALSE
+2	ग्राफ़िक्स	ग्राफ़िक्स	NNP	3	mod	TRUE	TRUE
 3	टेस्ट	टेस्ट	NN	5	r6	FALSE	FALSE
 4	के	का	PSP	3	lwg__psp	FALSE	FALSE
 5	स्कोर	स्कोर	NN	10	k1	FALSE	FALSE
@@ -24374,7 +24374,7 @@
 26	.	.	.	24	rsym	FALSE	FALSE
 
 1	इसका	इसका	PRP	8	k1	TRUE	FALSE
-2	कवर	कवर	NN	6	mod	FALSE	FALSE
+2	कवर	कवर	NN	6	mod	FALSE	TRUE
 3	परंपरागत	परंपरागत	JJ	6	mod	FALSE	FALSE
 4	ब्रश्ड	ब्रश्ड	XC	6	mod	TRUE	TRUE
 5	मेटल	मेटल	XC	6	mod	TRUE	TRUE
@@ -24414,7 +24414,7 @@
 17	टेक्नोलॉजी	टेक्नोलॉजी	NN	18	ccof	TRUE	FALSE
 18	और	और	CC	21	k4	FALSE	FALSE
 19	फ्रंट	फ्रंट	NN	18	ccof	FALSE	FALSE
-20	लाइट	लाइट	NN	21	pof	FALSE	FALSE
+20	लाइट	लाइट	NN	21	pof	FALSE	TRUE
 21	दी	दे	VM	5	ccof	FALSE	FALSE
 22	गई	गई	VAUX	21	lwg__vaux	FALSE	FALSE
 23	है	है	VAUX	21	lwg__vaux	FALSE	FALSE
@@ -24501,8 +24501,8 @@
 27	पिक्सल	पिक्सल	NN	29	ccof	FALSE	FALSE
 28	)	)	)	27	rsym	FALSE	FALSE
 29	और	और	CC	41	k7	FALSE	FALSE
-30	फुल	फुल	XC	31	mod	TRUE	TRUE
-31	एचडी	एचडी	NNP	29	ccof	TRUE	TRUE
+30	फुल	फुल	XC	31	mod	TRUE	FALSE
+31	एचडी	एचडी	NNP	29	ccof	TRUE	FALSE
 32	(	(	(	33	rsym	FALSE	FALSE
 33	1920	1920	QC	31	nmod	TRUE	FALSE
 34	*	*	*	36	mod	TRUE	FALSE
@@ -24511,7 +24511,7 @@
 37	)	)	)	36	rsym	FALSE	FALSE
 38	की	का	PSP	36	lwg__psp	FALSE	FALSE
 39	वीडियो	वीडियो	XC	40	mod	FALSE	TRUE
-40	रिकॉर्डिग	रिकॉर्डिग	NN	41	pof	TRUE	TRUE
+40	रिकॉर्डिग	रिकॉर्डिग	NN	41	pof	TRUE	FALSE
 41	की	कर	VM	10	ccof	FALSE	FALSE
 42	जा	जा	VAUX	41	lwg__vaux	FALSE	FALSE
 43	सकती	सक	VAUX	41	lwg__vaux	TRUE	FALSE
@@ -24526,7 +24526,7 @@
 6	वाली	वाली	PSP	4	lwg__psp	FALSE	FALSE
 7	तस्वीरों	तस्वीर	NN	9	r6	FALSE	FALSE
 8	का	का	PSP	7	lwg__psp	FALSE	FALSE
-9	रेजोल्युशन	रेजोल्युशन	NN	14	k1	TRUE	TRUE
+9	रेजोल्युशन	रेजोल्युशन	NN	14	k1	TRUE	FALSE
 10	4	4	QC	14	rd	FALSE	FALSE
 11	के	का	PSP	10	lwg__psp	FALSE	FALSE
 12	/	/	/	10	lwg__psp	TRUE	FALSE
@@ -24630,7 +24630,7 @@
 21	हैं	है	VAUX	20	lwg__vaux	FALSE	FALSE
 22	.	.	.	20	rsym	FALSE	FALSE
 
-1	हेडसेट	हेडसेट	NN	15	k1	TRUE	TRUE
+1	हेडसेट	हेडसेट	NN	15	k1	TRUE	FALSE
 2	बहुत	बहुत	QF	15	adv	FALSE	FALSE
 3	ही	ही	RP	2	lwg__rp	FALSE	FALSE
 4	सरल	सरल	JJ	7	mod	FALSE	FALSE
@@ -24750,8 +24750,8 @@
 21	है	है	VAUX	19	lwg__vaux	FALSE	FALSE
 22	.	.	.	19	rsym	FALSE	FALSE
 
-1	बेंचमार्क	बेंचमार्क	JJ	2	nmod__adj	FALSE	TRUE
-2	टेस्ट	टेस्ट	NN	0	ROOT	FALSE	TRUE
+1	बेंचमार्क	बेंचमार्क	JJ	2	nmod__adj	FALSE	FALSE
+2	टेस्ट	टेस्ट	NN	0	ROOT	FALSE	FALSE
 3	में	में	PSP	2	lwg__psp	FALSE	FALSE
 4	यह	यह	DEM	5	nmod__adj	FALSE	FALSE
 5	नेक्सस	नेक्सस	NN	0	ROOT	TRUE	FALSE
@@ -24832,7 +24832,7 @@
 1	फिर	फिर	RB	12	sent-adv	FALSE	FALSE
 2	भी	भी	RP	1	lwg__rp	FALSE	FALSE
 3	,	,	,	1	rsym	FALSE	FALSE
-4	पिक्चर	पिक्चर	JJ	5	nmod__adj	FALSE	TRUE
+4	पिक्चर	पिक्चर	JJ	5	nmod__adj	FALSE	FALSE
 5	क्वालिटी	क्वालिटी	NN	12	k1	TRUE	TRUE
 6	अन्य	अन्य	JJ	9	nmod__adj	FALSE	FALSE
 7	किसी	किसी	PRP	9	nmod__adj	FALSE	FALSE
@@ -24857,7 +24857,7 @@
 
 1	अगर	अगर	CC	0	main	FALSE	FALSE
 2	आप	आप	PRP	5	k1	FALSE	FALSE
-3	गेमिंग	गेमिंग	XC	5	k2	FALSE	FALSE
+3	गेमिंग	गेमिंग	XC	5	k2	FALSE	TRUE
 4	पसंद	पसंद	NN	5	pof	FALSE	FALSE
 5	करते	कर	VM	1	ccof	FALSE	FALSE
 6	हैं	है	VAUX	5	lwg__vaux	FALSE	FALSE
@@ -24880,7 +24880,7 @@
 23	.	.	.	21	rsym	FALSE	FALSE
 
 1	यह	यह	DEM	2	nmod__adj	FALSE	FALSE
-2	मीनू	मीनू	NN	8	k1	TRUE	TRUE
+2	मीनू	मीनू	NN	8	k1	TRUE	FALSE
 3	आपको	आप	PRP	8	k1	FALSE	FALSE
 4	उन	उन	DEM	5	nmod__adj	FALSE	FALSE
 5	एप्स	एप्स	NN	8	k1	TRUE	FALSE
@@ -24933,8 +24933,8 @@
 14	लिए	ले	PSP	13	lwg__psp	FALSE	FALSE
 15	सॉफ्टवेयर	सॉफ्टवेयर	NN	16	ccof	FALSE	FALSE
 16	और	और	CC	22	k7	FALSE	FALSE
-17	न्वाइस	न्वाइस	NN	19	mod	TRUE	FALSE
-18	रिडक्शन	रिडक्शन	NN	19	mod	TRUE	FALSE
+17	न्वाइस	न्वाइस	NN	19	mod	TRUE	TRUE
+18	रिडक्शन	रिडक्शन	NN	19	mod	TRUE	TRUE
 19	टेकनोलॉजी	टेकनोलॉजी	NNP	16	ccof	TRUE	FALSE
 20	का	का	PSP	19	lwg__psp	FALSE	FALSE
 21	इस्तेमाल	इस्तेमाल	NN	22	pof	FALSE	FALSE
@@ -24961,7 +24961,7 @@
 1	गिर	गिर	VM	8	k1	FALSE	FALSE
 2	वन	वन	NN	8	k1	FALSE	FALSE
 3	राष्ट्रीय	राष्ट्रीय	JJ	5	mod	FALSE	FALSE
-4	उद्यान	उद्यान	NN	5	mod	FALSE	FALSE
+4	उद्यान	उद्यान	NN	5	mod	FALSE	TRUE
 5	बाघ	बाघ	NN	8	k1	FALSE	FALSE
 6	संरक्षित	संरक्षित	JJ	7	nmod__adj	FALSE	FALSE
 7	क्षेत्र	क्षेत्र	NN	8	k1s	FALSE	FALSE
@@ -25006,7 +25006,7 @@
 5	मोटो	मोटो	XC	8	mod	TRUE	FALSE
 6	360	360	QC	8	r6	TRUE	FALSE
 7	के	का	PSP	6	lwg__psp	FALSE	FALSE
-8	लुक	लुक	NN	14	rh	FALSE	TRUE
+8	लुक	लुक	NN	14	rh	FALSE	FALSE
 9	से	से	PSP	8	lwg__psp	FALSE	FALSE
 10	खुद	खुद	PRP	14	k2	FALSE	FALSE
 11	को	को	PSP	10	lwg__psp	TRUE	FALSE
@@ -25043,7 +25043,7 @@
 6	कि	कि	CC	4	k2	FALSE	FALSE
 7	उन्हें	उन्हें	PRP	12	k4a	TRUE	FALSE
 8	योग्य	योग्य	JJ	9	nmod__adj	FALSE	FALSE
-9	कलाकारों	कलाकार	NN	11	r6	FALSE	FALSE
+9	कलाकारों	कलाकार	NN	11	r6	FALSE	TRUE
 10	का	का	PSP	9	lwg__psp	FALSE	FALSE
 11	समर्थन	समर्थन	NN	12	k1	FALSE	FALSE
 12	मिल	मिल	VM	6	ccof	FALSE	FALSE
@@ -25169,11 +25169,11 @@
 8	कैमरा	कैमरा	NN	9	mod	TRUE	TRUE
 9	जोकि	जोकि	CC	19	k1	TRUE	FALSE
 10	आपको	आप	PRP	19	k1	FALSE	FALSE
-11	ऑटो	ऑटो	XC	12	mod	FALSE	TRUE
+11	ऑटो	ऑटो	XC	12	mod	FALSE	FALSE
 12	फोकस	फोकस	NN	19	ras-k1	FALSE	TRUE
 13	के	का	PSP	12	lwg__psp	FALSE	FALSE
 14	साथ	साथ	NST	12	lwg__psp	FALSE	FALSE
-15	एलईडी	एलईडी	XC	16	mod	TRUE	TRUE
+15	एलईडी	एलईडी	XC	16	mod	TRUE	FALSE
 16	फ्लैश	फ्लैश	NN	19	ras-k1	FALSE	TRUE
 17	के	का	PSP	16	lwg__psp	FALSE	FALSE
 18	साथ	साथ	NST	16	lwg__psp	FALSE	FALSE
@@ -25268,8 +25268,8 @@
 12	चीज	चीज	NN	21	k7	FALSE	FALSE
 13	में	में	PSP	12	lwg__psp	FALSE	FALSE
 14	इसका	इसका	PRP	21	k7t	TRUE	FALSE
-15	वाइब्रेंट	वाइब्रेंट	JJ	16	nmod__adj	TRUE	FALSE
-16	कलर	कलर	NN	21	k1	FALSE	FALSE
+15	वाइब्रेंट	वाइब्रेंट	JJ	16	nmod__adj	TRUE	TRUE
+16	कलर	कलर	NN	21	k1	FALSE	TRUE
 17	बेहतर	बेहतर	JJ	18	nmod__adj	FALSE	FALSE
 18	स्क्रीन	स्क्रीन	NN	20	r6-k2	FALSE	TRUE
 19	का	का	PSP	18	lwg__psp	FALSE	FALSE
@@ -25350,7 +25350,7 @@
 11	,	,	,	10	rsym	FALSE	FALSE
 12	and	and	XC	20	k1	TRUE	FALSE
 13	REAL	REAL	XC	20	k1	TRUE	FALSE
-14	वीडियो	वीडियो	XC	20	k1	FALSE	FALSE
+14	वीडियो	वीडियो	XC	20	k1	FALSE	TRUE
 15	डिकोडिंग	डिकोडिंग	XC	17	k2	TRUE	FALSE
 16	सपोर्ट	सपोर्ट	NN	17	pof	TRUE	FALSE
 17	करने	कर	VM	19	nmod	FALSE	FALSE
@@ -25362,7 +25362,7 @@
 
 1	दीपक	दीपक	XC	10	k1	FALSE	FALSE
 2	डोबरियाल	डोबरियाल	NNP	4	mod	TRUE	FALSE
-3	एक-दो	एक-दो	XC	4	mod	FALSE	FALSE
+3	एक-दो	एक-दो	XC	4	mod	FALSE	TRUE
 4	दृश्यों	दृश्य	NN	10	k1	FALSE	FALSE
 5	कुछ	कुछ	QF	6	nmod__adj	FALSE	FALSE
 6	ओवर	ओवर	NN	10	k1	FALSE	FALSE
@@ -25412,12 +25412,12 @@
 7	33	33	QC	8	nmod__adj	FALSE	FALSE
 8	GHz	GHz	NN	10	r6	TRUE	FALSE
 9	का	का	PSP	8	lwg__psp	FALSE	FALSE
-10	क्वाड	क्वाड	NN	17	k1	TRUE	TRUE
+10	क्वाड	क्वाड	NN	17	k1	TRUE	FALSE
 11	कोर	कोर	JJ	12	nmod__adj	FALSE	TRUE
 12	इंटेल	इंटेल	NN	17	k1	TRUE	TRUE
-13	कोर	कोर	JJ	14	nmod__adj	FALSE	TRUE
-14	i	i	NN	17	k1	TRUE	TRUE
-15	5	5	QC	16	nmod__adj	FALSE	TRUE
+13	कोर	कोर	JJ	14	nmod__adj	FALSE	FALSE
+14	i	i	NN	17	k1	TRUE	FALSE
+15	5	5	QC	16	nmod__adj	FALSE	FALSE
 16	प्रोसेसर	प्रोसेसर	NN	17	k2	FALSE	TRUE
 17	दिया	दे	VM	0	main	FALSE	FALSE
 18	है	है	VAUX	17	lwg__vaux	FALSE	FALSE
@@ -25425,7 +25425,7 @@
 
 1	मुख्य	मुख्य	JJ	3	nmod__adj	FALSE	FALSE
 2	आकर्षण-खूबसूरत	आकर्षण-खूबसूरत	JJ	3	nmod__adj	TRUE	FALSE
-3	ट्यूलिप	ट्यूलिप	NN	5	r6	FALSE	FALSE
+3	ट्यूलिप	ट्यूलिप	NN	5	r6	FALSE	TRUE
 4	के	का	PSP	3	lwg__psp	FALSE	FALSE
 5	फूल	फूल	NN	6	ccof	FALSE	FALSE
 6	और	और	CC	0	main	FALSE	FALSE
@@ -25458,7 +25458,7 @@
 3	‍	‍	NN	4	mod	TRUE	FALSE
 4	मार्टवॉच	मार्टवॉच	NN	10	k7	TRUE	FALSE
 5	में	में	PSP	4	lwg__psp	FALSE	FALSE
-6	हार्टरेट	हार्टरेट	XC	7	mod	TRUE	TRUE
+6	हार्टरेट	हार्टरेट	XC	7	mod	TRUE	FALSE
 7	सेंसर	सेंसर	NN	10	k1	TRUE	TRUE
 8	भी	भी	RP	7	lwg__rp	FALSE	FALSE
 9	अवेलेबल	अवेलेबल	NN	10	k1s	TRUE	FALSE
@@ -25557,7 +25557,7 @@
 16	,	,	,	15	rsym	FALSE	FALSE
 17	वही	वही	PRP	25	k1	TRUE	FALSE
 18	इसमें	इसमें	PRP	25	k7	TRUE	FALSE
-19	348	348	QC	21	nmod__adj	TRUE	FALSE
+19	348	348	QC	21	nmod__adj	TRUE	TRUE
 20	ppi	ppi	JJ	21	nmod__adj	TRUE	FALSE
 21	pixel	pixel	NN	23	r6	TRUE	FALSE
 22	की	का	PSP	21	lwg__psp	FALSE	FALSE
@@ -25786,7 +25786,7 @@
 
 1	डुअल	डुअल	XC	4	mod	TRUE	TRUE
 2	कलर	कलर	XC	4	mod	FALSE	TRUE
-3	टोन	टोन	XC	4	mod	TRUE	TRUE
+3	टोन	टोन	XC	4	mod	TRUE	FALSE
 4	डिजाइन	डिजाइन	NNP	0	ROOT	FALSE	TRUE
 5	,	,	,	4	rsym	FALSE	FALSE
 6	मेटल	मेटल	NNP	8	r6	TRUE	FALSE
@@ -25805,9 +25805,9 @@
 19	चारों	चार	QC	0	ROOT	FALSE	FALSE
 20	और	और	CC	0	ROOT	FALSE	FALSE
 21	बड़ी	बड़ी	XC	24	mod	FALSE	FALSE
-22	सी	सी	XC	24	mod	FALSE	TRUE
+22	सी	सी	XC	24	mod	FALSE	FALSE
 23	मेटल	मेटल	XC	24	mod	TRUE	TRUE
-24	रिंग	रिंग	XC	20	ccof	FALSE	TRUE
+24	रिंग	रिंग	XC	20	ccof	FALSE	FALSE
 25	,	,	,	24	rsym	FALSE	FALSE
 26	जिसमें	जो	PRP	29	k7	FALSE	FALSE
 27	फ्लैश	फ्लैश	NN	29	pof	FALSE	FALSE
@@ -25856,7 +25856,7 @@
 16	आकार	आकार	NN	19	r6	FALSE	FALSE
 17	के	का	PSP	16	lwg__psp	FALSE	FALSE
 18	डायल	डायल	XC	19	mod	FALSE	FALSE
-19	डिजाइन	डिजाइन	NNP	34	k7t	FALSE	FALSE
+19	डिजाइन	डिजाइन	NNP	34	k7t	FALSE	TRUE
 20	के	का	PSP	19	lwg__psp	FALSE	FALSE
 21	साथ	साथ	NST	19	lwg__psp	FALSE	FALSE
 22	यह	यह	DEM	23	nmod__adj	FALSE	FALSE
@@ -25883,7 +25883,7 @@
 5	यादा	यादा	NN	6	mod	TRUE	FALSE
 6	देर	देर	NN	10	k2	FALSE	FALSE
 7	तक	तक	RP	6	lwg__rp	FALSE	FALSE
-8	फोटो	फोटो	XC	10	k2	FALSE	FALSE
+8	फोटो	फोटो	XC	10	k2	FALSE	TRUE
 9	कैपचरिंग	कैपचरिंग	NN	10	pof	TRUE	FALSE
 10	करने	कर	VM	17	rt	FALSE	FALSE
 11	के	का	PSP	10	lwg__psp	FALSE	FALSE
@@ -25996,7 +25996,7 @@
 21	के	का	PSP	20	lwg__psp	FALSE	FALSE
 22	बाद	बाद	NST	20	lwg__nst	FALSE	FALSE
 23	इन्हें	इन्हें	PRP	25	k2	TRUE	FALSE
-24	कनेक्ट	कनेक्ट	NN	25	pof	TRUE	FALSE
+24	कनेक्ट	कनेक्ट	NN	25	pof	TRUE	TRUE
 25	करना	कर	VM	30	k1	FALSE	FALSE
 26	थोड़ा	थोड़ा	XC	27	mod	FALSE	FALSE
 27	मुश्किल	मुश्किल	NNP	30	k1	FALSE	FALSE
@@ -26092,7 +26092,7 @@
 
 1	एंड्रॉयड	एंड्रॉयड	XC	4	mod	TRUE	FALSE
 2	44	44	QC	4	nmod__adj	FALSE	FALSE
-3	किटकैट	किटकैट	NN	4	mod	TRUE	TRUE
+3	किटकैट	किटकैट	NN	4	mod	TRUE	FALSE
 4	ओएस	ओएस	NN	7	k7	TRUE	TRUE
 5	पर	पर	PSP	4	lwg__psp	FALSE	FALSE
 6	काम	काम	NN	7	k2	FALSE	FALSE
@@ -26141,7 +26141,7 @@
 18	रंग	रंग	NN	33	ccof	FALSE	FALSE
 19	,	,	,	18	rsym	FALSE	FALSE
 20	बडे	बडा	JJ	21	nmod__adj	TRUE	FALSE
-21	आकार	आकार	NN	24	r6	FALSE	FALSE
+21	आकार	आकार	NN	24	r6	FALSE	TRUE
 22	के	का	PSP	21	lwg__psp	FALSE	FALSE
 23	मोटे	मोटा	JJ	24	nmod__adj	FALSE	FALSE
 24	बटंस	बटंस	NN	32	k1	TRUE	FALSE
@@ -26193,7 +26193,7 @@
 5	,	,	,	4	rsym	FALSE	FALSE
 6	माइक्रो	माइक्रो	XC	8	mod	FALSE	TRUE
 7	एसडी	एसडी	XC	8	mod	TRUE	TRUE
-8	कार्ड	कार्ड	NN	18	k5	FALSE	TRUE
+8	कार्ड	कार्ड	NN	18	k5	FALSE	FALSE
 9	से	से	PSP	8	lwg__psp	FALSE	FALSE
 10	इसे	इसे	PRP	15	k2	TRUE	FALSE
 11	64	64	QC	12	nmod__adj	FALSE	FALSE
@@ -26209,8 +26209,8 @@
 1	इस	इस	DEM	2	nmod__adj	FALSE	FALSE
 2	टेबलेट	टेबलेट	NN	12	k7	FALSE	FALSE
 3	में	में	PSP	2	lwg__psp	FALSE	FALSE
-4	एस	एस	XC	5	mod	FALSE	TRUE
-5	पेन	पेन	NN	12	ras-k1	FALSE	TRUE
+4	एस	एस	XC	5	mod	FALSE	FALSE
+5	पेन	पेन	NN	12	ras-k1	FALSE	FALSE
 6	के	का	PSP	5	lwg__psp	FALSE	FALSE
 7	साथ	साथ	NST	5	lwg__psp	FALSE	FALSE
 8	और	और	CC	12	k1	FALSE	FALSE
@@ -26261,7 +26261,7 @@
 3	पिक्सल	पिक्सल	NN	6	r6-k2	FALSE	FALSE
 4	के	का	PSP	3	lwg__psp	FALSE	FALSE
 5	वीडीयो	वीडीयो	XC	6	nmod__adj	TRUE	TRUE
-6	रिकॉर्ड	रिकॉर्ड	NN	7	pof	FALSE	TRUE
+6	रिकॉर्ड	रिकॉर्ड	NN	7	pof	FALSE	FALSE
 7	कर	कर	VM	10	ccof	FALSE	FALSE
 8	सकता	सक	VAUX	7	lwg__vaux	FALSE	FALSE
 9	है	है	VAUX	7	lwg__vaux	FALSE	FALSE
@@ -26280,23 +26280,23 @@
 5	एचडी	एचडी	XC	7	mod	TRUE	FALSE
 6	आईपीएस	आईपीएस	XC	7	mod	FALSE	TRUE
 7	डिस्प्ले	डिस्प्ले	NNP	20	k1	FALSE	TRUE
-8	वाले	वाला	PSP	7	lwg__psp	FALSE	FALSE
+8	वाले	वाला	PSP	7	lwg__psp	FALSE	TRUE
 9	वैम्मी	वैम्मी	NN	10	mod	TRUE	FALSE
 10	नियो	नियो	XC	20	k7	TRUE	FALSE
 11	में	में	PSP	10	lwg__psp	FALSE	FALSE
 12	17	17	QC	16	nmod__adj	FALSE	FALSE
 13	गीगा	गीगा	XC	16	mod	TRUE	FALSE
 14	हर्ट्ज	हर्ट्ज	XC	16	mod	TRUE	FALSE
-15	मीडियाटेक	मीडियाटेक	XC	16	mod	TRUE	FALSE
-16	एमटीके	एमटीके	NN	20	k1	TRUE	FALSE
+15	मीडियाटेक	मीडियाटेक	XC	16	mod	TRUE	TRUE
+16	एमटीके	एमटीके	NN	20	k1	TRUE	TRUE
 17	6592	6592	QC	19	nmod__adj	TRUE	FALSE
-18	ऑक्टा-कोर	ऑक्टा-कोर	JJ	19	nmod__adj	TRUE	FALSE
+18	ऑक्टा-कोर	ऑक्टा-कोर	JJ	19	nmod__adj	TRUE	TRUE
 19	प्रोसेसर	प्रोसेसर	NN	20	k1s	FALSE	TRUE
 20	है	है	VM	0	ROOT	FALSE	FALSE
 21	,	,	,	20	rsym	FALSE	FALSE
 22	माली-	माली-	NN	24	mod	TRUE	FALSE
 23	450	450	QC	24	nmod__adj	TRUE	FALSE
-24	जीपीयू	जीपीयू	NN	0	ROOT	TRUE	FALSE
+24	जीपीयू	जीपीयू	NN	0	ROOT	TRUE	TRUE
 25	,	,	,	24	rsym	FALSE	FALSE
 26	422	422	QC	27	nmod__adj	TRUE	FALSE
 27	एंड्रायड	एंड्रायड	NN	33	k4a	TRUE	FALSE
@@ -26455,7 +26455,7 @@
 12	लगा	लगा	VM	18	k1	FALSE	FALSE
 13	अत्यधिक	अत्यधिक	INTF	14	jjmod__intf	FALSE	FALSE
 14	शक्तिशाली	शक्तिशाली	JJ	15	nmod__adj	FALSE	FALSE
-15	टेगरा	टेगरा	NN	18	k1	TRUE	FALSE
+15	टेगरा	टेगरा	NN	18	k1	TRUE	TRUE
 16	4	4	QC	17	nmod__adj	FALSE	FALSE
 17	चिपसेट	चिपसेट	NN	18	k1	TRUE	FALSE
 18	है	है	VM	20	ccof	FALSE	FALSE
@@ -26543,10 +26543,10 @@
 10	जो	जो	PRP	22	k4	FALSE	FALSE
 11	कि	कि	CC	10	lwg__rp	FALSE	FALSE
 12	शानदार	शानदार	JJ	13	nmod__adj	FALSE	FALSE
-13	क्वालिटी	क्वालिटी	NN	16	r6	TRUE	FALSE
+13	क्वालिटी	क्वालिटी	NN	16	r6	TRUE	TRUE
 14	के	का	PSP	13	lwg__psp	FALSE	FALSE
 15	एचडी	एचडी	XC	16	mod	TRUE	FALSE
-16	विडियो	विडियो	NN	19	k2	FALSE	FALSE
+16	विडियो	विडियो	NN	19	k2	FALSE	TRUE
 17	को	को	PSP	16	lwg__psp	TRUE	FALSE
 18	रिकार्ड	रिकार्ड	NN	19	pof	FALSE	FALSE
 19	करने	कर	VM	21	r6-k2	FALSE	FALSE
@@ -26568,7 +26568,7 @@
 10	है	है	VAUX	9	lwg__vaux	FALSE	FALSE
 11	जिससें	जिससें	PRP	20	k7t	TRUE	FALSE
 12	अच्छी	अच्छी	JJ	13	nmod__adj	FALSE	FALSE
-13	क्वालिटी	क्वालिटी	NN	15	r6-k2	TRUE	FALSE
+13	क्वालिटी	क्वालिटी	NN	15	r6-k2	TRUE	TRUE
 14	की	का	PSP	13	lwg__psp	FALSE	FALSE
 15	सेल्फी	सेल्फी	NN	16	pof	TRUE	TRUE
 16	लेने	ले	VM	20	vmod	FALSE	FALSE
@@ -26583,7 +26583,7 @@
 
 1	हल्का	हल्का	JJ	6	k1	FALSE	FALSE
 2	चमकीला	चमकीला	JJ	3	nmod__adj	FALSE	FALSE
-3	ग्राफिक्स	ग्राफिक्स	NN	6	k1	FALSE	FALSE
+3	ग्राफिक्स	ग्राफिक्स	NN	6	k1	FALSE	TRUE
 4	अच्छा	अच्छा	JJ	5	nmod__adj	FALSE	FALSE
 5	काम	काम	NN	6	k2	FALSE	FALSE
 6	करेगा	कर	VM	0	main	FALSE	FALSE
@@ -26649,7 +26649,7 @@
 
 1	इसके	इसके	PRP	2	r6	FALSE	FALSE
 2	डिस्प्ले	डिस्प्ले	NN	4	r6	FALSE	TRUE
-3	का	का	PSP	2	lwg__psp	FALSE	TRUE
+3	का	का	PSP	2	lwg__psp	FALSE	FALSE
 4	रेजोल्यूशन	रेजोल्यूशन	NN	6	k1	TRUE	TRUE
 5	कम	कम	QF	6	k1s	FALSE	FALSE
 6	है	है	VM	8	ccof	FALSE	FALSE
@@ -26712,7 +26712,7 @@
 24	क्या	क्या	WQ	23	ccof	TRUE	FALSE
 25	सिर्फ	सिर्फ	RB	30	adv	FALSE	FALSE
 26	खूबसूरत	खूबसूरत	JJ	27	nmod__adj	FALSE	FALSE
-27	डिजाइन	डिजाइन	NN	30	k1	FALSE	FALSE
+27	डिजाइन	डिजाइन	NN	30	k1	FALSE	TRUE
 28	ही	ही	RP	27	lwg__rp	FALSE	FALSE
 29	काफी	काफी	QF	30	k1s	FALSE	FALSE
 30	है	है	VM	31	ccof	FALSE	FALSE
@@ -26763,7 +26763,7 @@
 30	हैं	है	VAUX	29	lwg__vaux	FALSE	FALSE
 31	.	.	.	29	rsym	FALSE	FALSE
 
-1	बेंचमार्क	बेंचमार्क	JJ	2	nmod__adj	FALSE	TRUE
+1	बेंचमार्क	बेंचमार्क	JJ	2	nmod__adj	FALSE	FALSE
 2	टेस्ट	टेस्ट	NN	16	k7	FALSE	TRUE
 3	में	में	PSP	2	lwg__psp	FALSE	FALSE
 4	विवोबुक	विवोबुक	JJ	5	nmod__adj	TRUE	FALSE
@@ -26777,13 +26777,13 @@
 12	भी	भी	RP	10	lwg__rp	FALSE	FALSE
 13	बहुत	बहुत	INTF	14	jjmod__intf	FALSE	FALSE
 14	अच्छा	अच्छा	JJ	15	nmod__adj	FALSE	FALSE
-15	प्रदर्शन	प्रदर्शन	NN	16	pof	FALSE	FALSE
+15	प्रदर्शन	प्रदर्शन	NN	16	pof	FALSE	TRUE
 16	किया	कर	VM	24	ccof	FALSE	FALSE
 17	,	,	,	16	rsym	FALSE	FALSE
 18	ना	ना	NEG	23	vmod	FALSE	FALSE
 19	तो	तो	RP	18	lwg__rp	FALSE	FALSE
 20	कोई	कोई	PRP	22	nmod__adj	FALSE	FALSE
-21	एप्लीकेशन	एप्लीकेशन	NN	22	mod	TRUE	FALSE
+21	एप्लीकेशन	एप्लीकेशन	NN	22	mod	TRUE	TRUE
 22	क्रैश	क्रैश	NN	23	pof	FALSE	FALSE
 23	हुआ	हो	VM	24	ccof	FALSE	FALSE
 24	और	और	CC	0	main	FALSE	FALSE
@@ -26816,7 +26816,7 @@
 10	टी-एफ	टी-एफ	NN	41	k7p	TRUE	FALSE
 11	,	,	,	10	rsym	FALSE	FALSE
 12	माइक्रो	माइक्रो	XC	13	mod	FALSE	TRUE
-13	यूएसवी	यूएसवी	XC	41	k7p	TRUE	TRUE
+13	यूएसवी	यूएसवी	XC	41	k7p	TRUE	FALSE
 14	,	,	,	13	rsym	FALSE	FALSE
 15	35	35	QC	16	nmod__adj	FALSE	FALSE
 16	मिमी	मिमी	NN	41	vmod	FALSE	FALSE
@@ -26826,13 +26826,13 @@
 20	पोर्ट	पोर्ट	XC	30	ccof	FALSE	TRUE
 21	,	,	,	20	rsym	FALSE	FALSE
 22	एचडीएमआई	एचडीएमआई	NN	23	mod	TRUE	TRUE
-23	पोर्ट	पोर्ट	XC	30	ccof	FALSE	TRUE
+23	पोर्ट	पोर्ट	XC	30	ccof	FALSE	FALSE
 24	,	,	,	23	rsym	FALSE	FALSE
 25	रिसेट	रिसेट	XC	26	mod	TRUE	FALSE
 26	बटन	बटन	NNP	30	ccof	FALSE	FALSE
 27	,	,	,	26	rsym	FALSE	FALSE
-28	ऑन-ऑफ	ऑन-ऑफ	XC	29	mod	TRUE	TRUE
-29	बटन	बटन	NN	30	ccof	FALSE	TRUE
+28	ऑन-ऑफ	ऑन-ऑफ	XC	29	mod	TRUE	FALSE
+29	बटन	बटन	NN	30	ccof	FALSE	FALSE
 30	तथा	तथा	CC	41	k1	FALSE	FALSE
 31	एक	एक	QC	33	nmod__adj	FALSE	FALSE
 32	छोटा	छोटा	JJ	33	nmod__adj	FALSE	FALSE
@@ -26900,10 +26900,10 @@
 20	है	है	VAUX	18	lwg__vaux	FALSE	FALSE
 21	,	,	,	18	rsym	FALSE	FALSE
 22	जिनमें	जो	PRP	29	k1	FALSE	FALSE
-23	भारतीय	भारतीय	JJ	24	nmod__adj	FALSE	TRUE
-24	स्नैक्स	स्नैक्स	NN	25	ccof	TRUE	TRUE
-25	और	और	CC	29	k1	FALSE	TRUE
-26	डिशेज	डिशेज	NN	25	ccof	TRUE	TRUE
+23	भारतीय	भारतीय	JJ	24	nmod__adj	FALSE	FALSE
+24	स्नैक्स	स्नैक्स	NN	25	ccof	TRUE	FALSE
+25	और	और	CC	29	k1	FALSE	FALSE
+26	डिशेज	डिशेज	NN	25	ccof	TRUE	FALSE
 27	भी	भी	RP	26	lwg__rp	FALSE	FALSE
 28	शामिल	शामिल	JJ	29	pof	FALSE	FALSE
 29	है	है	VM	18	vmod	FALSE	FALSE
@@ -26998,7 +26998,7 @@
 16	लिए	ले	PSP	14	lwg__psp	FALSE	FALSE
 17	आप	आप	PRP	22	k1	FALSE	FALSE
 18	इसके	इसके	PRP	19	r6	FALSE	FALSE
-19	स्पीकर	स्पीकर	NN	21	r6-k2	TRUE	TRUE
+19	स्पीकर	स्पीकर	NN	21	r6-k2	TRUE	FALSE
 20	का	का	PSP	19	lwg__psp	FALSE	FALSE
 21	इस्तेमाल	इस्तेमाल	NN	22	pof	FALSE	FALSE
 22	कर	कर	VM	26	ccof	FALSE	FALSE
@@ -27065,7 +27065,7 @@
 1	मल्टिटास्किंग	मल्टिटास्किंग	NN	2	ccof	TRUE	FALSE
 2	और	और	CC	0	ROOT	FALSE	FALSE
 3	प्री-लोडेड	प्री-लोडेड	JJ	5	nmod__adj	TRUE	FALSE
-4	आईफ्लोट	आईफ्लोट	NN	5	mod	TRUE	TRUE
+4	आईफ्लोट	आईफ्लोट	NN	5	mod	TRUE	FALSE
 5	ऐप	ऐप	NN	2	ccof	TRUE	TRUE
 6	के	का	PSP	5	lwg__psp	FALSE	FALSE
 7	जरिए	जरिये	PSP	5	lwg__psp	TRUE	FALSE
@@ -27097,10 +27097,10 @@
 4	मूवी	मूवी	NN	5	k2	TRUE	FALSE
 5	देखना	देख	VM	9	ccof	FALSE	FALSE
 6	,	,	,	5	rsym	FALSE	FALSE
-7	गेम्स	गेम्स	NN	8	k2	FALSE	FALSE
+7	गेम्स	गेम्स	NN	8	k2	FALSE	TRUE
 8	खेलना	खेल	VM	9	ccof	FALSE	FALSE
 9	और	और	CC	0	main	FALSE	FALSE
-10	मल्टीमीडिया	मल्टीमीडिया	NNP	11	mod	TRUE	FALSE
+10	मल्टीमीडिया	मल्टीमीडिया	NNP	11	mod	TRUE	TRUE
 11	चलाना	चला	VM	16	k1	FALSE	FALSE
 12	एक	एक	QC	15	nmod__adj	FALSE	FALSE
 13	काफी	काफी	QF	15	nmod__adj	FALSE	FALSE
@@ -27120,9 +27120,9 @@
 9	Gbit	Gbit	NN	24	k1	TRUE	FALSE
 10	/	/	/	18	mod	TRUE	FALSE
 11	s	s	XC	18	mod	FALSE	FALSE
-12	SSD	SSD	XC	18	mod	TRUE	FALSE
-13	हार्ड	हार्ड	XC	18	mod	TRUE	FALSE
-14	डिस्क	डिस्क	XC	18	mod	FALSE	FALSE
+12	SSD	SSD	XC	18	mod	TRUE	TRUE
+13	हार्ड	हार्ड	XC	18	mod	TRUE	TRUE
+14	डिस्क	डिस्क	XC	18	mod	FALSE	TRUE
 15	दूसरी	दूसरी	NN	18	mod	FALSE	FALSE
 16	ट्रेडिशनल	ट्रेडिशनल	JJ	18	mod	TRUE	FALSE
 17	हार्ड	हार्ड	NN	18	mod	TRUE	TRUE
@@ -27161,7 +27161,7 @@
 6	फुल	फुल	JJ	9	nmod__adj	TRUE	FALSE
 7	एचडी	एचडी	XC	9	mod	TRUE	FALSE
 8	आइपीएस	आइपीएस	XC	9	mod	TRUE	FALSE
-9	स्क्रीन	स्क्रीन	NNP	10	k1	FALSE	FALSE
+9	स्क्रीन	स्क्रीन	NNP	10	k1	FALSE	TRUE
 10	है	है	VM	0	main	FALSE	FALSE
 11	.	.	.	10	rsym	FALSE	FALSE
 
@@ -27193,7 +27193,7 @@
 
 1	आई-टैब	आई-टैब	NN	8	k7	TRUE	FALSE
 2	में	में	PSP	1	lwg__psp	FALSE	FALSE
-3	बटन	बटन	NN	8	k2	FALSE	FALSE
+3	बटन	बटन	NN	8	k2	FALSE	TRUE
 4	भी	भी	RP	3	lwg__rp	FALSE	FALSE
 5	अपरंपरागत	अपरंपरागत	JJ	6	nmod__adj	FALSE	FALSE
 6	तरीके	तरीका	NN	8	adv	FALSE	FALSE
@@ -27252,10 +27252,10 @@
 9	.	.	.	6	rsym	FALSE	FALSE
 
 1	इसके	इसके	PRP	8	sent-adv	FALSE	FALSE
-2	फ्रंट	फ्रंट	NN	3	mod	FALSE	TRUE
+2	फ्रंट	फ्रंट	NN	3	mod	FALSE	FALSE
 3	कैमरे	कैमरा	NN	8	k5	TRUE	TRUE
 4	से	से	PSP	3	lwg__psp	FALSE	FALSE
-5	एचडी	एचडी	XC	7	mod	TRUE	TRUE
+5	एचडी	एचडी	XC	7	mod	TRUE	FALSE
 6	वीडियो	वीडियो	XC	7	mod	FALSE	TRUE
 7	रिकॉर्ड	रिकॉर्ड	NN	8	pof	FALSE	FALSE
 8	किए	कर	VM	0	main	FALSE	FALSE
@@ -27324,7 +27324,7 @@
 23	तुलना	तुल	NN	27	k7	FALSE	FALSE
 24	में	में	PSP	23	lwg__psp	FALSE	FALSE
 25	बेहतर	बेहतर	JJ	26	nmod__adj	FALSE	FALSE
-26	प्रदर्शन	प्रदर्शन	NN	27	pof	FALSE	FALSE
+26	प्रदर्शन	प्रदर्शन	NN	27	pof	FALSE	TRUE
 27	करता	कर	VM	30	ccof	FALSE	FALSE
 28	है	है	VAUX	27	lwg__vaux	FALSE	FALSE
 29	,	,	,	27	rsym	FALSE	FALSE
@@ -27369,9 +27369,9 @@
 11	कि	कि	CC	0	ROOT	FALSE	FALSE
 12	इसमें	इसमें	PRP	22	k7	TRUE	FALSE
 13	फुल	फुल	JJ	14	nmod__adj	TRUE	FALSE
-14	फ्रेम	फ्रेम	NN	22	k1	FALSE	FALSE
+14	फ्रेम	फ्रेम	NN	22	k1	FALSE	TRUE
 15	363	363	QC	18	nmod__adj	TRUE	FALSE
-16	मेगापिक्सल	मेगापिक्सल	XC	18	mod	TRUE	FALSE
+16	मेगापिक्सल	मेगापिक्सल	XC	18	mod	TRUE	TRUE
 17	सीमॉस	सीमॉस	NNP	18	mod	TRUE	TRUE
 18	सेंसर	सेंसर	NN	19	ccof	TRUE	TRUE
 19	और	और	CC	22	k2s	FALSE	FALSE
@@ -27480,7 +27480,7 @@
 20	है	है	VM	0	main	FALSE	FALSE
 21	.	.	.	20	rsym	FALSE	FALSE
 
-1	कलाकारों	कलाकार	NN	4	r6	FALSE	FALSE
+1	कलाकारों	कलाकार	NN	4	r6	FALSE	TRUE
 2	की	का	PSP	1	lwg__psp	FALSE	FALSE
 3	संवाद	संवाद	JJ	4	nmod__adj	FALSE	FALSE
 4	अदायगी	अदायगी	NN	10	k7	FALSE	FALSE
@@ -27517,7 +27517,7 @@
 2	र्इएच	र्इएच	XC	5	mod	TRUE	FALSE
 3	2	2	QC	5	r6	FALSE	FALSE
 4	के	का	PSP	3	lwg__psp	FALSE	FALSE
-5	परफॉर्मेंस	परफॉर्मेंस	NN	9	nmod	TRUE	TRUE
+5	परफॉर्मेंस	परफॉर्मेंस	NN	9	nmod	TRUE	FALSE
 6	की	का	PSP	5	lwg__psp	FALSE	FALSE
 7	सबसे	सबसे	INTF	8	jjmod__intf	FALSE	FALSE
 8	आश्चर्यजनक	आश्चर्यजनक	JJ	9	ccof	FALSE	FALSE
@@ -27642,7 +27642,7 @@
 5	एक	एक	QC	0	ROOT	FALSE	FALSE
 6	फुल	फुल	JJ	10	nmod__adj	TRUE	FALSE
 7	एचडी	एचडी	XC	10	mod	TRUE	FALSE
-8	फाइल	फाइल	XC	10	mod	FALSE	FALSE
+8	फाइल	फाइल	XC	10	mod	FALSE	TRUE
 9	फुल	फुल	XC	10	mod	TRUE	FALSE
 10	ब्राइटनेसपर	ब्राइटनेसपर	NNP	14	ccof	TRUE	FALSE
 11	,	,	,	10	rsym	FALSE	FALSE
@@ -27650,8 +27650,8 @@
 13	अनेबल्ड	अनेबल्ड	NNP	14	ccof	TRUE	FALSE
 14	और	और	CC	38	k7p	FALSE	FALSE
 15	एक	एक	QC	17	nmod__adj	FALSE	FALSE
-16	सिम	सिम	JJ	17	nmod__adj	TRUE	FALSE
-17	कार्ड	कार्ड	NN	14	ccof	FALSE	FALSE
+16	सिम	सिम	JJ	17	nmod__adj	TRUE	TRUE
+17	कार्ड	कार्ड	NN	14	ccof	FALSE	TRUE
 18	के	का	PSP	17	lwg__psp	FALSE	FALSE
 19	साथ	साथ	NST	17	lwg__psp	FALSE	FALSE
 20	एक	एक	QC	21	nmod__adj	FALSE	FALSE
@@ -27726,7 +27726,7 @@
 28	गुठलियों	गुठली	NN	0	ROOT	FALSE	FALSE
 29	के	का	PSP	28	lwg__psp	FALSE	FALSE
 30	भी	भी	RP	28	lwg__rp	FALSE	FALSE
-31	दाम	दाम	NN	0	ROOT	FALSE	TRUE
+31	दाम	दाम	NN	0	ROOT	FALSE	FALSE
 32	.	.	.	31	rsym	FALSE	FALSE
 
 1	हिंदी	हिंदी	NN	2	pof__cn	FALSE	FALSE
@@ -27830,7 +27830,7 @@
 6	है	है	VM	8	ccof	FALSE	FALSE
 7	,	,	,	6	rsym	FALSE	FALSE
 8	लेकिन	लेकिन	CC	0	main	TRUE	FALSE
-9	कैमरा	कैमरा	NN	14	k1	TRUE	FALSE
+9	कैमरा	कैमरा	NN	14	k1	TRUE	TRUE
 10	एप	एप	NN	12	nmod__adj	FALSE	FALSE
 11	बुरी	बुरी	JJ	12	nmod__adj	FALSE	FALSE
 12	तरह	तरह	NN	14	adv	FALSE	FALSE
@@ -27892,7 +27892,7 @@
 3	जांबाज	जांबाज	JJ	4	nmod__adj	TRUE	FALSE
 4	अधिकारियों	अधिकारी	NN	6	r6	FALSE	FALSE
 5	की	का	PSP	4	lwg__psp	FALSE	FALSE
-6	कहानी	कहानी	NN	7	k1	FALSE	TRUE
+6	कहानी	कहानी	NN	7	k1	FALSE	FALSE
 7	है	है	VM	0	main	FALSE	FALSE
 8	,	,	,	7	rsym	FALSE	FALSE
 9	जिनके	जो	PRP	17	rt	FALSE	FALSE
@@ -27944,7 +27944,7 @@
 8	से	से	PSP	7	lwg__psp	FALSE	FALSE
 9	बहने	बह	VM	11	nmod__k1inv	TRUE	FALSE
 10	वाले	वाला	PSP	9	lwg__psp	FALSE	FALSE
-11	झरने	झरना	NN	14	rh	FALSE	FALSE
+11	झरने	झरना	NN	14	rh	FALSE	TRUE
 12	से	से	PSP	11	lwg__psp	FALSE	FALSE
 13	शिवलिंग	शिवलिंग	NN	14	pof	FALSE	FALSE
 14	बनता	बन	VM	0	main	FALSE	FALSE
@@ -27986,7 +27986,7 @@
 2	,	,	,	1	rsym	FALSE	FALSE
 3	गेमिंग	गेमिंग	NN	4	ccof	FALSE	TRUE
 4	और	और	CC	15	k1	FALSE	FALSE
-5	वीडियो	वीडियो	NN	4	ccof	FALSE	FALSE
+5	वीडियो	वीडियो	NN	4	ccof	FALSE	TRUE
 6	को	को	PSP	5	lwg__psp	TRUE	FALSE
 7	प्राथमिकता	प्राथमिकता	NN	8	pof	FALSE	FALSE
 8	देने	दे	VM	15	rt	FALSE	FALSE
@@ -28115,7 +28115,7 @@
 10	पर	पर	PSP	9	lwg__psp	FALSE	FALSE
 11	कोर्इ	कोर्इ	NN	17	k1	TRUE	FALSE
 12	भी	भी	RP	11	lwg__rp	FALSE	FALSE
-13	स्पोर्ट्स	स्पोर्ट्स	XC	17	k1	TRUE	TRUE
+13	स्पोर्ट्स	स्पोर्ट्स	XC	17	k1	TRUE	FALSE
 14	चैनल	चैनल	NNP	17	k1	TRUE	TRUE
 15	उपलब्ध	उपलब्ध	JJ	17	pof	FALSE	FALSE
 16	नहीं	नहीं	NEG	17	lwg__neg	FALSE	FALSE
@@ -28174,7 +28174,7 @@
 14	जैसे	जैसे	PSP	9	fragof	FALSE	FALSE
 15	पर्णपाती	पर्णपाती	JJ	16	nmod__adj	FALSE	FALSE
 16	वृक्षों	वृक्ष	NN	21	k1	FALSE	FALSE
-17	सहित	सहित	PSP	16	lwg__psp	FALSE	FALSE
+17	सहित	सहित	PSP	16	lwg__psp	FALSE	TRUE
 18	कांटेदार	कांटेदार	JJ	19	nmod__adj	FALSE	FALSE
 19	जंगल	जंगल	NN	21	k1	FALSE	FALSE
 20	शामिल	शामिल	JJ	21	pof	FALSE	FALSE
@@ -28186,7 +28186,7 @@
 3	और	और	CC	7	ccof	FALSE	FALSE
 4	दूसरा	दूसरा	QO	6	nmod__adj	FALSE	FALSE
 5	सिम	सिम	XC	6	mod	TRUE	TRUE
-6	सीडीएमएस	सीडीएमएस	NN	3	ccof	TRUE	TRUE
+6	सीडीएमएस	सीडीएमएस	NN	3	ccof	TRUE	FALSE
 7	अथवा	अथवा	CC	11	k7	TRUE	FALSE
 8	जीएसएम	जीएसएम	XC	9	mod	TRUE	FALSE
 9	नेवर्क	नेवर्क	NN	7	ccof	TRUE	FALSE
@@ -28259,7 +28259,7 @@
 2	स्मार्टफोन	स्मार्टफोन	NN	7	k1	TRUE	FALSE
 3	4	4	QC	6	nmod__adj	FALSE	FALSE
 4	G	G	XC	6	mod	TRUE	FALSE
-5	एलटीई	एलटीई	XC	6	mod	TRUE	FALSE
+5	एलटीई	एलटीई	XC	6	mod	TRUE	TRUE
 6	सपोर्ट	सपोर्ट	NN	7	pof	TRUE	FALSE
 7	करता	कर	VM	0	main	FALSE	FALSE
 8	है	है	VAUX	7	lwg__vaux	FALSE	FALSE
@@ -28380,11 +28380,11 @@
 2	टैबलेट	टैबलेट	NN	11	k7	TRUE	FALSE
 3	में	में	PSP	2	lwg__psp	FALSE	FALSE
 4	सिंगल	सिंगल	XC	7	mod	FALSE	FALSE
-5	कोर	कोर	NNP	7	mod	FALSE	FALSE
-6	विवान्ट	विवान्ट	XC	7	mod	TRUE	FALSE
+5	कोर	कोर	NNP	7	mod	FALSE	TRUE
+6	विवान्ट	विवान्ट	XC	7	mod	TRUE	TRUE
 7	जीसी	जीसी	NN	11	k1	TRUE	FALSE
-8	340	340	QC	10	nmod__adj	TRUE	FALSE
-9	मोबाइल	मोबाइल	JJ	10	nmod__adj	FALSE	FALSE
+8	340	340	QC	10	nmod__adj	TRUE	TRUE
+9	मोबाइल	मोबाइल	JJ	10	nmod__adj	FALSE	TRUE
 10	प्रोसेसर	प्रोसेसर	NN	11	k1s	FALSE	TRUE
 11	है	है	VM	0	main	FALSE	FALSE
 12	.	.	.	11	rsym	FALSE	FALSE
@@ -28434,7 +28434,7 @@
 1	फोन	फोन	NN	6	k7p	TRUE	FALSE
 2	में	में	PSP	1	lwg__psp	FALSE	FALSE
 3	शानदार	शानदार	JJ	5	nmod__adj	FALSE	FALSE
-4	क्वाॅडकोर	क्वाॅडकोर	JJ	5	nmod__adj	TRUE	TRUE
+4	क्वाॅडकोर	क्वाॅडकोर	JJ	5	nmod__adj	TRUE	FALSE
 5	प्रोसेसर	प्रोसेसर	NN	6	k1s	FALSE	TRUE
 6	है	है	VM	0	main	FALSE	FALSE
 7	जो	जो	PRP	12	k1	FALSE	FALSE
@@ -28450,8 +28450,8 @@
 2	टॉप	टॉप	NN	6	r6	FALSE	FALSE
 3	का	का	PSP	2	lwg__psp	FALSE	FALSE
 4	प्रोटेक्टिव	प्रोटेक्टिव	XC	6	mod	TRUE	FALSE
-5	ग्लास	ग्लास	XC	6	mod	FALSE	FALSE
-6	पैनल	पैनल	NNP	10	k1	FALSE	FALSE
+5	ग्लास	ग्लास	XC	6	mod	FALSE	TRUE
+6	पैनल	पैनल	NNP	10	k1	FALSE	TRUE
 7	एक	एक	QC	9	nmod__adj	FALSE	FALSE
 8	फिंगरप्रिंट	फिंगरप्रिंट	JJ	9	nmod__adj	TRUE	FALSE
 9	मैग्नेट	मैग्नेट	NN	10	k1s	TRUE	FALSE
@@ -28535,7 +28535,7 @@
 1	इसमें	इसमें	PRP	10	k7	TRUE	FALSE
 2	नवीनतम	नवीनतम	JJ	6	nmod__adj	FALSE	FALSE
 3	आपरेटिंग	आपरेटिंग	XC	6	mod	TRUE	TRUE
-4	सिस्टम-एंड्रायड	सिस्टम-एंड्रायड	XC	6	mod	TRUE	TRUE
+4	सिस्टम-एंड्रायड	सिस्टम-एंड्रायड	XC	6	mod	TRUE	FALSE
 5	जैली	जैली	NN	6	mod	TRUE	TRUE
 6	बीन	बीन	NN	10	k1	FALSE	TRUE
 7	वी	वी	PSP	10	k2	FALSE	FALSE
@@ -28547,8 +28547,8 @@
 13	.	.	.	10	rsym	FALSE	FALSE
 
 1	डिस्प्ले	डिस्प्ले	NN	3	r6	FALSE	TRUE
-2	की	का	PSP	1	lwg__psp	FALSE	FALSE
-3	क्वालिटी	क्वालिटी	NN	7	k1	TRUE	FALSE
+2	की	का	PSP	1	lwg__psp	FALSE	TRUE
+3	क्वालिटी	क्वालिटी	NN	7	k1	TRUE	TRUE
 4	उच्च	उच्च	JJ	5	nmod__adj	FALSE	FALSE
 5	स्तर	स्तर	NN	7	r6v	FALSE	FALSE
 6	की	का	PSP	5	lwg__psp	FALSE	FALSE
@@ -28614,7 +28614,7 @@
 12	है	है	VAUX	9	lwg__vaux	FALSE	FALSE
 13	.	.	.	9	rsym	FALSE	FALSE
 
-1	वाटर	वाटर	XC	7	k1	FALSE	TRUE
+1	वाटर	वाटर	XC	7	k1	FALSE	FALSE
 2	रस्सिटेंस	रस्सिटेंस	XC	7	k1	TRUE	TRUE
 3	आईपी	आईपी	NN	7	k1	TRUE	TRUE
 4	55	55	QC	6	nmod__adj	FALSE	FALSE
@@ -28778,8 +28778,8 @@
 15	12	12	QC	16	nmod__adj	FALSE	FALSE
 16	गीगाहर्ट	गीगाहर्ट	NN	18	r6	TRUE	FALSE
 17	का	का	PSP	16	lwg__psp	FALSE	FALSE
-18	ड्युल	ड्युल	NN	26	k1	TRUE	TRUE
-19	कोर	कोर	JJ	20	mod	FALSE	TRUE
+18	ड्युल	ड्युल	NN	26	k1	TRUE	FALSE
+19	कोर	कोर	JJ	20	mod	FALSE	FALSE
 20	प्रोसेसर	प्रोसेसर	NN	21	ccof	FALSE	TRUE
 21	और	और	CC	26	k4	FALSE	FALSE
 22	1	1	QC	23	nmod__adj	FALSE	FALSE
@@ -28824,7 +28824,7 @@
 8	जीबी	जीबी	NN	12	r6	FALSE	FALSE
 9	तक	तक	RP	8	lwg__rp	FALSE	FALSE
 10	का	का	PSP	8	lwg__psp	FALSE	FALSE
-11	माइक्रो-एसडी	माइक्रो-एसडी	JJ	12	nmod__adj	TRUE	TRUE
+11	माइक्रो-एसडी	माइक्रो-एसडी	JJ	12	nmod__adj	TRUE	FALSE
 12	कार्ड	कार्ड	NN	14	k2	FALSE	TRUE
 13	इस्तेमाल	इस्तेमाल	NN	14	pof	FALSE	FALSE
 14	किया	कर	VM	6	ccof	FALSE	FALSE
@@ -29068,8 +29068,8 @@
 4	स्नेपर	स्नेपर	PSP	8	mod	TRUE	FALSE
 5	16	16	QC	8	nmod__adj	FALSE	FALSE
 6	एक्स	एक्स	XC	8	mod	FALSE	FALSE
-7	जूम	जूम	NNP	8	mod	TRUE	FALSE
-8	लैंस	लैंस	NN	11	k7t	FALSE	FALSE
+7	जूम	जूम	NNP	8	mod	TRUE	TRUE
+8	लैंस	लैंस	NN	11	k7t	FALSE	TRUE
 9	के	का	PSP	8	lwg__psp	FALSE	FALSE
 10	साथ	साथ	NST	8	lwg__psp	FALSE	FALSE
 11	दिया	दे	VM	0	main	FALSE	FALSE
@@ -29148,7 +29148,7 @@
 16	अन्दर	अन्दर	NST	15	lwg__psp	FALSE	FALSE
 17	अच्छी	अच्छी	JJ	19	nmod__adj	FALSE	FALSE
 18	मल्टीटास्किंग	मल्टीटास्किंग	XC	19	pof__cn	TRUE	TRUE
-19	क्षमता	क्षमता	NN	20	k1	FALSE	TRUE
+19	क्षमता	क्षमता	NN	20	k1	FALSE	FALSE
 20	है	है	VM	14	ccof	FALSE	FALSE
 21	.	.	.	20	rsym	FALSE	FALSE
 
@@ -29162,7 +29162,7 @@
 8	आप	आप	PRP	15	k1	FALSE	FALSE
 9	कभी	कभी	PRP	15	k7t	FALSE	FALSE
 10	अत्यावश्यक	अत्यावश्यक	JJ	11	nmod__adj	FALSE	FALSE
-11	कॉल	कॉल	NN	15	k1	FALSE	FALSE
+11	कॉल	कॉल	NN	15	k1	FALSE	TRUE
 12	जिसकी	जो	PRP	15	k7	FALSE	FALSE
 13	आप	आप	PRP	15	k1	FALSE	FALSE
 14	अपेक्षा	अपेक्षा	NN	15	pof	FALSE	FALSE
@@ -29296,7 +29296,7 @@
 11	यह	यह	PRP	15	k1	FALSE	FALSE
 12	सबसे	सबसे	INTF	13	jjmod__intf	FALSE	FALSE
 13	बढिया	बढिया	JJ	14	nmod__adj	TRUE	FALSE
-14	ऐप	ऐप	NN	15	k1s	TRUE	TRUE
+14	ऐप	ऐप	NN	15	k1s	TRUE	FALSE
 15	है	है	VM	0	main	FALSE	FALSE
 16	.	.	.	15	rsym	FALSE	FALSE
 
@@ -29379,8 +29379,8 @@
 14	ऑडियो	ऑडियो	XC	15	mod	TRUE	TRUE
 15	क्वालिटी	क्वालिटी	NN	16	ccof	TRUE	TRUE
 16	और	और	CC	21	k7	FALSE	FALSE
-17	धीमी	धीमी	JJ	18	nmod__adj	TRUE	FALSE
-18	आवाज	आवाज	NN	16	ccof	FALSE	FALSE
+17	धीमी	धीमी	JJ	18	nmod__adj	TRUE	TRUE
+18	आवाज	आवाज	NN	16	ccof	FALSE	TRUE
 19	इसकी	इसकी	PRP	20	r6	TRUE	FALSE
 20	कमी	कमी	NN	21	k1s	FALSE	FALSE
 21	बन	बन	VM	13	ccof	FALSE	FALSE
@@ -29473,7 +29473,7 @@
 15	इसकी	इसकी	PRP	16	r6	TRUE	FALSE
 16	ज्यादाकर	ज्यादाकर	VM	31	vmod	TRUE	FALSE
 17	एप्पलीकेशन्स	एप्पलीकेशन्स	XC	19	mod	TRUE	FALSE
-18	SD	SD	NNP	19	mod	TRUE	FALSE
+18	SD	SD	NNP	19	mod	TRUE	TRUE
 19	कार्ड	कार्ड	NN	22	k7	FALSE	FALSE
 20	पर	पर	PSP	19	lwg__psp	FALSE	FALSE
 21	इंस्टॉल	इंस्टॉल	NN	22	pof	TRUE	FALSE
@@ -29482,7 +29482,7 @@
 24	डिवाइस	डिवाइस	NN	27	r6	TRUE	FALSE
 25	की	का	PSP	24	lwg__psp	FALSE	FALSE
 26	सिस्टम	सिस्टम	XC	27	mod	FALSE	TRUE
-27	मेमोरी	मेमोरी	NNP	31	k7	FALSE	TRUE
+27	मेमोरी	मेमोरी	NNP	31	k7	FALSE	FALSE
 28	में	में	PSP	27	lwg__psp	FALSE	FALSE
 29	अधिक	अधिक	QF	30	nmod__adj	FALSE	FALSE
 30	जगह	जगह	NN	31	pof	FALSE	FALSE
@@ -29527,7 +29527,7 @@
 6	की	का	PSP	4	lwg__psp	FALSE	FALSE
 7	तरफ	तरफ	NST	4	lwg__psp	FALSE	FALSE
 8	दोनों	दोना	JJ	9	nmod__adj	FALSE	FALSE
-9	स्पीकर	स्पीकर	NN	12	k7	TRUE	TRUE
+9	स्पीकर	स्पीकर	NN	12	k7	TRUE	FALSE
 10	के	का	PSP	9	lwg__psp	FALSE	FALSE
 11	पीछे	पीछा	NST	9	lwg__psp	FALSE	FALSE
 12	है	है	VM	13	ccof	FALSE	FALSE
@@ -29694,8 +29694,8 @@
 17	12	12	QC	18	nmod__adj	FALSE	FALSE
 18	मेगापिक्सल	मेगापिक्सल	NN	21	r6	TRUE	FALSE
 19	के	का	PSP	18	lwg__psp	FALSE	FALSE
-20	इमेजिंग	इमेजिंग	XC	21	mod	TRUE	TRUE
-21	सेंसर	सेंसर	NN	23	r6	TRUE	TRUE
+20	इमेजिंग	इमेजिंग	XC	21	mod	TRUE	FALSE
+21	सेंसर	सेंसर	NN	23	r6	TRUE	FALSE
 22	के	का	PSP	21	lwg__psp	FALSE	FALSE
 23	बल	बल	NN	30	k7	FALSE	FALSE
 24	पर	पर	PSP	23	lwg__psp	FALSE	FALSE
@@ -29738,7 +29738,7 @@
 2	नेशनल	नेशनल	XC	3	mod	FALSE	FALSE
 3	पार्क	पार्क	NNP	15	k1	FALSE	FALSE
 4	एक	एक	QC	5	nmod__adj	FALSE	FALSE
-5	सींग	सींग	NN	7	nmod	FALSE	FALSE
+5	सींग	सींग	NN	7	nmod	FALSE	TRUE
 6	वाले	वाला	PSP	5	lwg__psp	FALSE	FALSE
 7	गैंडे	गैंडा	NN	15	rt	FALSE	FALSE
 8	(	(	(	9	rsym	FALSE	FALSE
@@ -29780,7 +29780,7 @@
 
 1	यह	यह	DEM	3	nmod__adj	FALSE	FALSE
 2	फोन	फोन	NN	3	mod	TRUE	FALSE
-3	वाइ-फाइ	वाइ-फाइ	NN	7	k7	TRUE	TRUE
+3	वाइ-फाइ	वाइ-फाइ	NN	7	k7	TRUE	FALSE
 4	पर	पर	PSP	3	lwg__psp	FALSE	FALSE
 5	भी	भी	RP	3	lwg__rp	FALSE	FALSE
 6	काम	काम	NN	7	k2	FALSE	FALSE
@@ -29861,7 +29861,7 @@
 1	कुल	कुल	QF	10	k1	FALSE	FALSE
 2	मिलाकर	मिला	VM	4	nmod__adj	FALSE	FALSE
 3	यह	यह	DEM	4	nmod__adj	FALSE	FALSE
-4	एप्लीकेशन	एप्लीकेशन	NN	10	k1	TRUE	FALSE
+4	एप्लीकेशन	एप्लीकेशन	NN	10	k1	TRUE	TRUE
 5	वैसे	वैसे	PRP	10	sent-adv	FALSE	FALSE
 6	यूजर्स	यूजर्स	NN	10	rt	TRUE	FALSE
 7	के	का	PSP	6	lwg__psp	FALSE	FALSE
@@ -29923,7 +29923,7 @@
 28	यह	यह	PRP	34	k1	FALSE	FALSE
 29	एक	एक	QC	31	nmod__adj	FALSE	FALSE
 30	बढिया	बढिया	JJ	31	nmod__adj	TRUE	FALSE
-31	डिजाईन	डिजाईन	NN	33	nmod	TRUE	TRUE
+31	डिजाईन	डिजाईन	NN	33	nmod	TRUE	FALSE
 32	वाला	वाला	PSP	31	lwg__psp	FALSE	FALSE
 33	स्मार्टफोन	स्मार्टफोन	NN	34	k1	TRUE	FALSE
 34	है	है	VM	27	ccof	FALSE	FALSE
@@ -29941,8 +29941,8 @@
 10	तो	तो	CC	0	main	FALSE	FALSE
 11	कहीं	कहीं	PRP	17	k1	FALSE	FALSE
 12	पच्चीकारी	पच्चीकारी	NN	15	mod	FALSE	FALSE
-13	युक्त	युक्त	JJ	15	nmod__adj	FALSE	FALSE
-14	पत्थर	पत्थर	NN	15	mod	FALSE	FALSE
+13	युक्त	युक्त	JJ	15	nmod__adj	FALSE	TRUE
+14	पत्थर	पत्थर	NN	15	mod	FALSE	TRUE
 15	दीवाल	दीवाल	NN	17	k5	FALSE	FALSE
 16	से	से	PSP	15	lwg__psp	FALSE	FALSE
 17	निकल	निकल	VM	10	ccof	FALSE	FALSE
@@ -29983,7 +29983,7 @@
 14	की	का	PSP	13	lwg__psp	FALSE	FALSE
 15	द्वारिकापुरी	द्वारिकापुरी	JJ	17	nmod__adj	FALSE	FALSE
 16	मोक्ष	मोक्ष	NN	17	mod	FALSE	FALSE
-17	तीर्थ	तीर्थ	NN	19	r6	FALSE	FALSE
+17	तीर्थ	तीर्थ	NN	19	r6	FALSE	TRUE
 18	के	का	PSP	17	lwg__psp	FALSE	FALSE
 19	रूप	रूप	NN	21	k7	FALSE	FALSE
 20	में	में	PSP	19	lwg__psp	FALSE	FALSE
@@ -30076,8 +30076,8 @@
 4	की	का	PSP	3	lwg__psp	FALSE	FALSE
 5	स्क्रीन	स्क्रीन	NN	11	k7	FALSE	TRUE
 6	में	में	PSP	5	lwg__psp	FALSE	FALSE
-7	एंटी	एंटी	XC	9	pof__cn	FALSE	FALSE
-8	ग्लैरिंग	ग्लैरिंग	XC	9	mod	TRUE	FALSE
+7	एंटी	एंटी	XC	9	pof__cn	FALSE	TRUE
+8	ग्लैरिंग	ग्लैरिंग	XC	9	mod	TRUE	TRUE
 9	कोटिंग	कोटिंग	NN	11	k1s	FALSE	FALSE
 10	नहीं	नहीं	NEG	11	lwg__neg	FALSE	FALSE
 11	है	है	VM	1	ccof	FALSE	FALSE
@@ -30102,12 +30102,12 @@
 5	पर	पर	PSP	4	lwg__psp	FALSE	FALSE
 6	ऑन	ऑन	XC	8	nmod__adj	TRUE	FALSE
 7	डिमांड	डिमांड	XC	8	mod	FALSE	FALSE
-8	सर्विस	सर्विस	NNP	16	k1	TRUE	FALSE
+8	सर्विस	सर्विस	NNP	16	k1	TRUE	TRUE
 9	अलग	अलग	JJ	11	nmod__adj	FALSE	FALSE
 10	अलग	अलग	JJ	11	nmod__adj	FALSE	FALSE
 11	तरह	तरह	NN	13	r6	FALSE	FALSE
 12	के	का	PSP	11	lwg__psp	FALSE	FALSE
-13	मूवीज	मूवीज	NN	15	r6	TRUE	TRUE
+13	मूवीज	मूवीज	NN	15	r6	TRUE	FALSE
 14	की	का	PSP	13	lwg__psp	FALSE	TRUE
 15	लाइब्रेरी	लाइब्रेरी	NN	16	pof	FALSE	TRUE
 16	देती	दे	VM	18	ccof	TRUE	FALSE
@@ -30346,13 +30346,13 @@
 14	,	,	,	13	rsym	FALSE	FALSE
 15	और	और	CC	0	main	FALSE	FALSE
 16	इसका	इसका	PRP	17	r6	TRUE	FALSE
-17	वजन	वजन	NN	20	k1	FALSE	FALSE
+17	वजन	वजन	NN	20	k1	FALSE	TRUE
 18	622	622	QC	19	nmod__adj	TRUE	FALSE
 19	ग्राम	ग्राम	NN	20	k1	FALSE	FALSE
 20	है	है	VM	15	ccof	FALSE	FALSE
 21	.	.	.	20	rsym	FALSE	FALSE
 
-1	कलर	कलर	NN	2	mod	FALSE	TRUE
+1	कलर	कलर	NN	2	mod	FALSE	FALSE
 2	रिप्रॉडक्शन	रिप्रॉडक्शन	NN	4	r6	TRUE	TRUE
 3	के	का	PSP	2	lwg__psp	FALSE	FALSE
 4	मामले	मामला	NN	10	k7	FALSE	FALSE
@@ -30416,7 +30416,7 @@
 19	हैं	है	VAUX	17	lwg__vaux	FALSE	FALSE
 20	.	.	.	17	rsym	FALSE	FALSE
 
-1	ग्राफिक्स	ग्राफिक्स	NN	3	mod	FALSE	TRUE
+1	ग्राफिक्स	ग्राफिक्स	NN	3	mod	FALSE	FALSE
 2	बेंचमार्क	बेंचमार्क	JJ	3	nmod__adj	FALSE	TRUE
 3	टेस्ट	टेस्ट	NN	13	k7	FALSE	TRUE
 4	में	में	PSP	3	lwg__psp	FALSE	FALSE
@@ -30444,7 +30444,7 @@
 11	,	,	,	10	rsym	FALSE	FALSE
 12	जैसे	जैसे	PSP	26	vmod	FALSE	FALSE
 13	Curved	Curved	JJ	14	nmod__adj	TRUE	TRUE
-14	Edges	Edges	NN	19	k2u	TRUE	TRUE
+14	Edges	Edges	NN	19	k2u	TRUE	FALSE
 15	के	का	PSP	14	lwg__psp	FALSE	FALSE
 16	कारण	कारण	NN	14	lwg__psp	FALSE	FALSE
 17	ये	यह	DEM	18	nmod__adj	FALSE	FALSE
@@ -30538,7 +30538,7 @@
 52	एक्	एक्	QC	53	nmod__adj	TRUE	FALSE
 53	‍	‍	NN	0	ROOT	TRUE	FALSE
 54	स	स	PSP	0	ROOT	FALSE	FALSE
-55	एलसीडी	एलसीडी	XC	57	mod	FALSE	TRUE
+55	एलसीडी	एलसीडी	XC	57	mod	FALSE	FALSE
 56	डिस्	डिस्	XC	57	mod	TRUE	FALSE
 57	‍	‍	NNP	0	ROOT	TRUE	FALSE
 58	प्	प्	प्	0	ROOT	TRUE	FALSE
@@ -30554,8 +30554,8 @@
 68	125	125	QC	72	mod	TRUE	FALSE
 69	-	-	-	72	rsym	TRUE	FALSE
 70	3200	3200	QC	72	nmod__adj	TRUE	FALSE
-71	वीडियो	वीडियो	XC	72	mod	FALSE	FALSE
-72	रिकार्डिंग	रिकार्डिंग	NN	67	ccof	FALSE	FALSE
+71	वीडियो	वीडियो	XC	72	mod	FALSE	TRUE
+72	रिकार्डिंग	रिकार्डिंग	NN	67	ccof	FALSE	TRUE
 73	:	:	:	72	rsym	TRUE	FALSE
 74	1920	1920	QC	75	nmod__adj	TRUE	FALSE
 75	x	x	NN	94	k1	TRUE	FALSE
@@ -30726,7 +30726,7 @@
 
 1	स्वाइप	स्वाइप	NN	9	k1	TRUE	FALSE
 2	अल्टीमेट	अल्टीमेट	JJ	3	nmod__adj	TRUE	FALSE
-3	विंडोज	विंडोज	NN	9	k1	TRUE	FALSE
+3	विंडोज	विंडोज	NN	9	k1	TRUE	TRUE
 4	81	81	QC	6	nmod__adj	FALSE	FALSE
 5	ऑपरेटिंग	ऑपरेटिंग	XC	6	mod	TRUE	TRUE
 6	सिस्टम	सिस्टम	NNP	9	k7	FALSE	TRUE
@@ -30834,9 +30834,9 @@
 6	,	,	,	5	rsym	FALSE	FALSE
 7	एक्सरसाइज	एक्सरसाइज	NN	8	ccof	FALSE	FALSE
 8	और	और	CC	15	k2	FALSE	FALSE
-9	स्टैंड	स्टैंड	XC	11	mod	FALSE	FALSE
+9	स्टैंड	स्टैंड	XC	11	mod	FALSE	TRUE
 10	फिटनेस	फिटनेस	NNP	11	mod	FALSE	FALSE
-11	डाटा	डाटा	NN	8	ccof	FALSE	FALSE
+11	डाटा	डाटा	NN	8	ccof	FALSE	TRUE
 12	के	का	PSP	11	lwg__psp	FALSE	FALSE
 13	लिए	ले	PSP	11	lwg__psp	FALSE	FALSE
 14	अप्रोच	अप्रोच	NN	15	pof	FALSE	FALSE
@@ -30891,8 +30891,8 @@
 2	अगर	अगर	CC	0	ROOT	FALSE	FALSE
 3	आप	आप	PRP	8	k1	FALSE	FALSE
 4	इसका	इसका	PRP	8	k2	TRUE	FALSE
-5	फ्रंट	फ्रंट	NN	8	k2	FALSE	FALSE
-6	फेस	फेस	XC	7	mod	TRUE	FALSE
+5	फ्रंट	फ्रंट	NN	8	k2	FALSE	TRUE
+6	फेस	फेस	XC	7	mod	TRUE	TRUE
 7	चेंज	चेंज	NN	8	pof	FALSE	FALSE
 8	करना	कर	VM	9	k2	FALSE	FALSE
 9	चाहते	चाह	VAUX	2	ccof	FALSE	FALSE
@@ -30948,7 +30948,7 @@
 3	यह	यह	PRP	16	k2	FALSE	FALSE
 4	12	12	QC	7	nmod__adj	FALSE	FALSE
 5	गीगाहर्त्ज	गीगाहर्त्ज	XC	7	mod	TRUE	FALSE
-6	डयूलकोर	डयूलकोर	NNP	7	mod	TRUE	FALSE
+6	डयूलकोर	डयूलकोर	NNP	7	mod	TRUE	TRUE
 7	प्रोसेसर	प्रोसेसर	NN	8	ccof	FALSE	TRUE
 8	और	और	CC	16	k7p	FALSE	FALSE
 9	512	512	QC	13	mod	TRUE	FALSE
@@ -31025,8 +31025,8 @@
 4	इसमें	इसमें	PRP	10	k7	TRUE	FALSE
 5	वीजीए	वीजीए	JJ	6	ccof	TRUE	FALSE
 6	अथवा	अथवा	CC	10	k7p	TRUE	FALSE
-7	एचडीएमआई	एचडीएमआई	JJ	8	nmod__adj	TRUE	FALSE
-8	पोर्ट	पोर्ट	NN	6	ccof	FALSE	FALSE
+7	एचडीएमआई	एचडीएमआई	JJ	8	nmod__adj	TRUE	TRUE
+8	पोर्ट	पोर्ट	NN	6	ccof	FALSE	TRUE
 9	आदि	आदि	RP	8	lwg__rp	FALSE	FALSE
 10	लगवाना	लगवा	VM	13	nmod__relc	FALSE	FALSE
 11	चाहता	चाह	VAUX	10	lwg__vaux	FALSE	FALSE
@@ -31198,7 +31198,7 @@
 10	और	और	CC	0	main	FALSE	FALSE
 11	बहुत	बहुत	QF	17	k1	FALSE	FALSE
 12	ही	ही	RP	11	lwg__rp	FALSE	FALSE
-13	बजट	बजट	JJ	14	nmod__adj	FALSE	TRUE
+13	बजट	बजट	JJ	14	nmod__adj	FALSE	FALSE
 14	क्वॉलिटी	क्वॉलिटी	NN	16	r6	TRUE	TRUE
 15	की	का	PSP	14	lwg__psp	FALSE	FALSE
 16	बिल्ड	बिल्ड	NN	17	k1	TRUE	FALSE
@@ -31224,11 +31224,11 @@
 1	डिवाइस	डिवाइस	NN	9	k7	TRUE	FALSE
 2	में	में	PSP	1	lwg__psp	FALSE	FALSE
 3	सिंपल	सिंपल	XC	4	mod	FALSE	FALSE
-4	इंटरफेस	इंटरफेस	NNP	5	ccof	FALSE	FALSE
+4	इंटरफेस	इंटरफेस	NNP	5	ccof	FALSE	TRUE
 5	और	और	CC	9	k1	FALSE	FALSE
 6	तीन	तीन	QC	8	nmod__adj	FALSE	FALSE
-7	फिजिकल	फिजिकल	JJ	8	nmod__adj	TRUE	TRUE
-8	बटन	बटन	NN	5	ccof	FALSE	TRUE
+7	फिजिकल	फिजिकल	JJ	8	nmod__adj	TRUE	FALSE
+8	बटन	बटन	NN	5	ccof	FALSE	FALSE
 9	हैं	है	VM	0	main	FALSE	FALSE
 10	,	,	,	9	rsym	FALSE	FALSE
 11	जो	जो	PRP	15	k1	FALSE	FALSE
@@ -31262,13 +31262,13 @@
 4	इस	इस	DEM	5	nmod__adj	FALSE	FALSE
 5	स्मार्टफोन	स्मार्टफोन	NN	18	k7	TRUE	FALSE
 6	में	में	PSP	5	lwg__psp	FALSE	FALSE
-7	ग्रेविटी	ग्रेविटी	JJ	8	mod	TRUE	TRUE
-8	सेंसर	सेंसर	XC	15	ccof	TRUE	TRUE
+7	ग्रेविटी	ग्रेविटी	JJ	8	mod	TRUE	FALSE
+8	सेंसर	सेंसर	XC	15	ccof	TRUE	FALSE
 9	,	,	,	8	rsym	FALSE	FALSE
 10	प्रोक्सिमिटी	प्रोक्सिमिटी	NN	11	mod	TRUE	FALSE
 11	सेंसर	सेंसर	XC	15	ccof	TRUE	FALSE
 12	,	,	,	11	rsym	FALSE	FALSE
-13	लाइट	लाइट	XC	14	mod	FALSE	TRUE
+13	लाइट	लाइट	XC	14	mod	FALSE	FALSE
 14	सेंसर	सेंसर	NN	15	ccof	TRUE	TRUE
 15	और	और	CC	18	k1	FALSE	FALSE
 16	असेलेरोमीटर	असेलेरोमीटर	NN	15	ccof	TRUE	FALSE
@@ -31282,7 +31282,7 @@
 4	लूमिक्स	लूमिक्स	NN	5	mod	TRUE	FALSE
 5	जीएच	जीएच	NN	20	k1	TRUE	FALSE
 6	4	4	QC	8	nmod__adj	FALSE	FALSE
-7	कैमरा	कैमरा	NN	8	mod	TRUE	FALSE
+7	कैमरा	कैमरा	NN	8	mod	TRUE	TRUE
 8	मार्केट	मार्केट	NN	10	k7	FALSE	FALSE
 9	में	में	PSP	8	lwg__psp	FALSE	FALSE
 10	मिलने	मिल	VM	14	nmod__k1inv	FALSE	FALSE
@@ -31304,7 +31304,7 @@
 4	है	है	VM	0	main	FALSE	FALSE
 5	.	.	.	4	rsym	FALSE	FALSE
 
-1	वजन	वजन	NN	2	mod	FALSE	FALSE
+1	वजन	वजन	NN	2	mod	FALSE	TRUE
 2	परिवहन	परिवहन	NN	8	rt	FALSE	FALSE
 3	के	का	PSP	2	lwg__psp	FALSE	FALSE
 4	लिए	ले	PSP	2	lwg__psp	FALSE	FALSE
@@ -31323,7 +31323,7 @@
 17	.	.	.	15	rsym	FALSE	FALSE
 
 1	बैटरी	बैटरी	JJ	2	nmod__adj	FALSE	TRUE
-2	स्टेटिस्टिक्स	स्टेटिस्टिक्स	NN	4	r6	TRUE	TRUE
+2	स्टेटिस्टिक्स	स्टेटिस्टिक्स	NN	4	r6	TRUE	FALSE
 3	की	का	PSP	2	lwg__psp	FALSE	FALSE
 4	बात	बात	NN	5	pof	FALSE	FALSE
 5	करें	कर	VM	0	ROOT	FALSE	FALSE
@@ -31357,7 +31357,7 @@
 2	पर	पर	PSP	1	lwg__psp	FALSE	FALSE
 3	गैंडे	गैंडा	NN	5	r6	FALSE	FALSE
 4	की	का	PSP	3	lwg__psp	FALSE	FALSE
-5	आबादी	आबादी	NN	8	k1	FALSE	FALSE
+5	आबादी	आबादी	NN	8	k1	FALSE	TRUE
 6	सबसे	सबसे	INTF	8	k1s	FALSE	FALSE
 7	अधिक	अधिक	QF	6	nmod__adj	FALSE	FALSE
 8	है	है	VM	0	main	FALSE	FALSE
@@ -31365,8 +31365,8 @@
 
 1	यह	यह	DEM	2	nmod__adj	FALSE	FALSE
 2	फोन	फोन	NN	11	k1	TRUE	FALSE
-3	फुल	फुल	XC	5	mod	TRUE	TRUE
-4	एचडी	एचडी	NNP	5	mod	TRUE	TRUE
+3	फुल	फुल	XC	5	mod	TRUE	FALSE
+4	एचडी	एचडी	NNP	5	mod	TRUE	FALSE
 5	विडियो	विडियो	NN	7	r6-k2	FALSE	TRUE
 6	की	का	PSP	5	lwg__psp	FALSE	FALSE
 7	रिकार्डिंग	रिकार्डिंग	NN	8	pof	FALSE	FALSE
@@ -31395,7 +31395,7 @@
 17	.	.	.	16	rsym	FALSE	FALSE
 
 1	हालांकि	हालांकि	CC	0	main	TRUE	FALSE
-2	ब्लूटूथ	ब्लूटूथ	JJ	3	nmod__adj	TRUE	FALSE
+2	ब्लूटूथ	ब्लूटूथ	JJ	3	nmod__adj	TRUE	TRUE
 3	इस्तेमाल	इस्तेमाल	NN	4	pof	FALSE	FALSE
 4	करते	कर	VM	8	vmod	FALSE	FALSE
 5	समय	समय	NN	8	k7t	FALSE	FALSE
@@ -31406,7 +31406,7 @@
 10	कि	कि	CC	8	k2	FALSE	FALSE
 11	,	,	,	10	rsym	FALSE	FALSE
 12	बैटरी	बैटरी	JJ	13	nmod__adj	FALSE	TRUE
-13	वाईफाई	वाईफाई	NN	21	k1	TRUE	TRUE
+13	वाईफाई	वाईफाई	NN	21	k1	TRUE	FALSE
 14	के	का	PSP	13	lwg__psp	FALSE	FALSE
 15	मुकाबले	मुकाबला	NN	13	lwg__psp	FALSE	FALSE
 16	इस	इस	DEM	19	k7	FALSE	FALSE
@@ -31449,10 +31449,10 @@
 14	न	न	NEG	15	lwg__neg	FALSE	FALSE
 15	करता	कर	VM	0	ROOT	FALSE	FALSE
 16	,	,	,	15	rsym	FALSE	FALSE
-17	यूएसबी	यूएसबी	JJ	20	mod	FALSE	FALSE
+17	यूएसबी	यूएसबी	JJ	20	mod	FALSE	TRUE
 18	वायरलेस	वायरलेस	XC	20	mod	FALSE	FALSE
-19	नेटवर्क	नेटवर्क	NNP	20	mod	TRUE	FALSE
-20	कार्ड	कार्ड	NN	25	k1	FALSE	FALSE
+19	नेटवर्क	नेटवर्क	NNP	20	mod	TRUE	TRUE
+20	कार्ड	कार्ड	NN	25	k1	FALSE	TRUE
 21	अतिरिक्त	अतिरिक्त	JJ	23	nmod__adj	FALSE	FALSE
 22	1200	1200	QC	23	nmod__adj	TRUE	FALSE
 23	रुपए	रुपया	NN	25	k2	FALSE	FALSE
@@ -31496,7 +31496,7 @@
 9	है	है	VM	0	main	FALSE	FALSE
 10	.	.	.	9	rsym	FALSE	FALSE
 
-1	कंफ्यूज	कंफ्यूज	NN	2	mod	TRUE	TRUE
+1	कंफ्यूज	कंफ्यूज	NN	2	mod	TRUE	FALSE
 2	किरदारों	किरदारों	NN	9	k2	TRUE	TRUE
 3	को	को	PSP	2	lwg__psp	TRUE	FALSE
 4	वे	वह	PRP	9	k1	FALSE	FALSE
@@ -31628,7 +31628,7 @@
 5	पावरवीआर	पावरवीआर	JJ	6	nmod__adj	TRUE	FALSE
 6	SGX	SGX	NN	23	k1	TRUE	FALSE
 7	544	544	QC	8	nmod__adj	TRUE	FALSE
-8	जीपीयू	जीपीयू	NN	23	k7t	TRUE	FALSE
+8	जीपीयू	जीपीयू	NN	23	k7t	TRUE	TRUE
 9	के	का	PSP	8	lwg__psp	FALSE	FALSE
 10	साथ	साथ	NST	8	lwg__psp	FALSE	FALSE
 11	15	15	QC	12	nmod__adj	FALSE	FALSE
@@ -31700,7 +31700,7 @@
 14	है	है	VAUX	13	lwg__vaux	FALSE	FALSE
 15	.	.	.	13	rsym	FALSE	FALSE
 
-1	जीपीएस	जीपीएस	XC	4	k1	FALSE	FALSE
+1	जीपीएस	जीपीएस	XC	4	k1	FALSE	TRUE
 2	सपोर्ट	सपोर्ट	NN	4	k1s	TRUE	FALSE
 3	नहीं	नहीं	NEG	4	lwg__neg	FALSE	FALSE
 4	है	है	VM	0	main	FALSE	FALSE
@@ -31733,7 +31733,7 @@
 13	.	.	.	11	rsym	FALSE	FALSE
 
 1	अपने	अपना	PRP	2	r6	FALSE	FALSE
-2	आकार	आकार	NN	4	r6	FALSE	TRUE
+2	आकार	आकार	NN	4	r6	FALSE	FALSE
 3	के	का	PSP	2	lwg__psp	FALSE	FALSE
 4	वजह	वजह	NN	13	rh	FALSE	FALSE
 5	से	से	PSP	4	lwg__psp	FALSE	FALSE
@@ -31814,13 +31814,13 @@
 5	तरफ	तरफ	NST	4	lwg__psp	FALSE	FALSE
 6	माइक्रो	माइक्रो	XC	19	k1	FALSE	TRUE
 7	यूएसबी	यूएसबी	NNP	19	k1	FALSE	TRUE
-8	पोर्ट	पोर्ट	XC	14	ccof	FALSE	FALSE
+8	पोर्ट	पोर्ट	XC	14	ccof	FALSE	TRUE
 9	,	,	,	8	rsym	FALSE	FALSE
 10	माइक्रो	माइक्रो	XC	13	mod	FALSE	TRUE
 11	एसडी	एसडी	XC	13	mod	TRUE	TRUE
 12	कार्ड	कार्ड	XC	13	mod	FALSE	TRUE
 13	स्लॉट	स्लॉट	NNP	14	ccof	TRUE	TRUE
-14	और	और	CC	19	k1	FALSE	TRUE
+14	और	और	CC	19	k1	FALSE	FALSE
 15	माइक्रो	माइक्रो	XC	18	mod	FALSE	TRUE
 16	सिम	सिम	XC	18	mod	TRUE	TRUE
 17	कार्ड	कार्ड	XC	18	mod	FALSE	TRUE
@@ -31847,7 +31847,7 @@
 4	विंडो	विंडो	NN	11	k1	TRUE	FALSE
 5	AC	AC	NN	11	k1	TRUE	FALSE
 6	0	0	QC	9	rsym	TRUE	FALSE
-7	75	75	QC	9	nmod__adj	FALSE	FALSE
+7	75	75	QC	9	nmod__adj	FALSE	TRUE
 8	टन	टन	NN	9	nmod	FALSE	FALSE
 9	क्षमता	क्षमता	NN	11	k1	FALSE	FALSE
 10	वाला	वाला	PSP	9	lwg__psp	FALSE	FALSE
@@ -31978,7 +31978,7 @@
 4	जिलें	जिलें	NN	6	jjmod	TRUE	FALSE
 5	में	में	PSP	4	lwg__psp	FALSE	FALSE
 6	स्थित	स्थित	JJ	7	nmod	FALSE	FALSE
-7	विश्व	विश्व	NN	23	k1	FALSE	FALSE
+7	विश्व	विश्व	NN	23	k1	FALSE	TRUE
 8	प्रसिद्ध	प्रसिद्ध	JJ	9	nmod__adj	FALSE	FALSE
 9	कान्हा	कान्हा	NN	23	k1	FALSE	FALSE
 10	राष्ट्रीय	राष्ट्रीय	JJ	11	mod	FALSE	FALSE
@@ -32307,7 +32307,7 @@
 
 1	वैसे	वैसे	PRP	8	sent-adv	FALSE	FALSE
 2	तो	तो	RP	1	lwg__rp	FALSE	FALSE
-3	कीबोर्ड	कीबोर्ड	NN	8	k7	FALSE	TRUE
+3	कीबोर्ड	कीबोर्ड	NN	8	k7	FALSE	FALSE
 4	में	में	PSP	3	lwg__psp	FALSE	FALSE
 5	जगह	जगह	NN	8	k1	FALSE	FALSE
 6	काफी	काफी	QF	7	jjmod__intf	FALSE	FALSE
@@ -32344,7 +32344,7 @@
 11	तेज	तेज	JJ	12	ccof	FALSE	FALSE
 12	और	और	CC	17	k4	FALSE	FALSE
 13	शानदार	शानदार	JJ	14	nmod__adj	FALSE	FALSE
-14	नियंत्रण	नियंत्रण	NN	12	ccof	FALSE	FALSE
+14	नियंत्रण	नियंत्रण	NN	12	ccof	FALSE	TRUE
 15	की	का	PSP	14	lwg__psp	FALSE	FALSE
 16	सुविधा	सुविधा	NN	17	pof	FALSE	FALSE
 17	देगा	दे	VM	0	main	TRUE	FALSE
@@ -32356,7 +32356,7 @@
 4	कि	कि	CC	0	ROOT	FALSE	FALSE
 5	लगभग	लगभग	RB	21	adv	FALSE	FALSE
 6	इसी	इसी	DEM	7	nmod__adj	FALSE	FALSE
-7	कीमत	कीमत	NN	21	k7	FALSE	FALSE
+7	कीमत	कीमत	NN	21	k7	FALSE	TRUE
 8	में	में	PSP	7	lwg__psp	FALSE	FALSE
 9	लिनोवो	लिनोवो	NNP	11	r6	TRUE	FALSE
 10	का	का	PSP	9	lwg__psp	FALSE	FALSE
@@ -32526,7 +32526,7 @@
 8	बनाए	बना	VM	11	nmod__k1inv	FALSE	FALSE
 9	गए	गए	VAUX	8	lwg__vaux	TRUE	FALSE
 10	प्रॉम्प्ट	प्रॉम्प्ट	JJ	11	nmod__adj	TRUE	FALSE
-11	नोटिफिकेशन	नोटिफिकेशन	NN	20	k7t	TRUE	FALSE
+11	नोटिफिकेशन	नोटिफिकेशन	NN	20	k7t	TRUE	TRUE
 12	के	का	PSP	11	lwg__psp	FALSE	FALSE
 13	साथ	साथ	NST	11	lwg__psp	FALSE	FALSE
 14	इसमें	इसमें	PRP	20	k7	TRUE	FALSE
@@ -32607,8 +32607,8 @@
 30	.	.	.	28	rsym	FALSE	FALSE
 
 1	इससें	इससें	PRP	4	sent-adv	TRUE	FALSE
-2	एचडी	एचडी	XC	3	mod	TRUE	TRUE
-3	रिकॉर्डिग	रिकॉर्डिग	NN	4	pof	TRUE	TRUE
+2	एचडी	एचडी	XC	3	mod	TRUE	FALSE
+3	रिकॉर्डिग	रिकॉर्डिग	NN	4	pof	TRUE	FALSE
 4	की	कर	VM	0	main	FALSE	FALSE
 5	जा	जा	VAUX	4	lwg__vaux	FALSE	FALSE
 6	सकती	सक	VAUX	4	lwg__vaux	TRUE	FALSE
@@ -32648,7 +32648,7 @@
 3	बीचों	बीचों	NN	20	k7t	FALSE	FALSE
 4	बीच	बीच	NST	3	lwg__psp	FALSE	FALSE
 5	पतले	पतला	JJ	6	nmod__adj	FALSE	FALSE
-6	झरने	झरना	NN	9	r6	FALSE	FALSE
+6	झरने	झरना	NN	9	r6	FALSE	TRUE
 7	की	का	PSP	6	lwg__psp	FALSE	FALSE
 8	सफेद	सफेद	JJ	9	nmod__adj	FALSE	FALSE
 9	लकीर	लकीर	NN	20	k1	FALSE	FALSE
@@ -32703,7 +32703,7 @@
 15	हैं	है	VAUX	13	lwg__vaux	FALSE	FALSE
 16	.	.	.	13	rsym	FALSE	FALSE
 
-1	डिजाइन	डिजाइन	NN	4	k7	FALSE	TRUE
+1	डिजाइन	डिजाइन	NN	4	k7	FALSE	FALSE
 2	में	में	PSP	1	lwg__psp	FALSE	FALSE
 3	अच्छा	अच्छा	JJ	4	k1s	FALSE	FALSE
 4	है	है	VM	0	main	FALSE	FALSE
@@ -32746,7 +32746,7 @@
 2	स्पीड	स्पीड	NN	3	mod	TRUE	FALSE
 3	तेज	तेज	JJ	0	ROOT	FALSE	FALSE
 4	,	,	,	3	rsym	FALSE	FALSE
-5	फोकस	फोकस	NN	7	k2	FALSE	FALSE
+5	फोकस	फोकस	NN	7	k2	FALSE	TRUE
 6	लॉक	लॉक	NN	7	pof	TRUE	FALSE
 7	करने	कर	VM	9	r6	FALSE	FALSE
 8	की	का	PSP	7	lwg__psp	FALSE	FALSE
@@ -32766,7 +32766,7 @@
 
 1	इसका	इसका	PRP	3	r6	TRUE	FALSE
 2	एप्प	एप्प	NN	3	mod	TRUE	TRUE
-3	इंटरफेस	इंटरफेस	NN	8	k1	FALSE	TRUE
+3	इंटरफेस	इंटरफेस	NN	8	k1	FALSE	FALSE
 4	बहुत	बहुत	INTF	5	jjmod__intf	FALSE	FALSE
 5	रोमांचक	रोमांचक	JJ	8	k1s	FALSE	FALSE
 6	तो	तो	RP	5	lwg__rp	FALSE	FALSE
@@ -32860,8 +32860,8 @@
 5	cm	cm	NN	13	r6	TRUE	FALSE
 6	का	का	PSP	5	lwg__psp	FALSE	FALSE
 7	स्लिम	स्लिम	XC	9	mod	TRUE	FALSE
-8	मेटल	मेटल	XC	9	mod	TRUE	TRUE
-9	बेजल	बेजल	XC	13	r6	TRUE	TRUE
+8	मेटल	मेटल	XC	9	mod	TRUE	FALSE
+9	बेजल	बेजल	XC	13	r6	TRUE	FALSE
 10	(	(	(	11	rsym	FALSE	FALSE
 11	स्क्रीन	स्क्रीन	NN	9	nmod	FALSE	FALSE
 12	की	का	PSP	9	fragof	FALSE	FALSE
@@ -32915,7 +32915,7 @@
 41	ब्राउजर	ब्राउजर	NNP	42	ccof	FALSE	FALSE
 42	तथा	तथा	CC	56	k1	FALSE	FALSE
 43	कार्बन	कार्बन	XC	44	mod	FALSE	FALSE
-44	गेम्स	गेम्स	NNP	42	ccof	FALSE	FALSE
+44	गेम्स	गेम्स	NNP	42	ccof	FALSE	TRUE
 45	(	(	(	50	rsym	FALSE	FALSE
 46	Karbonn	Karbonn	XC	50	mod	TRUE	FALSE
 47	browser	browser	XC	50	mod	TRUE	FALSE
@@ -32966,7 +32966,7 @@
 5	(	(	(	6	rsym	FALSE	FALSE
 6	RCA	RCA	NN	11	k1	TRUE	FALSE
 7	)	)	)	6	rsym	FALSE	FALSE
-8	पोर्ट	पोर्ट	XC	9	mod	FALSE	FALSE
+8	पोर्ट	पोर्ट	XC	9	mod	FALSE	TRUE
 9	बाएं	बाएं	NN	11	ras-k1	TRUE	FALSE
 10	तरफ	तरफ	NST	9	lwg__psp	FALSE	FALSE
 11	दिया	दे	VM	19	ccof	FALSE	FALSE
@@ -33083,7 +33083,7 @@
 6	घंटों	घंटा	NN	8	r6	FALSE	FALSE
 7	की	का	PSP	6	lwg__psp	FALSE	FALSE
 8	बैटरी	बैटरी	NN	9	pof	FALSE	TRUE
-9	लाइव	लाइव	VM	0	main	FALSE	FALSE
+9	लाइव	लाइव	VM	0	main	FALSE	TRUE
 10	देती	दे	VAUX	9	lwg__vaux	TRUE	FALSE
 11	है	है	VAUX	9	lwg__vaux	FALSE	FALSE
 12	.	.	.	9	rsym	FALSE	FALSE
@@ -33104,7 +33104,7 @@
 14	,	,	,	13	rsym	FALSE	FALSE
 15	जिसमें	जो	PRP	21	k7	FALSE	FALSE
 16	कुछ	कुछ	QF	17	nmod__adj	FALSE	FALSE
-17	कलाकारों	कलाकार	NN	21	k1	FALSE	TRUE
+17	कलाकारों	कलाकार	NN	21	k1	FALSE	FALSE
 18	ने	ने	PSP	17	lwg__psp	TRUE	FALSE
 19	बेहतरीन	बेहतरीन	JJ	20	nmod__adj	FALSE	FALSE
 20	परफॉर्मेंस	परफॉर्मेंस	NN	21	pof	TRUE	TRUE
@@ -33114,7 +33114,7 @@
 
 1	इसका	इसका	PRP	5	k1	TRUE	FALSE
 2	इन-बिल्ट	इन-बिल्ट	NN	5	k1	TRUE	FALSE
-3	स्पीकर	स्पीकर	VM	5	k1	TRUE	FALSE
+3	स्पीकर	स्पीकर	VM	5	k1	TRUE	TRUE
 4	अच्छा	अच्छा	JJ	5	k1s	FALSE	FALSE
 5	है	है	VM	6	ccof	FALSE	FALSE
 6	और	और	CC	0	main	FALSE	FALSE
@@ -33161,9 +33161,9 @@
 5	हैं	है	VAUX	4	lwg__vaux	FALSE	FALSE
 6	,	,	,	4	rsym	FALSE	FALSE
 7	इसमें	इसमें	PRP	10	k7	TRUE	FALSE
-8	चमकीली	चमकीली	JJ	9	nmod__adj	TRUE	TRUE
+8	चमकीली	चमकीली	JJ	9	nmod__adj	TRUE	FALSE
 9	फिनिश	फिनिश	NN	10	k2	FALSE	TRUE
-10	डिसप्ले	डिसप्ले	VM	15	k7	TRUE	TRUE
+10	डिसप्ले	डिसप्ले	VM	15	k7	TRUE	FALSE
 11	है	है	VAUX	10	lwg__vaux	FALSE	FALSE
 12	,	,	,	10	rsym	FALSE	FALSE
 13	जिसका	जो	PRP	14	r6	FALSE	FALSE
@@ -33198,7 +33198,7 @@
 42	.	.	.	41	rsym	FALSE	FALSE
 
 1	रोहतांग	रोहतांग	XC	4	mod	TRUE	FALSE
-2	दर्रा	दर्रा	NNP	4	mod	FALSE	FALSE
+2	दर्रा	दर्रा	NNP	4	mod	FALSE	TRUE
 3	समुद्र	समुद्र	XC	4	pof__cn	FALSE	FALSE
 4	तल	तल	NN	19	jjmod	FALSE	FALSE
 5	से	से	PSP	4	lwg__psp	FALSE	FALSE
@@ -33209,7 +33209,7 @@
 10	पर	पर	PSP	9	lwg__psp	FALSE	FALSE
 11	स्थित	स्थित	JJ	14	nmod	FALSE	FALSE
 12	रोहतांग	रोहतांग	XC	14	mod	TRUE	FALSE
-13	दर्रा	दर्रा	XC	14	mod	FALSE	FALSE
+13	दर्रा	दर्रा	XC	14	mod	FALSE	TRUE
 14	हिमालय	हिमालय	NNP	19	jjmod	FALSE	FALSE
 15	(	(	(	16	rsym	FALSE	FALSE
 16	भारत	भारत	NNP	14	nmod	FALSE	FALSE
@@ -33243,7 +33243,7 @@
 19	जो	जो	PRP	22	r6	FALSE	FALSE
 20	की	का	PSP	19	lwg__psp	FALSE	FALSE
 21	कम	कम	QF	22	nmod__adj	FALSE	FALSE
-22	फ्रेम	फ्रेम	NN	29	k1	FALSE	FALSE
+22	फ्रेम	फ्रेम	NN	29	k1	FALSE	TRUE
 23	रेट	रेट	NN	29	k7	FALSE	FALSE
 24	के	का	PSP	23	lwg__psp	FALSE	FALSE
 25	कारण	कारण	NN	23	lwg__psp	FALSE	FALSE
@@ -33331,7 +33331,7 @@
 8	वाला	वाला	PSP	7	lwg__psp	FALSE	FALSE
 9	2	2	QC	10	nmod__adj	FALSE	FALSE
 10	मेगापिक्सल	मेगापिक्सल	NN	14	k1	TRUE	FALSE
-11	रेजोल्यूशन	रेजोल्यूशन	NN	13	r6	TRUE	FALSE
+11	रेजोल्यूशन	रेजोल्यूशन	NN	13	r6	TRUE	TRUE
 12	का	का	PSP	11	lwg__psp	FALSE	FALSE
 13	कैमरा	कैमरा	NN	14	pof	TRUE	FALSE
 14	लगा	लगा	VM	0	main	FALSE	FALSE
@@ -33379,7 +33379,7 @@
 18	स	स	स	21	rsym	FALSE	FALSE
 19	ए	ए	ए	21	mod	FALSE	FALSE
 20	9	9	QC	21	nmod__adj	FALSE	FALSE
-21	प्रोसेसर	प्रोसेसर	NN	22	k2	FALSE	FALSE
+21	प्रोसेसर	प्रोसेसर	NN	22	k2	FALSE	TRUE
 22	दिया	दे	VM	0	ROOT	FALSE	FALSE
 23	गया	गया	VAUX	22	lwg__vaux	FALSE	FALSE
 24	है	है	VAUX	22	lwg__vaux	FALSE	FALSE
@@ -33486,7 +33486,7 @@
 21	से	से	PSP	20	lwg__psp	FALSE	FALSE
 22	युक्त	युक्त	JJ	25	nmod__adj	FALSE	FALSE
 23	पर्याप्त	पर्याप्त	JJ	25	nmod__adj	FALSE	FALSE
-24	विजुअल	विजुअल	XC	25	mod	TRUE	FALSE
+24	विजुअल	विजुअल	XC	25	mod	TRUE	TRUE
 25	एलीमेंट्स	एलीमेंट्स	NNP	27	k1	TRUE	FALSE
 26	उपलब्ध	उपलब्ध	JJ	27	pof	FALSE	FALSE
 27	हैं	है	VM	4	vmod	FALSE	FALSE
@@ -33495,7 +33495,7 @@
 1	ब्योमकेश	ब्योमकेश	NNP	7	k1	TRUE	FALSE
 2	उनसे	उनसे	PRP	7	jk1	TRUE	FALSE
 3	गंवई	गंवई	JJ	4	nmod__adj	TRUE	FALSE
-4	भाषा	भाषा	NN	7	k7	FALSE	FALSE
+4	भाषा	भाषा	NN	7	k7	FALSE	TRUE
 5	में	में	PSP	4	lwg__psp	FALSE	FALSE
 6	बात	बात	NN	7	pof	FALSE	FALSE
 7	करता	कर	VM	0	main	FALSE	FALSE
@@ -33545,7 +33545,7 @@
 2	टेबलेट	टेबलेट	NN	4	r6	FALSE	FALSE
 3	के	का	PSP	2	lwg__psp	FALSE	FALSE
 4	डिस्प्ले	डिस्प्ले	NN	6	r6	FALSE	TRUE
-5	का	का	PSP	4	lwg__psp	FALSE	TRUE
+5	का	का	PSP	4	lwg__psp	FALSE	FALSE
 6	देखने	देख	VM	8	r6	FALSE	TRUE
 7	का	का	PSP	6	lwg__psp	FALSE	TRUE
 8	एंगल	एंगल	NN	14	k1	FALSE	TRUE
@@ -33738,14 +33738,14 @@
 3	प्रदर्शन	प्रदर्शन	NN	12	ccof	FALSE	FALSE
 4	,	,	,	3	rsym	FALSE	FALSE
 5	सुगठित	सुगठित	JJ	6	nmod__adj	FALSE	FALSE
-6	डिजाईन	डिजाईन	NN	12	ccof	TRUE	TRUE
+6	डिजाईन	डिजाईन	NN	12	ccof	TRUE	FALSE
 7	,	,	,	6	rsym	FALSE	FALSE
 8	एक	एक	QC	11	nmod__adj	FALSE	FALSE
 9	बढिया	बढिया	JJ	11	nmod__adj	TRUE	FALSE
 10	IPS	IPS	XC	11	mod	TRUE	TRUE
 11	स्क्रीन	स्क्रीन	NNP	12	ccof	FALSE	TRUE
 12	और	और	CC	0	ROOT	FALSE	FALSE
-13	मेमोरी	मेमोरी	NN	12	ccof	FALSE	FALSE
+13	मेमोरी	मेमोरी	NN	12	ccof	FALSE	TRUE
 14	विस्तार	विस्तार	NN	16	k2	FALSE	FALSE
 15	पेश	पेश	JJ	16	pof	FALSE	FALSE
 16	करता	कर	VM	12	ccof	FALSE	FALSE
@@ -33776,7 +33776,7 @@
 2	हवाईजादा	हवाईजादा	NN	14	k7	TRUE	FALSE
 3	'	'	'	2	rsym	TRUE	FALSE
 4	में	में	PSP	2	lwg__psp	FALSE	FALSE
-5	गीतों	गीत	NN	8	r6	FALSE	TRUE
+5	गीतों	गीत	NN	8	r6	FALSE	FALSE
 6	के	का	PSP	5	lwg__psp	FALSE	FALSE
 7	अत्यधिक	अत्यधिक	JJ	8	nmod__adj	FALSE	FALSE
 8	उपयोग	उपयोग	NN	14	k5	FALSE	FALSE
@@ -33829,7 +33829,7 @@
 17	देगा	दे	VAUX	16	lwg__vaux	TRUE	FALSE
 18	.	.	.	16	rsym	FALSE	FALSE
 
-1	डिजाइनिंग	डिजाइनिंग	NN	3	r6	TRUE	TRUE
+1	डिजाइनिंग	डिजाइनिंग	NN	3	r6	TRUE	FALSE
 2	के	का	PSP	1	lwg__psp	FALSE	FALSE
 3	मामले	मामला	NN	11	k7	FALSE	FALSE
 4	में	में	PSP	3	lwg__psp	FALSE	FALSE
@@ -33912,7 +33912,7 @@
 10	वाली	वाली	PSP	8	lwg__psp	FALSE	FALSE
 11	वॉयस	वॉयस	XC	16	mod	TRUE	FALSE
 12	एंड	एंड	XC	16	mod	FALSE	FALSE
-13	डाटा	डाटा	XC	16	mod	FALSE	FALSE
+13	डाटा	डाटा	XC	16	mod	FALSE	TRUE
 14	एंक्रिप्शन	एंक्रिप्शन	XC	16	mod	TRUE	FALSE
 15	सॉल्युशन	सॉल्युशन	XC	16	mod	TRUE	FALSE
 16	तकनीक	तकनीक	NN	19	k7	FALSE	FALSE
@@ -33940,7 +33940,7 @@
 1	इसमें	इसमें	PRP	4	k7	TRUE	FALSE
 2	E	E	JJ	3	nmod__adj	TRUE	FALSE
 3	सेवर	सेवर	NN	4	k2	TRUE	FALSE
-4	मोड	मोड	VM	0	main	TRUE	FALSE
+4	मोड	मोड	VM	0	main	TRUE	TRUE
 5	दिया	दे	VAUX	4	lwg__vaux	FALSE	FALSE
 6	है	है	VAUX	4	lwg__vaux	FALSE	FALSE
 7	.	.	.	4	rsym	FALSE	FALSE
@@ -34008,12 +34008,12 @@
 15	4	4	QC	16	nmod__adj	FALSE	FALSE
 16	एमएसएम	एमएसएम	NN	31	k1	TRUE	FALSE
 17	8960	8960	QC	19	nmod__adj	TRUE	FALSE
-18	मोबाइल	मोबाइल	NN	19	mod	FALSE	FALSE
+18	मोबाइल	मोबाइल	NN	19	mod	FALSE	TRUE
 19	प्रोसेसर	प्रोसेसर	NN	31	k7t	FALSE	TRUE
 20	के	का	PSP	19	lwg__psp	FALSE	FALSE
 21	साथ	साथ	NST	19	lwg__psp	FALSE	FALSE
 22	एड्रीनो	एड्रीनो	NN	25	mod	TRUE	FALSE
-23	225	225	QC	25	nmod__adj	TRUE	FALSE
+23	225	225	QC	25	nmod__adj	TRUE	TRUE
 24	ग्राफिक्स	ग्राफिक्स	XC	25	mod	FALSE	TRUE
 25	चिप	चिप	NN	26	ccof	TRUE	TRUE
 26	और	और	CC	31	k1	FALSE	FALSE
@@ -34043,7 +34043,7 @@
 4	पाया	पा	VM	1	ccof	FALSE	FALSE
 5	कि	कि	CC	4	k2	FALSE	FALSE
 6	इसका	इसका	PRP	8	r6	TRUE	FALSE
-7	टच	टच	NN	8	mod	FALSE	FALSE
+7	टच	टच	NN	8	mod	FALSE	TRUE
 8	कभी-कभी	कभी-कभी	NN	9	k2	FALSE	FALSE
 9	भटक	भटक	VM	5	ccof	TRUE	FALSE
 10	जाता	जा	VAUX	9	lwg__vaux	FALSE	FALSE
@@ -34160,7 +34160,7 @@
 6	से	से	PSP	5	lwg__psp	FALSE	FALSE
 7	आप	आप	PRP	11	k1	FALSE	FALSE
 8	कॉल	कॉल	NN	9	mod	FALSE	TRUE
-9	अटैंड	अटैंड	NN	11	k2	TRUE	TRUE
+9	अटैंड	अटैंड	NN	11	k2	TRUE	FALSE
 10	भी	भी	RP	9	lwg__rp	FALSE	FALSE
 11	कर	कर	VM	0	main	FALSE	FALSE
 12	सकते	सक	VAUX	11	lwg__vaux	FALSE	FALSE
@@ -34168,7 +34168,7 @@
 14	,	,	,	11	rsym	FALSE	FALSE
 15	इसके	इसके	PRP	20	rt	FALSE	FALSE
 16	लिए	ले	PSP	15	lwg__psp	FALSE	FALSE
-17	इनबिल्ड	इनबिल्ड	XC	18	mod	TRUE	TRUE
+17	इनबिल्ड	इनबिल्ड	XC	18	mod	TRUE	FALSE
 18	माइक्रोफोन	माइक्रोफोन	NN	20	k2	TRUE	TRUE
 19	भी	भी	RP	18	lwg__rp	FALSE	FALSE
 20	दिया	दे	VM	11	vmod	FALSE	FALSE
@@ -34177,9 +34177,9 @@
 23	.	.	.	20	rsym	FALSE	FALSE
 
 1	बाल	बाल	XC	4	mod	FALSE	FALSE
-2	कलाकार	कलाकार	NN	4	mod	FALSE	FALSE
+2	कलाकार	कलाकार	NN	4	mod	FALSE	TRUE
 3	नमन	नमन	NN	4	mod	FALSE	FALSE
-4	जैन	जैन	NN	6	k1	FALSE	FALSE
+4	जैन	जैन	NN	6	k1	FALSE	TRUE
 5	प्रभावित	प्रभावित	JJ	6	pof	FALSE	FALSE
 6	करते	कर	VM	0	main	FALSE	FALSE
 7	हैं	है	VAUX	6	lwg__vaux	FALSE	FALSE
@@ -34226,7 +34226,7 @@
 18	जो	जो	PRP	23	k1	FALSE	FALSE
 19	आप	आप	PRP	23	k1	FALSE	FALSE
 20	इस	इस	DEM	21	nmod__adj	FALSE	FALSE
-21	कीमत	कीमत	NN	23	k7	FALSE	TRUE
+21	कीमत	कीमत	NN	23	k7	FALSE	FALSE
 22	में	में	PSP	21	lwg__psp	FALSE	FALSE
 23	खरीद	खरीद	VM	0	ROOT	FALSE	FALSE
 24	सकते	सक	VAUX	23	lwg__vaux	FALSE	FALSE
@@ -34234,8 +34234,8 @@
 26	.	.	.	23	rsym	FALSE	FALSE
 
 1	इसका	इसका	PRP	5	r6	TRUE	FALSE
-2	रियर	रियर	NN	5	mod	TRUE	FALSE
-3	पैनल	पैनल	JJ	5	nmod__adj	FALSE	FALSE
+2	रियर	रियर	NN	5	mod	TRUE	TRUE
+3	पैनल	पैनल	JJ	5	nmod__adj	FALSE	TRUE
 4	अल्यूमिनियम	अल्यूमिनियम	NN	5	mod	FALSE	FALSE
 5	फिनिश	फिनिश	NN	8	k7t	FALSE	FALSE
 6	के	का	PSP	5	lwg__psp	FALSE	FALSE
@@ -34252,7 +34252,7 @@
 6	दुनिया	दुनिया	NN	9	r6	FALSE	FALSE
 7	का	का	PSP	6	lwg__psp	FALSE	FALSE
 8	खूबसूरत	खूबसूरत	JJ	9	nmod__adj	FALSE	FALSE
-9	देश	देश	NN	18	k1	FALSE	FALSE
+9	देश	देश	NN	18	k1	FALSE	TRUE
 10	नेपाल	नेपाल	XC	11	mod	FALSE	FALSE
 11	सदियों	सदी	NN	18	rh	FALSE	FALSE
 12	से	से	PSP	11	lwg__psp	FALSE	FALSE
@@ -34291,9 +34291,9 @@
 6	,	,	,	5	rsym	FALSE	FALSE
 7	यदि	यदि	CC	0	ROOT	FALSE	FALSE
 8	आप	आप	PRP	23	k1	FALSE	FALSE
-9	ऑडियो	ऑडियो	XC	10	mod	TRUE	TRUE
-10	एक्सपीरिएंस	एक्सपीरिएंस	NN	12	r6	TRUE	TRUE
-11	की	का	PSP	10	lwg__psp	FALSE	TRUE
+9	ऑडियो	ऑडियो	XC	10	mod	TRUE	FALSE
+10	एक्सपीरिएंस	एक्सपीरिएंस	NN	12	r6	TRUE	FALSE
+11	की	का	PSP	10	lwg__psp	FALSE	FALSE
 12	क्वालिटी	क्वालिटी	NN	13	ccof	TRUE	TRUE
 13	और	और	CC	23	ccof	FALSE	FALSE
 14	उसके	उसके	PRP	15	r6	TRUE	FALSE
@@ -34369,8 +34369,8 @@
 4	का	का	PSP	3	lwg__psp	FALSE	FALSE
 5	एक	एक	QC	10	k1	FALSE	FALSE
 6	अत्यंत	अत्यन्त	INTF	7	jjmod__intf	FALSE	FALSE
-7	प्राचीन	प्राचीन	JJ	10	k1	FALSE	FALSE
-8	मंदिर	मंदिर	NN	9	jjmod	FALSE	FALSE
+7	प्राचीन	प्राचीन	JJ	10	k1	FALSE	TRUE
+8	मंदिर	मंदिर	NN	9	jjmod	FALSE	TRUE
 9	स्थित	स्थित	JJ	10	k1s	FALSE	FALSE
 10	है	है	VM	0	main	FALSE	FALSE
 11	.	.	.	10	rsym	FALSE	FALSE
@@ -34388,7 +34388,7 @@
 11	.	.	.	10	rsym	FALSE	FALSE
 
 1	मुख्य	मुख्य	JJ	2	nmod__adj	FALSE	FALSE
-2	पैनल	पैनल	NN	6	k1	FALSE	FALSE
+2	पैनल	पैनल	NN	6	k1	FALSE	TRUE
 3	पूरा	पूरा	JJ	4	nmod__adj	FALSE	FALSE
 4	ग्लास	ग्लास	NN	6	r6v	FALSE	FALSE
 5	का	का	PSP	4	lwg__psp	FALSE	FALSE
@@ -34454,7 +34454,7 @@
 10	हैं	है	VM	11	ccof	FALSE	FALSE
 11	परन्तु	परंतु	CC	0	main	TRUE	FALSE
 12	इसमें	इसमें	PRP	18	k7	TRUE	FALSE
-13	वाईफाई	वाईफाई	NN	15	r6	TRUE	FALSE
+13	वाईफाई	वाईफाई	NN	15	r6	TRUE	TRUE
 14	की	का	PSP	13	lwg__psp	FALSE	FALSE
 15	सुविधा	सुविधा	NN	18	k1	FALSE	FALSE
 16	उपलब्ध	उपलब्ध	JJ	18	pof	FALSE	FALSE
@@ -34616,8 +34616,8 @@
 3	1985	1985	QC	12	k7	TRUE	FALSE
 4	में	में	PSP	3	lwg__psp	FALSE	FALSE
 5	वल्र्ड	वल्र्ड	XC	7	mod	TRUE	TRUE
-6	हेरिटेज	हेरिटेज	XC	7	mod	TRUE	TRUE
-7	साइट	साइट	NN	9	r6	TRUE	TRUE
+6	हेरिटेज	हेरिटेज	XC	7	mod	TRUE	FALSE
+7	साइट	साइट	NN	9	r6	TRUE	FALSE
 8	के	का	PSP	7	lwg__psp	FALSE	FALSE
 9	रूप	रूप	NN	12	k7	FALSE	FALSE
 10	में	में	PSP	9	lwg__psp	FALSE	FALSE
@@ -34668,7 +34668,7 @@
 10	रहे	रह	VAUX	9	lwg__vaux	FALSE	FALSE
 11	हैं	है	VAUX	9	lwg__vaux	FALSE	FALSE
 12	लेकिन	लेकिन	CC	2	ccof	TRUE	FALSE
-13	एंड्रॉयड	एंड्रॉयड	XC	14	mod	TRUE	TRUE
+13	एंड्रॉयड	एंड्रॉयड	XC	14	mod	TRUE	FALSE
 14	यूआई	यूआई	NNP	20	k1	TRUE	TRUE
 15	आपको	आप	PRP	20	k1	FALSE	FALSE
 16	बहुत	बहुत	INTF	18	nmod	FALSE	FALSE
@@ -34741,7 +34741,7 @@
 
 1	512	512	QC	4	nmod__adj	TRUE	FALSE
 2	GB	GB	XC	4	mod	TRUE	FALSE
-3	हार्ड	हार्ड	XC	4	mod	TRUE	TRUE
+3	हार्ड	हार्ड	XC	4	mod	TRUE	FALSE
 4	डिस्क	डिस्क	NN	7	ras-k1	FALSE	TRUE
 5	के	का	PSP	4	lwg__psp	FALSE	FALSE
 6	साथ	साथ	NST	4	lwg__psp	FALSE	FALSE
@@ -34767,8 +34767,8 @@
 5	टैबलेट	टैबलेट	NN	8	r6	TRUE	FALSE
 6	का	का	PSP	5	lwg__psp	FALSE	FALSE
 7	स्क्रीन	स्क्रीन	JJ	8	nmod__adj	FALSE	TRUE
-8	टीवी	टीवी	NN	10	nmod	TRUE	TRUE
-9	वाले	वाला	PSP	8	lwg__psp	FALSE	TRUE
+8	टीवी	टीवी	NN	10	nmod	TRUE	FALSE
+9	वाले	वाला	PSP	8	lwg__psp	FALSE	FALSE
 10	इमेज	इमेज	NN	13	k2	FALSE	TRUE
 11	को	को	PSP	10	lwg__psp	TRUE	FALSE
 12	डिसप्ले	डिसप्ले	JJ	13	pof	TRUE	FALSE
@@ -34838,7 +34838,7 @@
 12	सकता	सक	VAUX	10	lwg__vaux	FALSE	FALSE
 13	.	.	.	10	rsym	FALSE	FALSE
 
-1	परफॉर्मंस	परफॉर्मंस	JJ	2	nmod__adj	TRUE	FALSE
+1	परफॉर्मंस	परफॉर्मंस	JJ	2	nmod__adj	TRUE	TRUE
 2	उम्मीदों	उम्मीद	NN	5	k5	FALSE	FALSE
 3	से	से	PSP	2	lwg__psp	FALSE	FALSE
 4	कम	कम	QF	5	k1s	FALSE	FALSE
@@ -34859,7 +34859,7 @@
 2	के	का	PSP	1	lwg__psp	FALSE	FALSE
 3	समीप	समीप	NST	1	lwg__psp	FALSE	FALSE
 4	स्थित	स्थित	JJ	5	pof	FALSE	FALSE
-5	फैरो	फैरो	VM	13	vmod	TRUE	FALSE
+5	फैरो	फैरो	VM	13	vmod	TRUE	TRUE
 6	आइलैंड्स	आइलैंड्स	NN	13	k1	TRUE	FALSE
 7	भले	भला	RP	13	adv	FALSE	FALSE
 8	ही	ही	RP	7	lwg__rp	FALSE	FALSE
@@ -34922,8 +34922,8 @@
 1	इसके	इसके	PRP	6	vmod	FALSE	FALSE
 2	अलावा	अलावा	PSP	1	lwg__psp	FALSE	FALSE
 3	इसमें	इसमें	PRP	6	k7	TRUE	FALSE
-4	फुल	फुल	XC	5	mod	TRUE	TRUE
-5	एचडी	एचडी	NNP	6	k1	TRUE	TRUE
+4	फुल	फुल	XC	5	mod	TRUE	FALSE
+5	एचडी	एचडी	NNP	6	k1	TRUE	FALSE
 6	डिस्प्ले	डिस्प्ले	VM	0	main	FALSE	TRUE
 7	है	है	VAUX	6	lwg__vaux	FALSE	FALSE
 8	,	,	,	6	rsym	FALSE	FALSE
@@ -34940,8 +34940,8 @@
 
 1	यह	यह	DEM	2	nmod__adj	FALSE	FALSE
 2	टेबलेट	टेबलेट	NN	15	k1	FALSE	FALSE
-3	बेंचमार्क	बेंचमार्क	JJ	4	nmod__adj	FALSE	FALSE
-4	स्कोर	स्कोर	NN	6	r6	FALSE	FALSE
+3	बेंचमार्क	बेंचमार्क	JJ	4	nmod__adj	FALSE	TRUE
+4	स्कोर	स्कोर	NN	6	r6	FALSE	TRUE
 5	के	का	PSP	4	lwg__psp	FALSE	FALSE
 6	मामले	मामला	NN	15	k7	FALSE	FALSE
 7	में	में	PSP	6	lwg__psp	FALSE	FALSE
@@ -34982,7 +34982,7 @@
 5	से	से	PSP	4	lwg__psp	FALSE	FALSE
 6	आप	आप	PRP	11	k1	FALSE	FALSE
 7	अपने	अपना	PRP	8	r6	FALSE	FALSE
-8	हस्ताक्षर	हस्ताक्षर	NN	11	k2	FALSE	TRUE
+8	हस्ताक्षर	हस्ताक्षर	NN	11	k2	FALSE	FALSE
 9	को	को	PSP	8	lwg__psp	TRUE	FALSE
 10	रजिस्टर	रजिस्टर	NN	11	pof	FALSE	FALSE
 11	कर	कर	VM	0	main	FALSE	FALSE
@@ -35064,7 +35064,7 @@
 33	.	.	.	32	rsym	FALSE	FALSE
 
 1	अब	अब	PRP	7	k7t	FALSE	FALSE
-2	प्रोसेसर	प्रोसेसर	NN	7	k7	FALSE	TRUE
+2	प्रोसेसर	प्रोसेसर	NN	7	k7	FALSE	FALSE
 3	(	(	(	4	rsym	FALSE	FALSE
 4	processor	processor	NN	2	nmod	TRUE	FALSE
 5	)	)	)	4	rsym	FALSE	FALSE
@@ -35079,7 +35079,7 @@
 14	ही	ही	RP	11	lwg__rp	FALSE	FALSE
 15	एप्प्स	एप्प्स	NN	16	ccof	TRUE	FALSE
 16	बल्कि	बल्कि	CC	0	ROOT	TRUE	FALSE
-17	गेम	गेम	XC	19	mod	FALSE	FALSE
+17	गेम	गेम	XC	19	mod	FALSE	TRUE
 18	(	(	(	19	rsym	FALSE	FALSE
 19	game	game	NN	21	k2	TRUE	FALSE
 20	)	)	)	19	rsym	FALSE	FALSE
@@ -35118,7 +35118,7 @@
 10	देगा	दे	VAUX	9	lwg__vaux	TRUE	FALSE
 11	.	.	.	9	rsym	FALSE	FALSE
 
-1	एक्सवर्स्ट	एक्सवर्स्ट	XC	2	mod	TRUE	TRUE
+1	एक्सवर्स्ट	एक्सवर्स्ट	XC	2	mod	TRUE	FALSE
 2	प्रोसेसर	प्रोसेसर	NN	7	k1	FALSE	TRUE
 3	(	(	(	5	rsym	FALSE	FALSE
 4	xburst	xburst	NN	5	mod	TRUE	FALSE
@@ -35212,7 +35212,7 @@
 13	मेगा	मेगा	XC	14	mod	FALSE	FALSE
 14	पिक्सल	पिक्सल	NNP	17	r6	FALSE	FALSE
 15	के	का	PSP	14	lwg__psp	FALSE	FALSE
-16	फ्रंट	फ्रंट	NN	17	mod	FALSE	FALSE
+16	फ्रंट	फ्रंट	NN	17	mod	FALSE	TRUE
 17	शूटर	शूटर	NN	23	k7t	FALSE	FALSE
 18	के	का	PSP	17	lwg__psp	FALSE	FALSE
 19	साथ	साथ	NST	17	lwg__psp	FALSE	FALSE
@@ -35252,7 +35252,7 @@
 13	में	में	PSP	12	lwg__psp	FALSE	FALSE
 14	1605	1605	QC	15	nmod__adj	TRUE	FALSE
 15	मेगापिक्सल	मेगापिक्सल	NN	21	k1	TRUE	FALSE
-16	डिजिटल	डिजिटल	XC	18	mod	FALSE	FALSE
+16	डिजिटल	डिजिटल	XC	18	mod	FALSE	TRUE
 17	लाई	ला	NNP	18	mod	FALSE	FALSE
 18	एमओएस	एमओएस	NN	21	k5	TRUE	FALSE
 19	से	से	PSP	18	lwg__psp	FALSE	FALSE
@@ -35293,7 +35293,7 @@
 7	,	,	,	6	rsym	FALSE	FALSE
 8	कि	कि	CC	0	ROOT	FALSE	FALSE
 9	इसकी	इसकी	PRP	13	k1	TRUE	FALSE
-10	आवाज़	आवाज़	JJ	11	nmod__adj	FALSE	TRUE
+10	आवाज़	आवाज़	JJ	11	nmod__adj	FALSE	FALSE
 11	तेज़	तेज़	NNP	13	k1	FALSE	FALSE
 12	नहीं	नहीं	NEG	13	lwg__neg	FALSE	FALSE
 13	है	है	VM	15	ccof	FALSE	FALSE
@@ -35330,7 +35330,7 @@
 10	देतीं	दे	VAUX	9	lwg__vaux	FALSE	FALSE
 11	.	.	.	9	rsym	FALSE	FALSE
 
-1	एडवांस	एडवांस	XC	2	mod	TRUE	TRUE
+1	एडवांस	एडवांस	XC	2	mod	TRUE	FALSE
 2	सॉफ्टवेयर	सॉफ्टवेयर	NN	3	k2	FALSE	TRUE
 3	देने	दे	VM	11	k7t	FALSE	FALSE
 4	के	का	PSP	3	lwg__psp	FALSE	FALSE
@@ -35461,7 +35461,7 @@
 25	.	.	.	24	rsym	FALSE	FALSE
 
 1	व्यूविंग	व्यूविंग	XC	2	mod	TRUE	TRUE
-2	ऐंगल्स	ऐंगल्स	NNP	7	k1	TRUE	TRUE
+2	ऐंगल्स	ऐंगल्स	NNP	7	k1	TRUE	FALSE
 3	वैसे	वैसे	PRP	7	sent-adv	FALSE	FALSE
 4	तो	तो	RP	3	lwg__rp	FALSE	FALSE
 5	बुरे	बुरा	JJ	7	k1s	FALSE	FALSE
@@ -35484,7 +35484,7 @@
 22	.	.	.	21	rsym	FALSE	FALSE
 
 1	हाई	हाई	XC	3	mod	FALSE	FALSE
-2	परफॉर्मेंस	परफॉर्मेंस	XC	3	mod	TRUE	FALSE
+2	परफॉर्मेंस	परफॉर्मेंस	XC	3	mod	TRUE	TRUE
 3	डिवाइस	डिवाइस	NNP	6	k1	TRUE	FALSE
 4	पर	पर	PSP	3	lwg__psp	FALSE	FALSE
 5	ही	ही	RP	3	lwg__rp	FALSE	FALSE
@@ -35504,7 +35504,7 @@
 5	महात्मा	महात्मा	XC	8	mod	FALSE	FALSE
 6	बुद्ध	बुद्ध	NNP	8	mod	FALSE	FALSE
 7	गृद्धकूट	गृद्धकूट	XC	8	mod	TRUE	FALSE
-8	पर्वत	पर्वत	NNP	10	k7p	FALSE	FALSE
+8	पर्वत	पर्वत	NNP	10	k7p	FALSE	TRUE
 9	पर	पर	PSP	8	lwg__psp	FALSE	FALSE
 10	बैठकर	बैठ	VM	11	nmod__k1inv	TRUE	FALSE
 11	लोगों	लोग	NN	16	k4	FALSE	FALSE
@@ -35604,8 +35604,8 @@
 1	इस	इस	DEM	2	nmod__adj	FALSE	FALSE
 2	फिल्म	फिल्म	NN	5	r6	TRUE	FALSE
 3	की	का	PSP	2	lwg__psp	FALSE	FALSE
-4	कास्टिंग	कास्टिंग	XC	5	mod	TRUE	TRUE
-5	लाजबाव	लाजबाव	NN	6	k1s	TRUE	TRUE
+4	कास्टिंग	कास्टिंग	XC	5	mod	TRUE	FALSE
+5	लाजबाव	लाजबाव	NN	6	k1s	TRUE	FALSE
 6	है	है	VM	0	main	FALSE	FALSE
 7	जिसका	जो	PRP	14	k7	FALSE	FALSE
 8	श्रेय	श्रेय	NN	12	mod	FALSE	FALSE

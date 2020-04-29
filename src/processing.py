@@ -19,6 +19,7 @@ devFileTrain = outPath+'parseProcessedTrain'
 # devFileTrain31 = outPath+'parseProcessedTrain31.txt'
 
 devFileTest = outPath+'parseProcessedTest'
+devFileLabel = outPath+'parseProcessedTestLabel'
 # devFileTest2 = outPath+'parseProcessedTest2.txt'
 # devFileTest3 = outPath+'parseProcessedTest3.txt'
 
@@ -114,8 +115,18 @@ def genPart(vecData,parseDict,vecDataFull,vecParseElems):
     arr = np.arange(len(vecData))
     np.random.shuffle(arr)
 
-    trainIdx = int(0.8*len(vecData))
-    writeData(arr,trainIdx,len(vecData),testLabel)
+    devIdx1 = int(len(vecData)/3)
+    devIdx2 = int(2*len(vecData)/3)
+    indices = [0,devIdx1,devIdx2,len(vecData)]
+
+    # trainIdx = int(0.8*len(vecData))
+    # writeData(arr,trainIdx,len(vecData),testLabel)
+
+    for ele in range(3):
+        if ele<2:
+            writeData(arr,indices[ele],indices[(ele+2)],devFileTrain+str(ele)+str((ele+1)%3)+".txt")
+        else:
+            writeData(arr,indices[ele],indices[1],devFileTrain+str(ele)+str((ele+1)%3)+".txt")
 
 # Generates Training and Testing data files
 def genFiles(vecData,parseDict,vecDataFull,vecParseElems):

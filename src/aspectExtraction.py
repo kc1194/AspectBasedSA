@@ -215,7 +215,7 @@ def metrics(sentAspectsPred,sentAspectsGold) :
             print("What?")
         predList = sentAspectsPred[dataKey]
         goldList = sentAspectsGold[dataKey]
-        curSentList = sentAspectsNum[dataKey]
+        # curSentList = sentAspectsNum[dataKey]
 
         # curTP = 0
         for pred in predList:
@@ -278,13 +278,26 @@ def CRF(resPath,testIdPath,crossVal = False):
         printMetrics(precision,recall,F1_score)  
     # return precision,recall, F1_score, TP, AN, NA, NN
     return precision,recall,F1_score
+
+def DeepNet(resPath,testIdPath,crossVal = False):
+    # resPath = outPath + sys.argv[2]
+    sentAspectsPred = readResult(resPath,testIdPath,'DeepNet')
+    sentAspectsGold,sentAspectsNum = readLabel(goldPath)
+
+    # precision, recall, F1_score, TP, AN, NA, NN = metrics(sentAspectsPred,sentAspectsGold,sentAspectsNum)
+    precision, recall, F1_score =  metrics(sentAspectsPred,sentAspectsGold)
+    if not crossVal:
+        printMetrics(precision,recall,F1_score)  
+    # return precision,recall, F1_score, TP, AN, NA, NN
+    return precision,recall,F1_score
+
 # MEMM Model 
 # Model is trained using Wapiti tool
 # Loads model predictions, computes metrics
 def MEMM(resPath,testIdPath,crossVal = False):
     # resPath = outPath + sys.argv[2]
     sentAspectsPred = readResult(resPath,testIdPath,'MEMM')
-    sentAspectsGold = readLabel(goldPath)
+    sentAspectsGold,sentAspectsNum = readLabel(goldPath)
 
     precision, recall, F1_score = metrics(sentAspectsPred,sentAspectsGold)
     
@@ -341,11 +354,16 @@ if __name__ == '__main__':
 
             elif sys.argv[1] == 'CRF':
                 valresPath = outPath+sys.argv[2] +str((ele+2)%3)+'.txt'
-                precision, recall, F1_score, TP, AN, NA, NN =  CRF(valresPath,valtestIdPath,True)
-                conf_matrix[0][0] += TP
-                conf_matrix[0][1] += AN
-                conf_matrix[1][0] += NA
-                conf_matrix[1][1] += NN
+                # precision, recall, F1_score, TP, AN, NA, NN =  CRF(valresPath,valtestIdPath,True)
+                precision, recall, F1_score =  CRF(valresPath,valtestIdPath,True)
+                # conf_matrix[0][0] += TP
+                # conf_matrix[0][1] += AN
+                # conf_matrix[1][0] += NA
+                # conf_matrix[1][1] += NN
+            
+            elif sys.argv[1] == 'deep':
+                valresPath = outPath+sys.argv[2] +str((ele+2)%3)+'.txt'
+                precision, recall, F1_score =  DeepNet(valresPath,valtestIdPath,True)
 
             elif sys.argv[1] == 'HMM':
                 precision, recall, F1_score = HMM(valtrainPath,valtestPath,valtestIdPath,True)
@@ -365,12 +383,12 @@ if __name__ == '__main__':
             print("Precision",precision)
             print("Recall",recall)
             print("F1_score",F1_score)
-            print("Confusion Matrix",conf_matrix)
+            # print("Confusion Matrix",conf_matrix)
             print("")
         print("Precision",precisionSum/3)
         print("Recall",recallSum/3)
         print("F1_score",F1_scoreSum/3)
-        print("Confusion Matrix",conf_matrix_sum)
+        # print("Confusion Matrix",conf_matrix_sum)
     else:
         resPath = outPath+sys.argv[2] 
         if sys.argv[1] == 'baseline':
@@ -387,6 +405,9 @@ if __name__ == '__main__':
 
         elif sys.argv[1] == 'MaxEnt':
             precision, recall, F1_score = MaxEnt(resPath,testIdPath,False)
+
+        elif sys.argv[1] == 'deep':
+            precision, recall, F1_score = DeepNet(resPath,testIdPath,False)
             
 
 
