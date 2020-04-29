@@ -21,7 +21,7 @@ def translate_text(target, wordSet):
 	querySize = 100
 
 	for i in range(0, len(wordSet), querySize):
-		text = wordSet[i:min(len(wordSet)-1, i+querySize)]
+		text = wordSet[i:min(len(wordSet), i+querySize)]
 		print(text)
 		results = translate_client.translate(
 			text, target_language=target)
