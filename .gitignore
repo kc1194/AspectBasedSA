@@ -3,3 +3,5 @@ src/patternFile copy.txt
 src/Graph
 src/translation/googleTest.py
 src/translation/__pycache__
+output/Accuracies
+output/evaluations
