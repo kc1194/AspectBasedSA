@@ -173,6 +173,7 @@ def extractData(filPath,train=True):
         MCLCounter = {}
     if not train:
         labelDict = extractGoldLabels()
+        Domains = []
     for ele in vec1:
         if ele[-1] == '':
             continue
@@ -199,11 +200,26 @@ def extractData(filPath,train=True):
             else:
                 label = labelDict[ele[0]][aspectIdx]
             Labels.append(label)
+            if not train:
+                Domains.append(ele[0][:3])
+                # if ele[0] in domainDict:
+                #     # if 'Data' in domainDict[ele[0]]:
+                #     domainDict[ele[0]]['Data'].append(window)
+                #     # else:
+                #         # domainDict[ele[0]]['Data'] = [window]
+                #     # if 'Labels' in domainDict[ele[0]]:
+                #     domainDict[ele[0]]['Labels'].append(label)
+                #     # else:
+                #         # domainDict[ele[0]]['Labels'] = [label]
+                # else:
+                #     domainDict[ele[0]] = {}
+                #     domainDict[ele[0]]['Data'] = [window]
+                #     domainDict[ele[0]]['Labels'] = [label]
     
     if train:
         return Data,Labels,Aspects,MCLCounter,SOCounter
     else:
-        return Data,Labels,Aspects
+        return Data,Labels,Aspects,np.array(Domains)
 
 def applySO(trainData,SOCounter):
     SOFeatures = []
@@ -366,6 +382,7 @@ def runClassifier(clfName,crossVal=False):
     
     acc = 0
     devFiles = [devFile+str(ele)+'.txt' for ele in range(3)]
+    domainPreds = {}
     for ele in itr:
         if not crossVal:
             trainData,trainLabels = extractData(trainFile,True)
@@ -374,7 +391,7 @@ def runClassifier(clfName,crossVal=False):
             trainData1,trainLabels1,trainAspects1,trainMCLCounter1,trainSOCounter1 = extractData(devFiles[ele],True)
             trainData2,trainLabels2,trainAspects2,trainMCLCounter2,trainSOCounter2 = extractData(devFiles[(ele+1)%3],True)
             trainData,trainLabels,trainAspects = trainData1+trainData2,trainLabels1+trainLabels2,trainAspects1+trainAspects2
-            testData,goldLabels,testAspects = extractData(devFiles[(ele+2)%3],False)
+            testData,goldLabels,testAspects,Domains = extractData(devFiles[(ele+2)%3],False)
         
         trainMCLCounter = {}
         trainSOCounter = {}
@@ -412,7 +429,21 @@ def runClassifier(clfName,crossVal=False):
         # print(trainFeatures)
 
         clf.fit(trainFeatures,trainLabels)
-        predLabels = clf.predict(testFeatures)
+        predLabels = np.array(clf.predict(testFeatures))
+        goldLabels = np.array(goldLabels)
+
+        domainSet = set(Domains)
+        for domainName in domainSet:
+            if domainName in domainPreds:
+                domainPreds[domainName]['Pred'] += list(predLabels[Domains==domainName])
+                domainPreds[domainName]['Gold'] += list(goldLabels[Domains==domainName])
+            else:
+                domainPreds[domainName] = {}
+                domainPreds[domainName]['Pred'] = list(predLabels[Domains==domainName])
+                domainPreds[domainName]['Gold'] = list(goldLabels[Domains==domainName])
+            
+            
+
 
         acc += accuracy_score(predLabels,goldLabels)
         print("Accuracy",accuracy_score(predLabels,goldLabels))
@@ -428,6 +459,9 @@ def runClassifier(clfName,crossVal=False):
     print("")
     print("Accuracy",acc)
     print("Confusion",conf)
+    for domainName in domainPreds:
+        print("Domain",domainName)
+        print("Acc",accuracy_score(domainPreds[domainName]['Pred'],domainPreds[domainName]['Gold']))
 
 
 runClassifier(sys.argv[1],bool(sys.argv[2]))

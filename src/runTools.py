@@ -8,8 +8,8 @@ def runCRF(crossVal):
         os.system('./../tools/CRF++-0.58/crf_test -m ../output/crf++_model_vocab ../output/parseProcessedTest.txt > ../output/crf++_pred_vocab.txt')
     else:
         for ele in range(3):
-            os.system('./../tools/CRF++-0.58/crf_learn ../src/patternFile.txt ../output/parseProcessedTrain'+str(ele)+str((ele+1)%3)+'Eng.txt ../output/crf++_modelEng'+str(ele)+str((ele+1)%3))
-            os.system('./../tools/CRF++-0.58/crf_test -m ../output/crf++_modelEng'+str(ele)+str((ele+1)%3)+' ../output/parseProcessedTest'+str((ele+2)%3)+'Eng.txt > ../output/crf++_predEng'+str((ele+2)%3)+'.txt')
+            os.system('./../tools/CRF++-0.58/crf_learn ../src/patternFile.txt ../output/parseProcessedTrain'+str(ele)+str((ele+1)%3)+'Num.txt ../output/crf++_modelNum'+str(ele)+str((ele+1)%3))
+            os.system('./../tools/CRF++-0.58/crf_test -m ../output/crf++_modelNum'+str(ele)+str((ele+1)%3)+' ../output/parseProcessedTest'+str((ele+2)%3)+'Num.txt > ../output/crf++_predNum'+str((ele+2)%3)+'.txt')
 
 # Runs Wapiti tool in train and test mode for either MEMM or MaxEnt models 
 def runWapiti(mode,crossVal):

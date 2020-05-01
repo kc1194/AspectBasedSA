@@ -277,7 +277,7 @@ def CRF(resPath,testIdPath,crossVal = False):
     if not crossVal:
         printMetrics(precision,recall,F1_score)  
     # return precision,recall, F1_score, TP, AN, NA, NN
-    return precision,recall,F1_score
+    return precision,recall,F1_score,sentAspectsPred,sentAspectsGold
 
 def DeepNet(resPath,testIdPath,crossVal = False):
     # resPath = outPath + sys.argv[2]
@@ -340,6 +340,8 @@ def Baseline(trainPath,testPath,testIdPath,crossVal = False):
 
 if __name__ == '__main__':
     crossVal = True
+    totalSentAspectsPred = {}
+    totalSentAspectsGold = {}
     if crossVal:
         precisionSum,recallSum,F1_scoreSum = 0, 0, 0
         conf_matrix_sum = np.zeros((2,2))
@@ -355,7 +357,12 @@ if __name__ == '__main__':
             elif sys.argv[1] == 'CRF':
                 valresPath = outPath+sys.argv[2] +str((ele+2)%3)+'.txt'
                 # precision, recall, F1_score, TP, AN, NA, NN =  CRF(valresPath,valtestIdPath,True)
-                precision, recall, F1_score =  CRF(valresPath,valtestIdPath,True)
+                precision, recall, F1_score, sentAspectsPred,sentAspectsGold =  CRF(valresPath,valtestIdPath,True)
+                for key in sentAspectsPred:
+                    totalSentAspectsPred[key] = sentAspectsPred[key]
+                for key in sentAspectsGold:
+                    totalSentAspectsGold[key] = sentAspectsGold[key]
+                # print(sentAspectsPred)
                 # conf_matrix[0][0] += TP
                 # conf_matrix[0][1] += AN
                 # conf_matrix[1][0] += NA
@@ -388,6 +395,22 @@ if __name__ == '__main__':
         print("Precision",precisionSum/3)
         print("Recall",recallSum/3)
         print("F1_score",F1_scoreSum/3)
+        domainSet = set([key[:3] for key in totalSentAspectsPred])
+        for domain in domainSet:
+            domainDict = {}
+            domainDict['Pred'] = {}
+            domainDict['Gold'] = {}
+            for key in totalSentAspectsPred:
+                if key[:3] == domain:
+                    domainDict['Pred'][key] = totalSentAspectsPred[key]
+                    domainDict['Gold'][key] = totalSentAspectsGold[key]
+            precision, recall, F1_score =  metrics(domainDict['Pred'],domainDict['Gold'])
+            print("Domain",domain)
+            print("Precision",precision)
+            print("Recall",recall)
+            print("F1_score",F1_score)
+            print(" ")
+
         # print("Confusion Matrix",conf_matrix_sum)
     else:
         resPath = outPath+sys.argv[2] 

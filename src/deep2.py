@@ -1,6 +1,6 @@
 import keras
 from keras import Sequential
-from keras.layers import Embedding,LSTM,Dense,Dropout,SimpleRNN,TimeDistributed,InputLayer,Activation
+from keras.layers import Embedding,LSTM,Dense,Dropout,SimpleRNN,TimeDistributed,InputLayer,Activation, Attention
 from tensorflow.python.keras.preprocessing.sequence import pad_sequences
 import sys
 import numpy as np
@@ -134,7 +134,7 @@ def extractData(filPath,mapper,train=True):
             window = extractWindow(aspectTerm,wordList)
             # print(window)
             indices = []
-            for curElement in window.split(" "):
+            for curElement in processSent(window).split(" "):
                 if curElement in mapper:
                     indices.append(mapper[curElement])
                 else:
@@ -381,4 +381,4 @@ def runATE(crossVal = True):
 
 
 
-runATE()
+runSent()
